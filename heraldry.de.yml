@@ -22,7 +22,7 @@ design:
  save:		Speichere den Entwurf
  issues:		Es gibt ein oder mehrere Probleme mit Deinem Entwurf:
  ok:			Dein Entwurf ist zulässig.
- saving:		Kreieren und speichern Deines Entwurfes, dies kann einen Moment dauern. Diese Seite wird automatisch aktualisiert nachdem der Vorgang abgeschlossen wurde.
+ saving:		Dein Entwurf wird erstellt und gespeichert, dies kann einen Moment dauern. Diese Seite wird automatisch aktualisiert nachdem der Vorgang abgeschlossen wurde.
  saved:		Dein neues Wappen wurde gespeichert.
  payment:	Das Speichern Deines Wappens kostet %crestfee% Credits von Deinem Konto.
  poor:		Leider hast Du im Moment nur %amount% Credits auf Deinem Konto.
