@@ -1,3 +1,6 @@
+# Might & Fealty
+# validation text strings
+# Author: Tom Vogt <tom@mightandfealty.com>
 password:
  old:			incorrect current password
  minlength:	'[0,Inf]your password must be at least 6 characters long'

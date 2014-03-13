@@ -1,3 +1,6 @@
+# Might & Fealty
+# text strings for actions
+# Author: Tom Vogt <tom@mightandfealty.com>
 queued:         The action has been added to your orders queue.
 unavailable:
  intro:          Sorry, but this action is not currently available, because:

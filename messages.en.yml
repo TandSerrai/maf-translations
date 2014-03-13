@@ -1,3 +1,6 @@
+# Might & Fealty
+# generic text strings
+# Author: Tom Vogt <tom@mightandfealty.com>
 dateformat:   Y-m-d
 gametime:
  current:     It is year %year%, week %week%, day %day% in the world of Might & Fealty

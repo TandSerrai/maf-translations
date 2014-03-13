@@ -1,3 +1,6 @@
+# Might & Fealty
+# text strings for events
+# Author: Tom Vogt <tom@mightandfealty.com>
 rss:
  desc:        Might & Fealty Event Log Summary
  feed:        get event updates via RSS

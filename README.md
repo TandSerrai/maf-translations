@@ -7,8 +7,7 @@ They're in this repository to allow collaborative translations as demanded by pl
 
 
 
-How To Translate
-----------------
+### How To Translate ###
 
 All files have the format **domain . language . yml**. Only ever change the language part and always use the 2-digit
 ISO language code. So the german translation file for messages.en.yml would be messages.de.yml
@@ -44,4 +43,14 @@ So the german translation for the above would be:
 	 forever:     Ewigkeit
 	 day:         %d% Tag (Echtzeit)|%d% Tage (Echtzeit)
 
+
+Please, please add your authorship in the files you created or contributed to as a comment:
+
+    # Author: Tom Vogt <tom@mightandfealty.com>
+
+
+### What To Look Out For ###
+
+* Formatting is meaningful in YAML, so don't remove whitespaces at the start of lines.
+* If you fork/contribute, please watch the upstream repository, as I may add, remove or change strings at any time
 

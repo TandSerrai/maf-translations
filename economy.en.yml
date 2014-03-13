@@ -1,3 +1,6 @@
+# Might & Fealty
+# text strings for economy and buildings
+# Author: Tom Vogt <tom@mightandfealty.com>
 req:        requires
 reqfor:     required for
 provides:   provides
