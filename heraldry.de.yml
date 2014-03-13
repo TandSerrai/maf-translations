@@ -1,6 +1,6 @@
 # Might & Fealty
 # text strings for the heraldry designer
-# Author: Tom Vogt <tom@mightandfealty.com>
+# Author: Peter Horner <peter@horner.co.at>
 title:		Heraldik
 intro: >
   Für ein paar credits kannst Du ein individuelles Wappen entwerfen das jeder Deiner Charaktere führen kann. Einmal kreiert 'gehört' Dir das Wappen für immer
@@ -29,7 +29,7 @@ design:
 
 warning:
  needname:	 Bitte gib Deinem Entwurf einen Namen.
- needshield: Du mußt einen Schild für Dienen Entwurf wählen.
+ needshield: Du mußt einen Schild für Deinen Entwurf wählen.
  nopatterncolour: Wenn Du einen Pattern verwendest mußt Du auch eine Farbe für Deinen Pattern wählen.
  nochargecolour: Wenn Du eine Charge verwendest mußt Du auch eine Farbe für Deine Charge wählen.
  simple:		Dein Entwurf ist zu simpel. Wähle entweder einen Pattern oder eine Charge oder beides.
@@ -63,67 +63,67 @@ per_chevron: Göpel
 per_fess: geteilt 
 per_pale: gespalten 
 per_saltire: schräge Vierung
-pile: Deichsel 
+pile: Keil, stehend 
 quarterly: Vierung 
-saltire: saltire 
-shakefork: shakefork 
+saltire: Schräggeviert 
+shakefork: Deichsel
 
-beasts: beasts
-objects: objects
-arm_cubit_habited: arm cubit habited
-arm_cubit_in_armor: arm cubit in armor
-arm_embowed_in_armor: arm embowed in armor
-battle_axe: battle axe
-bear_head_couped: bear head schwebend
-bear_head_erased: bear head erased
-bear_head_muzzled: bear head muzzled
-bear_passant: bear passant
-bear_rampant: bear rampant
-bear_sejant_erect: bear sejant erect
-bear_statant: bear statant
-boar_head_couped: boar head couped
-boar_head_erased: boar head erased
-boar_passant: boar passant
-boar_rampant: boar rampant
-boar_statant: boar statant
-broad_arrow: broad arrow
-buck_head_couped: buck head couped
-caltrap: caltrap
-catamount_passant_guardant: catamount passant guardant
-catamount_sejant_guardant: catamount sejant guardant
-catamount_sejant_guardant_erect: catamount sejant guardant erect
-chess_rook: chess rook
-chevalier_on_horseback: chevalier on horseback
-church_bell: church bell
-coney: coney
-crescent: crescent
-decrescent: decrescent
-dragon_passant: dragon passant
-dragon_rampant: dragon rampant
-dragon_statant: dragon statant
-eagle_displayed: eagle displayed
-falcon: falcon
-fluer_de_lis: fluer de lis
-fox_mask: fox mask
-fox_passant: fox passant
-fox_sejant: fox sejant
-horse_courant: horse courant
-horse_passant: horse passant
-horse_rampant: horse rampant
-javelin: javelin
-lion_rampant: steigender Löwe
-lynx_coward: lynx coward
-martlet_volant: martlet volant
-pegasus_passant: pegasus passant
-scymitar: scymitar
-serpent_nowed: serpent nowed
-squirrel_sejant_erect: squirrel sejant erect
-sun_in_splendor: sun in splendor
-sword: sword
-unicorn_rampant: unicorn rampant
-winged_stag_rampant: winged stag rampant
-wolf_courant: wolf courant
-wolf_passant: wolf passant
-wolf_rampant: wolf rampant
-wolf_salient: wolf salient
-wolf_statant: wolf statant
+beasts: Tiere
+objects: Objekte
+arm_cubit_habited: Arm, gewandet
+arm_cubit_in_armor: Arm, gerüsted
+arm_embowed_in_armor: Arm, eingebogen, gerüsted
+battle_axe: Schlachtaxt
+bear_head_couped: Bärenschädel, schwebend
+bear_head_erased: Bärenschädel, abgerissen
+bear_head_muzzled: Bärenschädel, Maulkorb
+bear_passant: Bär, schreitend
+bear_rampant: Bär, steigend
+bear_sejant_erect: Bär, aufrecht sitzend
+bear_statant: Bär, stehend
+boar_head_couped: Eber Schädel, schwebend
+boar_head_erased: Eber Schädel, abgerissen
+boar_passant: Eber, schreitend
+boar_rampant: Eber, steigend
+boar_statant: Eber, stehend
+broad_arrow: Pfeil, breit
+buck_head_couped: Bockschädel, schwebend
+caltrap: Fußangel
+catamount_passant_guardant: Wildkatze, schreitend, wachsam
+catamount_sejant_guardant: Wildkatze, sitzend, wachsam
+catamount_sejant_guardant_erect: Wildkatze, aufrecht sitzend, wachsam
+chess_rook: Turm
+chevalier_on_horseback: Ritter, reitend
+church_bell: Kirchenglocke
+coney: Hase
+crescent: Halbmond, liegend
+decrescent: Halbmond, abnehmend
+dragon_passant: Drache, schreitend
+dragon_rampant: Drache, steigend
+dragon_statant: Drache, stehend
+eagle_displayed: Adler
+falcon: Falke
+fluer_de_lis: Lilie
+fox_mask: Fuchs, Anlitz
+fox_passant: Fuchs, schreitend
+fox_sejant: Fuchs, sitzend
+horse_courant: Pferd, gallopierend
+horse_passant: Pferd, schreitend
+horse_rampant: Pferd, steigend
+javelin: Speer
+lion_rampant: Löwe, steigend
+lynx_coward: Luchs, furchtsam
+martlet_volant: Amsel, im Flug
+pegasus_passant: Pegasus, schreitend
+scymitar: Säbel
+serpent_nowed: Schlange, geknoted
+squirrel_sejant_erect: Eichhörnchen, aufrecht sitzend
+sun_in_splendor: Sonne, strahlend
+sword: Schwert
+unicorn_rampant: Einhorn, steigend
+winged_stag_rampant: Geflügelter Hirsch, steigend
+wolf_courant: Wolf, jagend
+wolf_passant: Wolf, schreitend
+wolf_rampant: Wolf, steigend
+wolf_salient: Wolf, springend
+wolf_statant: Wolf, stehend
