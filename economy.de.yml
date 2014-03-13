@@ -1,0 +1,169 @@
+req: [[missing - original: requires]]
+reqfor: [[missing - original: required for]]
+provides: [[missing - original: provides]]
+provider: [[missing - original: provided by %building%]]
+trainer: [[missing - original: trained at %building%]]
+trainingfor: [[missing - original: training for %item%]]
+bonus: [[missing - original: production bonus]]
+defbonus: [[missing - original: defensive bonus]]
+feature:
+ name: [[missing - original: Name]]
+ none: [[missing - original: (none)]]
+ bridge: [[missing - original: Bridge]]
+ tower: [[missing - original: Watchtower]]
+ borderpost: [[missing - original: Border Post]]
+ signpost: [[missing - original: Sign Post]]
+ docks: [[missing - original: Docks]]
+building:
+ Academy: [[missing - original: Academy]]
+ Alchemist: [[missing - original: Alchemist]]
+ Archery Range: [[missing - original: Archery Range]]
+ Archery School: [[missing - original: Archery School]]
+ Armourer: [[missing - original: Armorer]]
+ Armoury: [[missing - original: Armory]]
+ Bank: [[missing - original: Bank]]
+ Barracks: [[missing - original: Barracks]]
+ Blacksmith: [[missing - original: Blacksmith]]
+ Bowyer: [[missing - original: Bowyer]]
+ Carpenter: [[missing - original: Carpenter]]
+ Citadel: [[missing - original: Citadel]]
+ City Hall: [[missing - original: City Hall]]
+ Dirt Streets: [[missing - original: Dirt Streets]]
+ Fairground: [[missing - original: Fairground]]
+ Fortress: [[missing - original: Fortress]]
+ Garrison: [[missing - original: Garrison]]
+ Great Temple: [[missing - original: Great Temple]]
+ Guardhouse: [[missing - original: Guardhouse]]
+ Heavy Armourer: [[missing - original: Heavy Armorer]]
+ Leather Tanner: [[missing - original: Leather Tanner]]
+ Library: [[missing - original: Library]]
+ Market: [[missing - original: Market]]
+ Mason: [[missing - original: Mason]]
+ Master Mason: [[missing - original: Master Mason]]
+ Merchants Quarter: [[missing - original: Merchants Quarter]]
+ Mill: [[missing - original: Mill]]
+ Mine: [[missing - original: Mine]]
+ Palisade: [[missing - original: Palisade]]
+ Paved Streets: [[missing - original: Paved Streets]]
+ Royal Mews: [[missing - original: Royal Mews]]
+ Saddler: [[missing - original: Saddler]]
+ School: [[missing - original: School]]
+ Shrine: [[missing - original: Shrine]]
+ Stables: [[missing - original: Stables]]
+ Stone Castle: [[missing - original: Stone Castle]]
+ Stone Towers: [[missing - original: Stone Towers]]
+ Stone Wall: [[missing - original: Stone Wall]]
+ Tailor: [[missing - original: Tailor]]
+ Temple: [[missing - original: Temple]]
+ Town Hall: [[missing - original: Town Hall]]
+ Training Ground: [[missing - original: Training Ground]]
+ University: [[missing - original: University]]
+ Weaponsmith: [[missing - original: Weaponsmith]]
+ Wood Castle: [[missing - original: Wood Castle]]
+ Wood Towers: [[missing - original: Wood Towers]]
+ Wood Wall: [[missing - original: Wood Wall]]
+description:
+ bridge: [[missing - original: Bridges provide the necessary means to cross rivers, even with an army or heavy equipment. They are often important strategic points.
+]]
+ tower: [[missing - original: The watch tower provides an elevated spot to watch for nearby activity. They do not serve as defensive structures and are not fortified.<br /> Whenever a watchtower is within your spotting distance, you automatically gain access to the towers spotting circle as your scouts use the tower to increase their own range.<br /> Watch towers have a spotting range of 1000 m.
+]]
+ borderpost: [[missing - original: Sometimes just a border marker, such as a boundary stone, and sometimes a toll booth and small guard post, no matter the appearance, the border post shows where one crosses into a different territory.<br /> Border posts are mostly used as meeting points of roads between settlements.
+]]
+ signpost: [[missing - original: Marked with directions, signposts are usually posted near crossroads or intersections. It also works the other way around: Where a signpost is, a trail and then a road often follows, as people follow the direction signs.<br /> Sign posts are spots that you can use to build roads to and from.
+]]
+ docks: [[missing - original: Landing and embarkation location for ships and naval travel.<br /> Docks allow travellers to switch between land and ocean travel.
+]]
+ Academy: [[missing - original: Merging the knowledge of the university and the practical experience of the greatest military minds creates the great academy, where new strategies and tactics are discovered.
+]]
+ Alchemist: [[missing - original: Usually set at the edge of the settlement, the alchemist is always expected to blow up spectacularily, but in reality most of his experiments are far less dangerous or spectacular. While much of the research done here is of questionable quality, there is the occasional poison or interesting substance discovered.
+]]
+ Archery Range: [[missing - original: A reserved spot with targets and some wood walls to catch misfires. A place for archers to train and learn how to draw, aim and fire. Required if you want to train any kind of archers.
+]]
+ Archery School: [[missing - original: The famous longbow requires more extensive training than other ranged weapons and the archery school offers just that, adding more versatility and greater ranges to the archery range.
+]]
+ Armourer: [[missing - original: A specialist creating all kinds of armor for your soldiers, the armorer combines cloth, leather and metal into some serious protection.
+]]
+ Armoury: [[missing - original: Also known as an arsenal, the armory is a storage location for weapons and armors where they can also be kept in shape, organized and handed out quickly and efficiently. It is required for major fortifications.
+]]
+ Bank: [[missing - original: A fortified building that can store valuables and treasures, as well as provide money-lending services and even issue special bond notes that can be exchanged for gold at some other banks.
+]]
+ Barracks: [[missing - original: Housing and living rooms for soldiers, allowing full-time professional soldiers.
+]]
+ Blacksmith: [[missing - original: Forge, anvil and loud noises - the blacksmith turns metal into tools for sale and simple weapons to equip soldiers.
+]]
+ Bowyer: [[missing - original: A specialist craftsman who builds bows, crossbows and other personal ranged weapons.
+]]
+ Carpenter: [[missing - original: Any kind of advanced wood workings require a carpenter, especially larger buildings whose frames are made of intricate wooden constructions.
+]]
+ Citadel: [[missing - original: The ultimate in defensive constructions, the citadel is the envy of kings. This brutally massive construction is all but impenetrable and shrugs off even determined and well-equipped invaders.
+]]
+ City Hall: [[missing - original: A large public building housing the administration as well as rooms for courts, archives and other essentials of an organized city.
+]]
+ Dirt Streets: [[missing - original: More solid and reliable streets within the settlement allow for better travel and are required for some heavy transports and the buildings that require them.
+]]
+ Fairground: [[missing - original: A larger and more permanent place of trade, the fairground allows for extensive trade and barter as well as special events which bring in traders from far away places and through trade increase the local wealth.
+]]
+ Fortress: [[missing - original: Very few lords can afford the construction of one of these massive fortifications. A fortress is a reinforced stone castle with additional defensive and offensive constructions. It can be held against all but the most overwhelming attacks with but a modest force.
+]]
+ Garrison: [[missing - original: A permanent heavy building to meet the needs of professional soldiers, from housing and gathering areas to weapons and armor storage as well as a permanent reserve that can be called out at short notice.
+]]
+ Great Temple: [[missing - original: The largest and most impressive religious building, often a place that the faithful travel to from far away. Provides living room for its many priests and servants.
+]]
+ Guardhouse: [[missing - original: A small house for the guards and soldiers of the settlement to gather and store their equipment, allowing for the training and recruitment of some basic soldier types.
+]]
+ Heavy Armorer: [[missing - original: A rare specialist for heavy armor who can work miracles with metal and create the rare and valuable plate armor, the ultimate in personal armor.
+]]
+ Leather Tanner: [[missing - original: A basic craftsman who turns animal hides into leather and simple leather products.
+]]
+ Library: [[missing - original: Storage place for books and manuscripts of both holy and secular importance. <br /> This building is also required to create your own publications.
+]]
+ Market: [[missing - original: A place for merchants and local farmers to buy and sell their products. A market improves trade and local economy, giving a slight boost to wealth.
+]]
+ Mason: [[missing - original: A basic craftsman, the mason is required for stoneworks and buildings made of stone.
+]]
+ Master Mason: [[missing - original: The most advanced masonry techniques of the age are known only to a select few craftsman.
+]]
+ Merchants Quarter: [[missing - original: An entire section of the settlement dedicated to trade and commerce, housing warehouses, an exchange, market places and guild houses.
+]]
+ Mill: [[missing - original: Wind or water mills turn grain into flour, enhancing local food production. The miller usually takes a part of the grain for himself as payment, which makes him both well-off and disliked in most places. Nevertheless, the mill is a lot faster and less manual work than manual grindstones.
+]]
+ Mine: [[missing - original: Ore and other valuables need to be dug up and that is what the miners do inside a mine. Greatly enhancing metal production, the mine improves the creation of metal-based goods, weapons and armors.
+]]
+ Palisade: [[missing - original: The most primitive type of fortification, a palisade is very useful against wild animals and roaming bandits, giving the inhabitants of a settlement a feeling of security.
+]]
+ Paved Streets: [[missing - original: Paving the streets of the settlement allows for better transport especially with wheeled vehicles. Even more importantly, it makes travel more independent from weather, and is necessary for some large-scale constructions.
+]]
+ Royal Mews: [[missing - original: Larger and with more experienced breeders and trainers than the regular stables, the royal mews allow for the breeding and training of the rare and valuable war horses, massive steeds who won't panic in battle and will under a capable rider trample down an enemy.
+]]
+ Saddler: [[missing - original: A specialised craftsman who creates saddles, stirrups, bridles, reins and other gear for horses and carts.
+]]
+ School: [[missing - original: A government-sponsored place of learning for a select few pupils will provide more educated people. It also provides and distributes knowledge, making more refined work flows and buildings possible.
+]]
+ Shrine: [[missing - original: A small place of religious worship, often maintained by the locals and without a full-time priest.
+]]
+ Stables: [[missing - original: The stables house and breed horses for both work and battle.
+]]
+ Stone Castle: [[missing - original: Stronger and larger than a wooden fortification, the stone castle is a powerful defensive structure that an enemy can neither conquer nor destroy without siege weapons.
+]]
+ Stone Towers: [[missing - original: Made of stone, these towers can be built higher than those made of wood, and are almost impossible to destroy except with the strongest siege technology.
+]]
+ Stone Wall: [[missing - original: A solid stone wall is the symbol of a well-defended settlement. It cannot be burnt down and can only be broken through with massive siege engines.
+]]
+ Tailor: [[missing - original: A basic craftsman providing the peasants with clothes of a higher quality than their home-made ones and also capable of creating large batches of tabards and even simple cloth armor.
+]]
+ Temple: [[missing - original: A large place of religious worship, usually with one or more full-time priests as well as a number of helpers.
+]]
+ Town Hall: [[missing - original: A public building with room for offices, a public court and other administrative necessities of a growing town.
+]]
+ Training Ground: [[missing - original: A large open space equipped for soldier training, allowing the training and recruitment of some basic types of soldiers.
+]]
+ University: [[missing - original: The highest place of learning available to your people, the university is a center of knowledge and the foundation of some of the most rare and valuable experts.
+]]
+ Weaponsmith: [[missing - original: A specialised craftsman forging weapons. While most of his work is similar to the blacksmith, he also handles some woodwork for handles and uses more advanced smelting and forging techniques to create weapons capable of withstanding a higher amount of stress than the average farm tools require.
+]]
+ Wood Castle: [[missing - original: An enclosed center of your military, with walls, towers, a guardhouse and fortified defenses. The wooden castle allows for excellent defenses and will hold even against attackers with considerable superior numbers.
+]]
+ Wood Towers: [[missing - original: Adding towers to the fortifications of a settlement allows the defenders to fight back and increases the spotting distance of the settlement, allowing for early warnings.
+]]
+ Wood Wall: [[missing - original: A more fortified and refined palisade, the wood wall encloses the settlement and provides it with basic defenses, against wild animals, bandit and unorganized attackers.
+]]

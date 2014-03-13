@@ -1,0 +1,42 @@
+password:
+ old: [[missing - original: incorrect current password]]
+ minlength: [[missing - original: [0,Inf]your password must be at least 6 characters long]]
+ match: [[missing - original: new password and confirm password fields do not match]]
+realm:
+ new:
+  toosimilar:
+   name: [[missing - original: Your realm name is too similar to another realm, %other%.]]
+   formalname: [[missing - original: Your formal realm name is too similar to another realm, %other%.]]
+character:
+ burst: [[missing - original: You already created a character within the last minute. We're slowing you down to make sure you are not a bot.]]
+ spawnlimit: [[missing - original: You already have 2 unspawned characters. Start playing those before you create more characters.]]
+ homosexual: [[missing - original: Sorry, but we are simulating a medieval fantasy world that is pre-enlightenment. No homosexual marriages, yet.]]
+ foreignparent: [[missing - original: At least one parent must be one of your own characters.]]
+ nosex: [[missing - original: Your characters' parents need to have a sexual relationship.]]
+trade:
+ toomuch: [[missing - original: You do not have that much available.]]
+ allremote: [[missing - original: Either source or destination of a trade must be your current location.]]
+ same: [[missing - original: Repackaging the same product and selling it as somehow better in the same place has not yet been invented. Please wait for the invention of Wall St. and rating agencies first. Thank you.]]
+economy:
+ toomany: [[missing - original: You can obviously not assign more peasants to work projects than there are.]]
+feature:
+ location: [[missing - original: Please select a location for the new feature by clicking on the map.]]
+ outside: [[missing - original: The location you have chosen is not part of the area this settlement controls.]]
+ noriver: [[missing - original: There is no river adjacent to this area.]]
+ nocoast: [[missing - original: This is not a coastal area.]]
+ needworkers: [[missing - original: Please assign some workers to this project.]]
+recruit:
+ entourage:
+  toomany: [[missing - original: You can obviously not recruit more specialists than your settlement has population.]]
+  toomany2: [[missing - original: This settlement can only train %max% peasants per day.]]
+ troops:
+  toomany: [[missing - original: You can obviously not recruit more soldiers than your settlement has population.]]
+  toomany2: [[missing - original: This settlement can only begin the training of %max% peasants per day.]]
+  noweapon: [[missing - original: You cannot recruit troops without weapons, they would not be soldiers, would they?]]
+ offer:
+  empty: [[missing - original: knight offers must include something, else you would offer nothing in exchange for something (fealty).]]
+road:
+ same: [[missing - original: That is an interesting idea, but seriously, start and destination of a road should be different.]]
+ exists: [[missing - original: That road already exists.]]
+attack:
+ nobody: [[missing - original: You need to select at least one target to attack.]]
