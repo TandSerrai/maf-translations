@@ -1,72 +1,72 @@
 # Might & Fealty
 # text strings for the heraldry designer
 # Author: Tom Vogt <tom@mightandfealty.com>
-title: Heraldry
+title:		Heraldik
 intro: >
-  For a few credits, you can design a unique heraldic crest that you can assign to any of your characters. Once created, the crest is
-  yours forever, and you can assign it to as many characters of yours as you want.<br />
-  Once created, a crest is locked and cannot be created by someone else again, so the crest is always unique to you. Like actual crests,
-  it can be used to uniquely identify a family or dynasty.
-
+  Für ein paar credits kannst Du ein individuelles Wappen entwerfen das jeder Deiner Charaktere führen kann. Einmal kreiert 'gehört' Dir das Wappen für immer
+  und es kann von so vielen Deiner Charaktere geführt werden wie Du willst.<br />
+  Einmal kreiert wird das Wappen gesperrt und kann von niemandem anderen ein zweites Mal kreiert werden - Dein Wappen ist also einzigartig und kann nur von Deinen Charakteren geführt werden. Wie ein wirkliches Wappen dient es dazu 
+  Deine Familie oder Dynastie zu identifizieren.
+  
 list:
- title: Your Existing Crests
+ title:		Deine bereits bestehenden Wappen
 
 form:
- choose: -- choose --
+ choose:		-- wähle --
 design:
- title: Heraldry Designer
- link: open the heraldry designer
- busy: updating and validating your design...
- update: update and check design
- random: generate randomly
- save: save design
- issues: There are one or more problems with your design:
- ok: Your design is valid.
- saving: creating and saving your design, this can take a short moment. This page will automatically refresh when everything is finished.
- saved: Your new banner design has been saved.
- payment: Saving a crest for use on your account will remove %crestfee% credits from your account.
- poor: Unfortunately, you only have %amount% credits left in your account.
+ title:		Heraldik Designer
+ link:		öffne den Heraldik Designer
+ busy:		Aktualisieren und bestätigen Deines Entwurfes...
+ update:		Aktualisiere und prüfe Entwurf
+ random:		Generiere per Zufall
+ save:		Speichere den Entwurf
+ issues:		Es gibt ein oder mehrere Probleme mit Deinem Entwurf:
+ ok:			Dein Entwurf ist zulässig.
+ saving:		Kreieren und speichern Deines Entwurfes, dies kann einen Moment dauern. Diese Seite wird automatisch aktualisiert nachdem der Vorgang abgeschlossen wurde.
+ saved:		Dein neues Wappen wurde gespeichert.
+ payment:	Das Speichern Deines Wappens kostet %crestfee% Credits von Deinem Konto.
+ poor:		Leider hast Du im Moment nur %amount% Credits auf Deinem Konto.
 
 warning:
- needname: Please give your design a name.
- needshield: You must pick a shield design.
+ needname:	 Bitte gib Deinem Entwurf einen Namen.
+ needshield: Du mußt einen Schild für Dienen Entwurf wählen.
  nopatterncolour: If you have a pattern, you also need to select a pattern colour.
  nochargecolour: If you have a charge, you also need to select a charge colour.
- simple: Your design is too simple. Choose at least either a pattern or a charge, or both.
- same: Both of your elemens share the same colour, making it hard to spot. Choose different colours.
- metals: According to the law of tincture, metals should not be placed on metals. Change one of your metals to a colour.
- colours: According to the law of tincture, colours should not be placed on colours. Change one of your colours to a metal.
- taken: This design has already been choosen by someone else.
+ simple:		Your design is too simple. Choose at least either a pattern or a charge, or both.
+ same:		Both of your elemens share the same colour, making it hard to spot. Choose different colours.
+ metals:		According to the law of tincture, metals should not be placed on metals. Change one of your metals to a colour.
+ colours:	According to the law of tincture, colours should not be placed on colours. Change one of your colours to a metal.
+ taken:		This design has already been choosen by someone else.
 
 
-badge: badge
-french: french
-german: german
-italian: italian
-polish: polish
-spanish: spanish
-swiss: swiss
+badge: badge 
+french: french 
+german: german 
+italian: italian 
+polish: polish 
+spanish: spanish 
+swiss: swiss 
 
-base: base
-bend: bend
-bend_sinister: bend sinister
-chevron: chevron
-chief: chief
-cross: cross
-fess: fess
-flaunches: flaunches
-gryon: gryon
-pale: pale
-per_bend: per bend
-per_bend_sinister: per bend sinister
-per_chevron: per chevron
-per_fess: per fess
-per_pale: per pale
-per_saltire: per saltire
-pile: pile
-quarterly: quarterly
-saltire: saltire
-shakefork: shakefork
+base: base 
+bend: bend 
+bend_sinister: bend sinister 
+chevron: chevron 
+chief: chief 
+cross: cross 
+fess: fess 
+flaunches: flaunches 
+gryon: gryon 
+pale: pale 
+per_bend: per bend 
+per_bend_sinister: per bend sinister 
+per_chevron: per chevron 
+per_fess: per fess 
+per_pale: per pale 
+per_saltire: per saltire 
+pile: pile 
+quarterly: quarterly 
+saltire: saltire 
+shakefork: shakefork 
 
 beasts: beasts
 objects: objects
@@ -127,17 +127,3 @@ wolf_passant: wolf passant
 wolf_rampant: wolf rampant
 wolf_salient: wolf salient
 wolf_statant: wolf statant
-
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-
-    © 2014 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
-
