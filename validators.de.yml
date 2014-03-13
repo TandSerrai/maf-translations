@@ -1,42 +1,42 @@
 password:
-# old: ((missing translation - original: incorrect current password))
-# minlength: ((missing translation - original: [0,Inf]your password must be at least 6 characters long))
-# match: ((missing translation - original: new password and confirm password fields do not match))
+ old: 		falsches derzeitiges Kennwort
+ minlength: [0,Inf]Dein Kennwort muß mindestens 6 Zeichen lang sein
+ match: 		neues Kennwort und Kennwortbestätigung stimmen nicht überein
 realm:
  new:
   toosimilar:
-#   name: ((missing translation - original: Your realm name is too similar to another realm, %other%.))
-#   formalname: ((missing translation - original: Your formal realm name is too similar to another realm, %other%.))
+   name: 		Der Reichsname ist einem anderen zu ähnlich, und zwar %other%.
+   formalname: Der förmliche Reichsname ist einem anderen zu ähnlich, und zwar %other%.
 character:
-# burst: ((missing translation - original: You already created a character within the last minute. We're slowing you down to make sure you are not a bot.))
-# spawnlimit: ((missing translation - original: You already have 2 unspawned characters. Start playing those before you create more characters.))
-# homosexual: ((missing translation - original: Sorry, but we are simulating a medieval fantasy world that is pre-enlightenment. No homosexual marriages, yet.))
-# foreignparent: ((missing translation - original: At least one parent must be one of your own characters.))
-# nosex: ((missing translation - original: Your characters' parents need to have a sexual relationship.))
+ burst: 				Du hast während der letzten Minute schon einen Charakter erstellt. Wir bremsen Dich etwas aus, um sicherzustellen, daß Du kein Roboter bist.
+ spawnlimit:		Du hast schon 2 nicht auf der Karte platzierte Charaktere. Fang doch erstmal an, die zu spielen.
+ homosexual: 		Tut uns leid, wir simulieren eine mittelalterliche Welt vor der Aufklärung. Daher gibt es noch keine homosexuellen Ehen.
+ foreignparent: 	Mindestens einer der Eltern muß einer Deiner Charaktere sein.
+ nosex:				Die Eltern Deines Charakters müssen eine sexuelle Beziehung haben.
 trade:
-# toomuch: ((missing translation - original: You do not have that much available.))
-# allremote: ((missing translation - original: Either source or destination of a trade must be your current location.))
-# same: ((missing translation - original: Repackaging the same product and selling it as somehow better in the same place has not yet been invented. Please wait for the invention of Wall St. and rating agencies first. Thank you.))
+ toomuch:			So viel ist nicht verfügbar.
+ allremote:			Entweder Ursprungs- oder Zielort eines Handels müssen Dein aktueller Ort sein.
+ same: 				Ein Produkt neu verpacken und am gleichen Ort nochmal verkaufen wurde noch nicht erfunden. Bitte warte bis zur Gründung der Wall Street und der Rating-Agenturen. Danke.
 economy:
-# toomany: ((missing translation - original: You can obviously not assign more peasants to work projects than there are.))
+ toomany:			Du kannst nicht mehr Arbeiter zu Bauprojekten zuweisen, als vorhanden sind. Sollte eigentlich klar sein.
 feature:
-# location: ((missing translation - original: Please select a location for the new feature by clicking on the map.))
-# outside: ((missing translation - original: The location you have chosen is not part of the area this settlement controls.))
-# noriver: ((missing translation - original: There is no river adjacent to this area.))
-# nocoast: ((missing translation - original: This is not a coastal area.))
-# needworkers: ((missing translation - original: Please assign some workers to this project.))
+ location: 		Wähle bitte einen Ort für das neue Bauwerk, indem Du auf die Karte klickst.
+ outside: 		Der gewählte Ort ist nicht Teil der Umgebung dieser Siedlung.
+ noriver: 		Es gibt hier in der Nähe der Siedlung keinen Fluß.
+ nocoast: 		Diese Siedlung liegt nicht in Ufernähe.
+ needworkers: 	Bitte weise diesem Bauprojekt auch Arbeiter zu.
 recruit:
  entourage:
-#  toomany: ((missing translation - original: You can obviously not recruit more specialists than your settlement has population.))
-#  toomany2: ((missing translation - original: This settlement can only train %max% peasants per day.))
+  toomany: 		Du kannst nicht mehr Gefolge anheuern, als die Siedlung Einwohner hat.
+  toomany2: 	Diese Siedlung kann höchstens %max% Bauern pro Tag ausbilden.
  troops:
-#  toomany: ((missing translation - original: You can obviously not recruit more soldiers than your settlement has population.))
-#  toomany2: ((missing translation - original: This settlement can only begin the training of %max% peasants per day.))
-#  noweapon: ((missing translation - original: You cannot recruit troops without weapons, they would not be soldiers, would they?))
+  toomany: 		Du kannst nicht mehr Soldaten anheuern, als die Siedlung Einwohner hat.
+  toomany2:		Diese Siedlung kann höchstens %max% Bauern pro Tag in die Ausbildung schicken.
+  noweapon:		Du kannst keine Soldaten ohne Waffe rekrutieren, die wären nicht wirklich Soldaten, oder?
  offer:
-#  empty: ((missing translation - original: knight offers must include something, else you would offer nothing in exchange for something (fealty).))
+  empty: 		Angebote an Vasallen müssen irgend etwas beinhalten, ansonsten würdes Du ja nichts anbieten und dafür etwas (Treue) verlangen.
 road:
-# same: ((missing translation - original: That is an interesting idea, but seriously, start and destination of a road should be different.))
-# exists: ((missing translation - original: That road already exists.))
+ same: 			Das ist eine interessante Idee, aber Start- und Endpunkt einer Straße sollten schon unterschiedlich sein.
+ exists: 		Diese Straße gibt es schon.
 attack:
-# nobody: ((missing translation - original: You need to select at least one target to attack.))
+ nobody: 		Du mußt mindestens einen Gegner angreifen. Schattenboxen ist nicht.

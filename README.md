@@ -30,7 +30,7 @@ The quickstart instructions for translating are:
 * Keep words in %% symbols untranslated, they are keywords.
 * If there is a pipe | symbol, it means the string has a singular (before the pipe) and plural (after the pipe)
 * In case of doubt, ask. In the above, for example, Y-m-d is a dateformat string and should be reformated according to your locale, but not translated, and "Might & Fealty" is, of course, a name and thus should also be kept unchanged
-
+* Check the Wiki for agreed-upon terms
 
 So the german translation for the above would be:
 
@@ -53,4 +53,5 @@ Please, please add your authorship in the files you created or contributed to as
 
 * Formatting is meaningful in YAML, so don't remove whitespaces at the start of lines.
 * If you fork/contribute, please watch the upstream repository, as I may add, remove or change strings at any time
+* I can create stub files in your language, if you want. Very useful if you have incomplete translations, too, because my little script will automatically flag which strings you are still missing.
 
