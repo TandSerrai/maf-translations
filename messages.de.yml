@@ -1,0 +1,382 @@
+dateformat:   d.m.Y
+
+menu:
+ playing:   spiele %name%
+ homepage:  Startseite
+ about:     Über
+ manual:    Handbuch
+ community: community
+ register:  Mitspielen
+ credits:   Impressum
+ contact:   Kontakt
+ forum:     Forum
+ map:       Karte
+ travel:    Karte & Reisen
+ status:    Zustand
+ messages:  Nachrichten
+ politics:  Politik
+ actions:   Aktionen
+ character:
+  start:    Charakter plazieren
+
+contact:
+ title:     Kontakt
+
+registration:
+ title:   Anmeldung
+ notyet:  Bitte folge unseren Ankündigungen, die Anmeldung ist noch nicht eröffnet.
+ intro: >
+   Willkommen zu "Might & Fealty" - wir freuen uns auf Deine Geschichte und Erlebnisse.<br />
+   <br />
+   Bitte gib uns die unten erbetenen Informationen.<br />
+   Du wirst dann eine e-Mail mit einem Aktivierungslink bekommen. Tut uns leid wegen dieses zustätzlichen
+   Schrittes, aber damit vermeiden wir Spammer und Bots.<br />
+   <br />
+   <div class="warning">The Spiel befindet sich aktuell in einem geschlossenen Alpha Test.<br /><br />
+   Um daran teilzunehmen, ben&ouml;tigst Du einen Einladungs-Code, den wir an unsere Unterst&uuml;tzer
+   der Crowdfunding-Kampagne und ihre Freunde versenden.
+   </div><br />
+
+map:
+ title:
+  map:          Karte
+  both:         Karte & Reisen
+  settlements:  Siedlungen
+  rivers:       Flüsse
+  roads:        Straßen
+  chars:        Charaktere
+  route:        Routenplan
+  invalid:      ungültige Route
+  you:          Aufenthaltsort
+ howto: >
+    Ihr könnt direkt auf der Karte Eure Reiseroute sehen und einstellen. Einfach "Route setzen" rechts wählen und dann
+    per Mausklick Wegpunkte auf der Karte setzen.<br />
+    Die Route kann so direkt oder verschlungen sein, wie Ihr wünscht. Bitte denkt daran, daß Ihr in
+    der Nähe einer Siedlung sein müsst, um dort Aktionen vorzunehmen und daß Flüsse nur mit Brücken
+    überquert werden können.
+ legend:    Legende
+ you:       Aufenthaltsort
+ chars:     Deine anderen Charaktere
+ others:    Fremde Charaktere
+ ownedplace: beherrschte Siedlungen
+ indyplace:  freie Siedlungen
+ spot:      Sichtweite
+ act:       Aktionsradius
+ info:      ansehen
+ hover:     Route setzen
+ travel:    Reisen
+ draw:      Klick auf die Karte, um Wegpunkte zu setzen.
+ submit:    Route setzen
+ rmlast:    letzten löschen
+ clear:     alle löschen
+ newroute:  Die neue Route wurde eingestellt. Die Reise wird voraussichtlich %duration% Tage dauern.
+ crossings:
+  title:    Flußüberquerungen
+  river:    Den %river% an der Brücke nahe %nearby%.
+ cleared:   Route gelöscht.
+ error:
+  impassable: Die Route enthält unpassierbare Sektionen, wie auf der Karte markiert.<br /><small>Rote Linien gehen durch unpassierbare Gebiete, rot/schwarze Punkte zeigen Flußüberquerungen ohne nahe Brücke.</small>
+ info:
+  length:   Länge der Route
+
+
+account:
+ title:       Konto
+ userdata:    Benutzerdaten
+ characters:  Charaktere
+ nocharacters: Du hast noch keine Charaktere angelegt.
+ newcharacter:
+  title:      Charaktererschaffung
+  intro: >
+    Enter the vital details of your new character below. Of these, only the name can later be changed, and only
+    under special circumstances, so pick carefully.<br />
+    Please note that the character name should be a full name, including a surname. Characters of the same family
+    should, obviously, share a surname unless their personal history provides a reason not to.<br />
+    Choosing a father and mother is optional, if you leave it empty than one or both of the parents will simply be
+    people that don't exist as characters in the game. If you want to create a family tree, make sure to start
+    with the older generations.
+  submit:     erzeugen
+ settings:
+  title:      Einstellungen
+  submit:     abspeichern
+ play:        spielen
+ familytree:  Stammbaum
+ data:        Daten ändern
+
+character:
+ name:    Name
+ gender:  Geschlecht
+ father:  Vater
+ mother:  Mutter
+ partner: verheiratet mit
+ none:    (kein Character)
+ child:   Kind|Kinder
+ status:  Zustand von %name%
+ history: Charaktergeschichte
+ start:
+  title:      Charakter plazieren
+  intro: >
+    Select the starting location of your new character. This is an important choice
+    and will greatly influence your early play experience.
+  family:     Place with Family
+  existing: >
+    Your new character can begin the game in the estate of any of your existing
+    characters, or you can pick a start location on the map below.<br />
+    Note that being at a family estate does <b>not</b> grant you any control over the settlement,
+    including recruitment. If you want soldiers for your new character, the owner of the estate
+    will have to be there and assign them.
+  estate:     Starting Estate
+  submit:     start here
+  selection:  Place on Map
+  mapintro: >
+    You can also select any settlement from the map below, showing all settlements near already settled lands.<br />
+    We strongly recommend picking an undefended independent settlement so you can take control of it and have an estate right away.
+
+politics:
+ hierarchy: Hierarchie
+
+gender:
+ he:    er
+ she:   sie
+ his:   sein
+ her:   ihr
+
+form:
+ account:
+  name:       Benutzername
+  email:			E-Mail
+  lastlogin:  letzte Anmeldung
+ choose:      -- auswählen --
+
+settlement:
+ title:   %type% %name%
+ details: Details der Siedlung
+ dummy:   Siedlung auf der Karte auswählen, um hier Details zu sehen.
+ area:    Gebiet von %name%
+ type:    Typ
+ size:
+  1:		Flecken
+  2:		kleines Dorf
+  3:		mittleres Dorf
+  4:		grosses Dorf
+  5:		kleine Ortschaft
+  6:		mittlere Ortschaft
+  7:		grosse Ortschaft
+  8:		kleine Stadt
+  9:		mittlere Stadt
+  10:		grosse Stadt
+  11:		Metropole
+ population:  Bevölkerung
+ geography:   Geographie
+ neighbours:  Nachbarn
+ political:   Politisch
+ independent: Dies ist eine unabhängige Siedlung
+ unowned:     unabhängig
+ ownedby:     Diese Siedlung wird von %owner% beherrscht.
+ economy:     Wirtschaft
+ starvation:
+  1:  hat etwas zu wenig Nahrung
+  2:  hat viel zu wenig Nahrung
+  3:  leidet Hunger
+  4:  leidet schwer Hunger
+ militia: in %name% stationierte Soldaten
+ recruits:  soldiers in training in %name%
+ resources:
+  type:     Type
+  base:     Grundwert
+  current:  Produktion
+  demand:   Eigenbedarf
+  trade:    Handelsbilanz
+  balance:  Gesamtbilanz
+
+road:
+ quality:
+  0: -
+  1: Sandpfad
+  2: Sandstraße
+  3: einfache Straße
+  4: feste Straße
+  5: gepflasterte Straße
+ workers:   Arbeiter
+
+direction:
+ long:
+  north:      Nord
+  east:       Ost
+  south:      Süd
+  west:       West
+  northeast:  Nord-Ost
+  northwest:  Nord-West
+  southeast:  Süd-Ost
+  southwest:  Süd-West
+ short:
+  north:      N
+  east:       O
+  south:      S
+  west:       W
+  northeast:  NO
+  northwest:  NW
+  southeast:  SO
+  southwest:  SW
+
+status:      Zustand
+currentdate: Es ist Jahr %year%, Woche %week% und Tag %day% in der Welt von "Might & Fealty"
+location:    Ort
+coordinates: Koordinaten
+nearest:     nächstgelegene Siedlung
+nothingnear: keine Siedlung in der Nähe
+nearbyothers: Adlige in der Nähe
+viewdetails:  Details ansehen
+none:         keine
+yes:          ja
+no:           nein
+techtree:     Technologiebaum
+
+distance:     Entfernung
+metre_abr:    m
+metre:        Meter|Meter
+mile:         Meile|Meilen
+squaremile:   Quadratmeile|Quadratmeilen
+day:          Tag|Tage
+
+resources:  Rohstoffe
+food:   Nahrung
+wood:   Holz
+metal:  Metal
+goods:  Güter
+money:  Gold
+
+estate:      Anwesen|Anwesen
+building:    Gebäude|Gebäude
+build:
+ workers:    Arbeiter
+ underway:   wird gebaut
+workforce:   Arbeitskräfte
+inheritance: Erbschaft
+nobody:      niemand
+
+
+scrub:        Buschland
+thin scrub:   dünnes Buschland
+grass:        Grasebene
+thin grass:   dünne Grasebene
+marsh:        Sumpf
+forest:       Wald
+dense forest: dichter Wald
+snow:         verschneite Berge
+rock:         Bergland
+desert:       Wüste
+ocean:        Ozean
+lake:         See
+water:        See
+river:        Fluss
+
+error:
+ notfound:
+  page:        Page not found
+  character:   Character not found
+  settlement:  Settlement not found
+ missing:
+  characterid: Character ID required, but missing. Please select a character from the character page or log in again.
+
+selectall:    alle auswählen
+withall:      mit den ausgewählten...
+
+experience: Erfahrung
+weapon:     Waffe
+armour:     Rüstung
+equipment:  Ausrüstung
+
+npc:
+ type:         Typ
+ scout:        Späher|Späher
+ prospector:   Prospektor|Prospektoren
+ merchant:     Händler|Händler
+ spy:          Spion|Spione
+
+
+soldier:
+ type:             Typ
+ home:             home
+ group:            group
+ name:             Name
+ train:            Training
+ complete:         ungefähr fertig
+ archer:           Bogenschütze|Bugenschützen
+ conscript:        Rekrut|Rekruten
+ crossbow archer:  crossbow archer|crossbow archers
+ heavy cavalry:    heavy cavalry|heavy cavalry
+ heavy infantry:   heavy infantry|heavy infantry
+ hunter:           Jäger|Jäger
+ knight:           Ritter|Ritter
+ light cavalry:    light cavalry|light cavalry
+ light infantry:   light infantry|light infantry
+ longbow archer:   longbow archer|longbow archers
+ medium infantry:  medium infantry|medium infantry
+ mounted archer:   mounted archer|mounted archers
+ peasant:          Bauer|Bauern
+ pikeman:          pikeman|pikemen
+ spearman:         Speerträger|Speerträger
+
+item:
+ axe:              Axt
+ broadsword:       Breitschwert
+ chainmail:        Kettenrüstung
+ cloth armour:     cloth armour
+ crossbow:         crossbow
+ horse:            Pferd
+ improvised:       improvisiert
+ leather armour:   leather armour
+ longbow:          longbow
+ pike:             pike
+ plate armour:     plate armour
+ scale armour:     scale armour
+ shortbow:         shortbow
+ spear:            Speer
+ sword:            Schwert
+
+messages:
+ inbox:         an Euch gesendete Nachrichten
+ sent:          Nachrichten, die Ihr gesendet habt
+ unread:        Ihr habt %number% ungelesene Nachrichten.
+ createdby:     begonnen von
+ participants:  Teilnehmer
+ you:           Ihr
+
+
+interaction:
+ message:
+  name:     Empfänger
+  subject:  Thema
+  body:     Inhalt
+  submit:   Brief absenden
+
+
+about:
+ title:     Über Might & Fealty
+ intro:     Einleitung
+ concept:   Philosophie
+ gameplay:  Das Spiel
+ tech:      Technologie
+
+manual:
+ title:     Handbuch
+
+fiction:
+ title:   Might & Fealty Geschichten
+ header: >
+   Diese Sammlung von Mythen, Legendn und Kurzgeschichten ist zu deiner Unterhaltung, sowie um die Atmosphäre und
+   Hintergrundwelt lebend werden zu lassen.
+ intro:
+  title:  Einleitung
+  text: >
+    <p>Die folgenden Geschichte sind alle Teil der fiktiven Spielwelt, in Form von Legenden und Mythen, die dein Charakter
+    zu hören bekommen könnte oder bereits kennt.</p>
+    <p>Geschichten werden oft erzählt oder gesungen und weniger gelesen, da die meisten Bauern weder lesen noch schreiben
+    können. In der Welt von Might & Fealty herrscht vor allem mündliche Überlieferung, obwohl viele der älteren oder
+    bekannteren Legenden von Schriftgelerten niedergeschrieben wurden. Es gibt natürlich auch Autoren und Schreiben, auch
+    wenn die meisten ihrer Werke eher aufgeführt als gelesen werden.</p>
+ untranslated: Tut uns leid, aber diese Geschichte wurde noch nicht ins Deutsche übersetzt.
+ page:
+  fall: Der Fall des Tymetras
+
