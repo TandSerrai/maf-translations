@@ -633,21 +633,20 @@ nobody:      nobody
 underconstruction:  under construction
 finished:           finished
 
-biome:
- scrub:        scrubland
- thin scrub:   thin scrubland
- grass:        grassland
- thin grass:   thin grassland
- marsh:        marsh
- forest:       forest
- dense forest: dense forest
- snow:         snowy mountains
- rock:         mountain
- desert:       desert
- ocean:        ocean
- lake:         lake
- water:        lake
- river:        river
+scrub:        scrubland
+thin scrub:   thin scrubland
+grass:        grassland
+thin grass:   thin grassland
+marsh:        marsh
+forest:       forest
+dense forest: dense forest
+snow:         snowy mountains
+rock:         mountain
+desert:       desert
+ocean:        ocean
+lake:         lake
+water:        lake
+river:        river
 
 error:
  title:        Error

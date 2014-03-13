@@ -1,431 +1,194 @@
-dateformat: d.m.Y
-gametime:
- current: [[missing - original: It is year %year%, week %week%, day %day% in the world of Might & Fealty]]
- long: [[missing - original: year %year%, week %week%, day %day%]]
- short: [[missing - original: %year%-%week%-%day%]]
-realtime:
- forever: [[missing - original: eternity]]
- day: [[missing - original: %d% day (real time)|%d% days (real time)]]
- hour: [[missing - original: %h% hour (real time)|%h% hours (real time)]]
- minute: [[missing - original: %m% minute (real time)|%m% minutes (real time)]]
-menu:
- playing: spiele %name%
- profile: [[missing - original: profile]]
- characters: [[missing - original: characters]]
- homepage: Startseite
- terms: [[missing - original: terms]]
- credits: Impressum
- contact: Kontakt
- forum: Forum
- about: Über
- manual: Handbuch
- vips: [[missing - original: VIPs]]
- fiction: [[missing - original: fiction]]
- community: community
- translator: [[missing - original: translations]]
- register: Mitspielen
- map: Karte
- travel: Karte & Reisen
- status: Zustand
- events: [[missing - original: events]]
- messages: Nachrichten
- news: [[missing - original: publications]]
- relations: [[missing - original: relations]]
- politics: Politik
- actions: Aktionen
- character:
-  start: Charakter plazieren
- shortcuts: [[missing - original: shortcuts]]
-contact:
- title: Kontakt
- forum: [[missing - original: For questions, help or most other things related to the game, the best way with the fastest responses is very often our forum, which you can reach at this link:<br /> <br /> <a href="http://forum.mightandfealty.com/">http://forum.mightandfealty.com/</a><br /> <br /> This community is a great place to talk with other players as well as with the developers, who prefer to answer questions on the forum because that way future players with the same question can find an answer there.
-]]
- tom: [[missing - original: If you need to contact Tom directly, send an e-mail to <a href="mailto:tom@mightandfealty.com">tom@mightandfealty.com</a>.
-]]
-terms:
- title: [[missing - original: Terms of Service]]
-challenges:
- title: [[missing - original: challenges]]
- intro: [[missing - original: Challenges are fun out-of-character tasks where you can engage in a bit of friendly competition with other players to race towards the same goal. They are entirely voluntary and the rewards are simply victory tokens with no in-game value. It's all for fun and a bit of community building. There is a <a href="http://forum.mightandfealty.com/index.php/board,17.0.html">board on the forum</a> to talk about challenges.
-]]
- running: [[missing - original: currently running]]
- finished: [[missing - original: completed challenges]]
- started: [[missing - original: started on %start%]]
- won: [[missing - original: won by %winner% at %end%]]
-registration:
- title: Anmeldung
- notyet: Bitte folge unseren Ankündigungen, die Anmeldung ist noch nicht eröffnet.
- intro: Willkommen zu "Might & Fealty" - wir freuen uns auf Deine Geschichte und Erlebnisse.<br /> <br /> Bitte gib uns die unten erbetenen Informationen.<br /> Du wirst dann eine e-Mail mit einem Aktivierungslink bekommen. Tut uns leid wegen dieses zustätzlichen Schrittes, aber damit vermeiden wir Spammer und Bots.<br /> <br /> <div class="warning">The Spiel befindet sich aktuell in einem geschlossenen Alpha Test.<br /><br /> Um daran teilzunehmen, ben&ouml;tigst Du einen Einladungs-Code, den wir an unsere Unterst&uuml;tzer der Crowdfunding-Kampagne und ihre Freunde versenden. </div><br />
+dateformat:   d.m.Y
 
- direct: [[missing - original: Please supply the required information below.<br /> You will then receive an e-mail with an activation link. We apologize for that additional step,  but it keeps spammers and bots out.
-]]
- openid: [[missing - original: Alternatively, if you have an account at any of the below, you can use it to register:
-]]
- toslink: [[missing - original: By registering, you agree to our <a href="%url%" target="_blank">Terms of Service</a>.]]
- complete:
-  name: [[missing - original: Complete Registration]]
-  intro: [[missing - original: Please verify or correct the data we have received from your identity provider below and confirm.]]
- first:
-  title: [[missing - original: First Steps]]
-  intro: [[missing - original: Welcome to Might & Fealty.<br /> To start playing, <a href="%charpage%">create a character</a> on the character page, also accessible in the navigation menu.]]
- help:
-  username: [[missing - original: A name of your choice to use to log in. Will not be revealed to anyone unless you choose so.]]
-  email: [[missing - original: Your e-mail address for password resets and notifications. Will not be revealed to anyone unless you choose so.]]
-  password: [[missing - original: Choose a password to log in. Can be any length. Your responsibility to choose a good one.]]
-  repeat: [[missing - original: Repeat the password to make sure you did not make any typos.]]
-login:
- intro: [[missing - original: Provide the username or e-mail you used to register below to log in:]]
- openid: [[missing - original: or log in with any of your existing accounts at one of these:
-]]
-pager:
- showing: [[missing - original: showing %from% to %to%, %total% total]]
- prev: [[missing - original: previous]]
- next: [[missing - original: next]]
-togglelist: [[missing - original: toggle list style]]
+menu:
+ playing:   spiele %name%
+ homepage:  Startseite
+ about:     Über
+ manual:    Handbuch
+ community: community
+ register:  Mitspielen
+ credits:   Impressum
+ contact:   Kontakt
+ forum:     Forum
+ map:       Karte
+ travel:    Karte & Reisen
+ status:    Zustand
+ messages:  Nachrichten
+ politics:  Politik
+ actions:   Aktionen
+ character:
+  start:    Charakter plazieren
+
+contact:
+ title:     Kontakt
+
+registration:
+ title:   Anmeldung
+ notyet:  Bitte folge unseren Ankündigungen, die Anmeldung ist noch nicht eröffnet.
+ intro: >
+   Willkommen zu "Might & Fealty" - wir freuen uns auf Deine Geschichte und Erlebnisse.<br />
+   <br />
+   Bitte gib uns die unten erbetenen Informationen.<br />
+   Du wirst dann eine e-Mail mit einem Aktivierungslink bekommen. Tut uns leid wegen dieses zustätzlichen
+   Schrittes, aber damit vermeiden wir Spammer und Bots.<br />
+   <br />
+   <div class="warning">The Spiel befindet sich aktuell in einem geschlossenen Alpha Test.<br /><br />
+   Um daran teilzunehmen, ben&ouml;tigst Du einen Einladungs-Code, den wir an unsere Unterst&uuml;tzer
+   der Crowdfunding-Kampagne und ihre Freunde versenden.
+   </div><br />
+
 map:
  title:
-  map: Karte
-  both: Karte & Reisen
- map: [[missing - original: abstract map]]
- graphical: [[missing - original: graphical map]]
- settlements: [[missing - original: settlements]]
- realms: [[missing - original: major realms]]
- rivers: [[missing - original: rivers]]
- towers: [[missing - original: towers]]
- roads: [[missing - original: roads]]
- chars: Deine anderen Charaktere
- route: [[missing - original: route plot]]
- invalid: [[missing - original: invalid route]]
- usedroads: [[missing - original: road travel]]
- offers: [[missing - original: knight offers]]
- poi: [[missing - original: POI]]
- you: Aufenthaltsort
- area: [[missing - original: local area]]
- howto: Ihr könnt direkt auf der Karte Eure Reiseroute sehen und einstellen. Einfach "Route setzen" rechts wählen und dann per Mausklick Wegpunkte auf der Karte setzen.<br /> Die Route kann so direkt oder verschlungen sein, wie Ihr wünscht. Bitte denkt daran, daß Ihr in der Nähe einer Siedlung sein müsst, um dort Aktionen vorzunehmen und daß Flüsse nur mit Brücken überquert werden können.
-
- legend: Legende
- yourchars: [[missing - original: your other characters]]
- others: Fremde Charaktere
+  map:          Karte
+  both:         Karte & Reisen
+  settlements:  Siedlungen
+  rivers:       Flüsse
+  roads:        Straßen
+  chars:        Charaktere
+  route:        Routenplan
+  invalid:      ungültige Route
+  you:          Aufenthaltsort
+ howto: >
+    Ihr könnt direkt auf der Karte Eure Reiseroute sehen und einstellen. Einfach "Route setzen" rechts wählen und dann
+    per Mausklick Wegpunkte auf der Karte setzen.<br />
+    Die Route kann so direkt oder verschlungen sein, wie Ihr wünscht. Bitte denkt daran, daß Ihr in
+    der Nähe einer Siedlung sein müsst, um dort Aktionen vorzunehmen und daß Flüsse nur mit Brücken
+    überquert werden können.
+ legend:    Legende
+ you:       Aufenthaltsort
+ chars:     Deine anderen Charaktere
+ others:    Fremde Charaktere
  ownedplace: beherrschte Siedlungen
- indyplace: freie Siedlungen
- spot: Sichtweite
- act: Aktionsradius
- select: [[missing - original: select method]]
- click: [[missing - original: info]]
- hover: Route setzen
- clickselect: [[missing - original: Click a settlement or character flag to get details.]]
- hoverselect: [[missing - original: Hover over a settlement or character flag to get details.]]
- travel: Reisen
- draw: Klick auf die Karte, um Wegpunkte zu setzen.
- disabled: [[missing - original: Switch to routing to draw waypoints.]]
- submit: Route setzen
- rmlast: letzten löschen
- enter: [[missing - original: enter destination]]
- clear: alle löschen
- newroute: Die neue Route wurde eingestellt. Die Reise wird voraussichtlich %duration% Tage dauern.
- disembark: [[missing - original: Your new route has been set. It crosses into land, so you will disembark at the red dot.<br /><small>The travel time estimate of %duration% days considers the route until that point. Red lines show the invalid travel section.</small>]]
+ indyplace:  freie Siedlungen
+ spot:      Sichtweite
+ act:       Aktionsradius
+ info:      ansehen
+ hover:     Route setzen
+ travel:    Reisen
+ draw:      Klick auf die Karte, um Wegpunkte zu setzen.
+ submit:    Route setzen
+ rmlast:    letzten löschen
+ clear:     alle löschen
+ newroute:  Die neue Route wurde eingestellt. Die Reise wird voraussichtlich %duration% Tage dauern.
  crossings:
-  title: Flußüberquerungen
-  river: Den %river% an der Brücke nahe %nearby%.
- cleared: Route gelöscht.
+  title:    Flußüberquerungen
+  river:    Den %river% an der Brücke nahe %nearby%.
+ cleared:   Route gelöscht.
  error:
   impassable: Die Route enthält unpassierbare Sektionen, wie auf der Karte markiert.<br /><small>Rote Linien gehen durch unpassierbare Gebiete, rot/schwarze Punkte zeigen Flußüberquerungen ohne nahe Brücke.</small>
-  world: [[missing - original: You are trying to leave the known world. The gods will not allow that.]]
-  prisoner: [[missing - original: As a prisoner, you cannot travel freely.]]
  info:
-  length: Länge der Route
-vip:
- title: [[missing - original: VIPlayers]]
- intro: [[missing - original: These players helped make Might & Fealty come into existence by contributing considerably to the crowdfunding campaign:
-]]
- status:
-  10: [[missing - original: Hero]]
-  20: [[missing - original: Legend]]
-  30: [[missing - original: Immortal]]
+  length:   Länge der Route
+
+
 account:
- title: Konto
- characters: Charaktere
+ title:       Konto
+ userdata:    Benutzerdaten
+ characters:  Charaktere
  nocharacters: Du hast noch keine Charaktere angelegt.
- flag: [[missing - original: click to toggle this character between primary/secondary characters list]]
- created: [[missing - original: created: %date%]]
- lastlogin: [[missing - original: last login: %date%]]
- identities: [[missing - original: Authentication]]
- authmail: [[missing - original: username/email and password]]
- locked: [[missing - original: Your characters are currently locked because you have run out of game-time. Please renew your subscription on the profile page.]]
- level:
-  0: [[missing - original: locked]]
-  10: [[missing - original: casual]]
-  20: [[missing - original: basic]]
-  40: [[missing - original: intense]]
-  50: [[missing - original: ultimate]]
-  name: [[missing - original: account level]]
-  limit: [[missing - original: character limit]]
-  cpm: [[missing - original: credits/month]]
-  firstmonth: [[missing - original: first month]]
- data:
-  link: [[missing - original: Edit Data]]
-  title: [[missing - original: Personal Data]]
-  saved: [[missing - original: Your personal data has been updated.]]
+ newcharacter:
+  title:      Charaktererschaffung
+  intro: >
+    Enter the vital details of your new character below. Of these, only the name can later be changed, and only
+    under special circumstances, so pick carefully.<br />
+    Please note that the character name should be a full name, including a surname. Characters of the same family
+    should, obviously, share a surname unless their personal history provides a reason not to.<br />
+    Choosing a father and mother is optional, if you leave it empty than one or both of the parents will simply be
+    people that don't exist as characters in the game. If you want to create a family tree, make sure to start
+    with the older generations.
+  submit:     erzeugen
  settings:
-  link: [[missing - original: edit settings]]
-  title: Einstellungen
-  language: [[missing - original: Your language]]
-  notifications: [[missing - original: E-Mail notifications]]
-  submit: abspeichern
-  saved: [[missing - original: your settings have been updated.]]
- autologin:
-  title: [[missing - original: Auto-Login]]
-  intro: [[missing - original: This is an <b><i>experimental and possibly insecure</i></b> feature.<br /> Auto-Login will save a token in your browser, which enables it to complete the login procedure fully automated, giving you one-click logins (simply click on "login" and you are in).<br /><br /> <b>Security Advantage:</b> The token saved in your browser is not your password. In fact, when using auto-login, your password is not stored on your computer at all (unlike the password-manager functionality of most browsers) and is never transmitted across the Internet. If you lose or someone steals the token, simply click the enable button below again to generate a new token.<br /> <b>Security Danger:</b> If someone gets access to your computer or browser, he can log in to the game without knowing your password. Do not use this feature if you share your computer with other people. Do not <i>activate</i> it while you are on an insecure network, because if someone captures the token sent when you click the button, he can use it. <i>Additionally, this feature has not yet been peer-reviewed by other security experts and may contain additional weaknesses unknown at this time.</i><br /> <br /><br /> To activate or disable Auto-Login, click the buttons below:
-]]
-  enable: [[missing - original: enable]]
-  disable: [[missing - original: disable]]
- payment:
-  title: [[missing - original: Account Balance]]
-  credits: [[missing - original: You have %amount% credits in your account.]]
-  link: [[missing - original: Get More Credits]]
-  shop: [[missing - original: Buying Credits]]
-  intro: [[missing - original: Choose your preferred payment method below. Both PayPal and Google Wallet also handle <b>credit card payments</b>, so if you want to pay by credit card, simply pick whichever service you like more.<br /> Payments are handled through my company, <b>Calitarus GmbH</b>, so that is what you'll see on your order and receipt.
-]]
-  history: [[missing - original: Payment History]]
-  type: [[missing - original: transaction type]]
-  date: [[missing - original: date]]
-  amount: [[missing - original: amount]]
-  currency: [[missing - original: currency]]
-  code: [[missing - original: transaction code]]
-  success: [[missing - original: The transaction has been completed successfully. It will take a few seconds to process.]]
-  fail: [[missing - original: The transaction could not be completed. Sorry. Check your payment provider statement for errors. If the payment went through on your side, please contact tom@mightandfealty.com so I can fix this problem manually.]]
- code:
-  title: [[missing - original: redeem code]]
-  intro: [[missing - original: If you have a code from a friend or the crowdfunding campaign, you can redeem it here.]]
-  label: [[missing - original: code:]]
-  submit: [[missing - original: redeem]]
-  redeemed: [[missing - original: A code for %credits% game credits was found for your e-mail and automatically redeemed.]]
-  redeemed2: [[missing - original: A code was found for your e-mail and automatically redeemed into %credits% game credits and a VIP status of "%vip%".]]
-  redeemed3: [[missing - original: The code you have entered is valid and has been redeemed for %credits% game credits.]]
-  redeemed4: [[missing - original: The code you have entered is valid and has been redeemed for %credits% game credits and a VIP status of "%vip%".]]
- credits:
-  name: [[missing - original: credits]]
-  sum: [[missing - original: %amount% credits]]
-  title: [[missing - original: Credits & Gifts]]
-  link: [[missing - original: Credits and Gifts]]
-  short: [[missing - original: Spend credits on additional content or make gifts to friends.]]
-  shop: [[missing - original: Spend Credits]]
-  shopdesc: [[missing - original: You can spend credits on various items that will change the appearance of your characters or estates.<br /> None of these items give any advantages, except for prestige and recognition. We are strongly opposed to any "pay-2-win" game concepts.
-]]
-  gifts: [[missing - original: Making gifts to friends]]
-  giftdesc: [[missing - original: You can make gifts to friends in the form of credits. Be it because you just like them, or they don't have a credit card or any of the other payment options, or because you want to invite them to test out the game.
-]]
-  history: [[missing - original: Credit History]]
- sub:
-  title: [[missing - original: Subscription]]
-  summary: [[missing - original: At your current subscription level of <b>%mylevel%</b>, you are paying %myfee% credits per month.<br /> Your next renewal is due on %until%.
-]]
-  short: [[missing - original: Your current subscription level is <b>%mylevel%</b>, your next renewal is due on %until%.]]
-  description: [[missing - original: If you have not accessed your account for more than 3 weeks, not only will your characters be set to inactive automatically, we will also reduce the base fee to %reduced%. After more than 3 months, we automatically reduce it further to %min%.<br /> Read more about our <a href="%url%" class="link_ajax">payment concept</a>.
-]]
-  link: [[missing - original: Change subscription level]]
-  submit: [[missing - original: change subscription]]
-  remaining: [[missing - original: Your new subscription will start today, the first month subscription fee will automatically be reduced by %refund% credits remaining from your current subscription.]]
-  changed: [[missing - original: Your subscription level has been changed.]]
- play: spielen
- viewlog: [[missing - original: View History]]
- familytree: Stammbaum
- famtreedesc: [[missing - original: Inspect the family tree of your characters]]
- heraldry:
-  link: [[missing - original: Heraldry]]
- culture:
-  link: [[missing - original: Culture]]
-  title: [[missing - original: Culture]]
-  intro: [[missing - original: The core culture that Might & Fealty represents is central european. You can buy access to other cultures and decide for each of the settlements controlled by your characters which culture they belong to. Depending on the particular set, this always includes the names of soldiers and entourage recruited there and can also include visuals such as buildings, troops and entourage.<br /> Once unlocked, a culture is yours forever and can be used by all of your characters as often as you like. You will also automatically get any updates to a culture pack (such as added graphics).
-]]
-  owned: [[missing - original: Culture Packs you own]]
-  buyable: [[missing - original: Culture Packs you can buy]]
-  buy: [[missing - original: buy]]
-  name: [[missing - original: culture]]
-  cost: [[missing - original: cost]]
-  contains: [[missing - original: contains]]
-  contents:
-   names: [[missing - original: names]]
-  submit: [[missing - original: buy selected culture pack(s)]]
-  change: [[missing - original: change culture]]
-  upgrades: [[missing - original: Culture packs are occasionally updated and extended, so a pack that does not contain graphics, for example, may get them added in the future. If you by a culture pack, you will always get all updates for free.
-]]
-  notenoughcredits: [[missing - original: You do not have enough credits for this purchase.]]
-  bought:
-   title: [[missing - original: Culture Pack Bought|Culture Packs Bought]]
-   intro: [[missing - original: Congratulations, you have bought a culture pack:|Congratulations, you have bought %amount% culture packs:]]
-   contains: [[missing - original: this pack contains:]]
- gift:
-  link: [[missing - original: Gift to existing player]]
-  title: [[missing - original: Gift for a friend]]
-  intro: [[missing - original: You can make gifts to friends in the form of credits. Be it because you just like them, or they don't have a credit card or any of the other payment options, or for whatever other reason you have.<br /> On this page, you can make a gift to an existing player. Simply enter any amount of credits below and they will be moved from your account to his or hers.<br /> <i>Please note that you cannot undo this transaction, all gifts are final.</i>]]
- invite:
-  link: [[missing - original: Invite with a gift]]
-  title: [[missing - original: Invite a friend]]
-  intro: [[missing - original: You can invite your friends to the game and if they aren't sure they will love it, sweeten it by sending them some starting credits.<br /> This will send an invitation e-mail to them, with a special invite code. Your credits will be put into escrow and used only if your friend actually signs up with the game. Until (s)he does, you can cancel the invite at any time and get your credits back.<br /> And since we like new players, you will get up to half of your credits back if your friend likes the game and becomes a subscriber. Yes, you can have your cake and eat it, too.<br /> <small>(you will get half of your gift or half of your friends' first subscription, whatever is lower)</small>
-]]
-newcharacter:
- title: [[missing - original: Create Character]]
- description: [[missing - original: create a new character or ancestor]]
- intro: [[missing - original: Enter the vital details of your new character below. Of these, only the name can later be changed, and only under special circumstances, so pick carefully.<br /> Please note that the character name should be a full name, including a surname. Characters of the same family should, obviously, share a surname unless their personal history provides a reason not to.<br /> Please choose a proper name, not a funny or silly or modern-Internet-speak one. This is both for the atmosphere of the game and for your own benefit as many players frown upon silly names and diplomacy would be much harder. So please, proper names only.<br /> Choosing a father and mother is optional, if you leave it empty then one or both of the parents will simply be people that don't exist as characters in the game. If you want to create a family tree, make sure to start with the older generations.<br /> All characters are <a href="%firstoneurl%">First Ones</a> and begin the game as fully trained and equipped knights.
-]]
- limit: [[missing - original: You can create %limit% more living character today.|You can create %limit% more living characters today.]]
- limited: [[missing - original: You cannot create new living characters anymore today. You will get more available character slots every real-life day.]]
- spawnlimit: [[missing - original: <b>You currently have several unspawned characters. Please start playing them first, before you create more characters.</b>]]
- accountlimit: [[missing - original: You are currently playing %active% of %limit% possible characters.]]
- overlimit: [[missing - original: You already have as many characters as your current subscription level allows. If you want to create additional characters, you will need to raise your subcription level first.]]
- help:
-  name: [[missing - original: The full name of your character, including given and family name, but not including any titles. required]]
-  gender: [[missing - original: required]]
-  father: [[missing - original: Your father can be any male character of yourself or in a sexual relationship with one of your female characters. In the later case, the mother will have to be the (or one of the) fathers partner(s).]]
-  mother: [[missing - original: Your mother can be any female character of yourself or in a sexual relationship with one of your male characters. In the later case, the father will have to be the (or one of the) mothers partner(s).]]
-  partner: [[missing - original: If you want to start a character as married to another of your own characters. Marriages with characters of other players have to be secured in-game.]]
-  dead: [[missing - original: You can create characters who have died already in order to complete your family tree. You will, obviously, not be able to play a dead character.]]
- submit: [[missing - original: create]]
-summary:
- title: [[missing - original: Recent Events & Messages]]
- events: [[missing - original: Recent Events]]
- nobody: [[missing - original: no nearby nobles spotted]]
- nothing: [[missing - original: no recent events]]
+  title:      Einstellungen
+  submit:     abspeichern
+ play:        spielen
+ familytree:  Stammbaum
+ data:        Daten ändern
+
 character:
- name: Name
- gender: Geschlecht
- father: Vater
- mother: Mutter
- married: [[missing - original: married to]]
+ name:    Name
+ gender:  Geschlecht
+ father:  Vater
+ mother:  Mutter
  partner: verheiratet mit
- none: (kein Character)
- child: Kind|Kinder
- status: Zustand von %name%
+ none:    (kein Character)
+ child:   Kind|Kinder
+ status:  Zustand von %name%
  history: Charaktergeschichte
- inactive: [[missing - original: this character has not been played in a while]]
- notstarted:
-  title: [[missing - original: Rumours]]
-  text: [[missing - original: Only rumours about this noble have been heard, as this character has not yet been started (placed in the world).]]
- prisoner: [[missing - original: this character is currently a captive of %captor%.]]
- prisoner2: [[missing - original: You are currently a captive of %captor%.]]
- full: [[missing - original: view full details]]
- list:
-  1: [[missing - original: primary]]
-  2: [[missing - original: secondary]]
-  99: [[missing - original: recently deceased]]
-  100: [[missing - original: historic]]
-  150: [[missing - original: ancestors]]
  start:
-  title: Charakter plazieren
-  intro: Select the starting location of your new character. This is an important choice and will greatly influence your early play experience.
-
-  offer: [[missing - original: Accept fealty offer]]
-  offerintro: [[missing - original: Many landed nobles offer a contingent of troops for loyal knights to fight in their name. Accepting one of these offers is the easiest way to start out.<br /> Your character will automatically be placed in the estate of your new lord and receive the promised amount of troops. In addition, %he% will have an initial oath of fealty to the lord that made the offer.
-]]
-  offerchoice: [[missing - original: Offer]]
-  offersummary: [[missing - original: %name%, %count% soldiers]]
-  family: Place with Family
-  existing: Your new character can begin the game in the estate of any of your existing characters, or you can pick a start location on the map below.<br /> Note that being at a family estate does <b>not</b> grant you any control over the settlement, including recruitment. If you want soldiers for your new character, the owner of the estate will have to be there and assign them.
-
-  estate: Starting Estate
-  submit: start here
-  selection: Place on Map
-  mapintro: You can also select any settlement from the map below, showing all settlements near already settled lands.<br /> We strongly recommend picking an undefended independent settlement so you can take control of it and have an estate right away.
+  title:      Charakter plazieren
+  intro: >
+    Select the starting location of your new character. This is an important choice
+    and will greatly influence your early play experience.
+  family:     Place with Family
+  existing: >
+    Your new character can begin the game in the estate of any of your existing
+    characters, or you can pick a start location on the map below.<br />
+    Note that being at a family estate does <b>not</b> grant you any control over the settlement,
+    including recruitment. If you want soldiers for your new character, the owner of the estate
+    will have to be there and assign them.
+  estate:     Starting Estate
+  submit:     start here
+  selection:  Place on Map
+  mapintro: >
+    You can also select any settlement from the map below, showing all settlements near already settled lands.<br />
+    We strongly recommend picking an undefended independent settlement so you can take control of it and have an estate right away.
 
 politics:
  hierarchy: Hierarchie
+
 gender:
- he: er
- she: sie
- his: sein
- her: ihr
- son: [[missing - original: son]]
- daughter: [[missing - original: daughter]]
+ he:    er
+ she:   sie
+ his:   sein
+ her:   ihr
+
 form:
- username: [[missing - original: Username]]
- displayname: [[missing - original: Public Name]]
- aka: [[missing - original: aka <b>%name%</b>]]
- email: [[missing - original: E-Mail]]
- password: [[missing - original: Password]]
- password_confirmation: [[missing - original: Repeat password]]
- browser: [[missing - original: (browser setting)]]
- choose: -- auswählen --
- none: [[missing - original: (none)]]
- submit: [[missing - original: submit]]
- help:
-  displayname: [[missing - original: The name shown in public lists such as the VIP players list]]
+ account:
+  name:       Benutzername
+  email:			E-Mail
+  lastlogin:  letzte Anmeldung
+ choose:      -- auswählen --
+
 settlement:
- name: [[missing - original: settlement]]
- title: %type% %name%
+ title:   %type% %name%
  details: Details der Siedlung
- dummy: Siedlung auf der Karte auswählen, um hier Details zu sehen.
- area: Gebiet von %name%
- type: Typ
+ dummy:   Siedlung auf der Karte auswählen, um hier Details zu sehen.
+ area:    Gebiet von %name%
+ type:    Typ
  size:
-  1: Flecken
-  2: kleines Dorf
-  3: mittleres Dorf
-  4: grosses Dorf
-  5: kleine Ortschaft
-  6: mittlere Ortschaft
-  7: grosse Ortschaft
-  8: kleine Stadt
-  9: mittlere Stadt
-  10: grosse Stadt
-  11: Metropole
- population: Bevölkerung
- geography: Geographie
- culture: [[missing - original: culture]]
- biome: [[missing - original: biome]]
- neighbours: Nachbarn
- political: Politisch
+  1:		Flecken
+  2:		kleines Dorf
+  3:		mittleres Dorf
+  4:		grosses Dorf
+  5:		kleine Ortschaft
+  6:		mittlere Ortschaft
+  7:		grosse Ortschaft
+  8:		kleine Stadt
+  9:		mittlere Stadt
+  10:		grosse Stadt
+  11:		Metropole
+ population:  Bevölkerung
+ geography:   Geographie
+ neighbours:  Nachbarn
+ political:   Politisch
  independent: Dies ist eine unabhängige Siedlung
- unowned: unabhängig
- owner: [[missing - original: owner]]
- ownedby: Diese Siedlung wird von %owner% beherrscht.
- realm: [[missing - original: This settlement is part of %realm%.]]
- norealm: [[missing - original: This settlement does not belong to any realm.]]
- economy: Wirtschaft
+ unowned:     unabhängig
+ ownedby:     Diese Siedlung wird von %owner% beherrscht.
+ economy:     Wirtschaft
  starvation:
-  1: hat etwas zu wenig Nahrung
-  2: hat viel zu wenig Nahrung
-  3: leidet Hunger
-  4: leidet schwer Hunger
- shortage:
-  1: [[missing - original: minor shortage of %resource%]]
-  2: [[missing - original: shortage of %resource%]]
-  3: [[missing - original: dramatic shortage of %resource%]]
-  effect: [[missing - original: production and construction requiring this resource are slowed down.|production and construction requiring these resources are slowed down.]]
-  none: [[missing - original: all resource demands are satisfied.]]
- security:
-  0: [[missing - original: struggling for economic security]]
-  1: [[missing - original: low economic security]]
-  2: [[missing - original: adequate economic security]]
-  3: [[missing - original: good economic security]]
-  4: [[missing - original: excellent economic security]]
+  1:  hat etwas zu wenig Nahrung
+  2:  hat viel zu wenig Nahrung
+  3:  leidet Hunger
+  4:  leidet schwer Hunger
  militia: in %name% stationierte Soldaten
- recruits: soldiers in training in %name%
- resupply: [[missing - original: equipment available for resupply]]
- retrain: [[missing - original: equipment available for re-training]]
- militiacount: [[missing - original: %count% combat-ready local militia]]
- recruitscount: [[missing - original: %count% recruits in training]]
+ recruits:  soldiers in training in %name%
  resources:
-  type: Type
-  base: Grundwert
-  current: Produktion
-  demand: Eigenbedarf
-  buildings: [[missing - original: buildings]]
-  construction: [[missing - original: construction]]
-  total: [[missing - original: total]]
-  trade:
-   name: [[missing - original: trade]]
-   in: [[missing - original: incoming]]
-   out: [[missing - original: outgoing]]
-   balance: [[missing - original: trade balance]]
-  balance: Gesamtbilanz
-  prospector: [[missing - original: A prospector could supply a more detailed report.]]
- workforce:
-  atroads: [[missing - original: %number% assigned to road construction]]
-  atbuildings: [[missing - original: %number% assigned to building construction]]
-  atfeatures: [[missing - original: %number% assigned to features construction]]
-  employed: [[missing - original: %number% employed in various buildings]]
-  available: [[missing - original: %number% available for farming and local economy]]
+  type:     Type
+  base:     Grundwert
+  current:  Produktion
+  demand:   Eigenbedarf
+  trade:    Handelsbilanz
+  balance:  Gesamtbilanz
+
 road:
  quality:
   0: -
@@ -434,396 +197,186 @@ road:
   3: einfache Straße
   4: feste Straße
   5: gepflasterte Straße
- workers: Arbeiter
+ workers:   Arbeiter
+
 direction:
  long:
-  north: Nord
-  east: Ost
-  south: Süd
-  west: West
-  northeast: Nord-Ost
-  northwest: Nord-West
-  southeast: Süd-Ost
-  southwest: Süd-West
+  north:      Nord
+  east:       Ost
+  south:      Süd
+  west:       West
+  northeast:  Nord-Ost
+  northwest:  Nord-West
+  southeast:  Süd-Ost
+  southwest:  Süd-West
  short:
-  north: N
-  east: O
-  south: S
-  west: W
-  northeast: NO
-  northwest: NW
-  southeast: SO
-  southwest: SW
-culture:
- european:
-  central: [[missing - original: central european]]
-  northern: [[missing - original: northern european]]
-  southern: [[missing - original: southern european]]
-  eastern: [[missing - original: eastern european]]
- african: [[missing - original: african]]
- oriental: [[missing - original: oriental]]
- indian: [[missing - original: indian]]
- asian: [[missing - original: asian]]
-status: Zustand
-locked: [[missing - original: locked]]
-dead: [[missing - original: dead]]
-inactive: [[missing - original: inactive]]
-prisoner: [[missing - original: prisoner]]
-wounded: [[missing - original: wounded]]
-hungry: [[missing - original: hungry]]
-veryhungry: [[missing - original: starving]]
-routed: [[missing - original: routed]]
-offered: [[missing - original: included in a knight offer]]
-assigned: [[missing - original: assigned from %from%, could still be reclaimed]]
-lastbattle: [[missing - original: last battle]]
-islocked: [[missing - original: currently being reassigned to you]]
-hour: [[missing - original: hour|hours]]
-minute: [[missing - original: minute|minutes]]
-untilturn: [[missing - original: %h% %hours%, %m% %minutes% until next turn]]
-untilturn2: [[missing - original: %m% %minutes% until next turn]]
-location: Ort
+  north:      N
+  east:       O
+  south:      S
+  west:       W
+  northeast:  NO
+  northwest:  NW
+  southeast:  SO
+  southwest:  SW
+
+status:      Zustand
+currentdate: Es ist Jahr %year%, Woche %week% und Tag %day% in der Welt von "Might & Fealty"
+location:    Ort
 coordinates: Koordinaten
-spotdistance: [[missing - original: spotting distance]]
-actdistance: [[missing - original: interaction distance]]
-base: [[missing - original: (base: %distance%)]]
-nearest: nächstgelegene Siedlung
+nearest:     nächstgelegene Siedlung
 nothingnear: keine Siedlung in der Nähe
 nearbyothers: Adlige in der Nähe
-viewdetails: Details ansehen
-none: keine
-yes: ja
-no: nein
-techtree: Technologiebaum
-travelling: [[missing - original: travelling]]
-newevents: [[missing - original: %number% event|%number% events]]
-newmessages: [[missing - original: %number% message|%number% messages]]
-inside: [[missing - original: inside %place%]]
-atsea: [[missing - original: at sea]]
-tradename: [[missing - original: name (optional)]]
-distance: Entfernung
-length: [[missing - original: length]]
-dist:
- m: [[missing - original: %value% m|%value% m]]
- metre: [[missing - original: %value% metre|%value% metres]]
- y: [[missing - original: %value% y|%value% y]]
- yard: [[missing - original: %value% yard|%value% yards]]
- mi: [[missing - original: %value% mi|%value% mi]]
- mile: [[missing - original: %value% mile|%value% miles]]
- league: [[missing - original: %value% league|%value% leagues]]
-area:
- hectare: [[missing - original: %value% hectare|%value% hectares]]
- sqm: [[missing - original: %value% square mile|%value% square miles]]
- sql: [[missing - original: %value% square league|%value% square leagues]]
-metre_abr: m
-popdensity: [[missing - original: people per square mile]]
-day: Tag|Tage
-today: [[missing - original: today]]
-source: [[missing - original: source]]
-destination: [[missing - original: destination]]
-resources: Rohstoffe
-food: Nahrung
-wood: Holz
-metal: Metal
-goods: Güter
-money: Gold
-background: [[missing - original: background]]
-estate: Anwesen|Anwesen
-building: Gebäude|Gebäude
-feature: [[missing - original: feature|features]]
+viewdetails:  Details ansehen
+none:         keine
+yes:          ja
+no:           nein
+techtree:     Technologiebaum
+
+distance:     Entfernung
+metre_abr:    m
+metre:        Meter|Meter
+mile:         Meile|Meilen
+squaremile:   Quadratmeile|Quadratmeilen
+day:          Tag|Tage
+
+resources:  Rohstoffe
+food:   Nahrung
+wood:   Holz
+metal:  Metal
+goods:  Güter
+money:  Gold
+
+estate:      Anwesen|Anwesen
+building:    Gebäude|Gebäude
 build:
- workers: Arbeiter
- available: [[missing - original: %number% (%percent% %) workers available]]
- employees: [[missing - original: employed]]
- underway: wird gebaut
-workforce: Arbeitskräfte
+ workers:    Arbeiter
+ underway:   wird gebaut
+workforce:   Arbeitskräfte
 inheritance: Erbschaft
-nobody: niemand
-underconstruction: [[missing - original: under construction]]
-finished: [[missing - original: finished]]
-biome:
- scrub: [[missing - original: scrubland]]
- thin scrub: [[missing - original: thin scrubland]]
- grass: [[missing - original: grassland]]
- thin grass: [[missing - original: thin grassland]]
- marsh: [[missing - original: marsh]]
- forest: [[missing - original: forest]]
- dense forest: [[missing - original: dense forest]]
- snow: [[missing - original: snowy mountains]]
- rock: [[missing - original: mountain]]
- desert: [[missing - original: desert]]
- ocean: [[missing - original: ocean]]
- lake: [[missing - original: lake]]
- water: [[missing - original: lake]]
- river: [[missing - original: river]]
+nobody:      niemand
+
+
+scrub:        Buschland
+thin scrub:   dünnes Buschland
+grass:        Grasebene
+thin grass:   dünne Grasebene
+marsh:        Sumpf
+forest:       Wald
+dense forest: dichter Wald
+snow:         verschneite Berge
+rock:         Bergland
+desert:       Wüste
+ocean:        Ozean
+lake:         See
+water:        See
+river:        Fluss
+
 error:
- title: [[missing - original: Error]]
  notfound:
-  page: Page not found
-  character: Character not found
-  action: [[missing - original: Action not found]]
-  settlement: Settlement not found
-  buildingtype: [[missing - original: no such building type]]
-  featuretype: [[missing - original: no such feature type]]
-  entouragetype: [[missing - original: no such entourage type]]
-  equipmenttype: [[missing - original: no such equipment type]]
-  log: [[missing - original: event journal does not exist]]
-  battle: [[missing - original: battle not found]]
-  battlereport: [[missing - original: battle report not found]]
-  recruit: [[missing - original: recruit not found]]
-  listing: [[missing - original: list not found]]
-  paper: [[missing - original: publication not found]]
-  position: [[missing - original: realm position not found]]
-  realmrelation: [[missing - original: realm relation not found]]
-  election: [[missing - original: election not found]]
- noaccess:
-  character: [[missing - original: character does not belong to you]]
-  log: [[missing - original: you do not have access to this log]]
-  settlement: [[missing - original: you do not have full access to this settlement]]
-  paper: [[missing - original: you are not a member of this publication]]
-  edition: [[missing - original: you do not have a copy of this edition]]
-  paperowner: [[missing - original: you are not an owner of this publication]]
-  library: [[missing - original: you cannot create new publications because none of your estates has a library]]
-  battlereport: [[missing - original: you were not a participant in that battle, so you have to rely on eye witness reports for its details]]
+  page:        Page not found
+  character:   Character not found
+  settlement:  Settlement not found
  missing:
-  character: [[missing - original: Character required, but missing. Please select a character from the character page or log in again.]]
-  location: [[missing - original: This character does not have a location, select a start location first.]]
-  soul: [[missing - original: This character is dead and cannot affect the world of the living anymore.]]
-  user: [[missing - original: You are not logged in or your session has expired. Please log in (again).]]
- payment:
-  already: [[missing - original: This code has already been redeemed, maybe automatically as you logged in. Check your credit history, please. If you believe this to be an error, please contact tom@mightandfealty.com for details.]]
-  notforyou: [[missing - original: This code is locked to a specific e-mail address, different from yours.]]
-selectall: alle auswählen
-withall: mit den ausgewählten...
+  characterid: Character ID required, but missing. Please select a character from the character page or log in again.
+
+selectall:    alle auswählen
+withall:      mit den ausgewählten...
+
 experience: Erfahrung
-weapon: Waffe
-armour: Rüstung
-equipment: Ausrüstung
-home: [[missing - original: home]]
+weapon:     Waffe
+armour:     Rüstung
+equipment:  Ausrüstung
+
 npc:
- type: Typ
- name: [[missing - original: name]]
- number: [[missing - original: number]]
- entourage: [[missing - original: entourage member|entourage members]]
- follower: [[missing - original: camp follower|camp followers]]
- scout: Späher|Späher
- prospector: Prospektor|Prospektoren
- merchant: Händler|Händler
- spy: Spion|Spione
- priest: [[missing - original: priest|priests]]
- herald: [[missing - original: herald|heralds]]
- translator: [[missing - original: translator|translators]]
- scholar: [[missing - original: scholar|scholars]]
- soldier: [[missing - original: soldier|soldiers]]
+ type:         Typ
+ scout:        Späher|Späher
+ prospector:   Prospektor|Prospektoren
+ merchant:     Händler|Händler
+ spy:          Spion|Spione
+
+
 soldier:
- type: Typ
- home: home
- group: group
- name: Name
- train: Training
- complete: ungefähr fertig
- assigned_to: [[missing - original: assigned to]]
- assigned_since: [[missing - original: assigned since]]
- reclaim: [[missing - original: reclaim chance]]
- buryall: [[missing - original: bury all dead]]
- resupplyall: [[missing - original: resupply all]]
- light infantry: light infantry|light infantry
- medium infantry: medium infantry|medium infantry
- heavy infantry: heavy infantry|heavy infantry
- archer: Bogenschütze|Bugenschützen
- mounted archer: mounted archer|mounted archers
- cavalry: [[missing - original: cavalry|cavalry]]
- noble: [[missing - original: noble|nobles]]
+ type:             Typ
+ home:             home
+ group:            group
+ name:             Name
+ train:            Training
+ complete:         ungefähr fertig
+ archer:           Bogenschütze|Bugenschützen
+ conscript:        Rekrut|Rekruten
+ crossbow archer:  crossbow archer|crossbow archers
+ heavy cavalry:    heavy cavalry|heavy cavalry
+ heavy infantry:   heavy infantry|heavy infantry
+ hunter:           Jäger|Jäger
+ knight:           Ritter|Ritter
+ light cavalry:    light cavalry|light cavalry
+ light infantry:   light infantry|light infantry
+ longbow archer:   longbow archer|longbow archers
+ medium infantry:  medium infantry|medium infantry
+ mounted archer:   mounted archer|mounted archers
+ peasant:          Bauer|Bauern
+ pikeman:          pikeman|pikemen
+ spearman:         Speerträger|Speerträger
+
 item:
- none: [[missing - original: (none)]]
- choose: [[missing - original: -- choose --]]
- current: [[missing - original: (current)]]
- axe: Axt
- broadsword: Breitschwert
- chainmail: Kettenrüstung
- cloth armour: cloth armour
- crossbow: crossbow
- horse: Pferd
- improvised: improvisiert
- javelin: [[missing - original: javelin]]
- leather armour: leather armour
- longbow: longbow
- pike: pike
- plate armour: plate armour
- scale armour: scale armour
- shield: [[missing - original: shield]]
- shortbow: shortbow
- short sword: [[missing - original: short sword]]
- spear: Speer
- sword: Schwert
- war horse: [[missing - original: war horse]]
-events:
- title: [[missing - original: Event Journals]]
- log: [[missing - original: Journal]]
- type: [[missing - original: type]]
- logtitle: [[missing - original: Event Journal of %subject%]]
- from: [[missing - original: available from]]
- until: [[missing - original: available until]]
- events: [[missing - original: events]]
- new: [[missing - original: new]]
- read: [[missing - original: read]]
- allread: [[missing - original: mark as read for all my characters]]
- alldone: [[missing - original: marked as read for all your characters]]
- research:
-  ongoing: [[missing - original: A scholar of yours is currently researching older records in this journal.|%amount% of your scholars are currently researching older records in this journal.]]
-  intro: [[missing - original: There are more events in older records, a scholar will be able to research them.]]
-  can: [[missing - original: You have a scholar available for research work.|You have %amount% scholars available for research work.]]
- filter:
-  all: [[missing - original: all events]]
-  medium: [[missing - original: only interesting]]
-  high: [[missing - original: only important]]
-  ultra: [[missing - original: only very important]]
+ axe:              Axt
+ broadsword:       Breitschwert
+ chainmail:        Kettenrüstung
+ cloth armour:     cloth armour
+ crossbow:         crossbow
+ horse:            Pferd
+ improvised:       improvisiert
+ leather armour:   leather armour
+ longbow:          longbow
+ pike:             pike
+ plate armour:     plate armour
+ scale armour:     scale armour
+ shortbow:         shortbow
+ spear:            Speer
+ sword:            Schwert
+
+messages:
+ inbox:         an Euch gesendete Nachrichten
+ sent:          Nachrichten, die Ihr gesendet habt
+ unread:        Ihr habt %number% ungelesene Nachrichten.
+ createdby:     begonnen von
+ participants:  Teilnehmer
+ you:           Ihr
+
+
 interaction:
  message:
-  name: Empfänger
-  subject: Thema
-  body: Inhalt
-  submit: Brief absenden
- attack:
-  name: [[missing - original: target(s)]]
-  submit: [[missing - original: initiate attack]]
- publication:
-  name: [[missing - original: new member(s)]]
- abdicate:
-  name: [[missing - original: announce as successor:]]
-  submit: [[missing - original: abdicate]]
-battle:
- title: [[missing - original: Battle Report]]
- upcoming: [[missing - original: Upcoming Battle]]
- participants: [[missing - original: participants]]
- location:
-  nowhere: [[missing - original: Neverwhere battle.]]
-  of: [[missing - original: The battle of %location%.]]
-  near: [[missing - original: A battle near %location%.]]
- initial: [[missing - original: initial troops]]
- combat: [[missing - original: combat]]
- ranged:
-  title: [[missing - original: ranged phase]]
-  shots: [[missing - original: %i% shot fired|%i% shots fired]]
-  hits: [[missing - original: %i% hit|%i% hits]]
-  kill: [[missing - original: %i% enemy killed|%i% enemies killed]]
-  wound: [[missing - original: %i% enemy wounded|%i% enemies wounded]]
-  routed: [[missing - original: %i% enemy routed|%i% enemies routed]]
- melee:
-  title: [[missing - original: melee phase %i%]]
-  alive: [[missing - original: %i% soldier fighting|%i% soldiers fighting]]
-  kill: [[missing - original: %i% enemy killed|%i% enemies killed]]
-  wound: [[missing - original: %i% enemy wounded|%i% enemies wounded]]
-  panic: [[missing - original: %i% enemy routed|%i% enemies routed]]
- hunt:
-  title: [[missing - original: hunt]]
-  killed: [[missing - original: %i% enemy was killed while fleeing|%i% enemies were killed while fleeing]]
-  wounded: [[missing - original: %i% enemy was wounded during the rout|%i% enemies were wounded during the rout]]
-  dropped: [[missing - original: %i% soldier dropped his equipment to run away faster|%i% soldiers dropped their equipment to run faster]]
- finish: [[missing - original: survivors]]
- fate:
-  title: [[missing - original: fate of nobles]]
-  killed: [[missing - original: %character% was killed.]]
-  wounded: [[missing - original: %character% was wounded.]]
-  victory: [[missing - original: %character% was victorious.]]
-  retreat: [[missing - original: %character% retreated.]]
-description:
- scout: [[missing - original: Usually a fleet-footed peasant with good eyes, the scout will search the nearby area for anything unusual, notifying his noble of any finds.<br /> Scouts increase your spotting range. The more scouts you have, the farther away you notice details of the land and other characters.
-]]
- prospector: [[missing - original: An expert in surveying and estimating, the prospector allows you to get data on the local economy and its capabilities. One prospector is enough, though you can choose to have more than one, just in case.
-]]
- merchant: [[missing - original: Just like a sword is best met with a sword, and a thief with a thief, merchants are useful for setting up trade deals without being robbed blind by the middle men.<br /> One merchant is needed (and will stay behind) for each time you want to close a trade deal with more profitable transaction costs.
-]]
- spy: [[missing - original: Spies are versatile experts in subterfuge and information gathering, allowing you to infiltrate an enemy (or friendly, if you are so inclined) settlement and gather details about its military or political status.
-]]
- priest: [[missing - original: description TODO
-]]
- herald: [[missing - original: Announcer and runner for a noble, who is not only practically a requirement if you want to be taken seriously as a major player in politics and diplomacy, he also allows you to send messages at spotting, rather than interaction distance.
-]]
- translator: [[missing - original: A scribe trained in foreign languages, the translator allows you to send messages to nobles who do not speak or understand your language. One translator is enough, though you can choose to have more than one, just in case.
-]]
- scholar: [[missing - original: Trained in the arts of reading and writing, documentation and a dozen other arts and techniques that a proper noble cares little about, the scholar can at times be useful to gather and sort information and old documents.<br /> His main use is to discover more about the history of people and places.
-]]
- follower: [[missing - original: Camp followers are people following the soldiers in your army. They can be professionals, such as smiths, cooks or whores, or they can be relatives and family members of the soldiers. Camp followers allow your army to carry additional supplies and reserves, making resupply in the field possible.
-]]
- axe: [[missing - original: An old and fairly primitive weapon, nevertheless both deadly and common on the battlefield.]]
- broadsword: [[missing - original: A heavy and sturdy sword designed more for massive impact force than speed.]]
- chainmail: [[missing - original: Interlocking metal rings providing impressive armor and yet fairly low weight.]]
- cloth armour: [[missing - original: Reinforced clothing, basically several layers of thick cloth. Does not really make much of a difference against real weapons, but can help against weak or glancing blows.]]
- crossbow: [[missing - original: Technically advanced ranged weapon that requires less training than a bow and provides more accurate power, but requires longer loading times.]]
- horse: [[missing - original: Riding horse trained to suffer through the heat of battle without too much complaining.]]
- improvised: [[missing - original: Farm tools, other tools, big sticks - anything that was lying around and just might hurt someone.]]
- javelin: [[missing - original: A short spear, balanced for throwing. One-use weapon that gives melee troops a small amount of ranged power.]]
- leather armour: [[missing - original: Hardened leather in multiple layers, slightly hindering movement but providing considerable protection.]]
- longbow: [[missing - original: The ultimate one-man ranged weapon, requiring long training and strong arms to use. Can pierce even solid metal armor at great distances.]]
- pike: [[missing - original: A long pole-arm weapon with a blade and point, easy to learn and often the first serious weapon for conscripts to pick up.]]
- plate armour: [[missing - original: The ultimate in armor protection, consisting of solid metal plates covering every part of the body, interlocked and reinforced.]]
- scale armour: [[missing - original: A mixture of metal and leather, the scale armor has a solid leather body with numerous metal plates overlayed, affording more freedom of movement than more solid metal armors.]]
- shield: [[missing - original: A primitive and yet highly efficient defensive choice, a shield protects against both melee and ranged attacks.]]
- shortbow: [[missing - original: A very common type of bow, used mainly for hunting but quite effective against lightly armored enemies, too.]]
- spear: [[missing - original: Another simple and common weapon, popular due to its considerable reach.]]
- sword: [[missing - original: Rare among the lower ranks, common amongst the nobility and those who can afford proper weaponsmiths.]]
- short sword: [[missing - original: A smaller sidearm to be used mostly as a fallback melee option for ranged troops, or as reserve weapon.]]
- war horse: [[missing - original: A large and heavy horse, specifically trained for battle and equipped with horse armor.]]
-about:
- title: Über Might & Fealty
- intro: Einleitung
- concept: Philosophie
- gameplay: Das Spiel
- tech: Technologie
-paymentconcept: [[missing - original: Payment Concept]]
-fiction:
- title: Might & Fealty Geschichten
- header: Diese Sammlung von Mythen, Legendn und Kurzgeschichten ist zu deiner Unterhaltung, sowie um die Atmosphäre und Hintergrundwelt lebend werden zu lassen.
+  name:     Empfänger
+  subject:  Thema
+  body:     Inhalt
+  submit:   Brief absenden
 
+
+about:
+ title:     Über Might & Fealty
+ intro:     Einleitung
+ concept:   Philosophie
+ gameplay:  Das Spiel
+ tech:      Technologie
+
+manual:
+ title:     Handbuch
+
+fiction:
+ title:   Might & Fealty Geschichten
+ header: >
+   Diese Sammlung von Mythen, Legendn und Kurzgeschichten ist zu deiner Unterhaltung, sowie um die Atmosphäre und
+   Hintergrundwelt lebend werden zu lassen.
  intro:
-  title: Einleitung
-  text: <p>Die folgenden Geschichte sind alle Teil der fiktiven Spielwelt, in Form von Legenden und Mythen, die dein Charakter zu hören bekommen könnte oder bereits kennt.</p> <p>Geschichten werden oft erzählt oder gesungen und weniger gelesen, da die meisten Bauern weder lesen noch schreiben können. In der Welt von Might & Fealty herrscht vor allem mündliche Überlieferung, obwohl viele der älteren oder bekannteren Legenden von Schriftgelerten niedergeschrieben wurden. Es gibt natürlich auch Autoren und Schreiben, auch wenn die meisten ihrer Werke eher aufgeführt als gelesen werden.</p>
+  title:  Einleitung
+  text: >
+    <p>Die folgenden Geschichte sind alle Teil der fiktiven Spielwelt, in Form von Legenden und Mythen, die dein Charakter
+    zu hören bekommen könnte oder bereits kennt.</p>
+    <p>Geschichten werden oft erzählt oder gesungen und weniger gelesen, da die meisten Bauern weder lesen noch schreiben
+    können. In der Welt von Might & Fealty herrscht vor allem mündliche Überlieferung, obwohl viele der älteren oder
+    bekannteren Legenden von Schriftgelerten niedergeschrieben wurden. Es gibt natürlich auch Autoren und Schreiben, auch
+    wenn die meisten ihrer Werke eher aufgeführt als gelesen werden.</p>
  untranslated: Tut uns leid, aber diese Geschichte wurde noch nicht ins Deutsche übersetzt.
  page:
   fall: Der Fall des Tymetras
-  creation: [[missing - original: Creation]]
-  lendan: [[missing - original: The Lendan Stones]]
-  geas: [[missing - original: The Ancient Geas]]
-manual:
- title: Handbuch
- intro: [[missing - original: introduction]]
- background: [[missing - original: background]]
- videos: [[missing - original: videos]]
- basics: [[missing - original: basic concepts]]
- knight: [[missing - original: playing a knight]]
- lord: [[missing - original: playing a lord]]
- ruler: [[missing - original: playing a ruler]]
- others: [[missing - original: other roles]]
- characters: [[missing - original: characters]]
- battles: [[missing - original: battles]]
- relations: [[missing - original: marriage and relations]]
- fealty: [[missing - original: oaths of fealty]]
- soldiers: [[missing - original: soldiers]]
- entourage: [[missing - original: entourage]]
- settlements: [[missing - original: settlements]]
- realms: [[missing - original: realms]]
- travel: [[missing - original: travel]]
- trade: [[missing - original: trade & tribute]]
- politics: [[missing - original: politics]]
- diplomacy: [[missing - original: diplomacy]]
- elections: [[missing - original: elections]]
- messages: [[missing - original: messages]]
- publications: [[missing - original: publications]]
- history: [[missing - original: history & events]]
- permissions: [[missing - original: permission system]]
- prison: [[missing - original: captivity]]
- reference: [[missing - original: reference]]
- units: [[missing - original: units of measurement]]
- test: [[missing - original: test instance]]
-list:
- buildingtypes: [[missing - original: list of all building types]]
- featuretypes: [[missing - original: list of all feature types]]
- entouragetypes: [[missing - original: list of all entourage members]]
- equipmenttypes: [[missing - original: list of all equipment]]
-editor:
- help: [[missing - original: formatting help]]
- preview:
-  title: [[missing - original: preview]]
-  intro: [[missing - original: Here's what the message will look like:]]
- syntax: [[missing - original: <p>Our editor uses a subset of the <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> syntax.</p> <p>Simply write your text as you would write plain text and it will usually come out the way you want it.</p> <p>The one quirk you should be aware of is that single newlines are ignored, if you want to force a linebreak, add two or more spaces to the end of the line before hitting enter.</p>
-]]
+

@@ -29,8 +29,8 @@ The quickstart instructions for translating are:
 * Translate the string following the colon :
 * Keep words in %% symbols untranslated, they are keywords.
 * If there is a pipe | symbol, it means the string has a singular (before the pipe) and plural (after the pipe)
-* For most single words or short phrases, if at all possible find an equivalent in your language that is roughly the same length. These terms may be used on buttons, in tables or other places where replacing "help" with "kontextsensitive unterstüzende Informationen" might break the layout.
 * In case of doubt, ask. In the above, for example, Y-m-d is a dateformat string and should be reformated according to your locale, but not translated, and "Might & Fealty" is, of course, a name and thus should also be kept unchanged
+
 
 So the german translation for the above would be:
 
