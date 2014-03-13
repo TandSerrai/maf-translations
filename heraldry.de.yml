@@ -30,41 +30,41 @@ design:
 warning:
  needname:	 Bitte gib Deinem Entwurf einen Namen.
  needshield: Du mußt einen Schild für Dienen Entwurf wählen.
- nopatterncolour: If you have a pattern, you also need to select a pattern colour.
- nochargecolour: If you have a charge, you also need to select a charge colour.
- simple:		Your design is too simple. Choose at least either a pattern or a charge, or both.
- same:		Both of your elemens share the same colour, making it hard to spot. Choose different colours.
- metals:		According to the law of tincture, metals should not be placed on metals. Change one of your metals to a colour.
- colours:	According to the law of tincture, colours should not be placed on colours. Change one of your colours to a metal.
- taken:		This design has already been choosen by someone else.
+ nopatterncolour: Wenn Du einen Pattern verwendest mußt Du auch eine Farbe für Deinen Pattern wählen.
+ nochargecolour: Wenn Du eine Charge verwendest mußt Du auch eine Farbe für Deine Charge wählen.
+ simple:		Dein Entwurf ist zu simpel. Wähle entweder einen Pattern oder eine Charge oder beides.
+ same:		Beide Deiner Elemente haben die gleiche Farbe - das würde Dein Wappen schwer erkennbar machen. Wähle bitte verschiedene Farben. 
+ metals:		Nach dem Brauch der Tinktur sollten Metalle nicht über Metallen verwendet werden. Ändere eines Deiner Metalle in eine Farbe. 
+ colours:	Nach dem Brauch der Tinktur sollten Farben nicht über Farben verwendet werden. Ändere eine Deiner Farben in ein Metall.
+ taken:		Dieser Entwurf wird bereits von jemandem anderen verwendet.
 
 
-badge: badge 
-french: french 
-german: german 
-italian: italian 
-polish: polish 
-spanish: spanish 
-swiss: swiss 
+badge: Oval
+french: französische Form
+german: deutsche Form
+italian: italienische Form
+polish: polnische Form
+spanish: spanische Form
+swiss: schweizer Form 
 
-base: base 
-bend: bend 
-bend_sinister: bend sinister 
-chevron: chevron 
-chief: chief 
-cross: cross 
-fess: fess 
-flaunches: flaunches 
-gryon: gryon 
-pale: pale 
-per_bend: per bend 
-per_bend_sinister: per bend sinister 
-per_chevron: per chevron 
-per_fess: per fess 
-per_pale: per pale 
-per_saltire: per saltire 
-pile: pile 
-quarterly: quarterly 
+base: Schildfuß
+bend: Schrägbalken 
+bend_sinister: Schrägrechtsbalken
+chevron: Sparren 
+chief: Schildhaupt 
+cross: Kreuz 
+fess: Balken 
+flaunches: Flaunches
+gryon: Ständerung 
+pale: Pfahl 
+per_bend: Schrägrechtsteilung 
+per_bend_sinister: Schräglinksteilung
+per_chevron: Göpel
+per_fess: geteilt 
+per_pale: gespalten 
+per_saltire: schräge Vierung
+pile: Deichsel 
+quarterly: Vierung 
 saltire: saltire 
 shakefork: shakefork 
 
@@ -74,7 +74,7 @@ arm_cubit_habited: arm cubit habited
 arm_cubit_in_armor: arm cubit in armor
 arm_embowed_in_armor: arm embowed in armor
 battle_axe: battle axe
-bear_head_couped: bear head couped
+bear_head_couped: bear head schwebend
 bear_head_erased: bear head erased
 bear_head_muzzled: bear head muzzled
 bear_passant: bear passant
@@ -111,7 +111,7 @@ horse_courant: horse courant
 horse_passant: horse passant
 horse_rampant: horse rampant
 javelin: javelin
-lion_rampant: lion rampant
+lion_rampant: steigender Löwe
 lynx_coward: lynx coward
 martlet_volant: martlet volant
 pegasus_passant: pegasus passant
