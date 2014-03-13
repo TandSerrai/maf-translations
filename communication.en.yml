@@ -30,8 +30,8 @@ event:
   disrepair:    The %buildingtype% has broken down beyond repair and must be considered lost.
   attacked:     The settlement is being attacked by troops of %character%.
   battle:       A %battle% was fought.
-  entered:      %character% has been noticed arriving.
-  entered2:     %character% has been noticed arriving with %soldiers% soldiers.
+  entered:      %character% has entered the settlement.
+  entered2:     %character% has entered the settlement with %soldiers% soldiers.
   left:         %character% has been seen leaving.
  character:
   created:      First mention in family chronicle.
