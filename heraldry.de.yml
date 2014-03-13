@@ -127,3 +127,34 @@ wolf_passant: Wolf, schreitend
 wolf_rampant: Wolf, steigend
 wolf_salient: Wolf, springend
 wolf_statant: Wolf, stehend
+
+label:
+ name:		Name
+ shield:		Schild
+ shieldc:	Schildfarbe
+ pattern:	Muster
+ patternc:	Musterfarbe
+ charge:		Wappen
+ chargec:	Wappenfarbe
+ shading:	Schattierung
+
+metal:			Metalle
+colours:			Farben
+argent:			Silber
+or:				Gold
+azure:			lapislazuli
+blue celeste:	azurit
+gules:			zinnober
+murrey:			maulbeer
+purpure:			purpur
+sable:			zobel
+sanguine:		blutrot
+tenne:			brandbraun
+vert:				giftgrün
+cendree:			aschfarben
+
+blazon:
+ and:			und
+ over:		über allem
+ a:			ein
+ an:			ein

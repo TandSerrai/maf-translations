@@ -127,3 +127,34 @@ wolf_passant: wolf passant
 wolf_rampant: wolf rampant
 wolf_salient: wolf salient
 wolf_statant: wolf statant
+
+label:
+ name:		name
+ shield:		shield
+ shieldc:	shield color
+ pattern:	pattern
+ patternc:	pattern color
+ charge:		charge
+ chargec:	charge color
+ shading:	shading
+
+metal:			metals
+colours:			colors
+argent:			argent
+or:				or
+azure:			azure
+blue celeste:	blue celeste
+gules:			gules
+murrey:			murrey
+purpure:			purpure
+sable:			sable
+sanguine:		sanguine
+tenne:			tenne
+vert:				vert
+cendree:			cendrée
+
+blazon:
+ and:			and
+ over:		over all
+ a:			a
+ an:			an
