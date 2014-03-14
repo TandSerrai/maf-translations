@@ -242,20 +242,21 @@ workforce:   forza lavoro
 inheritance: eredità
 nobody:      nessuno
 
-scrub:        boscaglia
-thin scrub:   boscaglia rada
-grass:        prateria
-thin grass:   prateria rada
-marsh:        palude
-forest:       foresta
-dense forest: foresta fitta
-snow:         montagne innevate
-rock:         montagna
-desert:       deserto
-ocean:        oceano
-lake:         lago
-water:        lago
-river:        fiume
+biome:
+ scrub:        boscaglia
+ thin scrub:   boscaglia rada
+ grass:        prateria
+ thin grass:   prateria rada
+ marsh:        palude
+ forest:       foresta
+ dense forest: foresta fitta
+ snow:         montagne innevate
+ rock:         montagna
+ desert:       deserto
+ ocean:        oceano
+ lake:         lago
+ water:        lago
+ river:        fiume
 
 error:
  notfound:

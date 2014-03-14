@@ -517,20 +517,21 @@ inheritance: Erbschaft
 nobody: niemand
 #underconstruction: ((missing translation - original: under construction))
 #finished: ((missing translation - original: finished))
-scrub: Buschland
-thin scrub: dünnes Buschland
-grass: Grasebene
-thin grass: dünne Grasebene
-marsh: Sumpf
-forest: Wald
-dense forest: dichter Wald
-snow: verschneite Berge
-rock: Bergland
-desert: Wüste
-ocean: Ozean
-lake: See
-water: See
-river: Fluss
+biome:
+ scrub: Buschland
+ thin scrub: dünnes Buschland
+ grass: Grasebene
+ thin grass: dünne Grasebene
+ marsh: Sumpf
+ forest: Wald
+ dense forest: dichter Wald
+ snow: verschneite Berge
+ rock: Bergland
+ desert: Wüste
+ ocean: Ozean
+ lake: See
+ water: See
+ river: Fluss
 error:
 # title: ((missing translation - original: Error))
  notfound:
