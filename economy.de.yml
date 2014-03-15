@@ -1,9 +1,9 @@
-#req: ((missing translation - original: requires))
-#reqfor: ((missing translation - original: required for))
-#provides: ((missing translation - original: provides))
-#provider: ((missing translation - original: provided by %building%))
-#trainer: ((missing translation - original: trained at %building%))
-#trainingfor: ((missing translation - original: training for %item%))
+#req: benötigt
+#reqfor: benötigt für
+#provides: ermöglicht
+#provider: bereitgestellt von %building%
+#trainer: ausgebildet in %building%
+#trainingfor: Ausbildung für %item%
 #bonus: ((missing translation - original: production bonus))
 #defbonus: ((missing translation - original: defensive bonus))
 feature:
