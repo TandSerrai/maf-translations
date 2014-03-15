@@ -362,6 +362,8 @@ summary:
  events:  Recent Events
  nobody:  no nearby nobles spotted
  nothing: no recent events
+ fullread:  mark all as read
+ fullread2: mark all as read for all my characters
 
 character:
  name:    Name
@@ -771,6 +773,7 @@ events:
  read:      read
  allread:   mark as read for all my characters
  alldone:   marked as read for all your characters
+ alldone2:  marked as read for this character
  research:
   ongoing:  A scholar of yours is currently researching older records in this journal.|%amount% of your scholars are currently researching older records in this journal.
   intro:    There are more events in older records, a scholar will be able to research them.

@@ -121,8 +121,27 @@ location:
    2ndrealms:   second-level realms
    majorrealms: major realms of the world
   description:  Visit the scholars and cartographers at the local library.
-  unavailable:
-   nolibrary:   This settlement does not have a library.
+  unavailable:  This settlement does not have a library.
+ temple:
+  name:         Visit Temple
+  intro: >
+    The local temple of %settlement% keeps a record of births and deaths, allowing you to trace back 
+    the settlements development into time.<br />
+    The priests have prepared a nice graph for you. As they explain, the height of the line shows the population, and the
+    far right is yesterday, while the line further to the left goes into the past, with the number at the bottom showing how
+    many days into the past.
+  description:  Visit the local temple and its priests.
+  unavailable:  This settlement does not have a temple.
+ barracks:
+  name:         Inspect Barracks
+  intro: >
+    Thanks to local barracks of %settlement% providing housing for its soldiers, it can also keep a record of militia
+    within the settlement.<br />
+    A clerk has prepared a nice graph for you. As he explains, the height of the line shows the number of militia in the
+    settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the 
+    left goes into the past, with the number at the bottom showing how many days into the past.
+  description:  Inspect the local barracks and soldier records.
+  unavailable:  This settlement does not have barracks.
 nearby:
  spy:
   name:         Spy on a noble
