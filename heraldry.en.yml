@@ -107,6 +107,7 @@ fluer_de_lis: fluer de lis
 fox_mask: fox mask
 fox_passant: fox passant
 fox_sejant: fox sejant
+hind: hind
 horse_courant: horse courant
 horse_passant: horse passant
 horse_rampant: horse rampant
@@ -115,9 +116,17 @@ lion_rampant: lion rampant
 lynx_coward: lynx coward
 martlet_volant: martlet volant
 pegasus_passant: pegasus passant
+reindeer: reindeer
 scymitar: scymitar
 serpent_nowed: serpent nowed
 squirrel_sejant_erect: squirrel sejant erect
+stag-atgaze: stag at gaze
+stag-lodged: stag lodged
+stag-springing: stag springing
+stag-statant: stag statant
+stag-trippant: stag trippant
+stagshead-caboshed: stags head caboshed
+stagshead-erased: stags head erased
 sun_in_splendor: sun in splendor
 sword: sword
 unicorn_rampant: unicorn rampant

@@ -108,6 +108,7 @@ fluer_de_lis: Lilie
 fox_mask: Fuchs, Anlitz
 fox_passant: Fuchs, schreitend
 fox_sejant: Fuchs, sitzend
+hind: Hirschkuh
 horse_courant: Pferd, gallopierend
 horse_passant: Pferd, schreitend
 horse_rampant: Pferd, steigend
@@ -116,9 +117,17 @@ lion_rampant: Löwe, steigend
 lynx_coward: Luchs, furchtsam
 martlet_volant: Amsel, im Flug
 pegasus_passant: Pegasus, schreitend
+reindeer: Rentier
 scymitar: Säbel
 serpent_nowed: Schlange, geknoted
 squirrel_sejant_erect: Eichhörnchen, aufrecht sitzend
+stag-atgaze: Hirsch, schauend
+stag-lodged: Hirsch, liegend
+stag-springing: Hirsch, springend
+stag-statant: Hirsch, stehend
+stag-trippant: Hirsch, schreitend
+stagshead-caboshed: Hirschkopf, frontal
+stagshead-erased: Hirschkopf, abgerissen
 sun_in_splendor: Sonne, strahlend
 sword: Schwert
 unicorn_rampant: Einhorn, steigend
