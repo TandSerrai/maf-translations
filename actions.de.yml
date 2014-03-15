@@ -1,4 +1,4 @@
-#queued: ((missing translation - original: The action has been added to your orders queue.))
+queued: Die Aktion wurde deiner Befehlsliste hinzugefügt.
 unavailable:
 # intro: ((missing translation - original: Sorry, but this action is not currently available, because:))
 # already: ((missing translation - original: You are already conducting this action.))

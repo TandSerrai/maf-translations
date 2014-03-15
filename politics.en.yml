@@ -7,9 +7,9 @@ status:
   independent:	You are an independent lord.
   vassal:			  You are a vassal of %liege%.
   ruler:  			You are the ruler of %realm%
-  realm:        You are a member of %realm%
+  realm:        You are a member of %realm%.
   ultimate:     You are an independent leader, but have not formed a realm yet.
-  liege:        Liege of %character%.
+  liege:        Liege of:
   position:     %position% of %realm%.
  other:
   landless:			%He% is a landless knight.
@@ -18,7 +18,7 @@ status:
   ruler:	   		%He% is the ruler of %realm%
   realm:        %He% is a member of %realm%
   ultimate:     %He% is an independent leader, but has not formed a realm yet.
-  liege:        Liege of %character%.
+  liege:        Liege of:
  realm:
   independent:  %name% is an independent realm.
   ultimate:     %name% is a sovereign realm (top of its hierarchy).

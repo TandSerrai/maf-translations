@@ -1,28 +1,28 @@
 status:
  self:
-#  landless: ((missing translation - original: You are a landless knight.))
-#  independent: ((missing translation - original: You are an independent lord.))
-#  vassal: ((missing translation - original: You are a vassal of %liege%.))
-#  ruler: ((missing translation - original: You are the ruler of %realm%))
-#  realm: ((missing translation - original: You are a member of %realm%))
-#  ultimate: ((missing translation - original: You are an independent leader, but have not formed a realm yet.))
-#  liege: ((missing translation - original: Liege of %character%.))
-#  position: ((missing translation - original: %position% of %realm%.))
+  landless: 		Du bist ein Ritter ohne Land.
+  independent: 	Du bist ein freier Herr.
+  vassal: 			Du bist Vasall von %liege%.
+  ruler:				Du bist Herrscher von %realm%
+  realm:				Du gehörst zu %realm%
+  ultimate:			Du bist ein freier Anführer, hast aber noch kein Reich gegründet.
+  liege:				Lehnsherr von:
+  position:     %position% von %realm%.
  other:
-#  landless: ((missing translation - original: %He% is a landless knight.))
-#  independent: ((missing translation - original: %He% is an independent lord.))
-#  vassal: ((missing translation - original: %He% is a vassal of %liege%.))
-#  ruler: ((missing translation - original: %He% is the ruler of %realm%))
-#  realm: ((missing translation - original: %He% is a member of %realm%))
-#  ultimate: ((missing translation - original: %He% is an independent leader, but has not formed a realm yet.))
-#  liege: ((missing translation - original: Liege of %character%.))
+  landless:			%He% ist ein Ritter ohne Land.
+  independent:		%He% ist ein freier Herr.
+  vassal:			%He% ist Vasall von %liege%.
+  ruler:				%He% ist Herrscher von %realm%
+  realm:				%He% gehört zu %realm%
+  ultimate:			%He% ist ein freier Anführer, der noch kein Reich gegründet hat.
+  liege:				Lehnsherr von:
  realm:
-#  independent: ((missing translation - original: %name% is an independent realm.))
-#  ultimate: ((missing translation - original: %name% is a sovereign realm (top of its hierarchy).))
-#  second: ((missing translation - original: %name% is a part of %ultimate%.))
-#  inferior: ((missing translation - original: %name% is a part of %superior% and both are parts of %ultimate%.))
-#  partof: ((missing translation - original: , part of %superior%))
-#  myinferiors: ((missing translation - original: Realms that are a part of %name%))
+  independent:  %name% ist ein unabhängiges Reich.
+  ultimate:     %name% ist ein souveränes Reich (Spitze seiner Hierarchie).
+  second:       %name% ist Teil von %ultimate%.
+  inferior:     %name% ist Teil von %superior% und beide gehören zu %ultimate%.
+  partof:       Teil von %superior%
+  myinferiors:  Reiche, die zu %name% gehören
 unavailable:
 # leader: ((missing translation - original: As the ruler of a realm, you cannot do this. Manage the allegiance of your realm instead.))
 # notleader: ((missing translation - original: You are not the ruler of this realm.))
@@ -227,29 +227,29 @@ realm:
 # details: ((missing translation - original: Realm Details))
 # size: ((missing translation - original: size))
  type:
-#  1: ((missing translation - original: barony))
-#  2: ((missing translation - original: county))
-#  3: ((missing translation - original: march))
-#  4: ((missing translation - original: duchy))
-#  5: ((missing translation - original: kingdom))
-#  6: ((missing translation - original: empire))
+  1: Baronie
+  2: Grafschaft
+  3: Mark
+  4: Fürstentum
+  5: Königreich
+  6: Imperium
  title:
   male:
-#   0: ((missing translation - original: knight))
-#   1: ((missing translation - original: baron))
-#   2: ((missing translation - original: count))
-#   3: ((missing translation - original: marquess))
-#   4: ((missing translation - original: duke))
-#   5: ((missing translation - original: king))
-#   6: ((missing translation - original: emperor))
+   0: Ritter
+   1: Baron
+   2: Graf
+   3: Markgraf
+   4: Fürst
+   5: König
+   6: Imperator
   female:
-#   0: ((missing translation - original: dame))
-#   1: ((missing translation - original: baroness))
-#   2: ((missing translation - original: countess))
-#   3: ((missing translation - original: marquise))
-#   4: ((missing translation - original: duchess))
-#   5: ((missing translation - original: queen))
-#   6: ((missing translation - original: empress))
+   0: Freifrau
+   1: Baronin
+   2: Gräfin
+   3: Markgräfin
+   4: Fürstin
+   5: Königin
+   6: Imperatorin
 position:
 # name: ((missing translation - original: title))
 # description: ((missing translation - original: formal description))

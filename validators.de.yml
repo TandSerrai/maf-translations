@@ -1,6 +1,9 @@
+# Might & Fealty
+# validation text strings - german
+# Author: Tom Vogt <tom@mightandfealty.com>
 password:
  old: 		falsches derzeitiges Kennwort
- minlength: [0,Inf]Dein Kennwort muß mindestens 6 Zeichen lang sein
+ minlength: '[0,Inf]Dein Kennwort muß mindestens 6 Zeichen lang sein'
  match: 		neues Kennwort und Kennwortbestätigung stimmen nicht überein
 realm:
  new:
