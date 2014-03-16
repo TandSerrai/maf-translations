@@ -1,32 +1,34 @@
-#req: ((missing translation - original: requires))
-#reqfor: ((missing translation - original: required for))
-#provides: ((missing translation - original: provides))
-#provider: ((missing translation - original: provided by %building%))
-#trainer: ((missing translation - original: trained at %building%))
-#trainingfor: ((missing translation - original: training for %item%))
-#bonus: ((missing translation - original: production bonus))
-#defbonus: ((missing translation - original: defensive bonus))
+req: benötigt
+reqfor: benötigt von
+provides: ermöglicht
+provider: ermöglicht von %building%
+trainer: ausgebildet von %building%
+trainingfor: bildet %item% aus
+bonus: Produktionsbonus
+defbonus: Verteidigungsbonus
+
 feature:
-# name: ((missing translation - original: Name))
-# none: ((missing translation - original: (none)))
-# bridge: ((missing translation - original: Bridge))
-# tower: ((missing translation - original: Watchtower))
-# borderpost: ((missing translation - original: Border Post))
-# signpost: ((missing translation - original: Sign Post))
-# docks: ((missing translation - original: Docks))
+ name: Name
+ none: (kein)
+ bridge: Brücke
+ tower: Wachturm
+ borderpost: Grenzposten
+ signpost: Wegweiser
+ docks: Anleger
+
 building:
-# Academy: ((missing translation - original: Academy))
-# Alchemist: ((missing translation - original: Alchemist))
-# Archery Range: ((missing translation - original: Archery Range))
-# Archery School: ((missing translation - original: Archery School))
-# Armourer: ((missing translation - original: Armorer))
-# Armoury: ((missing translation - original: Armory))
-# Bank: ((missing translation - original: Bank))
-# Barracks: ((missing translation - original: Barracks))
-# Blacksmith: ((missing translation - original: Blacksmith))
-# Bowyer: ((missing translation - original: Bowyer))
-# Carpenter: ((missing translation - original: Carpenter))
-# Citadel: ((missing translation - original: Citadel))
+ Academy: Akademie
+ Alchemist: Alchemist
+ Archery Range: Bogenschießplatz
+ Archery School: Bogenschießschule
+ Armourer: Rüstungsmacher
+ Armoury: Waffenkammer
+ Bank: Bank
+ Barracks: Kaserne
+ Blacksmith: Schmied
+ Bowyer: Bogenmacher
+ Carpenter: Schreiner
+ Citadel: Zitadelle
 # City Hall: ((missing translation - original: City Hall))
 # Dirt Streets: ((missing translation - original: Dirt Streets))
 # Fairground: ((missing translation - original: Fairground))
@@ -63,11 +65,25 @@ building:
 # Wood Towers: ((missing translation - original: Wood Towers))
 # Wood Wall: ((missing translation - original: Wood Wall))
 description:
-# bridge: ((missing translation - original: Bridges provide the necessary means to cross rivers, even with an army or heavy equipment. They are often important strategic points.))
-# tower: ((missing translation - original: The watch tower provides an elevated spot to watch for nearby activity. They do not serve as defensive structures and are not fortified.<br /> Whenever a watchtower is within your spotting distance, you automatically gain access to the towers spotting circle as your scouts use the tower to increase their own range.<br /> Watch towers have a spotting range of 1000 m.))
-# borderpost: ((missing translation - original: Sometimes just a border marker, such as a boundary stone, and sometimes a toll booth and small guard post, no matter the appearance, the border post shows where one crosses into a different territory.<br /> Border posts are mostly used as meeting points of roads between settlements.))
-# signpost: ((missing translation - original: Marked with directions, signposts are usually posted near crossroads or intersections. It also works the other way around: Where a signpost is, a trail and then a road often follows, as people follow the direction signs.<br /> Sign posts are spots that you can use to build roads to and from.))
-# docks: ((missing translation - original: Landing and embarkation location for ships and naval travel.<br /> Docks allow travellers to switch between land and ocean travel.))
+ bridge: >
+   Brücken erlauben es, Flüße zu überqueren, selbst mit einer Armee oder schwerer Ausrüstung. Sie sind oft strategisch 
+   wichtige Bauwerke.
+ tower: >
+   Der Wachturm bietet einen erhöhten Punkt um die Umgebung im Auge zu behalten. Er ist keine Verteidigungsanlage, weil er
+   nicht befestigt ist.<br />
+   Wenn ein Wachturm in Deiner Sichtweite ist, bekommst Du automatisch Zugang zur Sichtweite des Wachturms, weil Deine Späher ihn
+   benutzen, um ihre eigene Übersicht zu verbessern.
+ borderpost: >
+  Der Grenzposten kann nur ein Grenzstein sein, oder ein kleiner Posten mit Zollhäuschen und einigen Grenzern. Welche Form er
+  auch annimmt, er markiert den Übergang zwischen zwei Territorien.<br />
+  Grenzposten dienen hauptsächlich als Übergangspunkte für Straßen zwischen zwei Siedlungen.
+ signpost: >
+  Wegweiser sind mit Richtungen beschriftet und stehen meist an Kreuzungen. Das gilt auch umgekehrt: Wo ein Wegweiser ist, treffen
+  oft Straßen aufeinander, weil die Menschen den Richtungsschildern folgen.<br />
+  Wegweiser sind Punkte, die für den Straßenbau wichtig sind.
+ docks: >
+  Ein Anleger erlaubt es, Schiffen anzulegen, von denen aus dann in See gestochen werden kann.<br />
+  Dieses Bauwerk erlaubt es, zwischen See- und Landreisen zu wechseln.
 # Academy: ((missing translation - original: Merging the knowledge of the university and the practical experience of the greatest military minds creates the great academy, where new strategies and tactics are discovered.))
 # Alchemist: ((missing translation - original: Usually set at the edge of the settlement, the alchemist is always expected to blow up spectacularily, but in reality most of his experiments are far less dangerous or spectacular. While much of the research done here is of questionable quality, there is the occasional poison or interesting substance discovered.))
 # Archery Range: ((missing translation - original: A reserved spot with targets and some wood walls to catch misfires. A place for archers to train and learn how to draw, aim and fire. Required if you want to train any kind of archers.))

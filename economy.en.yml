@@ -76,8 +76,7 @@ description:
    The watch tower provides an elevated spot to watch for nearby activity. They do not serve as defensive
    structures and are not fortified.<br />
    Whenever a watchtower is within your spotting distance, you automatically gain access to the towers spotting
-   circle as your scouts use the tower to increase their own range.<br />
-   Watch towers have a spotting range of 1000 m.
+   circle as your scouts use the tower to increase their own range.
  borderpost: >
    Sometimes just a border marker, such as a boundary stone, and sometimes a toll booth and small guard post,
    no matter the appearance, the border post shows where one crosses into a different territory.<br />
