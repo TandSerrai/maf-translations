@@ -651,5 +651,6 @@ meta:
   intro: >
     Here you can assign the <a href="%url%">heraldic crests</a> that you have created to your character.<br />
     A character can only have one crest, it identifies him and/or his family, dynasty or other group he belongs to.
+  remove:       use no crest
   submit:       assign crest
   nocrests:     You do not have any crests available. Follow the link above to design crests for your characters.

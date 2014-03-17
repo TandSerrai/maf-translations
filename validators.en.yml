@@ -49,6 +49,8 @@ recruit:
 road:
  same:		That is an interesting idea, but seriously, start and destination of a road should be different.
  exists:		That road already exists.
+ invalid:   The workers are very sorry and await your judgement, but they were unable to find a connection between those two points that would not cross through water or other impassable terrain.
+
 
 attack:
  nobody:		You need to select at least one target to attack.

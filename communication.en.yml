@@ -33,6 +33,8 @@ event:
   entered:      %character% has entered the settlement.
   entered2:     %character% has entered the settlement with %soldiers% soldiers.
   left:         %character% has been seen leaving.
+ travel:
+  cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
  character:
   created:      First mention in family chronicle.
   start:        Has appeared at %settlement%.
