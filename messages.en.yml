@@ -591,6 +591,7 @@ newmessages:  %number% message|%number% messages
 inside:       inside %place%
 atsea:        at sea
 tradename:    name (optional)
+zoom:         zoom to fit
 
 distance:    distance
 length:      length
