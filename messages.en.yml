@@ -358,10 +358,11 @@ newcharacter:
 
 
 summary:
- title:   Recent Events & Messages
- events:  Recent Events
- nobody:  no nearby nobles spotted
- nothing: no recent events
+ title:     Recent Events & Messages
+ events:    Recent Events
+ nobody:    no nearby nobles spotted
+ nobattles: no battles nearby
+ nothing:   no recent events
  fullread:  mark all as read
  fullread2: mark all as read for all my characters
 
@@ -580,6 +581,7 @@ base:         (base: %distance%)
 nearest:      nearest settlement
 nothingnear:  no nearby settlement
 nearbyothers: Nearby Nobles
+nearbattles:  Nearby Battles
 viewdetails:  view details
 none:         none
 yes:          yes
@@ -823,6 +825,7 @@ battle:
   kill:         %i% enemy killed|%i% enemies killed
   wound:        %i% enemy wounded|%i% enemies wounded
   panic:        %i% enemy routed|%i% enemies routed
+  capture:      %i% enemy noble captured|%i% enemy nobles captured
  hunt:          
   title:        hunt
   killed:       %i% enemy was killed while fleeing|%i% enemies were killed while fleeing
@@ -835,6 +838,7 @@ battle:
   wounded:      %character% was wounded.
   victory:      %character% was victorious.
   retreat:      %character% retreated.
+  captured:     %character% captured by the enemy
 
 description:
  scout: >
