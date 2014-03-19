@@ -444,6 +444,7 @@ settlement:
  dummy:   Click a settlement on the map to show its details here.
  area:  %name% area
  type:  type
+ fortified: fortified
  size:
   1:		hamlet
   2:		small village

@@ -155,6 +155,7 @@ control:
   description:  Declare your lordship over these people and make this settlement yours.
   unavailable:
    yours:       You already control this settlement.
+   fortified:   You cannot take control of a fortified settlement from the outside.
   intro: >
     In order to command the resources and population of this %type%, you need to take control of it first.<br />
     This process simply takes time. In a small settlement, you simply convince the people directly, while in larger settlements you
