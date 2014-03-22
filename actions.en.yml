@@ -114,7 +114,8 @@ location:
   name:         Library
   intro: >
     At the library of %settlement%, scrolls and maps are available for your perusal. The local scholars and cartographers have collected
-    data not readily available unless curated.
+    data not readily available unless curated.<br />
+    <i>(for maximum usefulness, when you click on the maps you get a full-size image. Use your browsers "back" button to return to this page.)</i>
   maps:
    name:        Maps
    allrealms:   all realms of the world
@@ -163,6 +164,11 @@ control:
     The amount of time required depends on the settlement size and on forces supporting and/or opposing you. This includes the local militia,
     which will automatically oppose you.<br />
     Taking control of this settlement will take an estimated %time%, if nobody else interferes.
+  newbie: >
+    Are you absolutely sure you know what you are doing? This is a <i>hostile action</i> on a settlement owned by another player.
+    Your character is new in the game and could easily <i>be killed</i> in retaliation.<br />
+    Unless you are certain and know what you are doing, talking to the settlement owner via the <a href="%url%">messages tab</a>
+    is very likely a much better idea.
   owned:        This settlement is currently controlled by %owner%.
   others: 
    title:       Other Control attempts
@@ -260,12 +266,16 @@ control:
     As lord of %settlement%, you can determine how the settlement officials should treat others, if they should allow them
     into the settlement at all, if they can use the resources of the settlement to resupply or even pick up recruits.<br />
     To make everything more accessible, this system uses the <a href="%listsurl%">lists system</a> to define permission owners.
+  general:      general permissions
+  specific:     specific permissions
+  spawn:        allow new characters to spawn here?
   submit:       set new permissions
   success:      Your new permissions have been saved.
 
 military:
  name:          military actions
  all:           all military actions
+ other:         other military actions
  disengage:
   name:         Disengage
   description:  try to avoid the upcoming battle.
@@ -511,8 +521,10 @@ recruit:
   submit:       recruit
   cancel:       cancel
   canceldone:   Training of %name% (%type%) cancelled.
-  cancelinfo:   You can stop training, which will send the recruits back into the settlement workforce.
-  aftercancel:  Training times and supplies will be updated when you visit the training center the next time.
+  cancelinfo:   You can stop training, which will send the recruits back into the militia or settlement workforce.
+  aftercancel:  Training times, supplies and the militia list above will be updated when you visit the training center the next time.
+  returns:      will return to militia
+  disbands:     will return to workforce
   supply:       Due to a lack of equipment, only %only% of %planned% planned recruits could be added.
  warning:
   over25percent:  You are recruiting a considerable share of your population into military service. These peasants will no longer be available for construction, farming or production. Make sure you can handle the consequences.

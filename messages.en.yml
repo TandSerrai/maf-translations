@@ -366,6 +366,23 @@ summary:
  fullread:  mark all as read
  fullread2: mark all as read for all my characters
 
+first:
+ title:     Welcome to Might & Fealty
+ liege: >
+   You have accepted the knight offer of %liege% and are now his vassal. This settlement belongs to %liege%, so you are in
+   friendly territory at this time.<br />
+   Talk to your liege first to find out what the current political situation is and where you are needed. A welcome message
+   should be below. Also make yourself familiar with your troops and the surrounding area.
+ free: >
+   You have decided to begin as an independent noble. This is a hard and challenging path. One of the first things you will
+   want to do is check out the surrounding area, find out who owns the settlement you spawned in, and talk to him or her.<br />
+   You have no troops and no income at this time, so finding allies should be your first priority. Serve a lord as a knight
+   until you can secure an estate for yourself, for example.
+ manual: >
+   Might & Fealty being a slow game, don't expect much action on your first turn. If you haven't yet, check out 
+   <a href="%manual%">the game manual</a> for more information and basic concepts. There's also a link at the top, so you
+   can check the manual for reference at any time.
+
 character:
  name:    Name
  gender:  Gender
@@ -622,7 +639,7 @@ food:        food
 wood:        wood
 metal:       metal
 goods:       goods
-money:       gold
+money:       wealth
 
 background:  background
 estate:      estate|estates
@@ -799,6 +816,7 @@ interaction:
   submit:   initiate attack
  publication:
   name:     new member(s)
+  submit:   add member(s)
  abdicate:
   name:     announce as successor:
   submit:   abdicate
@@ -941,6 +959,7 @@ manual:
  ruler:       playing a ruler
  others:      other roles
  characters:  characters
+ economy:     economy
  battles:     battles
  relations:   marriage and relations
  fealty:      oaths of fealty
