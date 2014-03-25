@@ -34,6 +34,8 @@ event:
   entered2:     %character% has entered the settlement with %soldiers% soldiers.
   left:         %character% has been seen leaving.
   spot:         A watchtower spotted %character% in the vicinity.
+  spot2:        A watchtower spotted a ship nearby.
+  spot3:        A watchtower spotted %character% in the vicinity, with %count% soldiers.
  travel:
   cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
  character:
@@ -41,6 +43,7 @@ event:
   start:        Has appeared at %settlement%.
   renamed:      Has changed name from "%oldname%" to "%newname%".
   death:        Died.
+  death2:       Died in battle.
   child:        Had a child, %character%.
   inherit:
    estate:      Inherited the settlement %settlement% from %character%.
@@ -56,6 +59,8 @@ event:
   succeeds:     Has gained rulership of %realm% through the abdication of %character%.
   liegedied:    Your liege %character% has died. This dissolves your oath of fealty.
   liegedied2:   Your liege %character% has died. This dissolves your oath of fealty and has turned you into a wandering noble with no realm affiliation.
+  spot:         Your scouts spotted %character% in the vicinity.
+  spot2:        Your scouts spotted %character% in the vicinity, with %count% soldiers.
   proposed:
    marriage:    You have received a marriage proposal from %character%. Accept or decline it on the relations page.
    engagement:  You have received a proposal to become engaged to %character%. Accept or decline it on the relations page.
@@ -194,6 +199,7 @@ news:
  members:   members of this publication:
  reader:    publications you are reading:
  local:     locally published:
+ local2:    local publications
  owner:     owner
  editor:    editor
  author:    author
