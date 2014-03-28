@@ -36,7 +36,11 @@ oppose:
  submit:        oppose
  success:
   settlement:
-   take:        You are now opposing the attempt of %character% to take control of %target%.
+   take: >
+     You are now opposing the attempt of %character% to take control of %target%.<br />
+     Note that this alone will <i>not prevent</i> their action. It will delay it, giving you time
+     for more decisive actions such as attacking them.<br />
+     You can monitor the progress of the control attempt in your action queue.
 either:
  submit:        support/oppose
  invalid:
@@ -63,7 +67,7 @@ queue:
  details:       details
  up:            up
  down:          down
- cancel:        cancel
+ cancel:        cancel action
  cancelled:     this action has been cancelled
  support:       support action
  oppose:        oppose action
@@ -126,7 +130,7 @@ location:
  temple:
   name:         Visit Temple
   intro: >
-    The local temple of %settlement% keeps a record of births and deaths, allowing you to trace back 
+    The local temple of %settlement% keeps a record of births and deaths, allowing you to trace back
     the settlements development into time.<br />
     The priests have prepared a nice graph for you. As they explain, the height of the line shows the population, and the
     far right is yesterday, while the line further to the left goes into the past, with the number at the bottom showing how
@@ -139,7 +143,7 @@ location:
     Thanks to local barracks of %settlement% providing housing for its soldiers, it can also keep a record of militia
     within the settlement.<br />
     A clerk has prepared a nice graph for you. As he explains, the height of the line shows the number of militia in the
-    settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the 
+    settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the
     left goes into the past, with the number at the bottom showing how many days into the past.
   description:  Inspect the local barracks and soldier records.
   unavailable:  This settlement does not have barracks.
@@ -170,14 +174,14 @@ control:
     Unless you are certain and know what you are doing, talking to the settlement owner via the <a href="%url%">messages tab</a>
     is very likely a much better idea.
   owned:        This settlement is currently controlled by %owner%.
-  others: 
+  others:
    title:       Other Control attempts
    intro: >
      The following nobles are also currently trying to take control of this settlement. Without diplomacy or battle, this will likely result in
      a mess of conflicting claims resolving over time. If you want to succeed, you will almost certainly have to make them all stop,
      either by convincing them or by attacking them.<br />
      Your other alternative is supporting someone else, which will speed up their process of taking the settlement.
-  others2: 
+  others2:
    title:       Enemy Control attempts
    intro: >
      The following nobles are currently trying to take control of this settlement. You should almost certainly oppose each of them.
@@ -185,11 +189,11 @@ control:
     Defending forces are making it more difficult to raise your banner. Attacking and culling them first might speed up your action.
   undefended: >
     There are no defending forces at this settlement, making it very easy and quick to take control.
-  realm:        in the name of 
+  realm:        in the name of
   submit:       take control
   success:      You are now in the process of taking control of this settlement. The process will take an estimated %time%, though this estimate will change with the support or opposition of other nobles.
   fail:
-   defended:    This settlement is defended. Attack and defeat the defending forces first.  
+   defended:    This settlement is defended. Attack and defeat the defending forces first.
  takeX:
   name:         defend against taking
   description:  Your estate is currently being claimed by others, oppose them.
@@ -250,8 +254,8 @@ control:
     This should be used sparingly, as it would be unrealistic to change all the time. It also makes a lot more sense to
     communicate with your neighors and set up cultural areas.<br />
     <br />
-    The central european is available to everyone. Additional cultures can be bought on your account page (Credits and Gifts). 
-    If you conquer a settlement belonging to a culture you do not own, it will retain its culture, but you can only change 
+    The central european is available to everyone. Additional cultures can be bought on your account page (Credits and Gifts).
+    If you conquer a settlement belonging to a culture you do not own, it will retain its culture, but you can only change
     settlements to cultures you own.
   newculture:   new culture
   success: >
@@ -322,7 +326,7 @@ military:
      and anyone choosing to defend. If you are victorious, you have forced your way into the settlement, and actions such as taking control of the
      settlement for yourself or attacking nobles inside will appear.<br />
      <i>Once initiated, battles cannot be cancelled. Once you are committed, you are committed. Decide wisely.</i>
-   submit:      attack!  
+   submit:      attack!
    success:     Your soldiers are preparing for the attack and will commence battle shortly.
    reminder:    Remember that in order to not just attack, but also take control of the settlement, you need to issue a <a href="%url%">%take%</a> action as well.
    unavailable:
@@ -346,7 +350,7 @@ military:
      outside a settlement, you cannot attack nobles inside a settlement, you will have to attack the settlement to get inside.<br />
      <i>Once initiated, battles cannot be cancelled. Once you are committed, you are committed. Decide wisely.</i>
    success: >
-     You are now engaging the enemy and battle prepartions are being made on both sides, estimated time until the battle will commence is %time%, 
+     You are now engaging the enemy and battle prepartions are being made on both sides, estimated time until the battle will commence is %time%,
      but could change as you and/or the enemy get more support.<br />
      Your enemy has been notified of the impending attack.
   join:
@@ -463,7 +467,7 @@ economy:
      never deal with an individual shipment, only with long-term supply.
    foreign: >
      You can offer this settlement trade or tribute from any of your estates, with shipments beginning immediately.<br />
-     Unless you are offering tribute, you will usually insist on a reciprocal deal, but someone has to make the first move. 
+     Unless you are offering tribute, you will usually insist on a reciprocal deal, but someone has to make the first move.
      Trust is the most valuable currency of trade.<br />
      All deals are constant supply deals - they last until they are changed or cancelled. As a lord, you
      never deal with an individual shipment, only with long-term supply.
@@ -626,8 +630,8 @@ meta:
   secrets:
    name:        Goals & Secrets
    desc: >
-     This field is for your notes and any information you have learnt that you want to remember that your 
-     character knows, as well as any ambitions and future plans. They are for you and in order to give meaning to 
+     This field is for your notes and any information you have learnt that you want to remember that your
+     character knows, as well as any ambitions and future plans. They are for you and in order to give meaning to
      your character.<br />
      <em>Secrets are just that, and visible only to you.</em>
   death:

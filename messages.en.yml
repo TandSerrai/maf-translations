@@ -344,7 +344,7 @@ newcharacter:
    All characters are <a href="%firstoneurl%">First Ones</a> and begin the game as fully trained and equipped knights.
  limit:     You can create %limit% more living character today.|You can create %limit% more living characters today.
  limited:   You cannot create new living characters anymore today. You will get more available character slots every real-life day.
- spawnlimit:  <b>You currently have several unspawned characters. Please start playing them first, before you create more characters.</b>
+ spawnlimit:  You currently have several unspawned characters. Please start playing them first, before you create more characters.
  accountlimit:  You are currently playing %active% of %limit% possible characters.
  overlimit: You already have as many characters as your current subscription level allows. If you want to create additional characters, you will need to raise your subcription level first.
  help:
@@ -381,7 +381,9 @@ first:
  manual: >
    Might & Fealty being a slow game, don't expect much action on your first turn. If you haven't yet, check out 
    <a href="%manual%">the game manual</a> for more information and basic concepts. There's also a link at the top, so you
-   can check the manual for reference at any time.
+   can check the manual for reference at any time.<br />
+   Lastly, Might & Fealty is a game where communication with other players is very important. Check out the messages section
+   and start talking with characters around you.
 
 character:
  name:    Name
@@ -750,6 +752,7 @@ soldier:
  buryall:          bury all dead
  resupplyall:      resupply all
 
+ rabble:           rabble|rabble
  light infantry:   light infantry|light infantry
  medium infantry:  medium infantry|medium infantry
  heavy infantry:   heavy infantry|heavy infantry

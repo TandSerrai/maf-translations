@@ -164,6 +164,9 @@ resolution:
  defend:
   success:      %settlement% is being attacked. As ordered, your troops are rallying to defend it. The battle is expected to occur in %time%.
   removed:      You are no longer defending %settlement%, because you have moved too far away from it.
+ disengage:
+  success:      You have successfully evaded a battle.
+  failed:       Your attempt to evade a battle has failed.
  research:
   complete:     The journal of %log% has been completely researched.
  enter:
