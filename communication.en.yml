@@ -114,6 +114,10 @@ event:
   lost2:        Lost ownership of %settlement% to %realm%.
   abdicated:    %character-1% has abdicated and handed control of the realm to %character-2%.
   abdicated2:   %character-1% has abdicated without a successor.
+  position:
+   appointed:    Appointed %realmposition% in %realm%.
+   demoted:      Demoted from %realmposition% in %realm%.
+   elected:      Elected %realmposition% in %realm%.
  subrealm:
   founded:      Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.
 
@@ -128,6 +132,7 @@ report:
 politics:
  oath:
   offer:      %character% has accepted one of your knight offers and become your knight.
+  offer2:     %character% has accepted your knight offer in %settlement% and become your knight.
   taken:      Has appeared as a knight of %character% at %settlement%.
   broken:     %character% has broken the oath of fealty to you and become a rogue.
   nowruler:   %character% has become ruler of %realm% and is thus no longer a vassal.

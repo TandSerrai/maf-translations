@@ -88,11 +88,14 @@ elections:
  submit:        create election
 
 votes:
- link:          view votes
+ link:          cast/view votes
+ link2:         view votes
  name:          Election "%name%"
- intro: >
-   This election within %realm% will end on %complete%.
+ intro:         This election within %realm% will end on %complete%. Votes are counted %type%.
+ intro2:        This election within %realm% has been closed. Votes have been counted %type%. The winner was %winner%.
+ intro3:        This election within %realm% has ended without a winner.
  forposition:   This election will grant the position of %position% to the winner.
+ forposition2:  This election has granted the position of %position% to the winner.
  list:          Candidates & Votes
  candidate:     candidate
  pro:           in favor

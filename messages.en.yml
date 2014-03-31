@@ -611,6 +611,7 @@ travelling:   travelling
 newevents:    %number% event|%number% events
 newmessages:  %number% message|%number% messages
 inside:       inside %place%
+prisoner:     prisoner of %captor%
 atsea:        at sea
 tradename:    name (optional)
 zoom:         zoom to fit

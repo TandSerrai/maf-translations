@@ -18,6 +18,7 @@ unavailable:
  inbattle:       You are already involved in a battle.
  nobattle:       You are not involved in any battle.
  nobattle2:      You are not being forced into any battle, but have committed yourself.
+ intercepted:    You already tried to disengage from this battle, and failed.
  noprisoners:    You don't have any prisoners
  prisoner:       You are a prisoner and have only very limited actions available.
  notmember:      You are not a member of this realm.
@@ -595,8 +596,8 @@ recruit:
     but it means you can be trusting with new knights, for example, because you can take your men back if they turn out
     to be cowards or traitors.
   submit:       reclaim soldiers
-  success:      After issuing your orders, %return% of your soldiers return (they have been assigned to group %group%). %lost% soldiers decided to stay with their new masters.
-  fail:         You issue your orders, but none of your former soldiers return to you, all %lost% of them stay with their new masters.
+  success:      After issuing your orders, %return% of your soldiers return (they have been assigned to group %group%). %lost% soldiers decided not to come back.
+  fail:         You issue your orders, but none of your former soldiers return to you, all %lost% of them decided otherwise.
 
 entourage:
  assign:
