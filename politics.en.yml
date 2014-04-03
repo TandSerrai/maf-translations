@@ -4,18 +4,18 @@
 status:
  self:
   landless:			You are a landless knight.
+  landless2:    You are a landless noble.
   independent:	You are an independent lord.
   vassal:			  You are a vassal of %liege%.
-  ruler:  			You are the ruler of %realm%
   realm:        You are a member of %realm%
   ultimate:     You are an independent leader, but have not formed a realm yet.
   liege:        Liege of:
   position:     %position% of %realm%.
  other:
   landless:			%He% is a landless knight.
+  landless2:    %He% is a landless noble.
   independent:	%He% is an independent lord.
   vassal:			  %He% is a vassal of %liege%.
-  ruler:	   		%He% is the ruler of %realm%
   realm:        %He% is a member of %realm%
   ultimate:     %He% is an independent leader, but has not formed a realm yet.
   liege:        Liege of:
@@ -278,7 +278,7 @@ realm:
  language:    official language
  description: description
  designation: designation
- ruler:       ruler
+ ruler:       ruler|rulers
  history:     realm history
  details:     Realm Details
  size:        size
@@ -328,9 +328,13 @@ position:
   intro: >
     You can appoint and discharge officials from this position at any time for any reason. They will, of course, be informed about your decision immediately
     and as simple as the mechanics are, the political consequences of your decisions here could be grave.
+  intro2: >
+    You can appoint new rulers for this realm at any time for any reason. <b>Keep in mind that you cannot demote them again</b>. Once they are
+    appointed, they are your equals in power and neither of you can remove the other from it.
   candidates: candidates
   submit:     announce changes
   done:       Your changes have been completed and announced.
+  nodemoruler:  Rulers cannot be demoted, this change has been ignored.
 
 diplomacy:
  name:         Diplomacy
@@ -539,9 +543,8 @@ perm:
   docks: >
     Allow the use of the docks (if you have them) to embark on sea journeys.
   positions: >
-    Allows the management of positions and their permissions within the realm.<br />
-    <i>Everyone who has this permission can grant and remove positions and permissions at will. He or she will have complete 
-    control over the realm.</i>
+    Allows the management of non-rulership positions and their permissions within the realm. This is a very powerful position as the
+    ability to grant or remove positions puts the holder above everyone, except the ruler(s).
   expel: >
     Expelling estates from the realm will remove them from the realm hierarchy, together with their lords and knights, provided
     these are not linked to the realm through a different estate as well (i.e. to remove a person from the realm, make sure you

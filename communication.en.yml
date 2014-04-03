@@ -57,6 +57,11 @@ event:
   abdicated:    Has abdicated rulership of %realm% and given it to %character%.
   abdicated2:   Has abdicated rulership of %realm% with no successor.
   succeeds:     Has gained rulership of %realm% through the abdication of %character%.
+  appointed:    Was appointed ruler of %realm% by %character%.
+  position:
+   appointed:    Appointed %realmposition% in %realm%.
+   demoted:      Demoted from %realmposition% in %realm%.
+   elected:      Elected %realmposition% in %realm%.
   liegedied:    Your liege %character% has died. This dissolves your oath of fealty.
   liegedied2:   Your liege %character% has died. This dissolves your oath of fealty and has turned you into a wandering noble with no realm affiliation.
   spot:         Your scouts spotted %character% in the vicinity.
@@ -114,10 +119,6 @@ event:
   lost2:        Lost ownership of %settlement% to %realm%.
   abdicated:    %character-1% has abdicated and handed control of the realm to %character-2%.
   abdicated2:   %character-1% has abdicated without a successor.
-  position:
-   appointed:    Appointed %realmposition% in %realm%.
-   demoted:      Demoted from %realmposition% in %realm%.
-   elected:      Elected %realmposition% in %realm%.
  subrealm:
   founded:      Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.
 

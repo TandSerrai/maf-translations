@@ -25,6 +25,7 @@ menu:
  manual:    manual
  vips:      VIPs
  fiction:   fiction
+ challenges: challenges
  community: community
  translator:  translations
  register:  register
@@ -114,6 +115,8 @@ map:
   both:         map and travel
  map:          abstract map
  graphical:    graphical map
+ search:       search for settlement
+ searching:    searching...
  settlements:  settlements
  realms:       major realms
  rivers:       rivers
@@ -270,6 +273,12 @@ account:
   description: >
     If you have not accessed your account for more than 3 weeks, not only will your characters be set to inactive automatically, we
     will also reduce the base fee to %reduced%. After more than 3 months, we automatically reduce it further to %min%.<br />
+    Read more about our <a href="%url%" class="link_ajax">payment concept</a>.
+  description2: >
+    Developing and running Might & Fealty is not free, so we charge a small monthly fee to play.<br />
+    We believe in using a transparent, simple payment system instead of the various "Free2Play" or "Pay2Win" models that nag you about 
+    "premium features" constantly. In Might & Fealty, we want you to enjoy the game to the max without hiding features away into 
+    features you have to pay extra for.<br />
     Read more about our <a href="%url%" class="link_ajax">payment concept</a>.
   link:      Change subscription level
   submit:    change subscription
@@ -927,6 +936,7 @@ about:
  concept:   Philosophy
  gameplay:  Gameplay
  tech:      Technology
+ cost:      Costs
 
 paymentconcept: Payment Concept
 
