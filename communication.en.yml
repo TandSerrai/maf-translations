@@ -10,8 +10,8 @@ event:
   ownership:
    gained:			Has taken control of %settlement%.
    lost:				Has lost control of %settlement%, because it has been taken by %character%.
-  inherited:   Was inherited by %character%.
-  inherifail:  Fell to independence on the death of %character%, who left no heir.
+  inherited:    Was inherited by %character%.
+  inherifail:   Fell to independence on the death of %character%, who left no heir.
   take:
    started:     %character% has initiated actions to take control.
    stopped:     %character% has abandoned attempts to take control.
@@ -22,6 +22,8 @@ event:
   changed:      Allegiance changed to %realm%.
   realm:        Became a founding estate of %realm%.
   subrealm:     Split of to be a part of %realm%.
+  realmfail:    Returned to independence with the failing of %realm%.
+  realmfail2:   Became part of %realm-1% with the failing of %realm-2%.
   autoconstruction: >
     Due to popular demand, the peasants have initiated construction of the %buildingtype% of their own accord.
     %workers% workers have volunteered for the project.
@@ -119,6 +121,7 @@ event:
   lost2:        Lost ownership of %settlement% to %realm%.
   abdicated:    %character-1% has abdicated and handed control of the realm to %character-2%.
   abdicated2:   %character-1% has abdicated without a successor.
+  deserted:     Vanished into history with no members remaining.
  subrealm:
   founded:      Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.
 
