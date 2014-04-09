@@ -2,26 +2,6 @@
 # text strings for actions
 # Author: Tom Vogt <tom@mightandfealty.com>
 queued:         The action has been added to your orders queue.
-unavailable:
- intro:          Sorry, but this action is not currently available, because:
- already:        You are already conducting this action.
- supporting:     You are already supporting someone else in this action.
- atsea:          You are travelling at sea.
- nosettlement:   You are not near any settlement.
- notinside:      You are not inside the settlement.
- nodock:         There are no docks nearby.
- notyours:       The settlement owner has not granted you permission to do this.
- notrain:        No available training options.
- nobody:         No other nobles within range.
- nosoldiers:     You do not have any soldiers.
- nobattles:      There are no battles nearby
- inbattle:       You are already involved in a battle.
- nobattle:       You are not involved in any battle.
- nobattle2:      You are not being forced into any battle, but have committed yourself.
- intercepted:    You already tried to disengage from this battle, and failed.
- noprisoners:    You don't have any prisoners
- prisoner:       You are a prisoner and have only very limited actions available.
- notmember:      You are not a member of this realm.
 
 form:
  choose:  -- choose --

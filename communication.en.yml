@@ -28,6 +28,7 @@ event:
     Due to popular demand, the peasants have initiated construction of the %buildingtype% of their own accord.
     %workers% workers have volunteered for the project.
   tradefail:    Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.
+  starvation:   Starvation has reached serious levels.
   crash:        Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.
   disrepair:    The %buildingtype% has broken down beyond repair and must be considered lost.
   attacked:     The settlement is being attacked by troops of %character%.

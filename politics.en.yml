@@ -27,20 +27,6 @@ status:
   partof:       , part of %superior%
   myinferiors:  Realms that are a part of %name%
 
-unavailable:
- leader:        As the ruler of a realm, you cannot do this. Manage the allegiance of your realm instead.
- notleader:     You are not the ruler of this realm.
- notdiplomat:   You do not hold a position with diplomacy permissions in this realm.
- noothers:      There are no other characters nearby.
- vassal:        You cannot do this as long as you are the vassal of someone else.
- already:       You already have a realm.
- novassals:     You do not have any vassals (your own characters don't count).
- fewestates:    A new realm needs to have at least two estates.
- notvassal:     You are not a vassal.
- toolow:        Your realm is of the lowest designation and thus cannot have subrealms.
- toosmall:      Your realm needs to have at least two estates to split one (or more) off into a subrealm.
- noprisoners:   You don't have any prisoners
-
 relations:
  name:        Relations
  intro: >

@@ -606,6 +606,8 @@ location:     location
 coordinates:  coordinates
 spotdistance: spotting distance
 actdistance:  interaction distance
+travelspeed:  travel speed
+travellocked: Your recent travel was blocked by local actions or battles.
 base:         (base: %distance%)
 nearest:      nearest settlement
 nothingnear:  no nearby settlement
@@ -992,6 +994,7 @@ manual:
  history:       history & events
  permissions:   permission system
  prison:      captivity
+ supply:      army supply
  reference:     reference
  units:       units of measurement
  test:        test instance
@@ -1011,3 +1014,37 @@ editor:
    <p>Our editor uses a subset of the <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> syntax.</p>
    <p>Simply write your text as you would write plain text and it will usually come out the way you want it.</p>
    <p>The one quirk you should be aware of is that single newlines are ignored, if you want to force a linebreak, add two or more spaces to the end of the line before hitting enter.</p>
+
+
+unavailable:
+ intro:          Sorry, but this action is not currently available, because:
+ already:        You are already conducting this action.
+ supporting:     You are already supporting someone else in this action.
+ atsea:          You are travelling at sea.
+ nosettlement:   You are not near any settlement.
+ notinside:      You are not inside the settlement.
+ nodock:         There are no docks nearby.
+ notyours:       The settlement owner has not granted you permission to do this.
+ notrain:        No available training options.
+ nobody:         No other nobles within range.
+ nosoldiers:     You do not have any soldiers.
+ nobattles:      There are no battles nearby
+ inbattle:       You are already involved in a battle.
+ nobattle:       You are not involved in any battle.
+ nobattle2:      You are not being forced into any battle, but have committed yourself.
+ intercepted:    You already tried to disengage from this battle, and failed.
+ noprisoners:    You don't have any prisoners
+ prisoner:       You are a prisoner and have only very limited actions available.
+ notmember:      You are not a member of this realm.
+ leader:        As the ruler of a realm, you cannot do this. Manage the allegiance of your realm instead.
+ notleader:     You are not the ruler of this realm.
+ notdiplomat:   You do not hold a position with diplomacy permissions in this realm.
+ noothers:      There are no other characters nearby.
+ vassal:        You cannot do this as long as you are the vassal of someone else.
+ haverealm:     You already have a realm.
+ novassals:     You do not have any vassals (your own characters don't count).
+ fewestates:    A new realm needs to have at least two estates.
+ notvassal:     You are not a vassal.
+ toolow:        Your realm is of the lowest designation and thus cannot have subrealms.
+ toosmall:      Your realm needs to have at least two estates to split one (or more) off into a subrealm.
+
