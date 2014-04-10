@@ -73,9 +73,6 @@ location:
   name:         Enter settlement
   description:  Peacefully enter the settlement so you have access to its facilities.
   description2: Enter the settlement and bring your captor inside as well.
-  unavailable:
-   inside:      You are already inside.
-   notyours:    As a prisoner, you can only follow your captor or bring him into your own settlements.
   result:
    entered:     You have passed the gates and are now inside %settlement%.
    denied:      Guards at the gates of %settlement% deny you entry. You can force your way in by attacking the settlement, of course.

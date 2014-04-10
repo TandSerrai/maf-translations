@@ -1047,4 +1047,7 @@ unavailable:
  notvassal:     You are not a vassal.
  toolow:        Your realm is of the lowest designation and thus cannot have subrealms.
  toosmall:      Your realm needs to have at least two estates to split one (or more) off into a subrealm.
+ enter:
+  inside:      You are already inside.
+  notyours:    As a prisoner, you can only follow your captor or bring him into your own settlements.
 
