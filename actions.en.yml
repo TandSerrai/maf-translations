@@ -595,8 +595,8 @@ meta:
   appearance:
    name:      Appearance
    desc: >
-    Is what others see when they meet you. You can describe your height and hair color, but also your
-    style of dress or your favorite horse - whatever those who encounter you will recognize and remember.<br />
+    Is what others see when they meet your character. Body, clothing, demeanor, but also favorite horse or constantly present servant - 
+    whatever those who encounter the character will recognize and remember.<br />
     <em>This field is publicly visible on your character page</em>
   personality:
    name:      Personality
