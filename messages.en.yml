@@ -1025,10 +1025,14 @@ unavailable:
  notinside:      You are not inside the settlement.
  nodock:         There are no docks nearby.
  notyours:       The settlement owner has not granted you permission to do this.
+ notyours2:      You do not control this settlement.
  notrain:        No available training options.
  nobody:         No other nobles within range.
  nosoldiers:     You do not have any soldiers.
+ nomilitia:      There are no soldiers available here.
  nobattles:      There are no battles nearby
+ nooffers:       No soldiers or existing offers available.
+ noassigned:     You have no soldiers assigned.
  inbattle:       You are already involved in a battle.
  nobattle:       You are not involved in any battle.
  nobattle2:      You are not being forced into any battle, but have committed yourself.
@@ -1041,13 +1045,27 @@ unavailable:
  notdiplomat:   You do not hold a position with diplomacy permissions in this realm.
  noothers:      There are no other characters nearby.
  vassal:        You cannot do this as long as you are the vassal of someone else.
+ norealms:      You do not belong to any realms.
  haverealm:     You already have a realm.
  novassals:     You do not have any vassals (your own characters don't count).
  fewestates:    A new realm needs to have at least two estates.
  notvassal:     You are not a vassal.
  toolow:        Your realm is of the lowest designation and thus cannot have subrealms.
  toosmall:      Your realm needs to have at least two estates to split one (or more) off into a subrealm.
+ attacking:     you are busy attacking the nearby settlement.
+ defending:     you are busy defending the nearby settlement.
+ both:          You cannot both attack and defend at the same time.
  enter:
-  inside:      You are already inside.
-  notyours:    As a prisoner, you can only follow your captor or bring him into your own settlements.
+  inside:       You are already inside.
+  notyours:     As a prisoner, you can only follow your captor or bring him into your own settlements.
+ location:
+  library:      This settlement does not have a library.
+  temple:       This settlement does not have a temple.
+  barracks:     This settlement does not have barracks.
+  yours:        You already control this settlement.
+  fortified:    You cannot take control of a fortified settlement from the outside.
+  nodefenders:  There are no troops defending this settlement, you can simply take it.
+ trade:
+  noestate:     You do not have any estates with which to trade.
+  nooptions:    There are no possible trade/tribute deals you could make at this location.
 

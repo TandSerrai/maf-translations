@@ -104,7 +104,6 @@ location:
    2ndrealms:   second-level realms
    majorrealms: major realms of the world
   description:  Visit the scholars and cartographers at the local library.
-  unavailable:  This settlement does not have a library.
  temple:
   name:         Visit Temple
   intro: >
@@ -114,7 +113,6 @@ location:
     far right is yesterday, while the line further to the left goes into the past, with the number at the bottom showing how
     many days into the past.
   description:  Visit the local temple and its priests.
-  unavailable:  This settlement does not have a temple.
  barracks:
   name:         Inspect Barracks
   intro: >
@@ -124,7 +122,6 @@ location:
     settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the
     left goes into the past, with the number at the bottom showing how many days into the past.
   description:  Inspect the local barracks and soldier records.
-  unavailable:  This settlement does not have barracks.
 nearby:
  spy:
   name:         Spy on a noble
@@ -136,9 +133,6 @@ control:
  take:
   name:         take control
   description:  Declare your lordship over these people and make this settlement yours.
-  unavailable:
-   yours:       You already control this settlement.
-   fortified:   You cannot take control of a fortified settlement from the outside.
   intro: >
     In order to command the resources and population of this %type%, you need to take control of it first.<br />
     This process simply takes time. In a small settlement, you simply convince the people directly, while in larger settlements you
@@ -178,8 +172,6 @@ control:
  changerealm:
   name:         Change realm allegiance.
   description:  Decide to which of your realms this settlement is aligned.
-  notyours:     You do not control this settlement.
-  norealms:     You do not belong to any realms.
   intro: >
     As the owner of %settlement%, you decide which realm it is considered to belong to. While this is a simple
     matter of declaration to change, the political consequences can be massive, so consider them well.<br />
@@ -196,7 +188,6 @@ control:
  grant:
   name:         grant control
   description:  Hand over control over these people to another noble.
-  notyours:     You do not control this settlement.
   intro: >
     Settlements you control can be handed off to someone else.<br />
     Note that this does <em>not</em> make the recipient your vassal automatically. This action merely hands
@@ -292,8 +283,6 @@ military:
    submit:      set up defenses
    queued: >
      Your soldiers are now preparing for an attack, and are ready to defend.
-   unavailable:
-    attacking:  You cannot both attack and defend at the same time.
 
   attack:
    name:        attack settlement
@@ -307,10 +296,6 @@ military:
    submit:      attack!
    success:     Your soldiers are preparing for the attack and will commence battle shortly.
    reminder:    Remember that in order to not just attack, but also take control of the settlement, you need to issue a <a href="%url%">%take%</a> action as well.
-   unavailable:
-    yours:      You already control this settlement.
-    nodefenders: There are no troops defending this settlement, you can simply take it.
-    defending:  You cannot both attack and defend at the same time.
   loot:
    name:        loot settlement
    description: plunder this settlement for valuables and resources.
@@ -348,9 +333,6 @@ military:
   name:           block area
   description:    prevent others from passing through.
   longdesc:       deploy your forces to block others from passing through your action range. Most effective at choke points like bridges.
-  unavailable:
-   attacking:     you are busy attacking the nearby settlement.
-   defending:     you are busy defending the nearby settlement.
 
 economy:
  name:          settlement economy actions
@@ -421,7 +403,7 @@ economy:
   cannotbuild:  not buildable
   submit:       assign workers
   abandon:      abandon
-  unavailable:
+  error:
    population:  The settlement needs a population of at least %content%.
    prerequisite: %content% required before this building can be constructed.
    already:     This building has already been constructed or is currently under construction.
@@ -434,9 +416,6 @@ economy:
   name:        Trade/Tribute Deals
   owner:       Review and propose trade deals of this settlement.
   foreign:     Offer trade deals to this foreign settlement
-  unavailable:
-   noestate:   You do not have any estates with which to trade.
-   nooptions:  There are no possible trade/tribute deals you could make at this location.
   intro:
    owned: >
      As the lord of this settlement, you can review all trade and tribute deals, and of course change or cancel existing
@@ -517,13 +496,8 @@ recruit:
   name:         manage militia
   description:  Equip or pick up militia from this settlement.
   recruit:      recruit
-  unavailable:
-   none:        There are no soldiers available here.
  cancel:
   name:         cancel training
-  unavailable:
-   norecruit:   not a recruit
-   nothere:     not a recruit at this settlement
  manage:
   intro: >
     Here you can manage your soldiers, depending on their current status. You can only resupply troops if their equipment is available in this
@@ -544,8 +518,6 @@ recruit:
  offers:
   name:         knights offers
   description:  Set aside soldiers to offer to new knights swearing allegiance to you.
-  unavailable:
-   none:        No soldiers or existing offers available.
   intro: >
     Knights are lower nobles who fight in your name, using your soldiers. To attract new knights to your banner, you can set aside
     soldiers on your estate(s) that are available immediately to any knight on the condition of his loyalty.<br />
@@ -564,8 +536,6 @@ recruit:
   delete:       retract offer
  assigned:
   name:         assigned soldiers
-  unavailable:
-   none:        You have no soldiers assigned.
   description:  Review and reclaim soldiers assigned to knights.
   intro: >
     Soldiers you recently assigned to knights or settlements can be reclaimed as their loyalty still lies with you.<br />
