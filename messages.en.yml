@@ -262,7 +262,7 @@ account:
   gifts:    Making gifts to friends
   giftdesc: >
     You can make gifts to friends in the form of credits. Be it because you just like them, or they don't have a credit card
-    or any of the other payment options, or because you want to invite them to test out the game.
+    or any of the other payment options, or for whatever other reason.
   history:  Credit History
  sub:
   title:     Subscription
@@ -323,19 +323,50 @@ account:
   intro: >
     You can make gifts to friends in the form of credits. Be it because you just like them, or they don't have a credit card
     or any of the other payment options, or for whatever other reason you have.<br />
-    On this page, you can make a gift to an existing player. Simply enter any amount of credits below and they will be moved from
-    your account to his or hers.<br />
-    <i>Please note that you cannot undo this transaction, all gifts are final.</i>
+    You need to know your friends e-mail address for this. We will generate a code and send it to both you and your friend. If your friend
+    doesn't want the gift, you can simply use the code yourself to take it back.
+  email:    send to e-mail
+  credits:  amount of credits
+  text:     text to include in e-mail
+  invite:   invite your friend
+  gift:     make this gift
  invite:
   link:     Invite with a gift
   title:    Invite a friend
   intro: >
     You can invite your friends to the game and if they aren't sure they will love it, sweeten it by sending them some starting credits.<br />
     This will send an invitation e-mail to them, with a special invite code. Your credits will be put into escrow and used only if your
-    friend actually signs up with the game. Until (s)he does, you can cancel the invite at any time and get your credits back.<br />
+    friend actually signs up with the game. Until (s)he does, you can cancel the invite at any time by using the code yourself (you will
+    get a copy of the mail, including the code).<br />
+    <br />
     And since we like new players, you will get up to half of your credits back if your friend likes the game and becomes a subscriber. Yes,
     you can have your cake and eat it, too.<br />
-    <small>(you will get half of your gift or half of your friends' first subscription, whatever is lower)</small>
+    <small>(You will get half of your gift or half of your friends' first subscription, whatever is lower. Limit of one code per new subscriber.)</small>
+  success: >
+    An invitation e-mail has been sent to your friend (and you in cc).<br />
+    When the code for %credits% credits gets redeemed and your friend later subscribes, you will get half of either it or the subscription value 
+    of your friend credited to your account automatically.<br />
+    You can also redeem the code yourself to cancel the invite.
+  mail:
+   subject:   Might & Fealty Friend Invite
+   body: >
+     <p>Your friend (cc'ed in this e-mail) has invited you to play Might & Fealty. And to sweeten the deal, or maybe as a 
+     bribe to support some in-game ambitions, who knows, this invite comes with a code for <b>%credits% credits</b>. He also sent this message:</p>
+     <hr /><p>%message%</p><hr />
+     <p>Join your friend in creating history, check out the game here:</p>
+     <p><a href="http://mightandfealty.com/">Might & Fealty</a></p>
+     <p>or sign up directly through this link:</p>
+     <p><a href="http://mightandfealty.com/register/">registration</a></p>
+     <p>If you register with this e-mail address, the game will automatically redeem the invite gift code for you. If not, 
+     simply enter the code below under "get more credits" after registration.</p>
+     <p><b>%code%</b></p>
+     <p>Welcome to Might & Fealty - come and create history with us!</p>
+  mail2:
+   subject:   Might & Fealty Friend Subscription
+   body: >
+     <p>Your friend with the e-mail address %mail% has made his first subscription. Since your invite helped win this new player to the game,
+     we have credited your account with %credits% credits, as promised.<p>
+     <p>Thank you so much for helping the game become bigger and better.</p>
 
 newcharacter:
  title: Create Character
