@@ -75,7 +75,7 @@ registration:
  notyet:  Please follow our announcements on the forum, as registration are currently disabled.
  intro: >
    Welcome to Might & Fealty - we are looking forward to your story and experience.<br />
-   <div class="success">Join now and get <b>14 days of free game time</b> to explore the world of Might & Fealty 
+   <div class="success">Join now and get <b>30 days of free game time</b> to explore the world of Might & Fealty 
    while you decide if this is the game for you.</div>
  direct: >
    Please supply the required information below.<br />
@@ -470,6 +470,15 @@ character:
     You can also select any non-independent settlement from the map below, and negotiate with its lords to get soldiers or how else
     to begin your quest. This is an advanced option only recommended if none of the above are available or you are looking for something
     special to start.
+
+achievements:
+ title:       achievements
+ type:
+  battles:    battles fought
+  kills:
+   soldiers:  mortal soldiers slain
+   nobles:    nobles slain in battle
+ captures:    nobles captured
 
 politics:
  hierarchy: hierarchy
