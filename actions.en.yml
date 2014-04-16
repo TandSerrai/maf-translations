@@ -381,8 +381,8 @@ economy:
   never:        never
   submit:       update work orders
  build:
-  name:         settlement construction
-  description:  Organize the construction of important infrastructure buildings.
+  name:         Buildings
+  description:  Construction and management of important infrastructure buildings.
   intro: >
     While the peasants will take care of most of the infrastructure as they need it, you can also
     order the construction of buildings before they emerge naturally.<br />
@@ -391,6 +391,7 @@ economy:
   status:       status
   active:       active
   speed:        productivity
+  focus:        focus
   underconstruction: under construction
   progress:     construction progress
   workers:      workers assigned
