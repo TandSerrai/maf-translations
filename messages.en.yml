@@ -475,10 +475,10 @@ achievements:
  title:       achievements
  type:
   battles:    battles fought
+  captures:   nobles captured
   kills:
    soldiers:  mortal soldiers slain
    nobles:    nobles slain in battle
- captures:    nobles captured
 
 politics:
  hierarchy: hierarchy
