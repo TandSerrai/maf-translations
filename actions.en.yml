@@ -459,6 +459,7 @@ recruit:
   limit:        You will be able to find at most %max% more peasants for training today. If you want to train more new specialists, continue recruitment tomorrow.
   atlimit:      Rounding up more peasants for training will take more time and will have to wait until tomorrow.
   provided:     provided by
+  available:    available
   submit:       recruit
   success:      You have now recruited %number% %type%.
  troops:
@@ -484,6 +485,7 @@ recruit:
   cancel:       cancel
   canceldone:   Training of %name% (%type%) cancelled.
   cancelinfo:   You can stop training, which will send the recruits back into the militia or settlement workforce.
+  recruitlink:  You can start additional recruit training <a href="%url%">on the recruitment page</a>.
   aftercancel:  Training times, supplies and the militia list above will be updated when you visit the training center the next time.
   returns:      will return to militia
   disbands:     will return to workforce

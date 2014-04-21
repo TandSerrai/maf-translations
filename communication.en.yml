@@ -27,6 +27,9 @@ event:
   autoconstruction: >
     Due to popular demand, the peasants have initiated construction of the %buildingtype% of their own accord.
     %workers% workers have volunteered for the project.
+  addconstruction: >
+    Demand for %buildingtype% has caused the peasants to volunteer to speed up the construction work.
+    The worker amount on the project has been raised to %workers%.
   tradefail:    Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.
   starvation:   Starvation has reached serious levels.
   crash:        Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.
@@ -192,7 +195,7 @@ mail:
  subject:       Might & Fealty Important Event Notice
  intro:         Important event for your character %name%:
  intro2:        Important event at the settlement %settlement%, owned by your character %character%:
- intro2:        Important event for the realm %realm%, ruled by your character %character%:
+ intro3:        Important event for the realm %realm%, ruled by your character %character%:
  footer:        <small>(if you do not want to receive these messages anymore, disable notifications in your settings)</small>
 
 

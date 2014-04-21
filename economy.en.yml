@@ -40,6 +40,7 @@ building:
  Great Temple: Great Temple
  Guardhouse: Guardhouse
  Heavy Armourer: Heavy Armorer
+ Inn: Inn
  Leather Tanner: Leather Tanner
  Library: Library
  Market: Market
@@ -148,6 +149,10 @@ description:
  Heavy Armorer: >
    A rare specialist for heavy armor who can work miracles with metal and create the rare and valuable plate armor, the
    ultimate in personal armor.
+ Inn: >
+   The village inn or a collection of taverns and pubs for a larger settlement, this is where the peasants meet for
+   their evening ale and some gossip, but it also provides a place to hire the odd talent for simple tasks that require
+   no special training.
  Leather Tanner: >
    A basic craftsman who turns animal hides into leather and simple leather products.
  Library: >

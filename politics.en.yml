@@ -83,6 +83,7 @@ votes:
  forposition:   This election will grant the position of %position% to the winner.
  forposition2:  This election has granted the position of %position% to the winner.
  list:          Candidates & Votes
+ howto:         Add your vote into the appropriate rows and columns below. You can vote for or against as many candidates as you want.
  candidate:     candidate
  pro:           in favor
  contra:        opposed
@@ -458,6 +459,7 @@ lists:
    Permissions will be evaluated in order (top-down) until the first match, so you can allow something to an
    entire realm, except one person - or vice versa. Your rules can be as complicated or simple as you want.<br />
    To include your vassals, add yourself and include subs. You cannot "lock yourself out" using lists.
+ creator:   created by %character%
  new:           create new list
  members:       Members of this list
  member:
