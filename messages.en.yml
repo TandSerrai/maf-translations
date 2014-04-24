@@ -91,7 +91,9 @@ registration:
   title: First Steps
   intro: >
     Welcome to Might & Fealty.<br />
-    To start playing, <a href="%charpage%">create a character</a> on the character page, also accessible in the navigation menu.
+    To start playing, <a href="%charpage%">create a character</a> on the character page, also accessible in the navigation menu.<br />
+    <br />
+    We also strongly recommend the <a href="https://www.youtube.com/watch?v=YWC6n9CnB3U">tutorial video</a> and the rest of the manual.
  help:
   username:   A name of your choice to use to log in. Will not be revealed to anyone unless you choose so.
   email:      Your e-mail address for password resets and notifications. Will not be revealed to anyone unless you choose so.

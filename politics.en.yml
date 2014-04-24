@@ -263,6 +263,14 @@ realm:
  formalname:  formal name
  colour:      official colour
  language:    official language
+ diversity:
+  name:       diversity
+  500:        extraordinarily high
+  400:        very high
+  300:        high
+  200:        medium
+  100:        low
+  0:          very low
  description: description
  designation: designation
  ruler:       ruler|rulers

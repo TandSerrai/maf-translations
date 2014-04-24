@@ -124,7 +124,7 @@ event:
   lost:         Lost ownership of %settlement%.
   lost2:        Lost ownership of %settlement% to %realm%.
   abdicated:    %character-1% has abdicated and handed control of the realm to %character-2%.
-  abdicated2:   %character-1% has abdicated without a successor.
+  abdicated2:   %character% has abdicated without a successor.
   deserted:     Vanished into history with no members remaining.
  subrealm:
   founded:      Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.

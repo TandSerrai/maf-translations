@@ -339,6 +339,8 @@ economy:
  all:           all economy actions
  others:        other economy actions
  workhours:     work hours
+ tomake:        %hours% work hours to make
+ totrain:       %lessons% lessons to train
  roadworkers:  workers assigned to <a href="%url%">road construction</a>
  buildworkers: workers assigned to <a href="%url%">building construction</a>
  featureworkers: workers assigned to <a href="%url%">features construction</a>
