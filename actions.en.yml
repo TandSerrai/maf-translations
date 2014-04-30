@@ -9,12 +9,14 @@ form:
 support:
  name:          Supporting an action
  submit:        support
+ already:       you are currently supporting this action
  success:
   settlement:
    take:        You are now supporting the attempt of %character% to take control of %target%.
 oppose:
  name:          Opposing an action
  submit:        oppose
+ already:       you are currently opposing this action
  success:
   settlement:
    take: >
@@ -27,6 +29,8 @@ either:
  invalid:
   noid:         no action id
   wrongid:      action id unknown
+  action:       not available on this type of action
+  already:      you are already opposing or supporting this action
 
 queue:
  title:         actions queue

@@ -768,6 +768,8 @@ error:
   already:      This code has already been redeemed, maybe automatically as you logged in. Check your credit history, please. If you believe this to be an error, please contact tom@mightandfealty.com for details.
   notforyou:    This code is locked to a specific e-mail address, different from yours.
 
+ iseditor:      Could not add %character%, who is already a member.
+
 selectall:    select all
 withall:      with all selected...
 

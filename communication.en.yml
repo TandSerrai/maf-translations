@@ -39,9 +39,9 @@ event:
   entered:      %character% has entered the settlement.
   entered2:     %character% has entered the settlement with %soldiers% soldiers.
   left:         %character% has been seen leaving.
-  spot:         A watchtower spotted %character% in the vicinity.
-  spot2:        A watchtower spotted a ship nearby.
-  spot3:        A watchtower spotted %character% in the vicinity, with %count% soldiers.
+  spot:         The watchtower "%tower%" spotted %character% in the vicinity.
+  spot2:        The watchtower "%tower%" spotted a ship nearby.
+  spot3:        The watchtower "%tower%" spotted %character% in the vicinity, with %count% soldiers.
  travel:
   cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
  character:
