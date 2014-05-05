@@ -32,6 +32,7 @@ menu:
  map:       map
  travel:    map & travel
  status:    status
+ recent:    summary
  events:    events
  messages:  messages
  news:      publications
@@ -39,6 +40,7 @@ menu:
  politics:  politics
  actions:   actions
  character:
+  background: character background
   start:    character placement
  shortcuts: shortcuts
 
@@ -561,6 +563,7 @@ settlement:
  recruits:  soldiers in training in %name%
  resupply:  equipment available for resupply
  retrain:   equipment available for re-training
+ train:     equipment available for training
  militiacount:  %count% combat-ready local militia
  recruitscount: %count% recruits in training
  resources:

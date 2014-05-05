@@ -468,6 +468,7 @@ recruit:
   available:    available
   submit:       recruit
   success:      You have now recruited %number% %type%.
+  supply:       Due to a lack of training, only %only% of %planned% planned %type% could be added.
  troops:
   name:         train soldiers
   description:  Train soldiers to serve as militia or in your military unit.
@@ -485,7 +486,6 @@ recruit:
     Training times increase as more soldiers are trained at the same time. Unless you want to set up a queue, you might
     want to wait for current training to finish.<br />
     Details of the current recruit training is available on the <a href="%url%">%page%</a> page.
-  time:         Estimated minimum training time for new recruits: <span id="total">%est%</span> days.
   time2:        You can train about %amount% soldiers at once before training speeds slow down.
   submit:       recruit
   cancel:       cancel
