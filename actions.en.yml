@@ -69,10 +69,8 @@ queue:
  task:
   research:     research journal
 
-inter:
- name:          Local Interactions
-
 location:
+ title:         Local Interactions
  enter:
   name:         Enter settlement
   description:  Peacefully enter the settlement so you have access to its facilities.

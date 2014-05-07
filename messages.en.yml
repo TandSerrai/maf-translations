@@ -39,6 +39,7 @@ menu:
  relations: relations
  politics:  politics
  actions:   actions
+ allactions: all actions
  character:
   background: character background
   start:    character placement
@@ -667,6 +668,7 @@ travelling:   travelling
 newevents:    %number% event|%number% events
 newmessages:  %number% message|%number% messages
 inside:       inside %place%
+near:         near %place%
 prisoner:     prisoner of %captor%
 atsea:        at sea
 tradename:    name (optional)
