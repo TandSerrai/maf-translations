@@ -393,10 +393,11 @@ economy:
     Construction will require and tie up resources while it is underway. Many buildings require
     resources, a minimum number of population or other buildings constructed first.
   status:       status
-  active:       active
   speed:        productivity
   focus:        focus
-  underconstruction: under construction
+  underconstruction: buildings under construction
+  building:     under construction
+  abandoned:    abandoned
   progress:     construction progress
   workers:      workers assigned
   employees:    people employed

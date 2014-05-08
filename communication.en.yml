@@ -31,6 +31,7 @@ event:
     Demand for %buildingtype% has caused the peasants to volunteer to speed up the construction work.
     The worker amount on the project has been raised to %workers%.
   tradefail:    Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.
+  hunger:       Food shortages and hunger are becoming a problem.
   starvation:   Starvation has reached serious levels.
   crash:        Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.
   disrepair:    The %buildingtype% has broken down beyond repair and must be considered lost.
