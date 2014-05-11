@@ -51,6 +51,7 @@ event:
   renamed:      Has changed name from "%oldname%" to "%newname%".
   death:        Died.
   death2:       Died in battle.
+  killgold:     You took %gold% gold from the body of %character%.
   child:        Had a child, %character%.
   inherit:
    estate:      Inherited the settlement %settlement% from %character%.

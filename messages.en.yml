@@ -433,6 +433,7 @@ first:
 character:
  name:    Name
  gender:  Gender
+ gold:    Gold: %gold% gold
  father:  Father
  mother:  Mother
  married: married to
