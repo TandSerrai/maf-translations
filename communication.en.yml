@@ -43,6 +43,9 @@ event:
   spot:         The watchtower "%tower%" spotted %character% in the vicinity.
   spot2:        The watchtower "%tower%" spotted a ship nearby.
   spot3:        The watchtower "%tower%" spotted %character% in the vicinity, with %count% soldiers.
+  claim:
+   added:       %character% has announced a claim to this settlement.
+   cancelled:   %character% has withdrawn the claim to this settlement.
  travel:
   cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
  character:

@@ -283,8 +283,10 @@ account:
     Developing and running Might & Fealty is not free, so we charge a small monthly fee to play.<br />
     We believe in using a transparent, simple payment system instead of the various "Free2Play" or "Pay2Win" models that nag you about 
     "premium features" constantly. In Might & Fealty, we want you to enjoy the game to the max without hiding features away into 
-    features you have to pay extra for.<br />
+    parts you have to pay extra for.<br />
     Read more about our <a href="%url%" class="link_ajax">payment concept</a>.
+  description3: >
+    The price for 100 credits is 1 &euro; or the <a href="http://www.xe.com/currency/eur-euro">equivalent in your local currency</a> (our payment providers will automatically convert currencies for you).
   link:      Change subscription level
   submit:    change subscription
   remaining: Your new subscription will start today, the first month subscription fee will automatically be reduced by %refund% credits remaining from your current subscription.
@@ -547,8 +549,9 @@ settlement:
  starvation:
   1:  experiencing a minor shortage of food
   2:  experiencing a severe shortage of food
-  3:  suffering from starvation
-  4:  suffering from severe starvation
+  3:  suffering a dramatic shortage of food
+  4:  suffering from starvation
+  5:  suffering from severe starvation
  shortage:
   1:  minor shortage of %resource%
   2:  shortage of %resource%
@@ -944,11 +947,13 @@ description:
    enemy (or friendly, if you are so inclined) settlement and gather details about its military or
    political status.
  priest: >
-   description TODO
+   The record keepers and scribes as well as managers of day-to-day affairs of peasants such as births,
+   marriages, etc.<br />
+   Priests allow you to create elections.
  herald: >
    Announcer and runner for a noble, who is not only practically a requirement if you want to be taken seriously
-   as a major player in politics and diplomacy, he also allows you to send messages at spotting, rather than
-   interaction distance.
+   as a major player in politics and diplomacy. He allows you to send messages at spotting, rather than
+   interaction distance. In addition, heralds allow you to announce claims to settlements.
  translator: >
    A scribe trained in foreign languages, the translator allows you to send messages to nobles who do not speak
    or understand your language. One translator is enough, though you can choose to have more than one, just in

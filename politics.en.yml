@@ -585,3 +585,15 @@ law:
    inherit:   inherited by successor
    liege:     fall to the lord
    ruler:     fall to the ruler
+
+claim:
+ title:       claims
+ none:        no current claims
+ add:         announce a claim
+ cancel:      withdraw your claim
+ cost:        Announcing a claim will send a herald to the settlement, removing him from your entourage.
+ already:     You already hold a claim to this settlement.
+ noherald:    You need a herald to announce a claim to a settlement.
+ added:       Your claim has been added.
+ cancelled:   You have withdrawn your claim.
+ donthave:    You cannot withdraw a claim you do not hold.
