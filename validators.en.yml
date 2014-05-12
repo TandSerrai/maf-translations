@@ -54,3 +54,6 @@ road:
 
 attack:
  nobody:		You need to select at least one target to attack.
+
+loot:
+ target:		If you take resources or thralls, you must name a target settlement to send your plunder to.

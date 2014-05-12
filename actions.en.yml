@@ -301,6 +301,21 @@ military:
   loot:
    name:        loot settlement
    description: plunder this settlement for valuables and resources.
+   intro: >
+     Looting enemy settlements allows you to take resources or thralls by force and transfer them to any estate of your choice (preferably yours, typically).<br /<
+     You can also loot for personal profit or raid the workshops for supply, or simply burn the place down.<br />
+     The more options you select, the longer everything will take and the more distributed the effects will be. To maximize the efficiency of specific goals,
+     you should focus on one or two options.
+   time:        The selected looting options will take <span id="time">4</span> hours to complete.
+   target:      send plunder to
+   options:     loot actions
+   option:
+    thralls:    take thralls
+    resources:  take resources
+    supply:     steal supply
+    wealth:     steal wealth
+    burn:       burn down buildings
+   submit:      begin looting
  battles:
   initiate:
    name:        initiate battle
