@@ -17,6 +17,7 @@ event:
    stopped:     %character% has abandoned attempts to take control.
   taken:				Control established by %character%.
   taken2:       Control established by %character% of %realm%.
+  loot:         The settlement is being looted by %character%.
   renamed:			Old name "%oldname%" changed to "%newname%".
   granted:      Granted to %character%.
   changed:      Allegiance changed to %realm%.
@@ -31,6 +32,7 @@ event:
     Demand for %buildingtype% has caused the peasants to volunteer to speed up the construction work.
     The worker amount on the project has been raised to %workers%.
   tradefail:    Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.
+  tradestop:    The trade of %amount% %resource% from %settlement% has ceased.
   hunger:       Food shortages and hunger are becoming a problem.
   starvation:   Starvation has reached serious levels.
   crash:        Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.
@@ -46,6 +48,7 @@ event:
   claim:
    added:       %character% has announced a claim to this settlement.
    cancelled:   %character% has withdrawn the claim to this settlement.
+  newyear:      New Year celebrations, festive atmosphere and alcoholic drinks resulted in a predictable additional %babies% being born.
  travel:
   cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
  character:

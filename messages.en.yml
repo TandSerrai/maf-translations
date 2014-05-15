@@ -478,6 +478,11 @@ character:
     You can also select any non-independent settlement from the map below, and negotiate with its lords to get soldiers or how else
     to begin your quest. This is an advanced option only recommended if none of the above are available or you are looking for something
     special to start.
+ details:
+  realm:      realm(s)
+  ultimate:   major realm(s)
+  entourage:  entourage
+  soldiers:   soldiers
 
 achievements:
  title:       achievements
@@ -534,6 +539,18 @@ settlement:
   10:		large city
   11:		metropolis
  population:  population
+ pop:
+  change:     current development
+  stable:     stable
+  grow:
+   1:         slightly growing
+   2:         growing
+   3:         growing quickly
+  shrink:
+   1:         slightly falling
+   2:         falling
+   3:         falling quickly
+   4:         falling dramatically
  geography:   geography
  culture:     culture
  biome:       biome

@@ -57,6 +57,7 @@ queue:
  support:       support action
  oppose:        oppose action
  settlement:
+  loot:         loot settlement
   take:         take settlement
   rename:       rename settlement
   attack:       attack settlement
@@ -270,7 +271,10 @@ military:
     You can instruct your troops to avoid any battles you are forced into. While this might sound like something you want to do all the time, also
     keep in mind that if you are travelling with a larger army of realm mates, it might mean some of you evade the battle and others don't, splitting
     forces up.<br />
-    This action will remain in effect until you cancel it and apply to any and all battles that you do not voluntarily join.
+    This action will remain in effect until you cancel it and apply to any and all battles that you do not voluntarily join.<br />
+    <br />
+    Since enemy troops could enage you again after a successful evade, it is strongly recommended that you also set travel away from your
+    enemy in order to avoid being re-engaged.
   submit:       evade all battles
   success:      Your troops are now instructed to immediately disengage if a battle is forced upon you.
  settlement:
@@ -305,7 +309,9 @@ military:
      Looting enemy settlements allows you to take resources or thralls by force and transfer them to any estate of your choice (preferably yours, typically).<br /<
      You can also loot for personal profit or raid the workshops for supply, or simply burn the place down.<br />
      The more options you select, the longer everything will take and the more distributed the effects will be. To maximize the efficiency of specific goals,
-     you should focus on one or two options.
+     you should focus on one or two options.<br />
+     Like battles, looting commits you - once you have initiated a looting action, you cannot cancel it or travel elsewhere, until it is complete.
+   outside:     As you are outside the settlement, you can only loot the countryside, which offers fewer targets. Fight, bribe or trick your way inside the settlement for more effective looting.
    time:        The selected looting options will take <span id="time">4</span> hours to complete.
    target:      send plunder to
    options:     loot actions
