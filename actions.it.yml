@@ -32,8 +32,6 @@ control:
   success: >
     La vostra bandiera sventola ora su questo insediamento, e la popolazione seguirà i vostri comandi.<br />
     Tenete a mente che, a meno che non dispieghiate una milizia a difesa, il suo controllo vi potrà essere strappato nuovamente con eguale facilità.
-  fail:
-   defended:    Questo insediamento è difeso. Dovete prima attaccare e sconfiggere le forze a difesa.
  grant:
   name:         concedere controllo
   description:  Consegnate il controllo su questa gente a un altro nobile.

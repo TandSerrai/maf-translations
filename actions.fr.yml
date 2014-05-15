@@ -39,8 +39,6 @@ control:
     Votre bannière flotte sur cet établissement, et les gens qui s'y trouvent vous obéiront.<br />
     Rappelez-vous qu'à moins d'y installer une milice de défense, vous pouvez en perdre le contrôle 
     aussi facilement que vous l'avez pris.    
-  fail:
-   defended:    Cet établissement est défendu. Attaquez et vainquez les forces adverses d'abord. 
  grant:
   name:         Transférer le contrôle
   description:  Transfère le contrôle de cet établissement à un autre noble.

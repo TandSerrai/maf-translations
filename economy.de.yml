@@ -1,3 +1,6 @@
+# Might & Fealty
+# economy text strings - german
+# Author: Tom Vogt <tom@mightandfealty.com>
 req: benötigt
 reqfor: benötigt von
 provides: ermöglicht
@@ -6,7 +9,6 @@ trainer: ausgebildet von %building%
 trainingfor: bildet %item% aus
 bonus: Produktionsbonus
 defbonus: Verteidigungsbonus
-
 feature:
  name: Name
  none: (kein)
@@ -15,7 +17,6 @@ feature:
  borderpost: Grenzposten
  signpost: Wegweiser
  docks: Anleger
-
 building:
  Academy: Akademie
  Alchemist: Alchemist
@@ -29,61 +30,67 @@ building:
  Bowyer: Bogenmacher
  Carpenter: Schreiner
  Citadel: Zitadelle
-# City Hall: ((missing translation - original: City Hall))
-# Dirt Streets: ((missing translation - original: Dirt Streets))
-# Fairground: ((missing translation - original: Fairground))
-# Fortress: ((missing translation - original: Fortress))
-# Garrison: ((missing translation - original: Garrison))
-# Great Temple: ((missing translation - original: Great Temple))
-# Guardhouse: ((missing translation - original: Guardhouse))
-# Heavy Armourer: ((missing translation - original: Heavy Armorer))
-# Leather Tanner: ((missing translation - original: Leather Tanner))
-# Library: ((missing translation - original: Library))
-# Market: ((missing translation - original: Market))
-# Mason: ((missing translation - original: Mason))
-# Master Mason: ((missing translation - original: Master Mason))
-# Merchants Quarter: ((missing translation - original: Merchants Quarter))
-# Mill: ((missing translation - original: Mill))
-# Mine: ((missing translation - original: Mine))
-# Palisade: ((missing translation - original: Palisade))
-# Paved Streets: ((missing translation - original: Paved Streets))
-# Royal Mews: ((missing translation - original: Royal Mews))
-# Saddler: ((missing translation - original: Saddler))
-# School: ((missing translation - original: School))
-# Shrine: ((missing translation - original: Shrine))
-# Stables: ((missing translation - original: Stables))
-# Stone Castle: ((missing translation - original: Stone Castle))
-# Stone Towers: ((missing translation - original: Stone Towers))
-# Stone Wall: ((missing translation - original: Stone Wall))
-# Tailor: ((missing translation - original: Tailor))
-# Temple: ((missing translation - original: Temple))
-# Town Hall: ((missing translation - original: Town Hall))
-# Training Ground: ((missing translation - original: Training Ground))
-# University: ((missing translation - original: University))
-# Weaponsmith: ((missing translation - original: Weaponsmith))
-# Wood Castle: ((missing translation - original: Wood Castle))
-# Wood Towers: ((missing translation - original: Wood Towers))
-# Wood Wall: ((missing translation - original: Wood Wall))
+ City Hall: großes Rathaus
+ Dirt Streets: Einfache Straßen
+ Fairground: Jahrmarkt
+ Fortress: Festung
+ Garrison: Garnison
+ Great Temple: großer Tempel
+ Guardhouse: Wachhaus
+ Heavy Armourer: schwerer Rüstungsmacher
+ Inn: Gasthof
+ Leather Tanner: Gerber
+ Library: Bibliothek
+ Market: Marktplatz
+ Mason: Steinmetz
+ Master Mason: Freimaurer
+ Merchants Quarter: Händlerviertel
+ Mill: Mühle
+ Mine: Mine
+ Palisade: Palisade
+ Paved Streets: Befestigte Straßen
+ Royal Mews: Königliche Stallungen
+ Saddler: Sattler
+ School: Schule
+ Shrine: Schrein
+ Stables: Stallungen
+ Stone Castle: steinerne Burg
+ Stone Towers: Steintürme
+ Stone Wall: Steinmauer
+ Tailor: Schneider
+ Temple: Tempel
+ Town Hall: Rathaus
+ Training Ground: Übungsplatz
+ University: Universität
+ Weaponsmith: Waffenschmied
+ Wood Castle: hölzerne Burg
+ Wood Towers: Holztürme
+ Wood Wall: Holzmauer
+
 description:
  bridge: >
    Brücken erlauben es, Flüße zu überqueren, selbst mit einer Armee oder schwerer Ausrüstung. Sie sind oft strategisch 
    wichtige Bauwerke.
+
  tower: >
-   Der Wachturm bietet einen erhöhten Punkt um die Umgebung im Auge zu behalten. Er ist keine Verteidigungsanlage, weil er
-   nicht befestigt ist.<br />
-   Wenn ein Wachturm in Deiner Sichtweite ist, bekommst Du automatisch Zugang zur Sichtweite des Wachturms, weil Deine Späher ihn
-   benutzen, um ihre eigene Übersicht zu verbessern.
+   Der Wachturm bietet einen erhöhten Punkt um die Umgebung im Auge zu behalten. Er ist keine Verteidigungsanlage, weil er nicht 
+   befestigt ist.<br />
+   Wenn ein Wachturm in Deiner Sichtweite ist, bekommst Du automatisch Zugang zur Sichtweite des Wachturms, weil Deine Späher 
+   ihn benutzen, um ihre eigene Übersicht zu verbessern.
+
  borderpost: >
-  Der Grenzposten kann nur ein Grenzstein sein, oder ein kleiner Posten mit Zollhäuschen und einigen Grenzern. Welche Form er
-  auch annimmt, er markiert den Übergang zwischen zwei Territorien.<br />
-  Grenzposten dienen hauptsächlich als Übergangspunkte für Straßen zwischen zwei Siedlungen.
+   Der Grenzposten kann nur ein Grenzstein sein, oder ein kleiner Posten mit Zollhäuschen und einigen Grenzern. Welche Form 
+   er auch annimmt, er markiert den Übergang zwischen zwei Territorien.<br />
+   Grenzposten dienen hauptsächlich als Übergangspunkte für Straßen zwischen zwei Siedlungen.
+
  signpost: >
-  Wegweiser sind mit Richtungen beschriftet und stehen meist an Kreuzungen. Das gilt auch umgekehrt: Wo ein Wegweiser ist, treffen
-  oft Straßen aufeinander, weil die Menschen den Richtungsschildern folgen.<br />
-  Wegweiser sind Punkte, die für den Straßenbau wichtig sind.
+   Wegweiser sind mit Richtungen beschriftet und stehen meist an Kreuzungen. Das gilt auch umgekehrt: Wo ein Wegweiser ist, 
+   treffen oft Straßen aufeinander, weil die Menschen den Richtungsschildern folgen.<br /> 
+   Wegweiser sind Punkte, die für den Straßenbau wichtig sind.
+
  docks: >
-  Ein Anleger erlaubt es, Schiffen anzulegen, von denen aus dann in See gestochen werden kann.<br />
-  Dieses Bauwerk erlaubt es, zwischen See- und Landreisen zu wechseln.
+   Ein Anleger erlaubt es, Schiffen anzulegen, von denen aus dann in See gestochen werden kann.<br />
+   Dieses Bauwerk erlaubt es, zwischen See- und Landreisen zu wechseln.
 # Academy: ((missing translation - original: Merging the knowledge of the university and the practical experience of the greatest military minds creates the great academy, where new strategies and tactics are discovered.))
 # Alchemist: ((missing translation - original: Usually set at the edge of the settlement, the alchemist is always expected to blow up spectacularily, but in reality most of his experiments are far less dangerous or spectacular. While much of the research done here is of questionable quality, there is the occasional poison or interesting substance discovered.))
 # Archery Range: ((missing translation - original: A reserved spot with targets and some wood walls to catch misfires. A place for archers to train and learn how to draw, aim and fire. Required if you want to train any kind of archers.))
@@ -104,6 +111,7 @@ description:
 # Great Temple: ((missing translation - original: The largest and most impressive religious building, often a place that the faithful travel to from far away. Provides living room for its many priests and servants.))
 # Guardhouse: ((missing translation - original: A small house for the guards and soldiers of the settlement to gather and store their equipment, allowing for the training and recruitment of some basic soldier types.))
 # Heavy Armorer: ((missing translation - original: A rare specialist for heavy armor who can work miracles with metal and create the rare and valuable plate armor, the ultimate in personal armor.))
+# Inn: ((missing translation - original: The village inn or a collection of taverns and pubs for a larger settlement, this is where the peasants meet for their evening ale and some gossip, but it also provides a place to hire the odd talent for simple tasks that require no special training.))
 # Leather Tanner: ((missing translation - original: A basic craftsman who turns animal hides into leather and simple leather products.))
 # Library: ((missing translation - original: Storage place for books and manuscripts of both holy and secular importance. <br /> This building is also required to create your own publications.))
 # Market: ((missing translation - original: A place for merchants and local farmers to buy and sell their products. A market improves trade and local economy, giving a slight boost to wealth.))

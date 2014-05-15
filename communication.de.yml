@@ -13,25 +13,43 @@ event:
 #   stopped: ((missing translation - original: %character% has abandoned attempts to take control.))
 #  taken: ((missing translation - original: Control established by %character%.))
 #  taken2: ((missing translation - original: Control established by %character% of %realm%.))
+#  loot: ((missing translation - original: The settlement is being looted by %character%.))
 #  renamed: ((missing translation - original: Old name "%oldname%" changed to "%newname%".))
 #  granted: ((missing translation - original: Granted to %character%.))
 #  changed: ((missing translation - original: Allegiance changed to %realm%.))
 #  realm: ((missing translation - original: Became a founding estate of %realm%.))
 #  subrealm: ((missing translation - original: Split of to be a part of %realm%.))
+#  realmfail: ((missing translation - original: Returned to independence with the failing of %realm%.))
+#  realmfail2: ((missing translation - original: Became part of %realm-1% with the failing of %realm-2%.))
 #  autoconstruction: ((missing translation - original: Due to popular demand, the peasants have initiated construction of the %buildingtype% of their own accord. %workers% workers have volunteered for the project.))
+#  addconstruction: ((missing translation - original: Demand for %buildingtype% has caused the peasants to volunteer to speed up the construction work. The worker amount on the project has been raised to %workers%.))
 #  tradefail: ((missing translation - original: Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.))
+#  tradestop: ((missing translation - original: The trade of %amount% %resource% from %settlement% has ceased.))
+#  hunger: ((missing translation - original: Food shortages and hunger are becoming a problem.))
+#  starvation: ((missing translation - original: Starvation has reached serious levels.))
 #  crash: ((missing translation - original: Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.))
 #  disrepair: ((missing translation - original: The %buildingtype% has broken down beyond repair and must be considered lost.))
 #  attacked: ((missing translation - original: The settlement is being attacked by troops of %character%.))
 #  battle: ((missing translation - original: A %battle% was fought.))
-#  entered: ((missing translation - original: %character% has been noticed arriving.))
-#  entered2: ((missing translation - original: %character% has been noticed arriving with %soldiers% soldiers.))
+#  entered: ((missing translation - original: %character% has entered the settlement.))
+#  entered2: ((missing translation - original: %character% has entered the settlement with %soldiers% soldiers.))
 #  left: ((missing translation - original: %character% has been seen leaving.))
+#  spot: ((missing translation - original: The watchtower "%tower%" spotted %character% in the vicinity.))
+#  spot2: ((missing translation - original: The watchtower "%tower%" spotted a ship nearby.))
+#  spot3: ((missing translation - original: The watchtower "%tower%" spotted %character% in the vicinity, with %count% soldiers.))
+  claim:
+#   added: ((missing translation - original: %character% has announced a claim to this settlement.))
+#   cancelled: ((missing translation - original: %character% has withdrawn the claim to this settlement.))
+#  newyear: ((missing translation - original: New Year celebrations, festive atmosphere and alcoholic drinks resulted in a predictable additional %babies% being born.))
+ travel:
+#  cantland: ((missing translation - original: The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.))
  character:
 #  created: ((missing translation - original: First mention in family chronicle.))
 #  start: ((missing translation - original: Has appeared at %settlement%.))
 #  renamed: ((missing translation - original: Has changed name from "%oldname%" to "%newname%".))
 #  death: ((missing translation - original: Died.))
+#  death2: ((missing translation - original: Died in battle.))
+#  killgold: ((missing translation - original: You took %gold% gold from the body of %character%.))
 #  child: ((missing translation - original: Had a child, %character%.))
   inherit:
 #   estate: ((missing translation - original: Inherited the settlement %settlement% from %character%.))
@@ -45,8 +63,15 @@ event:
 #  abdicated: ((missing translation - original: Has abdicated rulership of %realm% and given it to %character%.))
 #  abdicated2: ((missing translation - original: Has abdicated rulership of %realm% with no successor.))
 #  succeeds: ((missing translation - original: Has gained rulership of %realm% through the abdication of %character%.))
+#  appointed: ((missing translation - original: Was appointed ruler of %realm% by %character%.))
+  position:
+#   appointed: ((missing translation - original: Appointed %realmposition% in %realm%.))
+#   demoted: ((missing translation - original: Demoted from %realmposition% in %realm%.))
+#   elected: ((missing translation - original: Elected %realmposition% in %realm%.))
 #  liegedied: ((missing translation - original: Your liege %character% has died. This dissolves your oath of fealty.))
 #  liegedied2: ((missing translation - original: Your liege %character% has died. This dissolves your oath of fealty and has turned you into a wandering noble with no realm affiliation.))
+#  spot: ((missing translation - original: Your scouts spotted %character% in the vicinity.))
+#  spot2: ((missing translation - original: Your scouts spotted %character% in the vicinity, with %count% soldiers.))
   proposed:
 #   marriage: ((missing translation - original: You have received a marriage proposal from %character%. Accept or decline it on the relations page.))
 #   engagement: ((missing translation - original: You have received a proposal to become engaged to %character%. Accept or decline it on the relations page.))
@@ -98,7 +123,8 @@ event:
 #  lost: ((missing translation - original: Lost ownership of %settlement%.))
 #  lost2: ((missing translation - original: Lost ownership of %settlement% to %realm%.))
 #  abdicated: ((missing translation - original: %character-1% has abdicated and handed control of the realm to %character-2%.))
-#  abdicated2: ((missing translation - original: %character-1% has abdicated without a successor.))
+#  abdicated2: ((missing translation - original: %character% has abdicated without a successor.))
+#  deserted: ((missing translation - original: Vanished into history with no members remaining.))
  subrealm:
 #  founded: ((missing translation - original: Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.))
 report:
@@ -111,6 +137,7 @@ report:
 politics:
  oath:
 #  offer: ((missing translation - original: %character% has accepted one of your knight offers and become your knight.))
+#  offer2: ((missing translation - original: %character% has accepted your knight offer in %settlement% and become your knight.))
 #  taken: ((missing translation - original: Has appeared as a knight of %character% at %settlement%.))
 #  broken: ((missing translation - original: %character% has broken the oath of fealty to you and become a rogue.))
 #  nowruler: ((missing translation - original: %character% has become ruler of %realm% and is thus no longer a vassal.))
@@ -145,6 +172,9 @@ resolution:
  defend:
 #  success: ((missing translation - original: %settlement% is being attacked. As ordered, your troops are rallying to defend it. The battle is expected to occur in %time%.))
 #  removed: ((missing translation - original: You are no longer defending %settlement%, because you have moved too far away from it.))
+ disengage:
+#  success: ((missing translation - original: You have successfully evaded a battle.))
+#  failed: ((missing translation - original: Your attempt to evade a battle has failed.))
  research:
 #  complete: ((missing translation - original: The journal of %log% has been completely researched.))
  enter:
@@ -157,7 +187,8 @@ mail:
 # sender: ((missing translation - original: Notification Service))
 # subject: ((missing translation - original: Might & Fealty Important Event Notice))
 # intro: ((missing translation - original: Important event for your character %name%:))
-# intro2: ((missing translation - original: Important event for the realm %realm%, ruled by your character %character%:))
+# intro2: ((missing translation - original: Important event at the settlement %settlement%, owned by your character %character%:))
+# intro3: ((missing translation - original: Important event for the realm %realm%, ruled by your character %character%:))
 # footer: ((missing translation - original: <small>(if you do not want to receive these messages anymore, disable notifications in your settings)</small>))
 news:
 # title: ((missing translation - original: publication|publications))
@@ -175,6 +206,7 @@ news:
 # members: ((missing translation - original: members of this publication:))
 # reader: ((missing translation - original: publications you are reading:))
 # local: ((missing translation - original: locally published:))
+# local2: ((missing translation - original: local publications))
 # owner: ((missing translation - original: owner))
 # editor: ((missing translation - original: editor))
 # author: ((missing translation - original: author))

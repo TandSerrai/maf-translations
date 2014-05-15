@@ -43,7 +43,6 @@ menu:
  character:
   background: character background
   start:    character placement
- shortcuts: shortcuts
 
 contact:
  title:     Contact
@@ -75,7 +74,6 @@ challenges:
 
 registration:
  title:   Registration
- notyet:  Please follow our announcements on the forum, as registration are currently disabled.
  intro: >
    Welcome to Might & Fealty - we are looking forward to your story and experience.<br />
    <div class="success">Join now and get <b>30 days of free game time</b> to explore the world of Might & Fealty 

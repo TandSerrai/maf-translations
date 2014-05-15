@@ -167,8 +167,6 @@ control:
   realm:        in the name of
   submit:       take control
   success:      You are now in the process of taking control of this settlement. The process will take an estimated %time%, though this estimate will change with the support or opposition of other nobles.
-  fail:
-   defended:    This settlement is defended. Attack and defeat the defending forces first.
  takeX:
   name:         defend against taking
   description:  Your estate is currently being claimed by others, oppose them.

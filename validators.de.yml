@@ -41,5 +41,6 @@ recruit:
 road:
  same: 			Das ist eine interessante Idee, aber Start- und Endpunkt einer Straße sollten schon unterschiedlich sein.
  exists: 		Diese Straße gibt es schon.
+ invalid:		Die Arbeiter entschuldigen sich vielfach und erwarten dein Urteil, aber sie waren nicht in der Lage, einen Weg zwischen diesen beiden Punkten zu finden, der nicht durch Wasser oder unpassierbares Gelände führt.
 attack:
  nobody: 		Du mußt mindestens einen Gegner angreifen. Schattenboxen ist nicht.
