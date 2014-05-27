@@ -32,7 +32,10 @@ event:
     Demand for %buildingtype% has caused the peasants to volunteer to speed up the construction work.
     The worker amount on the project has been raised to %workers%.
   tradefail:    Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.
+  tradereduce:  Insufficient resources for outgoing trade of %amount% %resource% for %settlement%. Trade volume has been reduced to %newamount%.
   tradestop:    The trade of %amount% %resource% from %settlement% has ceased.
+  tradereduced: The trade of %resource% from %settlement% has dropped in volume. Instead of the previous %amount% units, it is now %newamount% units.
+  setback:      Due to ongoing food shortages, workers are leaving construction projects to take care of their families instead.
   hunger:       Food shortages and hunger are becoming a problem.
   starvation:   Starvation has reached serious levels.
   crash:        Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.
@@ -48,7 +51,7 @@ event:
   claim:
    added:       %character% has announced a claim to this settlement.
    cancelled:   %character% has withdrawn the claim to this settlement.
-  newyear:      New Year celebrations, festive atmosphere and alcoholic drinks resulted in a predictable additional %babies% being born.
+  newyear:      New Year celebrations, festive atmosphere and alcoholic drinks resulted in a predictable additional %babies% babies being born.
  travel:
   cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
  character:
@@ -115,6 +118,8 @@ event:
    assign2:     Transferred to %character-1% through the killing of %character-2%.
    received:    %character-1% has given you %character-2% as a prisoner.
    received2:   The slaying of %character-1% has given you %character-2% as a prisoner.
+  dungeon:
+   leftbehind:  Your didn't commit to an action at the dungeon entrance, and your party got tired of waiting, so you were left behind and they entered without you.
  military:
   assigned:     You were assigned %count% soldiers by %character%. They have been added as group %group%.
   reclaimed:    %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.
@@ -144,6 +149,15 @@ report:
   complete:     A %featuretype% has been completed.
  road:
   complete:			Road construction has finished.
+
+soldier:
+ recruited:     Recruited by %character% in %settlement% with %item-1%/%item-2%/%item-3%.
+ traincancel:   Training cancelled, reverted to old equipment.
+ traincomplete: Training completed.
+ retrain:       Retrained in %settlement% to use %item-1%/%item-2%/%item-3%.
+ militia:       Set up as militia in %settlement%.
+ mobilize:      Mobilized by %character%.
+ assign:        Assigned to %character%.
 
 politics:
  oath:

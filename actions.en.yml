@@ -125,6 +125,9 @@ location:
     settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the
     left goes into the past, with the number at the bottom showing how many days into the past.
   description:  Inspect the local barracks and soldier records.
+ dungeon:
+  name:         Enter Dungeon
+  description:  Explore the nearby dungeon.
 nearby:
  spy:
   name:         Spy on a noble
@@ -153,13 +156,9 @@ control:
    title:       Other Control attempts
    intro: >
      The following nobles are also currently trying to take control of this settlement. Without diplomacy or battle, this will likely result in
-     a mess of conflicting claims resolving over time. If you want to succeed, you will almost certainly have to make them all stop,
+     a mess of conflicting claims resolving over time. If you want to take control yourself, you will almost certainly have to make them all stop,
      either by convincing them or by attacking them.<br />
      Your other alternative is supporting someone else, which will speed up their process of taking the settlement.
-  others2:
-   title:       Enemy Control attempts
-   intro: >
-     The following nobles are currently trying to take control of this settlement. You should almost certainly oppose each of them.
   defended: >
     Defending forces are making it more difficult to raise your banner. Attacking and culling them first might speed up your action.
   undefended: >

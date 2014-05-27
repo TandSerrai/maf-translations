@@ -207,6 +207,7 @@ account:
   title:  Settings
   language:    Your language
   notifications: E-Mail notifications
+  newsletter: Occasional newsletter
   submit: update
   saved:  your settings have been updated.
  autologin:
@@ -405,8 +406,6 @@ newcharacter:
 summary:
  title:     Recent Events & Messages
  events:    Recent Events
- nobody:    no nearby nobles spotted
- nobattles: no battles nearby
  nothing:   no recent events
  fullread:  mark all as read
  fullread2: mark all as read for all my characters
@@ -931,9 +930,9 @@ battle:
   capture:      %i% enemy noble captured|%i% enemy nobles captured
  hunt:          
   title:        hunt
-  killed:       %i% enemy was killed while fleeing|%i% enemies were killed while fleeing
-  wounded:      %i% enemy was wounded during the rout|%i% enemies were wounded during the rout
-  dropped:      %i% soldier dropped his equipment to run away faster|%i% soldiers dropped their equipment to run faster
+  killed:       %i% enemy was killed or wounded while fleeing.|%i% enemies were killed or wounded while fleeing.
+  entkilled:    %i% enemy entourage member was killed during the rout.|%i% enemy entourage members were killed during the rout.
+  dropped:      %i% soldier dropped his equipment to run away faster.|%i% soldiers dropped their equipment to run faster.
  finish:        survivors
  fate:
   title:        fate of nobles
