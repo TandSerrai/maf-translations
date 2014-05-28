@@ -125,7 +125,7 @@ location:
     settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the
     left goes into the past, with the number at the bottom showing how many days into the past.
   description:  Inspect the local barracks and soldier records.
- dungeon:
+ dungeons:
   name:         Enter Dungeon
   description:  Explore the nearby dungeon.
 nearby:
