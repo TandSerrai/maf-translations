@@ -43,6 +43,7 @@ menu:
  character:
   background: character background
   start:    character placement
+ dungeon:   dungeon
 
 contact:
  title:     Contact

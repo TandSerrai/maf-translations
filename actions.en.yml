@@ -69,6 +69,8 @@ queue:
   evade:        evade all battles
  task:
   research:     research journal
+ dungeon:
+  explore:      explore dungeon
 
 location:
  title:         Local Interactions

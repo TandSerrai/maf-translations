@@ -120,6 +120,10 @@ event:
    received2:   The slaying of %character-1% has given you %character-2% as a prisoner.
   dungeon:
    leftbehind:  Your didn't commit to an action at the dungeon entrance, and your party got tired of waiting, so you were left behind and they entered without you.
+   newcard1:    You improved the action %card% in the dungeon and can now do it more often.
+   newcard2:    You learned a new action while in the dungeon: %card%
+   gold:        Your plunder from the dungeon came to a total of %gold% gold.
+   closed:      Rumours have it that a nearby dungeon has been completely explored and is no longer interesting.
  military:
   assigned:     You were assigned %count% soldiers by %character%. They have been added as group %group%.
   reclaimed:    %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.
