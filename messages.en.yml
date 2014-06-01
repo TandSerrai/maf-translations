@@ -145,14 +145,10 @@ map:
  indyplace: independent settlements
  spot:      your spotting distance
  act:       your interaction distance
- select:    select method
- click:     info
- hover:     travel
  clickselect: Click a settlement or character flag to get details.
- hoverselect: Hover over a settlement or character flag to get details.
  travel:    Travel
+ traveldetails: Travel Details
  draw:      Click on the map to set waypoints.
- disabled:  Switch to routing to draw waypoints.
  submit:    set route
  rmlast:    remove last
  enter:     enter destination
