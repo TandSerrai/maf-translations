@@ -113,7 +113,23 @@ newplayer:
    <p>These hints should help you get into the game properly. Today was the last daily hint, we do not want to bother you with too
    many messages. You will receive a few more in longer intervals, to point out things you may have missed. And as always, feel
    free to explore the game in any way you wish.</p>
- a:
+ a: >
+   <p>Here is another hint about smaller features that are less obvious but can deepen the gameplay of Might & Fealty considerably.
+   If you want to get even more out of the game or are looking for something else to do while your political schemes unfold, Here
+   are some ideas:</p>
+   <dl>
+   <dt>Marriage</dt>
+   <dd>Characters in the game can be engaged, marry, divorce, be unfaithful, take a lover and many more things. You can use these
+   options for roleplaying, as political tools or just for fun.</dd>
+   <dt>Historic Research</dt>
+   <dd>For some historic events, only a limited amount of information is immediately available and scholars are needed to research
+   more. Uncovering the long-lost history of a settlement and settling the question of its heritage can be both a challenge and an
+   interesting side-quest.</dd>
+   <dt>Dungeons</dt>
+   <dd>And speaking of side-quests, you can also take your character into unexplored caves, ancient ruins and other places of danger
+   and adventure, where you face progressively more dangerous enemies together. Finding a dungeon is a small quest all by itself and
+   you may need the help of others who have heard of their location.</dd>
+   </dl>
  b:
  c:
 

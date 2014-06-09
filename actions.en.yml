@@ -97,6 +97,10 @@ location:
     The ships can land you at most coastal locations, but you can only embark at a dock with the appropriate permissions or, of course,
     return to where you landed as your ships will wait for up to 30 days for you there. This means if you are not careful, landing can be a one-way trip.<br />
     To land, simply travel towards land. You will disembark at the first point where your travel hits solid ground.
+ giveship:
+  name:         Give ship
+  description:  Give your ship to someone else.
+  longdesc:     Grant control of your ship to someone else, allowing that person to use it, but losing the ship for yourself.
  library:
   name:         Library
   intro: >
@@ -200,7 +204,6 @@ control:
     is useful to giving settlements away to other realms.
   to:           grant control to
   withrealm:    with realm?
-  submit:       grant
   success:      You have now given control over this settlement to %newowner%.
   queued:       You will soon be meeting with %newowner% and arrange the details of the transfer, as well as informing the settlement leaders.
  rename:

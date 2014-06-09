@@ -894,6 +894,9 @@ interaction:
  attack:
   name:     target(s)
   submit:   initiate attack
+ grant:
+  name:         grant control
+  submit:       grant
  publication:
   name:     new member(s)
   submit:   add member(s)
@@ -1090,6 +1093,7 @@ unavailable:
  nosettlement:   You are not near any settlement.
  notinside:      You are not inside the settlement.
  nodock:         There are no docks nearby.
+ noship:         You do not have a ship nearby.
  notyours:       The settlement owner has not granted you permission to do this.
  notyours2:      You do not control this settlement.
  notrain:        No available training options.
