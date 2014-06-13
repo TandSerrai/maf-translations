@@ -371,6 +371,11 @@ account:
      we have credited your account with %credits% credits, as promised.<p>
      <p>Thank you so much for helping the game become bigger and better.</p>
 
+diversity:
+ crap:  You have all your characters concentrated in a very small number of realms. We strongly suggest you diversify some more. It would make for a better game for both you and other players.
+ bad:   Most of your characters are concentrated in a small number of realms. You should consider spreading out more, for a better game experience.
+ low:   It seems your characters are focussed on just a few realms. We suggest more diversity as it makes for a better game experience.
+
 newcharacter:
  title: Create Character
  description: create a new character or ancestor
