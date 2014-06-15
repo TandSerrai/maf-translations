@@ -371,11 +371,6 @@ account:
      we have credited your account with %credits% credits, as promised.<p>
      <p>Thank you so much for helping the game become bigger and better.</p>
 
-diversity:
- crap:  You have all your characters concentrated in a very small number of realms. We strongly suggest you diversify some more. It would make for a better game for both you and other players.
- bad:   Most of your characters are concentrated in a small number of realms. You should consider spreading out more, for a better game experience.
- low:   It seems your characters are focussed on just a few realms. We suggest more diversity as it makes for a better game experience.
-
 newcharacter:
  title: Create Character
  description: create a new character or ancestor
@@ -575,11 +570,15 @@ settlement:
   effect:   production and construction requiring this resource are slowed down.|production and construction requiring these resources are slowed down.
   none:     all resource demands are satisfied.
  security:
+  tt: How protected the settlement is against forces of nature and bandits. Can be improved with defensive buildings, militia, etc.
   0:  struggling for economic security
   1:  low economic security
   2:  adequate economic security
   3:  good economic security
   4:  excellent economic security
+ corruption:
+  name: corruption
+  tt:   Slowly rises with the number of estates you personally hold across all your characters. Give estates to vassals to reduce corruption. See manual for details.
  militia:   soldiers stationed in %name%
  recruits:  soldiers in training in %name%
  resupply:  equipment available for resupply
