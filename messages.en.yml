@@ -420,7 +420,7 @@ first:
    You have no troops and no income at this time, so finding allies should be your first priority. Serve a lord as a knight
    until you can secure an estate for yourself, for example.
  manual: >
-   Might & Fealty being a slow game, don't expect much action on your first turn. If you haven't yet, check out 
+   Might & Fealty being a slow game, don't expect much action on your first day. If you haven't yet, check out 
    <a href="%manual%">the game manual</a> for more information and basic concepts. There's also a link at the top, so you
    can check the manual for reference at any time.<br />
    Lastly, Might & Fealty is a game where communication with other players is very important. Check out the messages section
@@ -665,8 +665,8 @@ lastbattle:   last battle
 islocked:     currently being reassigned to you
 hour:         hour|hours
 minute:       minute|minutes
-untilturn:    %h% %hours%, %m% %minutes% until next turn
-untilturn2:   %m% %minutes% until next turn
+untilturn:    %h% %hours%, %m% %minutes% until next day change
+untilturn2:   %m% %minutes% until next day change
 location:     location
 coordinates:  coordinates
 spotdistance: spotting distance
@@ -692,6 +692,7 @@ prisoner:     prisoner of %captor%
 atsea:        at sea
 tradename:    name (optional)
 zoom:         zoom to fit
+expand:       expand
 
 distance:    distance
 length:      length
@@ -1089,6 +1090,28 @@ editor:
    <p>The one quirk you should be aware of is that single newlines are ignored, if you want to force a linebreak, add two or more spaces to the end of the line before hitting enter.</p>
 
 
+rating:
+ title:     reputation
+ intro:     Every noble has a reputation that follows him or her. Reputation is built by other nobles, through gossip.
+ empty:     no gossip about this character... yet.
+ edit:      update gossip
+ write:     add gossip
+ content:   words of gossip
+ respect:
+  label:    respectful
+  help:     Does this noble display proper etiquette and shows respect to both friends and enemies?
+ trust:
+  label:    trustworthy
+  help:     Is this noble true to words given, and loyal to oaths and promises?
+ honor:
+  label:    honourable
+  help:     Does this noble act honourably, with grace in victory and decency in defeat?
+ none:      (no opinion)
+ yes:       yes
+ no:        no
+ submit:    submit gossip
+ votes:     votes
+
 unavailable:
  intro:          Sorry, but this action is not currently available, because:
  already:        You are already conducting this action.
@@ -1142,3 +1165,4 @@ unavailable:
  trade:
   noestate:     You do not have any estates with which to trade.
   nooptions:    There are no possible trade/tribute deals you could make at this location.
+
