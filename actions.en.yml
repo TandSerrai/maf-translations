@@ -71,6 +71,8 @@ queue:
   research:     research journal
  dungeon:
   explore:      explore dungeon
+ character:
+  escape:       escape
 
 location:
  title:         Local Interactions
@@ -650,3 +652,12 @@ meta:
   remove:       use no crest
   submit:       assign crest
   nocrests:     You do not have any crests available. Follow the link above to design crests for your characters.
+
+escape:
+ name:      escape
+ description: ...or at least try to.
+ intro:     Despite the ancient oath sworn, you can attempt to fool %captor% and escape from captivity.
+ low:       Your chances of success, however, are quite small and your captor will be informed of your attempt. There may be dire consequences.
+ high:      As your captor has not been seen for many days, your chances of success are very high.
+ submit:    attempt escape
+ queued:    You are now working on your escape plan. It will take %hours% hours to implement.

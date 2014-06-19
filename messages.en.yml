@@ -444,6 +444,7 @@ character:
   text:     Only rumours about this noble have been heard, as this character has not yet been started (placed in the world).
  prisoner:  this character is currently a captive of %captor%.
  prisoner2: You are currently a captive of %captor%.
+ captorinactive: Your captor has not been seen in quite a while. You should <a href="%url%">try to escape</a>.
  full:    view full details
  list:
   1:  primary
@@ -1134,7 +1135,8 @@ unavailable:
  nobattle:       You are not involved in any battle.
  nobattle2:      You are not being forced into any battle, but have committed yourself.
  intercepted:    You already tried to disengage from this battle, and failed.
- noprisoners:    You don't have any prisoners
+ noprisoners:    You don't have any prisoners.
+ notprisoner:    You are not a prisoner.
  prisoner:       You are a prisoner and have only very limited actions available.
  notmember:      You are not a member of this realm.
  leader:        As the ruler of a realm, you cannot do this. Manage the allegiance of your realm instead.
