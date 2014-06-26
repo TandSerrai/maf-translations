@@ -103,6 +103,10 @@ location:
   name:         Give ship
   description:  Give your ship to someone else.
   longdesc:     Grant control of your ship to someone else, allowing that person to use it, but losing the ship for yourself.
+  intro: >
+    You can give your ship to someone else, so that noble can use it, instead of you. Because once you have given your ship
+    away, you can not use it yourself anymore.<br />
+    Giving a ship away does not extend the time the captain will wait, it is still 30 days after you landed.
  library:
   name:         Library
   intro: >
