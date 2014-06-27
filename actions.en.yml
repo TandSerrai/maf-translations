@@ -107,6 +107,7 @@ location:
     You can give your ship to someone else, so that noble can use it, instead of you. Because once you have given your ship
     away, you can not use it yourself anymore.<br />
     Giving a ship away does not extend the time the captain will wait, it is still 30 days after you landed.
+  success:      You have given control of your ship to %newowner% now.
  library:
   name:         Library
   intro: >
@@ -665,3 +666,8 @@ escape:
  high:      As your captor has not been seen for many days, your chances of success are very high.
  submit:    attempt escape
  queued:    You are now working on your escape plan. It will take %hours% hours to implement.
+
+personal:
+ party:
+  name:         Dungeon Party
+  description:  Check the status of your dungeon exploration group.
