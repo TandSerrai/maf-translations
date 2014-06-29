@@ -124,6 +124,12 @@ event:
    newcard2:    You learned a new action while in the dungeon: %card%
    gold:        Your plunder from the dungeon came to a total of %gold% gold.
    closed:      Rumours have it that a nearby dungeon has been completely explored and is no longer interesting.
+  inactive:
+   prisoner:    Your captor %character% has not been seen for a long time. Maybe slumberblight got him? In any case, escaping should now be much easier.
+   vassal:      Your vassal %character% has not been seen for a long time and rumors have it that he has contracted slumberblight.
+   liege:       Your liege, %character%, has not been heard of for some time. Some say, he has been affected by slumberblight.
+   partner:     Your partner %character% seems to have vanished, or maybe it is slumberblight?
+   position:    The %realmposition% %character% has not been seen for a long time and must be assumed a victim of slumberblight.
  military:
   assigned:     You were assigned %count% soldiers by %character%. They have been added as group %group%.
   reclaimed:    %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.
