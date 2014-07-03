@@ -614,6 +614,7 @@ settlement:
   buildings:    buildings
   construction: construction
   total:        total
+  storage:      storage
   trade:
    name:      trade
    in:        incoming

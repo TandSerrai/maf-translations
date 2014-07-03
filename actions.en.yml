@@ -673,3 +673,6 @@ personal:
  party:
   name:         Dungeon Party
   description:  Check the status of your dungeon exploration group.
+ dungeoncards:
+  name:         Dungeon Actions
+  description:  Review your available dungeon actions.
