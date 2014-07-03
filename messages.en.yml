@@ -406,6 +406,24 @@ summary:
  nothing:   no recent events
  fullread:  mark all as read
  fullread2: mark all as read for all my characters
+ soldiers:
+  title:    soldiers status warnings
+  starving:
+   1:       some of your soldiers are starving.
+   2:       many of your soldiers are starving.
+   3:       most of your soldiers are starving.
+  hungry:
+   1:       some of your soldiers are hungry.
+   2:       many of your soldiers are hungry.
+   3:       most of your soldiers are hungry.
+  wounded:
+   1:       some of your soldiers are wounded.
+   2:       many of your soldiers are wounded.
+   3:       most of your soldiers are wounded.
+  lost:
+   1:       some of your soldiers have lost equipment.
+   2:       many of your soldiers have lost equipment.
+   3:       most of your soldiers have lost equipment.
 
 first:
  title:     Welcome to Might & Fealty

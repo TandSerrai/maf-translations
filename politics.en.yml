@@ -325,6 +325,7 @@ position:
 
 diplomacy:
  name:         Diplomacy
+ other:        diplomatic relations to other realms
  description:  Manage the realms dependencies and formal diplomacy.
  longdesc:     Relations of %formalname% to other realms determine if %name% is independent or part of a larger realm. You can also break allegiance or create sub-realms here.
  status:

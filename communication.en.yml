@@ -60,6 +60,7 @@ event:
   renamed:      Has changed name from "%oldname%" to "%newname%".
   death:        Died.
   death2:       Died in battle.
+  deathreclaim: %amount% soldiers returned to you upon the death of %character%, whom you had them assigned to.
   killgold:     You took %gold% gold from the body of %character%.
   child:        Had a child, %character%.
   inherit:
