@@ -132,6 +132,12 @@ oath:
   liege:   already is your current liege
   vassal:  is your vassal or a vassal of one of your vassals
 
+vassals:
+ view:          
+  name:         Vassals
+  description:  Review and manage your vassals
+  longdesc:     View details on your vassals and manage them, including disowning them.
+
 rogue:
  name:        Go Rogue
  description: Declare independence.
