@@ -76,6 +76,7 @@ queue:
 
 location:
  title:         Local Interactions
+ all:           all local interactions
  enter:
   name:         Enter settlement
   description:  Peacefully enter the settlement so you have access to its facilities.

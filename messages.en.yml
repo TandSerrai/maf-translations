@@ -163,6 +163,7 @@ map:
   impassable: Route contains impassible sections marked on the map now.<br /><small>Red lines go through impassable areas, red/black points show river crossings without a nearby bridge or cliffs/mountain sides too sheer to cross.</small>
   world:      You are trying to leave the known world. The gods will not allow that.
   prisoner:   As a prisoner, you cannot travel freely.
+  restricted: Since your account is currently restricted, you cannot travel.
  info:
   length:   Route length
 
@@ -179,6 +180,11 @@ account:
  title:         Account
  characters:    Characters
  nocharacters:  You have not yet created any characters.
+ abovelimit: >
+   You have more active characters than your current subscription level allows. Until you have either raised your subscription level
+   or reduced the number of living characters, actions and travel on all your characters will be severely limited. You can write
+   messages and check your characters in order to decide which to retire and do so in a proper way, but you will not be able to
+   really play them.
  flag:          click to toggle this character between primary/secondary characters list
  created:       created: %date%
  lastlogin:     last login: %date%
@@ -1080,6 +1086,7 @@ manual:
  soldiers:    soldiers
  entourage:   entourage
  settlements: settlements
+ claims:      claims
  realms:      realms
  travel:      travel
  trade:       trade & tribute
@@ -1137,6 +1144,7 @@ rating:
 
 unavailable:
  intro:          Sorry, but this action is not currently available, because:
+ restricted:     Your account is currently restricted.
  already:        You are already conducting this action.
  supporting:     You are already supporting someone else in this action.
  atsea:          You are travelling at sea.

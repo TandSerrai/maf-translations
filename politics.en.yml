@@ -33,6 +33,7 @@ relations:
    Manage your personal and feudal relations to other characters here.
 politics:
  name:        Politics
+ all:         all political actions
  intro: >
    Manage your realm(s) and political relations here.
 
