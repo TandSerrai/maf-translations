@@ -651,6 +651,11 @@ meta:
   sure:         really, really sure?
   submit:       welcome death's embrace
   success:      Your character is now dead.
+ respawn:
+  name:         Respawn
+  description:  return character to pool
+  sure:         are you sure?
+  success:      The character has been returned to the NPC pool.
  heraldry:
   name:         heraldry
   description:  assign or change crest

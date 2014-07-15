@@ -1145,6 +1145,7 @@ rating:
 unavailable:
  intro:          Sorry, but this action is not currently available, because:
  restricted:     Your account is currently restricted.
+ npc:            Not available to NPC characters.
  already:        You are already conducting this action.
  supporting:     You are already supporting someone else in this action.
  atsea:          You are travelling at sea.
