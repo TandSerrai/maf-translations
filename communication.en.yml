@@ -155,6 +155,8 @@ event:
   deserted:     Vanished into history with no members remaining.
  subrealm:
   founded:      Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.
+ position:
+  death:        %character% has died and thus left the office of %realmposition%.
 
 report:
  building:
