@@ -144,8 +144,17 @@ location:
   description:  Explore the nearby dungeon.
 nearby:
  spy:
-  name:         Spy on a noble
-  description:  Send a spy to find out details about a nearby noble.
+  name:         Spy on an estate
+  description:  Send a spy to the nearest settlement.
+  intro: >
+    You can leave one of your spies behind in this settlement, and he will keep you updated about everything that is going on,
+    supplying you with access to the settlements event log and local details, just as if you were there yourself.<br />
+    Over time, the spy might be discovered, or disappear.
+  intro2: >
+    You can send one of your spies to infiltrate this settlement. There is a reasonable chance that he will make it inside, but
+    he could also be captured during the attempt. If he makes it, he will keep you updated about everything that is going on,
+    supplying you with access to the settlements event log and local details, just as if you were there yourself.<br />
+    Over time, the spy might be discovered, or disappear.
 
 control:
  name:          local control actions

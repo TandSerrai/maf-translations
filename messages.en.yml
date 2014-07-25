@@ -77,8 +77,6 @@ registration:
  title:   Registration
  intro: >
    Welcome to Might & Fealty - we are looking forward to your story and experience.<br />
-   <div class="success">Join now and get <b>30 days of free game time</b> to explore the world of Might & Fealty 
-   while you decide if this is the game for you.</div>
  direct: >
    Please supply the required information below.<br />
    You will then receive an e-mail with an activation link. We apologize for that additional step, 
@@ -115,8 +113,9 @@ togglelist:     toggle list style
 
 map:
  title:
-  map:          map
-  both:         map and travel
+  map:         map
+  both:        map and travel
+ layers:       layers
  map:          abstract map
  graphical:    graphical map
  search:       search for settlement
@@ -278,8 +277,8 @@ account:
     Your next renewal is due on %until%.
   short:      Your current subscription level is <b>%mylevel%</b>, your next renewal is due on %until%.
   description: >
-    If you have not accessed your account for more than 3 weeks, not only will your characters be set to inactive automatically, we
-    will also reduce the base fee to %reduced%. After more than 3 months, we automatically reduce it further to %min%.<br />
+    If you have not accessed your account for more than 3 weeks, your characters be set to inactive automatically. After more than
+    2 months, we automatically put your account into storage and keep it, for free.<br />
     Read more about our <a href="%url%" class="link_ajax">payment concept</a>.
   description2: >
     Developing and running Might & Fealty is not free, so we charge a small monthly fee to play.<br />
@@ -297,6 +296,13 @@ account:
  viewlog: View History
  familytree: Family Tree
  famtreedesc: Inspect the family tree of your characters
+ overview:
+  link:     Overview
+  desc:     Map of all your characters and holdings
+  title:    Characters Overview
+  intro: >
+    This page shows all your characters, their holdings and claims.<br />
+    Bold yellow regions are estates of one of your characters. Orange regions are claimed by one of your characters.
  heraldry:
   link:     Heraldry
  culture:
@@ -503,6 +509,10 @@ character:
   entourage:  entourage
   soldiers:   soldiers
 
+bandits:
+ title:   Bandits
+ intro:   You can also temporarily play bandit characters, see [bandits].
+
 achievements:
  title:       achievements
  type:
@@ -546,6 +556,7 @@ settlement:
  type:  type
  fortified: fortified
  size:
+  name: size
   1:		hamlet
   2:		small village
   3:		medium village
@@ -580,8 +591,11 @@ settlement:
  owner:       owner
  ownedby:     This settlement is ruled by %owner%.
  realm:       This settlement is part of %realm%.
+ realm2:      realm
+ ultimate:    major realm
  norealm:     This settlement does not belong to any realm.
  economy:     economy
+ build:       currently building
  starvation:
   1:  experiencing a minor shortage of food
   2:  experiencing a severe shortage of food
@@ -605,7 +619,9 @@ settlement:
   name: corruption
   tt:   Slowly rises with the number of estates you personally hold across all your characters. Give estates to vassals to reduce corruption. See manual for details.
  militia:   soldiers stationed in %name%
+ militia2:  militia
  recruits:  soldiers in training in %name%
+ recruits2: recruits
  resupply:  equipment available for resupply
  retrain:   equipment available for re-training
  train:     equipment available for training
@@ -750,6 +766,7 @@ money:       wealth
 
 background:  background
 estate:      estate|estates
+realm:       realm|realms
 building:    building|buildings
 feature:     feature|features
 build:
@@ -836,6 +853,7 @@ npc:
  number:       number
  supply:       supply
  entourage:    entourage member|entourage members
+ entourage2:   entourage|entourage
  follower:     camp follower|camp followers
  scout:        scout|scouts
  prospector:   prospector|prospectors
@@ -1143,33 +1161,36 @@ rating:
  votes:     votes
 
 unavailable:
- intro:          Sorry, but this action is not currently available, because:
- restricted:     Your account is currently restricted.
- npc:            Not available to NPC characters.
- already:        You are already conducting this action.
- supporting:     You are already supporting someone else in this action.
- atsea:          You are travelling at sea.
- nosettlement:   You are not near any settlement.
- notinside:      You are not inside the settlement.
- nodock:         There are no docks nearby.
- noship:         You do not have a ship nearby.
- notyours:       The settlement owner has not granted you permission to do this.
- notyours2:      You do not control this settlement.
- notrain:        No available training options.
- nobody:         No other nobles within range.
- nosoldiers:     You do not have any soldiers.
- nomilitia:      There are no soldiers available here.
- nobattles:      There are no battles nearby
- nooffers:       No soldiers or existing offers available.
- noassigned:     You have no soldiers assigned.
- inbattle:       You are already involved in a battle.
- nobattle:       You are not involved in any battle.
- nobattle2:      You are not being forced into any battle, but have committed yourself.
- intercepted:    You already tried to disengage from this battle, and failed.
- noprisoners:    You don't have any prisoners.
- notprisoner:    You are not a prisoner.
- prisoner:       You are a prisoner and have only very limited actions available.
- notmember:      You are not a member of this realm.
+ intro:         Sorry, but this action is not currently available, because:
+ restricted:    Your account is currently restricted.
+ free:          This action is unavailable for trial accounts.
+ free2:         With a free account, you can only take 3 estates per character.
+ npc:           Not available to NPC characters.
+ already:       You are already conducting this action.
+ supporting:    You are already supporting someone else in this action.
+ atsea:         You are travelling at sea.
+ nosettlement:  You are not near any settlement.
+ notinside:     You are not inside the settlement.
+ nodock:        There are no docks nearby.
+ noship:        You do not have a ship nearby.
+ notyours:      The settlement owner has not granted you permission to do this.
+ notyours2:     You do not control this settlement.
+ notrain:       No available training options.
+ nobody:        No other nobles within range.
+ nosoldiers:    You do not have any soldiers.
+ nomilitia:     There are no soldiers available here.
+ nobattles:     There are no battles nearby
+ nooffers:      No soldiers or existing offers available.
+ noassigned:    You have no soldiers assigned.
+ nospies:       You don't have any spies in your employ.
+ inbattle:      You are already involved in a battle.
+ nobattle:      You are not involved in any battle.
+ nobattle2:     You are not being forced into any battle, but have committed yourself.
+ intercepted:   You already tried to disengage from this battle, and failed.
+ noprisoners:   You don't have any prisoners.
+ notprisoner:   You are not a prisoner.
+ prisoner:      You are a prisoner and have only very limited actions available.
+ notmember:     You are not a member of this realm.
  leader:        As the ruler of a realm, you cannot do this. Manage the allegiance of your realm instead.
  notleader:     You are not the ruler of this realm.
  notdiplomat:   You do not hold a position with diplomacy permissions in this realm.
