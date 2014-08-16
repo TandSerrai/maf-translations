@@ -109,6 +109,16 @@ location:
     away, you can not use it yourself anymore.<br />
     Giving a ship away does not extend the time the captain will wait, it is still 30 days after you landed.
   success:      You have given control of your ship to %newowner% now.
+ inn:
+  name:         Visit Inn
+  intro: >
+    If you are looking for sell-swords, soldiers of fortune, men-at-arms - in a word: Mercenaries, the inn is where you will
+    most likely find them.<br />
+    They are usually easy to spot as their are looking for employers the same way you are looking for them. Their services, 
+    however, are less easy. They will follow you as long as you pay them well. But you will have to pay extra for every death
+    or all of the survivors will leave you. You can also not retrain, assign or set them as militia. And you can only disband
+    them all at once.
+  description:  Get a drink and check for mercenaries.
  library:
   name:         Library
   intro: >

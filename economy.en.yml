@@ -151,8 +151,8 @@ description:
    ultimate in personal armor.
  Inn: >
    The village inn or a collection of taverns and pubs for a larger settlement, this is where the peasants meet for
-   their evening ale and some gossip, but it also provides a place to hire the odd talent for simple tasks that require
-   no special training.
+   their evening ale and some gossip. It also provides a place to hire the odd talent for simple tasks that require
+   no special training. Or, of course, where you meet shady figures at corner table to hire them and their men as mercenaries.
  Leather Tanner: >
    A basic craftsman who turns animal hides into leather and simple leather products.
  Library: >
@@ -173,8 +173,10 @@ description:
    for himself as payment, which makes him both well-off and disliked in most places. Nevertheless, the mill is a lot faster
    and less manual work than manual grindstones.
  Mine: >
-   Ore and other valuables need to be dug up and that is what the miners do inside a mine. Greatly
-   enhancing metal production, the mine improves the creation of metal-based goods, weapons and armors.
+   Ore and other valuables need to be dug up and that is what the miners do inside a mine. Greatly enhancing metal production,
+   the mine improves the creation of metal-based goods, weapons and armors.<br />
+   <b>Important:</b> A mine only works in regions with metal deposits. If the metal production of the region is zero, building
+   a mine will not give any benefits.
  Palisade: >
    The most primitive type of fortification, a palisade is very useful against wild animals and roaming bandits, giving the
    inhabitants of a settlement a feeling of security.

@@ -1115,11 +1115,12 @@ manual:
  publications:  publications
  history:       history & events
  permissions:   permission system
- prison:      captivity
- supply:      army supply
+ prison:        captivity
+ bandits:       bandits
+ supply:        army supply
  reference:     reference
- units:       units of measurement
- test:        test instance
+ units:         units of measurement
+ test:          test instance
 
 list:
  buildingtypes:   list of all building types
