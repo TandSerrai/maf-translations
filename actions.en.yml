@@ -39,6 +39,7 @@ queue:
  action:        action
  progress:      progress
  finishing:     finishing
+ fighting:      in progress
  block:         blocks travel?
  start:         started
  end:           est. complete
