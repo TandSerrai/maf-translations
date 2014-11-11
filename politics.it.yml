@@ -112,8 +112,9 @@ realm:
   2: contea
   3: marca
   4: ducato
-  5: regno
-  6: impero
+#  5: ((missing translation))
+  6: regno
+  7: impero
  title:
   male:
    0: cavaliere
@@ -121,14 +122,16 @@ realm:
    2: conte
    3: marchese
    4: duca
-   5: re
-   6: imperatore
+#  5: ((missing translation))
+   6: re
+   7: imperatore
   female:
    0: dama
    1: baronessa
    2: contessa
    3: marchesa
    4: duchessa
-   5: regina
-   6: imperatrice
+#  5: ((missing translation))
+   6: regina
+   7: imperatrice
 

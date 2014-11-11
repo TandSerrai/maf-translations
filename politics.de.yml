@@ -223,8 +223,9 @@ realm:
   2: Grafschaft
   3: Mark
   4: Fürstentum
-  5: Königreich
-  6: Imperium
+  5: Prinzentum
+  6: Königreich
+  7: Imperium
  title:
   male:
    0: Ritter
@@ -232,16 +233,18 @@ realm:
    2: Graf
    3: Markgraf
    4: Fürst
-   5: König
-   6: Imperator
+   5: Prinz
+   6: König
+   7: Imperator
   female:
    0: Freifrau
    1: Baronin
    2: Gräfin
    3: Markgräfin
    4: Fürstin
-   5: Königin
-   6: Imperatorin
+   5: Prinzessin
+   6: Königin
+   7: Imperatorin
 position:
 # name: ((missing translation - original: title))
 # description: ((missing translation - original: formal description))

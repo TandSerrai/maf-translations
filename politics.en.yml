@@ -281,8 +281,9 @@ realm:
   2: county
   3: march
   4: duchy
-  5: kingdom
-  6: empire
+  5: principality
+  6: kingdom
+  7: empire
  title:
   male:
    0: knight
@@ -290,16 +291,18 @@ realm:
    2: count
    3: marquess
    4: duke
-   5: king
-   6: emperor
+   5: prince
+   6: king
+   7: emperor
   female:
    0: dame
    1: baroness
    2: countess
    3: marquise
    4: duchess
-   5: queen
-   6: empress
+   5: princess
+   6: queen
+   7: empress
 
 position:
  name:        title

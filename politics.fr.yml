@@ -123,8 +123,9 @@ realm:
   2: comté
   3: marche
   4: duché
-  5: royaume
-  6: empire
+#  5: ((missing translation))
+  6: royaume
+  7: empire
  title:
   male:
    0: chevalier
@@ -132,14 +133,16 @@ realm:
    2: comte
    3: marquis
    4: duc
-   5: roi
-   6: empereur
+#  5: ((missing translation))
+   6: roi
+   7: empereur
   female:
    0: dame
    1: baronne
    2: comtesse
    3: marquise
    4: duchesse
-   5: reine
-   6: impératrice
+#  5: ((missing translation))
+   6: reine
+   7: impératrice
 
