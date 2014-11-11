@@ -6,6 +6,34 @@ queued:         The action has been added to your orders queue.
 form:
  choose:  -- choose --
 
+# these are the group names for soldiers - translate them if you use non-latin alphabets in your language
+a: a
+b: b
+c: c
+d: d
+e: e
+f: f
+g: g
+h: h
+i: i
+j: j
+k: k
+l: l
+m: m
+n: n
+o: o
+p: p
+q: q
+r: r
+s: s
+t: t
+u: u
+v: v
+w: w
+x: x
+y: y
+z: z
+
 support:
  name:          Supporting an action
  submit:        support

@@ -847,6 +847,7 @@ weapon:     weapon
 armour:     armor
 equipment:  equipment
 home:       home
+group:      group
 
 npc:
  type:         type
