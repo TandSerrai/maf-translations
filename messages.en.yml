@@ -346,6 +346,16 @@ account:
   text:     text to include in e-mail
   invite:   invite your friend
   gift:     make this gift
+  error:
+   self:      You can make gifts to yourself, of course, but not in Might & Fealty credits.
+   notarget:  No user with this e-mail address found.
+  mail:
+   subject:   Might & Fealty Gift
+   body: >
+     <p>Your friend (cc'ed in this e-mail) has given you a gift of <b>%credits% credits</b> in Might & Fealty.</p>
+     <p>He also sends this message:</p>
+     <hr />
+     <p>%message%</p>
  invite:
   link:     Invite with a gift
   title:    Invite a friend
