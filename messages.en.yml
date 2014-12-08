@@ -707,7 +707,7 @@ status:       status
 locked:       locked
 dead:         dead
 inactive:     inactive
-prisoner:     prisoner
+prisoner:     prisoner|prisoners
 wounded:      wounded
 hungry:       hungry
 veryhungry:   starving
@@ -741,7 +741,7 @@ newevents:    %number% event|%number% events
 newmessages:  %number% message|%number% messages
 inside:       inside %place%
 near:         near %place%
-prisoner:     prisoner of %captor%
+prisonerof:   prisoner of %captor%
 atsea:        at sea
 tradename:    name (optional)
 zoom:         zoom to fit
