@@ -828,6 +828,7 @@ error:
   realmrelation:  realm relation not found
   election:     election not found
   newliege:     settlement owner not found, please choose a different knight offer.
+  offer:        please select a knight offer.
  noaccess:
   character:    character does not belong to you
   log:          you do not have access to this log
