@@ -480,6 +480,7 @@ character:
  status:  Status of %name%
  history: character history
  inactive:  this character has not been played in a while
+ newplayer: This character is being played by a player who is new to the game. Please act accordingly.
  notstarted:
   title:    Rumours
   text:     Only rumours about this noble have been heard, as this character has not yet been started (placed in the world).
@@ -522,7 +523,9 @@ character:
 
 bandits:
  title:   Bandits
- intro:   You can also temporarily play bandit characters, see [bandits].
+ intro:   You can also temporarily play bandit characters, see [bandits]. Choose one of the free bandits below:
+ choose:  Bandit to play:
+ submit:  choose this bandit character
 
 achievements:
  title:       achievements
@@ -831,6 +834,8 @@ error:
   offer:        please select a knight offer.
  noaccess:
   character:    character does not belong to you
+  busy:         this bandit has already been chosen by someone else.
+  notnpc:       this is not an NPC character.
   log:          you do not have access to this log
   settlement:   you do not have full access to this settlement
   paper:        you are not a member of this publication
@@ -866,6 +871,8 @@ npc:
  name:         name
  number:       number
  supply:       supply
+ is:           wandering bandit
+ maxreached:   You are already playing the maximum allowed number of bandits.
  entourage:    entourage member|entourage members
  entourage2:   entourage|entourage
  follower:     camp follower|camp followers
@@ -987,6 +994,7 @@ battle:
   kill:         %i% enemy killed|%i% enemies killed
   wound:        %i% enemy wounded|%i% enemies wounded
   routed:       %i% enemy routed|%i% enemies routed
+  capture:      %i% enemy noble surrendered|%i% enemy nobles surrendered
  melee:         
   title:        melee phase %i%
   alive:        %i% soldier fighting|%i% soldiers fighting

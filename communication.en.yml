@@ -43,6 +43,8 @@ event:
   starvation:   Starvation has reached serious levels.
   crash:        Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.
   disrepair:    The %buildingtype% has broken down beyond repair and must be considered lost.
+  burned:       The %buildingtype% has been damaged by enemy forces.
+  burned2:      The %buildingtype% has been burned down by enemy forces.
   attacked:     The settlement is being attacked by troops of %character%.
   battle:       A %battle% was fought.
   entered:      %character% has entered the settlement.
@@ -63,6 +65,7 @@ event:
   renamed:      Has changed name from "%oldname%" to "%newname%".
   death:        Died.
   death2:       Died in battle.
+  npcdeath:     Without troops, disappeared and died.
   deathreclaim: %amount% soldiers returned to you upon the death of %character%, whom you had them assigned to.
   killgold:     You took %gold% gold from the body of %character%.
   child:        Had a child, %character%.
