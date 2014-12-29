@@ -412,8 +412,18 @@ military:
    submit:        engage
  block:
   name:           block area
-  description:    prevent others from passing through.
-  longdesc:       deploy your forces to block others from passing through your action range. Most effective at choke points like bridges.
+  description:    Prevent others from passing through.
+  longdesc:       Deploy your forces to block others from passing through your action range. Most effective at choke points like bridges.
+ damage:
+  name:           damage feature
+  description:    Try to destroy a bridge or other feature.
+  longdesc:       Use your soldiers to tear down or damage a bridge, watchtower or sign to disrupt enemy operations.
+  intro: >
+    You can use your soldiers to tear apart features such as bridges, watchtowers or signs.<br />
+    Typically, you do this to your enemy to disrupt them, but sometimes you may want to get rid of features in your own lands.<br />
+    The following feature(s) is/are within range:
+  target:         Choose which feature to damage or destroy.
+  submit:         proceed with destruction
 
 economy:
  name:          settlement economy actions
@@ -604,6 +614,10 @@ recruit:
   retraininfo:  Retrain the above selected soldiers to the following equipment set:<br /><small>(they will be added to the settlement training queue and leave active service until training is complete)</small>
   current:      current
   submit:       issue orders
+  group1:       group by type
+  group2:       group detailed
+  groupinfo:    Automatically group soldiers according to equipment. Warning: This will overwrite any groups you may have.
+  grouped:      Your soldiers have been automatically put into groups
  offers:
   name:         knights offers
   description:  Set aside soldiers to offer to new knights swearing allegiance to you.
@@ -703,7 +717,7 @@ meta:
   name:         Respawn
   description:  return character to pool
   sure:         are you sure?
-  success:      The character has been returned to the NPC pool.
+  success:      The character has been returned to the pool.
  heraldry:
   name:         heraldry
   description:  assign or change crest

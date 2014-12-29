@@ -146,6 +146,7 @@ event:
   founded:      Founded by %character%.
   inherited:    Rulership passed to %character-2% upon the death of %character-1%.
   inherifail:   Rulership disputed after the death of %character%, who left no heir.
+  elected:      %character% was elected as ruler.
   joined:       Became a part of %realm%.
   wasjoined:    Acquired control of %realm%.
   left:         Left %realm% and became independent.
@@ -161,6 +162,7 @@ event:
   founded:      Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.
  position:
   death:        %character% has died and thus left the office of %realmposition%.
+  inactive:     %character% has fallen to slumberblight and thus left the office of %realmposition%.
 
 report:
  building:

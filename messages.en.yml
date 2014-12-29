@@ -21,6 +21,7 @@ menu:
  credits:   credits
  contact:   contact
  forum:     forum
+ bugs:      bugtracker
  about:     about
  manual:    manual
  vips:      VIPs
@@ -123,6 +124,7 @@ map:
  settlements:  settlements
  realms:       major realms
  rivers:       rivers
+ cultures:     cultures
  towers:       towers
  roads:        roads
  chars:        characters
@@ -835,7 +837,7 @@ error:
  noaccess:
   character:    character does not belong to you
   busy:         this bandit has already been chosen by someone else.
-  notnpc:       this is not an NPC character.
+  notnpc:       this is not a bandit character.
   log:          you do not have access to this log
   settlement:   you do not have full access to this settlement
   paper:        you are not a member of this publication
@@ -985,6 +987,7 @@ battle:
   nowhere:      Neverwhere battle.
   of:           The battle of %location%.
   near:         A battle near %location%.
+ defenses:      An assault against a defended position with
  initial:       initial troops
  combat:        combat
  ranged:        
@@ -1102,10 +1105,11 @@ fiction:
     their works are more often performed than read.</p>
  untranslated: Sorry, but this story has not yet been translated into your language.
  page:
-  fall:     The fall of Tymetras
   creation: Creation
+  firstones: The First Ones
+  fall:     The fall of Tymetras
   lendan:   The Lendan Stones
-  geas:     The Ancient Geas
+  geas:     An Ancient Geas
 
 
 manual:
@@ -1188,14 +1192,16 @@ unavailable:
  restricted:    Your account is currently restricted.
  free:          This action is unavailable for trial accounts.
  free2:         With a free account, you can only take 3 estates per character.
- npc:           Not available to NPC characters.
+ npc:           Not available to bandit characters.
  already:       You are already conducting this action.
  supporting:    You are already supporting someone else in this action.
  atsea:         You are travelling at sea.
  nosettlement:  You are not near any settlement.
  notinside:     You are not inside the settlement.
+ noregion:      You are not in an inhabited area.
  nodock:        There are no docks nearby.
  noship:        You do not have a ship nearby.
+ nofeatures:    No damageable features nearby.
  notyours:      The settlement owner has not granted you permission to do this.
  notyours2:     You do not control this settlement.
  notrain:       No available training options.
