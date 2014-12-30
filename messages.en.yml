@@ -751,6 +751,7 @@ atsea:        at sea
 tradename:    name (optional)
 zoom:         zoom to fit
 expand:       expand
+fewoffers:    There are only %count% knight offers open at this time. Creating more knight offers now has a very good chance of giving you new knights.
 
 distance:    distance
 length:      length
