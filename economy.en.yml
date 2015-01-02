@@ -60,6 +60,7 @@ building:
  Stone Towers: Stone Towers
  Stone Wall: Stone Wall
  Tailor: Tailor
+ Tavern: Tavern
  Temple: Temple
  Town Hall: Town Hall
  Training Ground: Training Ground
@@ -150,9 +151,9 @@ description:
    A rare specialist for heavy armor who can work miracles with metal and create the rare and valuable plate armor, the
    ultimate in personal armor.
  Inn: >
-   The village inn or a collection of taverns and pubs for a larger settlement, this is where the peasants meet for
-   their evening ale and some gossip. It also provides a place to hire the odd talent for simple tasks that require
-   no special training. Or, of course, where you meet shady figures at corner table to hire them and their men as mercenaries.
+   The village inn or a collection of roadhouses, inns, brothels and similar occasions for travellers to rest and spend
+   the night, this is where you can also find the odd talent to hire or meet shady figures at corner tables who can provide
+   you with mercenaries.
  Leather Tanner: >
    A basic craftsman who turns animal hides into leather and simple leather products.
  Library: >
@@ -208,6 +209,9 @@ description:
  Tailor: >
    A basic craftsman providing the peasants with clothes of a higher quality than their home-made ones and also capable of
    creating large batches of tabards and even simple cloth armor.
+ Tavern: >
+   The village pub, or a collection of taverns and pubs for a larger settlement, this is where the peasants meet for
+   their evening ale and some gossip.
  Temple: >
    A large place of religious worship, usually with one or more full-time priests as well as a number of helpers.
  Town Hall: >
