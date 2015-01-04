@@ -34,6 +34,7 @@ menu:
  travel:    map & travel
  status:    status
  recent:    summary
+ rss:       RSS feed
  events:    events
  messages:  messages
  news:      publications

@@ -141,13 +141,14 @@ location:
  inn:
   name:         Visit Inn
   intro: >
-    If you are looking for sell-swords, soldiers of fortune, men-at-arms - in a word: Mercenaries, the inn is where you will
+    In the inn, you can hear rumours from abroad, especially about what other lords offer for prospective knights. And if
+    you are looking for sell-swords, soldiers of fortune, men-at-arms - in a word: Mercenaries, the inn is where you will
     most likely find them.<br />
-    They are usually easy to spot as their are looking for employers the same way you are looking for them. Their services, 
+    They are usually easy to spot as they are looking for employers the same way you are looking for them. Their services, 
     however, are less easy. They will follow you as long as you pay them well. But you will have to pay extra for every death
     or all of the survivors will leave you. You can also not retrain, assign or set them as militia. And you can only disband
     them all at once.
-  description:  Get a drink and check for mercenaries.
+  description:  Get a drink and check for rumours and mercenaries.
  library:
   name:         Library
   intro: >
