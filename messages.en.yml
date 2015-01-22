@@ -646,10 +646,12 @@ settlement:
  recruitscount: %count% recruits in training
  resources:
   type:     type
-  base:     base yield
+  yield:    source
+  base:     base
   current:  production
   demand:   demand
   base:         base
+  corruption:   corruption
   buildings:    buildings
   construction: construction
   total:        total
