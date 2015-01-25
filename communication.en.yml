@@ -18,6 +18,7 @@ event:
   taken:				Control established by %character%.
   taken2:       Control established by %character% of %realm%.
   loot:         The settlement is being looted by %character%.
+  loot2:        Outlying farms and homesteads are being looted by %character%.
   lootgain:
    resource:    Stolen resources from %settlement%, looted by %character%, have arrived.
    thralls:     %amount% thralls taken from %settlement% by %character%, have arrived.
