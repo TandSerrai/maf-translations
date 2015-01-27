@@ -181,7 +181,7 @@ soldier:
  militia:       Set up as militia in %settlement%.
  mobilize:      Mobilized by %character%.
  assign:        Assigned to %character%.
- battle:        Participated in battle %battle%.
+ battle:        Participated in %battle%.
  routed:
   ranged:       Routed due to archery fire.
   melee:        Routed in melee combat.

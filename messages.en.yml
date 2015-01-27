@@ -904,6 +904,14 @@ soldier:
  reclaim:          reclaim chance
  buryall:          bury all dead
  resupplyall:      resupply all
+ allin:            all soldiers in group 
+ allin2:           set to
+ groupby:
+  intro:           re-group all soldiers
+  type:            by type
+  type_desc:       sort soldiers into groups based on their classification (i.e. all light infantry into one group, all archers into one group, etc.)
+  items:           by details
+  items_desc:      sort soldiers into detailed groups so each set of equipment (weapon, armor, item) has its own group.
 
  rabble:           rabble|rabble
  light infantry:   light infantry|light infantry
@@ -988,9 +996,11 @@ battle:
  upcoming:      Upcoming Battle
  participants:  participants
  location:
-  nowhere:      Neverwhere battle.
-  of:           The battle of %location%.
-  near:         A battle near %location%.
+  nowhere:      Neverwhere battle
+  of:           The battle of %location%
+  siege:        The siege of %location%
+  assault:      The assault on %location%
+  near:         A battle near %location%
  defenses:      An assault against a defended position with
  initial:       initial troops
  combat:        combat
