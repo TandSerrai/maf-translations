@@ -229,6 +229,8 @@ resolution:
   nosettlement: You can only complete actions on settlements while you are there.
   notyours:     You do not control this settlement anymore.
   notinside:    You are not inside the settlement (anymore).
+  location:
+   fortified:   You cannot take control of a fortified settlement from outside.
  attack:
   success:      You have successfully engaged the enemy. Battle preparations are underway.
   targeted:     Enemy troops are engaging you. Battle preparations are being made by both sides. You have an estimated %time% for any actions or requests of support you might want to make.
