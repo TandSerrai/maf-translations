@@ -96,6 +96,7 @@ queue:
   battle:       fight battle
   disengage:    disengage from battle
   evade:        evade all battles
+  damage:       damage feature
  task:
   research:     research journal
  dungeon:
@@ -422,9 +423,15 @@ military:
   intro: >
     You can use your soldiers to tear apart features such as bridges, watchtowers or signs.<br />
     Typically, you do this to your enemy to disrupt them, but sometimes you may want to get rid of features in your own lands.<br />
+    This action takes 4 hours, except for signs where it takes only 1 hour.<br />
+    <br />
     The following feature(s) is/are within range:
   target:         Choose which feature to damage or destroy.
+  inactive:       (inactive)
   submit:         proceed with destruction
+  success:        You have destroyed the %featuretype%.
+  success2:       You have damaged the %featuretype%, making it inoperative.
+  success3:       You have damaged the %featuretype%, by about %damage% % of the effort required to build it.
 
 economy:
  name:          settlement economy actions

@@ -1,357 +1,379 @@
+# Might & Fealty
+# text strings for events
+# Author: Tom Vogt <tom@mightandfealty.com>
 rss:
-# desc: ((missing translation - original: Might & Fealty Event Log Summary))
-# feed: ((missing translation - original: get event updates via RSS))
+ desc:        Might & Fealty Registro de Eventos
+ feed:        obtener actualizaciones de eventos a través de RSS
+
 event:
  settlement:
   ownership:
-#   gained: ((missing translation - original: Has taken control of %settlement%.))
-#   lost: ((missing translation - original: Has lost control of %settlement%, because it has been taken by %character%.))
-#  inherited: ((missing translation - original: Was inherited by %character%.))
-#  inherifail: ((missing translation - original: Fell to independence on the death of %character%, who left no heir.))
+   gained:			Ha tomado el control de %settlement%.
+   lost:				Ha perdido el control de %settlement%, ya que ha sido tomado por %character%.
+  inherited:    Fue heredado por %character%.
+  inherifail:   Cayó a la independencia en la muerte de %character%, que dejó ningún heredero.
   take:
-#   started: ((missing translation - original: %character% has initiated actions to take control.))
-#   stopped: ((missing translation - original: %character% has abandoned attempts to take control.))
-#  taken: ((missing translation - original: Control established by %character%.))
-#  taken2: ((missing translation - original: Control established by %character% of %realm%.))
-#  loot: ((missing translation - original: The settlement is being looted by %character%.))
+   started:     %character% ha iniciado acciones para tomar el control.
+   stopped:     %character% ha abandonado los intentos de tomar el control.
+  taken:				Control establecido por %character%.
+  taken2:       Control establecido por %character% de %realm%.
+  loot:         El asentamiento está siendo saqueada por %character%.
   lootgain:
-#   resource: ((missing translation - original: Stolen resources from %settlement%, looted by %character%, have arrived.))
-#   thralls: ((missing translation - original: %amount% thralls taken from %settlement% by %character%, have arrived.))
-#  renamed: ((missing translation - original: Old name "%oldname%" changed to "%newname%".))
-#  granted: ((missing translation - original: Granted to %character%.))
-#  changed: ((missing translation - original: Allegiance changed to %realm%.))
-#  realm: ((missing translation - original: Became a founding estate of %realm%.))
-#  subrealm: ((missing translation - original: Split of to be a part of %realm%.))
-#  realmfail: ((missing translation - original: Returned to independence with the failing of %realm%.))
-#  realmfail2: ((missing translation - original: Became part of %realm-1% with the failing of %realm-2%.))
-#  autoconstruction: ((missing translation - original: Due to popular demand, the peasants have initiated construction of the %buildingtype% of their own accord. %workers% workers have volunteered for the project.))
-#  addconstruction: ((missing translation - original: Demand for %buildingtype% has caused the peasants to volunteer to speed up the construction work. The worker amount on the project has been raised to %workers%.))
-#  tradefail: ((missing translation - original: Outgoing trade of %amount% %resource% for %settlement% had to be stopped due to insufficient amounts available.))
-#  tradereduce: ((missing translation - original: Insufficient resources for outgoing trade of %amount% %resource% for %settlement%. Trade volume has been reduced to %newamount%.))
-#  tradestop: ((missing translation - original: The trade of %amount% %resource% from %settlement% has ceased.))
-#  tradereduced: ((missing translation - original: The trade of %resource% from %settlement% has dropped in volume. Instead of the previous %amount% units, it is now %newamount% units.))
-#  setback: ((missing translation - original: Due to ongoing food shortages, workers are leaving construction projects to take care of their families instead.))
-#  hunger: ((missing translation - original: Food shortages and hunger are becoming a problem.))
-#  starvation: ((missing translation - original: Starvation has reached serious levels.))
-#  crash: ((missing translation - original: Production and construction has come to a stop due to insufficient workforce. Buildings are closing down and falling into disrepair.))
-#  disrepair: ((missing translation - original: The %buildingtype% has broken down beyond repair and must be considered lost.))
-#  burned: ((missing translation - original: The %buildingtype% has been damaged by enemy forces.))
-#  burned2: ((missing translation - original: The %buildingtype% has been burned down by enemy forces.))
-#  attacked: ((missing translation - original: The settlement is being attacked by troops of %character%.))
-#  battle: ((missing translation - original: A %battle% was fought.))
-#  entered: ((missing translation - original: %character% has entered the settlement.))
-#  entered2: ((missing translation - original: %character% has entered the settlement with %soldiers% soldiers.))
-#  left: ((missing translation - original: %character% has been seen leaving.))
-#  spot: ((missing translation - original: The watchtower "%tower%" spotted %character% in the vicinity.))
-#  spot2: ((missing translation - original: The watchtower "%tower%" spotted a ship nearby.))
-#  spot3: ((missing translation - original: The watchtower "%tower%" spotted %character% in the vicinity, with %count% soldiers.))
+   resource:    Recursos robados de %settlement%, saqueados por %character%, han llegado.
+   thralls:     %amount% esclavos tomados de %settlement% por %character%, han llegado.
+  renamed:			Nombre antiguo "%oldname%" cambiado a "%newname%".
+  granted:      Concedido a %character%.
+  changed:      Lealtad cambiada a %realm%.
+  realm:        Se convirtió en una villa fundadora de %realm%.
+  subrealm:     Dividido para ser parte de %realm%.
+  realmfail:    Regresó a la independencia con el fracaso de %realm%.
+  realmfail2:   Se convirtió en parte de %realm-1% con el fracaso de %realm-2%.
+  autoconstruction: >
+    Debido a la demanda popular, los campesinos han iniciado la construcción de el %buildingtype% en su propia voluntad.
+    %workers% trabajadores se han ofrecido como voluntarios para el proyecto.
+  addconstruction: >
+    La demanda de %buildingtype% ha provocado que los campesinos sean voluntarios para acelerar los trabajos de construcción.
+    La cantidad de los trabajadores en el proyecto se ha elevado a %workers%.
+  tradefail:    Comercio saliente de %amount% %resource% para %settlement% tuvo que ser suspendido debido a las cantidades insuficientes disponibles.
+  tradereduce:  Recursos insuficientes para el comercio saliente de %amount% %resource% para %settlement%. Volumen de comercio ha sido reducido a %newamount%.
+  tradestop:    El comercio de %amount% %resource% de %settlement% ha cesado.
+  tradereduced: El comercio de %resource% procedente de %settlement% ha disminuido en volumen. En vez de las %amount% unidades anteriores, ahora son %newamount% unidades.
+  setback:      Debido a la escasez de alimentos, los trabajadores están abandonando los proyectos de construcción para cuidar de sus familias.
+  hunger:       La escasez de alimentos y el hambre se están convirtiendo en un problema.
+  starvation:   El hambre ha llegado a niveles serios.
+  crash:        Producción y construcción han sido detenidos debido a la fuerza de trabajo insuficiente. Edificios están cerrando y cayendo en la desesperación
+  disrepair:    El %buildingtype% se ha roto sin remedio y debe considerarse perdida.
+  burned:       El %buildingtype% ha sido dañada por las fuerzas enemigas.
+  burned2:      El %buildingtype% ha sido quemada por las fuerzas enemigas.
+  attacked:     El asentamiento está siendo atacado por las tropas de %character%.
+  battle:       Una %battle% se libró.
+  entered:      %character% ingresó al asentamiento.
+  entered2:     %character% ha entrado en el asentamiento con %soldiers% soldados.
+  left:         %character% ha sido visto saliendo.
+  spot:         La torre de vigilancia "%tower%" ha visto a %character% en la cercanías.
+  spot2:        La torre de vigilancia "%tower%" vio un barco en la cercanías.
+  spot3:        La torre de vigilancia "%tower%" vio a %character% en la vecindad, con %count% soldados.
   claim:
-#   added: ((missing translation - original: %character% has announced a claim to this settlement.))
-#   cancelled: ((missing translation - original: %character% has withdrawn the claim to this settlement.))
-#  newyear: ((missing translation - original: New Year celebrations, festive atmosphere and alcoholic drinks resulted in a predictable additional %babies% babies being born.))
+   added:       %character% ha anunciado una reclamación a este asentamiento.
+   cancelled:   %character% ha retirado la reclamación a este asentamiento.
+  newyear:      Celebraciones de Año Nuevo, ambiente festivo y bebidas alcohólicas resultaron en unos predecibles %babies% bebés adicionales naciendo.
  travel:
-#  cantland: ((missing translation - original: The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.))
+  cantland:     El capitán del barco no puede encontrar un lugar de desembarque adecuado, por favor intente una corta distancia más arriba o hacia abajo de la costa.
  character:
-#  created: ((missing translation - original: First mention in family chronicle.))
-#  start: ((missing translation - original: Has appeared at %settlement%.))
-#  renamed: ((missing translation - original: Has changed name from "%oldname%" to "%newname%".))
-#  death: ((missing translation - original: Died.))
-#  death2: ((missing translation - original: Died in battle.))
-#  npcdeath: ((missing translation - original: Without troops, disappeared and died.))
-#  deathreclaim: ((missing translation - original: %amount% soldiers returned to you upon the death of %character%, whom you had them assigned to.))
-#  killgold: ((missing translation - original: You took %gold% gold from the body of %character%.))
-#  child: ((missing translation - original: Had a child, %character%.))
+  created:      Primer mención en crónica familiar.
+  start:        Ha aparecido en %settlement%.
+  renamed:      Se ha cambiado el nombre de "%oldname%" a "%newname%".
+  death:        Murió.
+  death2:       Murió en la batalla.
+  npcdeath:     Sin tropas, desapareció y murió.
+  deathreclaim: %amount% 50 soldados devueltos después de la muerte de %character%, el que los tuvo asignados.
+  killgold:     Tomaste %gold% oro del cuerpo de %character%.
+  child:        Tuvo un hijo, %character%.
   inherit:
-#   estate: ((missing translation - original: Inherited the settlement %settlement% from %character%.))
-#   realm: ((missing translation - original: Inherited the realm %realm% from %character%.))
+   estate:      Heredó el asentamiento de %settlement% de %character%.
+   realm:       Heredó el dominio de %realm% de %character%.
   inheritvia:
-#   estate: ((missing translation - original: Inherited the settlement %settlement% from %character-1% (via %character-2%).))
-#   realm: ((missing translation - original: Inherited the realm %realm% from %character-1% (via %character-2%).))
-#  wasgranted: ((missing translation - original: Was granted control of %settlement% by %character%.))
-#  realmfounded: ((missing translation - original: Founded the realm %realm%.))
-#  realmgranted: ((missing translation - original: Granted rulership of %realm% by %character%.))
-#  abdicated: ((missing translation - original: Has abdicated rulership of %realm% and given it to %character%.))
-#  abdicated2: ((missing translation - original: Has abdicated rulership of %realm% with no successor.))
-#  succeeds: ((missing translation - original: Has gained rulership of %realm% through the abdication of %character%.))
-#  appointed: ((missing translation - original: Was appointed ruler of %realm% by %character%.))
+   estate:      Heredado el asentamiento de %settlement% de %character-1% (por %character-2%).
+   realm:       Heredó el dominio de %realm% de %character-1% (por %character-2%).
+  wasgranted:   Concedido el control de %settlement% por %character%.
+  realmfounded: Fundó el dominio de %realm%.
+  realmgranted: Regencia otorgada de %realm% por %character%.
+  abdicated:    Ha abdicado la regencia de %realm% y se la ha dado a %character%.
+  abdicated2:   Ha abdicado la regencia de %realm% sin sucesor.
+  succeeds:     Ha adquirido regencia de %realm% a través de la abdicación de %character%.
+  appointed:    Fue nombrado regente de %realm% por %character%.
   position:
-#   appointed: ((missing translation - original: Appointed %realmposition% in %realm%.))
-#   demoted: ((missing translation - original: Demoted from %realmposition% in %realm%.))
-#   elected: ((missing translation - original: Elected %realmposition% in %realm%.))
-#  liegedied: ((missing translation - original: Your liege %character% has died. This dissolves your oath of fealty.))
-#  liegedied2: ((missing translation - original: Your liege %character% has died. This dissolves your oath of fealty and has turned you into a wandering noble with no realm affiliation.))
-#  spot: ((missing translation - original: Your scouts spotted %character% in the vicinity.))
-#  spot2: ((missing translation - original: Your scouts spotted %character% in the vicinity, with %count% soldiers.))
-#  gotship: ((missing translation - original: You were given a ship by %character%. The ship made landfall nearby %remain% days ago.))
+   appointed:    Nombrado %realmposition% en %realm%.
+   demoted:      Degradado de %realmposition% en %realm%.
+   elected:      Electo %realmposition% en %realm%.
+  liegedied:    Tu Señor %character% ha muerto. Esto disuelve su juramento de fidelidad.
+  liegedied2:   Tu Señor %character% ha muerto. Esto disuelve su juramento de fidelidad y te has convertido en un noble errante sin afiliación a ningun dominio.
+  spot:         Sus exploradores han visto a %character% en las proximidades.
+  spot2:        Sus exploradores han visto a %character% en las inmediaciones, con %count% soldados.
+  gotship:      Se os dio un barco por %character%. El barco tocó tierra cerca, hace %remain% días.
   proposed:
-#   marriage: ((missing translation - original: You have received a marriage proposal from %character%. Accept or decline it on the relations page.))
-#   engagement: ((missing translation - original: You have received a proposal to become engaged to %character%. Accept or decline it on the relations page.))
-#   liason: ((missing translation - original: %character% is making advancements on you and is obviously moving towards a liason. Allow or refute it on the relations page.))
+   marriage:    Usted ha recibido una propuesta matrimonial de %character%. Aceptar o rechazar en la página de relaciones.
+   engagement:  Usted ha recibido una propuesta para comprometerse a %character%. Aceptar o rechazar en la página de relaciones.
+   liason:      %character% está haciendo avances a usted y obviamente se está moviendo hacia una aventura. Permitir o refutarla en la página de relaciones.
   rejected:
-#   marriage: ((missing translation - original: %character% has rejected your marriage proposal.))
-#   engagement: ((missing translation - original: %character% has refused to become engaged to you.))
-#   liason: ((missing translation - original: %character% has rejected your advances towards a liason.))
+   marriage:    %character% ha rechazado su propuesta de matrimonio.
+   engagement:  %character% se ha negado a comprometerse con usted.
+   liason:      %character% ha rechazado sus avances hacia una aventura.
   public:
-#   marriage: ((missing translation - original: Married %character%.))
-#   engagement: ((missing translation - original: Became engaged to %character%.))
+   marriage:    Se ha casado con %character%.
+   engagement:  Se comprometió con %character%.
   secret:
-#   marriage: ((missing translation - original: You secrectly married %character%.))
-#   engagement: ((missing translation - original: You became secretly engaged to %character%.))
-#   liason: ((missing translation - original: You have begun a liason with %character%.))
-#  capture: ((missing translation - original: Surrendered in battle to %character% and was taken prisoner.))
+   marriage:    Se ha casado en secreto con %character%.
+   engagement:  Te has comprometido en secreto a %character%.
+   liason:      Ha comenzado un romance con %character%.
+  capture:      Rendido en combate a %character% y fue hecho prisionero.
   prison:
-#   free: ((missing translation - original: Set free from imprisonment.))
-#   free2: ((missing translation - original: Freed from imprisonment through the death of %character%.))
+   free:        Liberado de prisión.
+   free2:       Liberado de prisión por la muerte de %character%
    kill:
-#    behead: ((missing translation - original: Beheaded by %character% as a prisoner.))
-#    hang: ((missing translation - original: While imprisoned by %character%, executed by hanging.))
-#    burn: ((missing translation - original: Burned alive by %character% as a prisoner.))
-#    quarter: ((missing translation - original: Brutally killed by quartering while a prisoner of %character%.))
-#    impale: ((missing translation - original: Slaughtered by impaling while a prisoner of %character%.))
+    behead:     Decapitado por %character% como prisionero.
+    hang:       Mientras estaba en prisión por %character%, ejecutado en la horca.
+    burn:       Quemado vivo por %character% como prisionero.
+    quarter:    Brutalmente asesinado por cuarteo mientras que era prisionero de %character%.
+    impale:     Sacrificado por empalamiento mientras era prisionero de %character%.
    killer:
-#    behead: ((missing translation - original: Beheaded %character%.))
-#    hang: ((missing translation - original: Executed %character% by hanging.))
-#    burn: ((missing translation - original: Burned %character% alive.))
-#    quarter: ((missing translation - original: Brutally killed %character% by quartering.))
-#    impale: ((missing translation - original: Slaughtered %character% by impaling.))
-#   assign: ((missing translation - original: You were transferred and are now a prisoner of %character%.))
-#   assign2: ((missing translation - original: Transferred to %character-1% through the killing of %character-2%.))
-#   received: ((missing translation - original: %character-1% has given you %character-2% as a prisoner.))
-#   received2: ((missing translation - original: The slaying of %character-1% has given you %character-2% as a prisoner.))
+    behead:     Decapitó a %character%.
+    hang:       Ejecutó a %character% en la horca.
+    burn:       Quemó a %character% con vida.
+    quarter:    Brutalmente asesinó a %character% por cuarteo.
+    impale:     Masacró %character% por empalamiento.
+   assign:      Usted fue trasladado y ahora es prisionero de %character%.
+   assign2:     Transferido a %character-1% a través de la muerte de %character-2%.
+   received:    %character-1% le ha dado a %character-2% como prisionero.
+   received2:   El asesinato de %character-1% le ha dado a %character-2% como prisionero.
   dungeon:
-#   newcard1: ((missing translation - original: You improved the action %card% in the dungeon and can now do it more often.))
-#   newcard2: ((missing translation - original: You learned a new action while in the dungeon: %card%))
-#   gold: ((missing translation - original: Your plunder from the dungeon came to a total of %gold% gold.))
-#   closed: ((missing translation - original: Rumours have it that a nearby dungeon has been completely explored and is no longer interesting.))
+   newcard1:    Has mejorado la acción %card% en el calabozo y ahora puede hacerlo más a menudo.
+   newcard2:    Usted aprendió una nueva acción mientras estaba en el calabozo: %card%
+   gold:        Su botín del calabozo llegó a un total de %gold% oro.
+   closed:      Rumours dicen que un calabozo cercano ha sido completamente explorado y ya no es interesante.
   inactive:
-#   prisoner: ((missing translation - original: Your captor %character% has not been seen for a long time. Maybe slumberblight got him? In any case, escaping should now be much easier.))
-#   vassal: ((missing translation - original: Your vassal %character% has not been seen for a long time and rumors have it that he has contracted slumberblight.))
-#   liege: ((missing translation - original: Your liege, %character%, has not been heard of for some time. Some say, he has been affected by slumberblight.))
-#   partner: ((missing translation - original: Your partner %character% seems to have vanished, or maybe it is slumberblight?))
-#   position: ((missing translation - original: The %realmposition% %character% has not been seen for a long time and must be assumed a victim of slumberblight.))
+   prisoner:    Su captor %character% no ha sido visto desde hace tiempo. Quizás el tizón de sueño se lo llevó? En cualquier caso, el escape ahora debería ser fácil.
+   vassal:      Su vasallo %character% no ha sido visto desde hace tiempo y rumores tienen que ha contraído el tizón de sueño.
+   liege:       Su señor, %character%, no ha sido visto desde hace tiempo. Algunos dicen, que ha contraído el tizón de sueño.
+   partner:     Su pareja %character% parece haber desaparecido, o tal vez ha contraído el tizón de sueño?
+   position:    El %realmposition% %character% no ha sido visto desde hace mucho tiempo y debe ser asumido que es una víctima del tizón de sueño.
  military:
-#  assigned: ((missing translation - original: You were assigned %count% soldiers by %character%. They have been added as group %group%.))
-#  assigned2: ((missing translation - original: You were assigned %count% entourage by %character%.))
-#  reclaimed: ((missing translation - original: %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.))
+  assigned:     Usted fue asignado %count% soldados por %character%. Ellos se han añadido al grupo %group%.
+  assigned2:    Usted fue asignado %count% séquito por %character%.
+  reclaimed:    %character% ha reclamado %count% soldados asignados a usted. %stay% de ellos decidieron permanecer bajo su comando.
+
  realm:
-#  founded: ((missing translation - original: Founded by %character%.))
-#  inherited: ((missing translation - original: Rulership passed to %character-2% upon the death of %character-1%.))
-#  inherifail: ((missing translation - original: Rulership disputed after the death of %character%, who left no heir.))
-#  elected: ((missing translation - original: %character% was elected as ruler.))
-#  joined: ((missing translation - original: Became a part of %realm%.))
-#  wasjoined: ((missing translation - original: Acquired control of %realm%.))
-#  left: ((missing translation - original: Left %realm% and became independent.))
-#  wasleft: ((missing translation - original: Lost control of %realm%, which declared itself independent.))
-#  gained: ((missing translation - original: Gained ownership of %settlement%.))
-#  gained2: ((missing translation - original: Gained ownership of %settlement% from %realm%.))
-#  lost: ((missing translation - original: Lost ownership of %settlement%.))
-#  lost2: ((missing translation - original: Lost ownership of %settlement% to %realm%.))
-#  abdicated: ((missing translation - original: %character-1% has abdicated and handed control of the realm to %character-2%.))
-#  abdicated2: ((missing translation - original: %character% has abdicated without a successor.))
-#  deserted: ((missing translation - original: Vanished into history with no members remaining.))
+  founded:      Fundada por %character%.
+  inherited:    Regencia pasó a %character-2% tras la muerte de %character-1%.
+  inherifail:   Regencia disputada después de la muerte de %character%, quien dejó ningún heredero.
+  elected:      %character% fue elegido como soberano.
+  joined:       Se convirtió en una parte de %realm%.
+  wasjoined:    Adquirido el control de %realm%.
+  left:         Dejó %realm% y se convirtió en independiente.
+  wasleft:      Perdió control de %realm%, que se declaró independiente.
+  gained:       Obtuvo la posesión de %settlement%.
+  gained2:      Obtuvo la posesión de %settlement% de %realm%.
+  lost:         Perdió la posesión de %settlement%.
+  lost2:        Perdió la posesión de %settlement% de %realm%.
+  abdicated:    %character-1% ha abdicado y entregó el control del dominio a %character-2%.
+  abdicated2:   %character% ha abdicado sin un sucesor.
+  deserted:     Desapareció en la historia con ningún miembro restante.
  subrealm:
-#  founded: ((missing translation - original: Founded by %character-1% as a subrealm of %realm% with rulership granted to %character-2%.))
+  founded:      Fundada por %character-1% como un subdominio de %realm% con la regencia concedida a %character-2%.
  position:
-#  death: ((missing translation - original: %character% has died and thus left the office of %realmposition%.))
-#  inactive: ((missing translation - original: %character% has fallen to slumberblight and thus left the office of %realmposition%.))
+  death:        %character% ha muerto y así salió de la oficina de %realmposition%.
+  inactive:     %character% ha caído al tizón de sueño y así salió de la oficina de %realmposition%.
+
 report:
  building:
-#  complete: ((missing translation - original: Construction of %buildingtype% has been completed.))
+  complete:			Construcción de %buildingtype% se ha completado.
  feature:
-#  complete: ((missing translation - original: A %featuretype% has been completed.))
+  complete:     %featuretype% se ha completado.
  road:
-#  complete: ((missing translation - original: Road construction has finished.))
+  complete:			Construcción de calzada ha terminado.
+
 soldier:
-# recruited: ((missing translation - original: Recruited by %character% in %settlement% with %item-1%/%item-2%/%item-3%.))
-# traincancel: ((missing translation - original: Training cancelled, reverted to old equipment.))
-# traincomplete: ((missing translation - original: Training completed.))
-# retrain: ((missing translation - original: Retrained in %settlement% to use %item-1%/%item-2%/%item-3%.))
-# militia: ((missing translation - original: Set up as militia in %settlement%.))
-# mobilize: ((missing translation - original: Mobilized by %character%.))
-# assign: ((missing translation - original: Assigned to %character%.))
-# battle: ((missing translation - original: Participated in battle %battle%.))
+ recruited:     Reclutado por %character% en %settlement% con %item-1%/%item-2%/%item-3%.
+ traincancel:   Entrenamiento cancelado, revertido al viejo equipo.
+ traincomplete: Entrenamiento completado.
+ retrain:       Reentrenado en %settlement% para utilizar %item-1%/%item-2%/%item-3%.
+ militia:       Establecido como milicia en %settlement%.
+ mobilize:      Movilizado por %character%.
+ assign:        Asignado a %character%.
+ battle:        Participó en batalla %battle%.
  routed:
-#  ranged: ((missing translation - original: Routed due to archery fire.))
-#  melee: ((missing translation - original: Routed in melee combat.))
+  ranged:       Enrutado debido al fuego de tiro con arco.
+  melee:        Enrutado en combate cuerpo a cuerpo.
  dropped:
-#  shield: ((missing translation - original: Dropped shield while running away.))
-#  weapon: ((missing translation - original: Dropped weapon while running away.))
-# killed: ((missing translation - original: Killed in battle.))
+  shield:       Abandonó el escudo mientras huía.
+  weapon:       Abandonó arma mientras huía.
+ killed:        Asesinado en batalla.
  wounded:
-#  ranged: ((missing translation - original: Wounded by archery fire.))
-#  melee: ((missing translation - original: Wounded in melee.))
-#  escape: ((missing translation - original: Wounded during retreat.))
-# casualties: ((missing translation - original: Caused %nr% casualties to the enemy.))
-# starved: ((missing translation - original: Starved to death.))
+  ranged:       Herido por el fuego de tiro con arco.
+  melee:        Herido en combate cuerpo a cuerpo.
+  escape:       Herido durante el retiro.
+ casualties:    Causó %nr% bajas al enemigo.
+ starved:       Murió de hambre.
+
 politics:
  oath:
-#  offer: ((missing translation - original: %character% has accepted one of your knight offers and become your knight.))
-#  offer2: ((missing translation - original: %character% has accepted your knight offer in %settlement% and become your knight.))
-#  taken: ((missing translation - original: Has appeared as a knight of %character% at %settlement%.))
-#  broken: ((missing translation - original: %character% has broken the oath of fealty to you and become a rogue.))
-#  nowruler: ((missing translation - original: %character% has become ruler of %realm% and is thus no longer a vassal.))
-#  changed: ((missing translation - original: %character-1% has broken the oath of fealty to you and sworn an oath to %character-2% instead.))
-#  new: ((missing translation - original: %character-1% has visited you and sworn an oath of fealty, becoming your vassal.))
-#  new2: ((missing translation - original: %character-1% has visited you and sworn an oath of fealty, breaking his old oath to %character-3% and becoming your vassal.))
-#  mynew: ((missing translation - original: Has sworn an oath of fealty to %character-2%.))
-#  mynew2: ((missing translation - original: Has broken the oath of fealty to %character-3% and sworn an oath to %character-2% instead.))
+  offer:      %character% ha aceptado una de sus ofertas de caballero y se conviertió en tu caballero.
+  offer2:     %character% ha aceptado su oferta de caballero en %settlement% y se conviertió en tu caballero.
+  taken:      Ha aparecido como un caballero de %character% en %settlement%.
+  broken:     %character% ha roto el juramento de lealtad a usted y se conviertió en un pícaro.
+  nowruler:   %character% se ha convertido en regente de %realm% y por lo tanto ya no es un vasallo.
+  changed:    %character-1% ha roto el juramento de lealtad a usted y ha realizado un juramento a %character-2%.
+  new:        %character-1% le ha visitado y ha realizado un juramento de lealtad, y se ha convertido en su vasallo.
+  new2:       %character-1% le ha visitado y ha realizado un juramento de lealtad, rompiendo su viejo juramento a %character-3% y se convirtió en su vasallo.
+  mynew:      Ha hecho un juramento de lealtad a %character-2%.
+  mynew2:     Ha roto el juramento de fidelidad a %character-3% y hecho un juramento a %character-2% en su lugar.
  successor:
-#  set: ((missing translation - original: Has set %character% as successor.))
-#  changed: ((missing translation - original: Has changed the successor, instead of %character-1% it will now be %character-2%.))
-#  new: ((missing translation - original: You have been declared as the successor of %character%.))
-#  removed: ((missing translation - original: %character% has removed you as successor.))
+  set:        Ha establecido a %character% como sucesor.
+  changed:    Ha cambiado el sucesor, en lugar de %character-1%, ahora será %character-2%.
+  new:				Usted ha sido declarado como el sucesor de %character%.
+  removed:    %character% le ha eliminado como sucesor.
+
+
 resolution:
  take:
-#  failed: ((missing translation - original: Your attempt to take control of %settlement% has failed.))
-#  success: ((missing translation - original: Your banner now flies over %settlement% and its people will follow your commands.))
+  failed:       Su intento de tomar el control de %settlement% ha fallado.
+  success:      Su estandarte ahora vuela sobre %settlement% y su gente seguirá sus órdenes.
  rename:
-#  failed: ((missing translation - original: Your attempt to rename %settlement% has failed.))
-#  success: ((missing translation - original: You have successfully renamed the settlement to "%new%".))
+  failed:       Su intento de cambiar el nombre de %settlement% ha fallado.
+  success:      Usted ha cambiado el nombre de el asentamiento a "%new%".
  grant:
-#  failed: ((missing translation - original: Your attempt to grant %settlement% to %character% has failed.))
-#  success: ((missing translation - original: You have successfully granted %settlement% to %character%.))
+  failed:       Su intento de otorgar %settlement% a %character% ha fracasado.
+  success:      Usted ha concedido %settlement% a %character%.
  unavailable:
-#  nosettlement: ((missing translation - original: You can only complete actions on settlements while you are there.))
-#  notyours: ((missing translation - original: You do not control this settlement anymore.))
-#  notinside: ((missing translation - original: You are not inside the settlement (anymore).))
+  nosettlement: Sólo se puede completar las acciones en asentamientos mientras esté ahí.
+  notyours:     Usted ya no controla este asentamiento.
+  notinside:    Usted ya no está dentro del asentamiento.
  attack:
-#  success: ((missing translation - original: You have successfully engaged the enemy. Battle preparations are underway.))
-#  targeted: ((missing translation - original: Enemy troops are engaging you. Battle preparations are being made by both sides. You have an estimated %time% for any actions or requests of support you might want to make.))
-#  evading: ((missing translation - original: Enemy troops are engaging you. As instructed, your troops will try to evade the battle, but if they fail to do so, the fight will occur in an estimated %time%.))
+  success:      Usted ha se ha encontrado con el enemigo. Preparativos de la batalla están en marcha.
+  targeted:     Las tropas enemigas le han encontrado. Preparativos de la batalla están en marcha. tieneS un tiempo estimado de %time% para acciones o solicitudes de apoyo que usted desee hacer.
+  evading:      Las tropas enemigas le han encontrado. Siguiendo las instrucciones, sus tropas van a tratar de evadir la batalla, pero si no lo hacen, la lucha ocurrirá en un tiempo estimado de %time%.
  defend:
-#  success: ((missing translation - original: %settlement% is being attacked. As ordered, your troops are rallying to defend it. The battle is expected to occur in %time%.))
-#  removed: ((missing translation - original: You are no longer defending %settlement%, because you have moved too far away from it.))
+  success:      %settlement% está siendo atacado. Según lo ordenado, sus tropas se están movilizando para defenderla. Se espera que la batalla que se produzca en %time%.
+  removed:      Ya no estás defendiendo %settlement%, porque se ha movido demasiado lejos de ella.
  disengage:
-#  success: ((missing translation - original: You have successfully evaded a battle.))
-#  failed: ((missing translation - original: Your attempt to evade a battle has failed.))
+  success:      Usted ha evadido exitosamente la batalla.
+  failed:       Su intento de evadir la batalla ha fallado.
  research:
-#  complete: ((missing translation - original: The journal of %log% has been completely researched.))
+  complete:     El diario de %log% ha sido completamente investigado.
  enter:
-#  success: ((missing translation - original: You have entered %settlement%.))
-#  failed: ((missing translation - original: Guards at %settlement% have denied you entrance.))
+  success:      Has entrado a %settlement%.
+  failed:       Guardias en %settlement% le han negado la entrada.
  escape:
-#  success: ((missing translation - original: You have successfully escaped from captivity.))
-#  failed: ((missing translation - original: Your attempt to escape captivity has failed. Your captor has been informed.))
-#  by: ((missing translation - original: %character% has escaped from your captivity, breaking the ancient oath sworn.))
-#  try: ((missing translation - original: %character% has attempted to escape from your captivity, but your guards have thwarted the attempt.))
+  success:      Usted ha escapado con éxito de su cautiverio.
+  failed:       Su intento de escapar de su cautiverio ha fallado. Su captor se ha informado.
+  by:           %character% se ha escapado de su cautiverio, rompiendo el antiguo juramento.
+  try:          %character% ha tratado de escapar de su cautiverio, pero sus guardias han frustrado el intento.
+
 battle:
-# participated: ((missing translation - original: Participated in a %battle%.))
-# failed: ((missing translation - original: The battle failed to happen.))
+ participated:  Participó en una %battle%.
+ failed:        La batalla no sucedió.
+
 mail:
-# sender: ((missing translation - original: Notification Service))
-# subject: ((missing translation - original: Might & Fealty Important Event Notice))
-# intro: ((missing translation - original: Important event for your character %name%:))
-# intro2: ((missing translation - original: Important event at the settlement %settlement%, owned by your character %character%:))
-# intro3: ((missing translation - original: Important event for the realm %realm%, ruled by your character %character%:))
-# footer: ((missing translation - original: <small>(if you do not want to receive these messages anymore, disable notifications in your settings)</small>))
+ sender:        Servicio de notificación
+ subject:       Might & Fealty Aviso Importante de Eventos
+ intro:         Acontecimiento importante para tu personaje %name%:
+ intro2:        Evento importante en el asentamiento %settlement%, propiedad su personaje %character%:
+ intro3:        Acontecimiento importante para el dominio %realm%, regido por su personaje %character%:
+ footer:        <small>(si usted ya no desea recibir estos mensajes, desactive las notificaciones en la configuración)</small>
+
+
 news:
-# title: ((missing translation - original: publication|publications))
-# edition: ((missing translation - original: edition|editions))
-# number: ((missing translation - original: Edition %number%))
-# readers: ((missing translation - original: %count% subscriber|%count% subscribers))
-# collection: ((missing translation - original: articles collection))
+ title:     publicación|publicaciones
+ edition:   edición|ediciones
+ number:    Edición %number%
+ readers:   %count% suscriptor|%count% suscriptores
+ collection:  colección de artículos
  create:
-#  title: ((missing translation - original: create publication))
-#  intro: ((missing translation - original: Here you can create a new publication, which can serve as a newspaper, a realm announcement service, strategy manual, law book or anything else you might want to put it to use for.<br />You will automatically become the first owner, editor, author and publisher, but you can add others later.))
-#  newname: ((missing translation - original: pick a unique name))
-#  submit: ((missing translation - original: create publication))
-#  unpublished: ((missing translation - original: unpublished))
-# member: ((missing translation - original: you are a member of:))
-# members: ((missing translation - original: members of this publication:))
-# reader: ((missing translation - original: publications you are reading:))
-# local: ((missing translation - original: locally published:))
-# local2: ((missing translation - original: local publications))
-# owner: ((missing translation - original: owner))
-# editor: ((missing translation - original: editor))
-# author: ((missing translation - original: author))
-# publisher: ((missing translation - original: publisher))
+  title:    crear publicación
+  intro:    Aquí puede crear una nueva publicación, que puede servir como un diario, un servicio de anuncios para el dominio, manual de estrategia, el libro de ley o cualquier otra cosa que quiera.<br />Te convertirás automáticamente en el primer propietario, editor, autor y publicador, pero usted podrá agregar otros más tarde.
+  newname:  elegir un nombre único
+  submit:   crear publicación
+  unpublished:  inédito
+ member:    usted es miembro de:
+ members:   miembros de esta publicación:
+ reader:    publicaciones que está leyendo:
+ local:     publicado localmente:
+ local2:    publicaciones locales
+ owner:     propietario
+ editor:    editor
+ author:    autor
+ publisher: publicador
  layout:
-#  edit: ((missing translation - original: edit))
-#  delete: ((missing translation - original: del))
-#  update: ((missing translation - original: update layout))
-#  updating: ((missing translation - original: updating...))
-#  done: ((missing translation - original: layout updated))
+  edit:     editar
+  delete:   borrar
+  update:   actualización de diseño
+  updating: actualizando...
+  done:     diseño actualizado
  publish:
-#  do: ((missing translation - original: publish this edition))
-#  updating: ((missing translation - original: publishing...))
-#  done: ((missing translation - original: edition published))
+  do:       publicar esta edición
+  updating: publicando...
+  done:     edición publicada
  article:
-#  title: ((missing translation - original: title))
-#  author: ((missing translation - original: by %name%))
-#  content: ((missing translation - original: content))
-#  new: ((missing translation - original: new article))
-#  create: ((missing translation - original: create article))
-#  edit: ((missing translation - original: update article))
-# change: ((missing translation - original: change))
-# delmember: ((missing translation - original: If you remove all privileges from a member, it will be removed as a member. The entry will remain on this page so you can undo mistakes, but it will be gone at the next reload.))
-# save: ((missing translation - original: save changes))
-# addmember: ((missing translation - original: add a new member))
-# addintro: ((missing translation - original: New members will be added as publishers automatically, you can then grant them more access afterwards.))
-# moved: ((missing translation - original: Article moved into articles collection.))
-# del: ((missing translation - original: Article deleted.))
-# rest: ((missing translation - original: move))
-# restore: ((missing translation - original: ed. %num%))
-# restored: ((missing translation - original: Article moved into current edition.))
+  title:    título
+  author:   por %name%
+  content:  contenido
+  new:      nuevo artículo
+  create:   crear artículo
+  edit:     actualizar artículo
+ change:    cambiar
+ delmember: Si elimina todos los privilegios de un miembro, éste será removido como miembro. La entrada se mantendrá en esta página para que pueda deshacer errores, pero se habrá ido en la próxima recarga.
+ save:      guardar los cambios
+ addmember: agregar un nuevo miembro
+ addintro:  Los nuevos miembros se añadirán como publicadores de forma automática, a continuación, les puede conceder un mayor acceso después.
+ moved:     Artículo se trasladó a artículos de colección.
+ del:       Artículo eliminado.
+ rest:      mover
+ restore:   ed. %num%
+ restored:  Artículo se trasladó a la edición actual.
  help:
-#  owner: ((missing translation - original: Owners can add, remove or change the status of other members.))
-#  editor: ((missing translation - original: Editors can layout and publish editions.))
-#  author: ((missing translation - original: Authors can write articles for the publication.))
-#  publisher: ((missing translation - original: Publishers distribute the publication, but do not add content.))
+  owner:      Los propietarios pueden añadir, eliminar o cambiar el estado de los otros miembros.
+  editor:     Los editores pueden colocar e publicar ediciones.
+  author:     Los autores pueden escribir artículos para la publicación.
+  publisher:  Editores distribuyen la publicación, pero no añaden contenido.
  examples:
-#  title0: ((missing translation - original: Lorem Ipsum))
-#  content0: ((missing translation - original: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.))
-#  title1: ((missing translation - original: Welcome to your publication))
-#  content1: ((missing translation - original: Your first edition has been created and filled with a few example articles so you can experiment with the layout functionality and see how everything works. The buttons on the top-right of every article allow you to change them.))
-#  title2: ((missing translation - original: Drag Me))
-#  content2: ((missing translation - original: You can rearrange articles by dragging and dropping, simply click anywhere on the article, hold and drag it around. It will slide in place wherever there is space.))
-#  title3: ((missing translation - original: Resize Me))
-#  content3: ((missing translation - original: You can change the size of an article by clicking on the "1x1" (or whatever the current size is) button and choosing a new size.))
+  title0:     Lorem Ipsum
+  content0:   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+  title1:     Bienvenido a su publicación
+  content1:   Su primera edición se ha creado y llenado de algunos artículos de ejemplo para que pueda experimentar con la funcionalidad de diseño y ver cómo funciona todo. Los botones de la parte superior derecha de cada artículo le permiten cambiar ellos.
+  title2:     Arrástrame
+  content2:   Puede reorganizar los artículos de arrastrar y soltar, simplemente haga clic en cualquier parte del artículo, mantiene y se arrastra alrededor. Se desliza en su lugar siempre que haya espacio.
+  title3:     Cambiarme de tamaño
+  content3:   Usted puede cambiar el tamaño de un artículo haciendo clic en el botón (o cualquiera que sea el tamaño actual es) "1x1" y eligiendo un nuevo tamaño.
  subscribe:
-#  title: ((missing translation - original: subscribe))
-#  intro: ((missing translation - original: If you want to take a copy of this edition with you to reference it later, you can subscribe to it using the button below. This will add the  edition to your readers list and you will be able to access it in the future. If the publication is set up as a periodical, you will also receive a notification and a copy of future editions.))
-#  submit: ((missing translation - original: subscribe now))
-#  done: ((missing translation - original: You have now subscribed to the "%paper%".))
+  title:      subscribe
+  intro: >
+    Si quieres llevar una copia de esta edición con usted para hacer referencia a él más tarde, puede suscribirse a élmediante el botón de abajo.
+    Esto agregará la edición a su lista de lectores y usted será capaz de acceder a él en el futuro. Si la publicación se configura como un
+    periódico, usted también recibirá una notificación y una copia de las futuras ediciones.
+  submit:     suscríbase ahora
+  done:       Ahora se ha suscrito al "%paper%".
+
 trans:
-# _friend: ((missing translation - original: friendly))
-# _neutral: ((missing translation - original: neutral))
-# _hostile: ((missing translation - original: hostile))
-# _settlement: ((missing translation - original: settlement to insert))
-# _realm: ((missing translation - original: realm to insert))
-# dontunderstand: ((missing translation - original: I am sorry, but I do not understand your message. Please use a %translator% to communicate with me.))
-# _dontunderstand: ((missing translation - original: what?))
-# mylang: ((missing translation - original: My primary language is %language%.))
-# _mylang: ((missing translation - original: language))
-# _hello: ((missing translation - original: hello))
+ _friend:         amistoso
+ _neutral:        neutral
+ _hostile:        hostil
+ _settlement:     asentamiento para insertar
+ _realm:          dominio para insertar
+ dontunderstand:  Lo siento, pero no entiendo su mensaje. Por favor, use un %translator% para comunicarse conmigo.
+ _dontunderstand: qué?
+ mylang:          Mi primer idioma es %language%.
+ _mylang:         idioma
+ _hello:          hola
  hello:
-#  friend: ((missing translation - original: Greetings, my friend. My name is %name% and I come with peaceful intentions.))
-#  neutral: ((missing translation - original: Salutations to a fellow noble. My name is %name%, pleased to meet you.))
-#  hostile: ((missing translation - original: You are in the presence of %name%, worm. Tremble before me.))
-# _demand: ((missing translation - original: demand))
+  friend:         Saludos, amigo mío. Mi nombre es %name% y vengo con intenciones pacíficas.
+  neutral:        Saludos a un compañero noble. Mi nombre es %name%, encantado de conocerte.
+  hostile:        Usted está en la presencia de %name%, gusano. Tiembla ante mí.
+ _demand:         demanda
  demand:
-#  _vassal: ((missing translation - original: become my vassal))
-#  _settlement: ((missing translation - original: give me a settlement))
-#  _realmjoin: ((missing translation - original: join my realm))
+  _vassal:        se mi vasallo
+  _settlement:    dame un asentamiento
+  _realmjoin:     unete a mi dominio
   vassal:
-#   friend: ((missing translation - original: I would like to offer you my protection in exchange for your fealty. Are you interested?))
-#   neutral: ((missing translation - original: There is always room for more vassals at my court, and I would like to welcome you as one.))
-#   hostile: ((missing translation - original: Bow before me and swear fealty, or I will consider you an enemy and crush you.))
+   friend:        I would like to offer you my protection in exchange for your fealty. Are you interested?
+   neutral:       There is always room for more vassals at my court, and I would like to welcome you as one.
+   hostile:       Bow before me and swear fealty, or I will consider you an enemy and crush you.
   settlement:
-#   friend: ((missing translation - original: I would like to take care of %settlement% for you, if you would grant it to me.))
-#   neutral: ((missing translation - original: Allow me to propose that you grant %settlement% to me.))
-#   hostile: ((missing translation - original: I demand that you grant %settlement% to me, or I shall take it by force.))
+   friend:        I would like to take care of %settlement% for you, if you would grant it to me.
+   neutral:       Allow me to propose that you grant %settlement% to me.
+   hostile:       I demand that you grant %settlement% to me, or I shall take it by force.
   realmjoin:
-#   friend: ((missing translation - original: I would be quite pleased if you were to join my realm of %realm%.))
-#   neutral: ((missing translation - original: A mutually beneficial cooperation could be in both our future, if you were to join my realm of %realm%.))
-#   hostile: ((missing translation - original: You and everything that belongs to you shall become a part of %realm%. This is your one chance to submit peacefully.))
-# _answer: ((missing translation - original: answer))
+   friend:        I would be quite pleased if you were to join my realm of %realm%.
+   neutral:       A mutually beneficial cooperation could be in both our future, if you were to join my realm of %realm%.
+   hostile:       You and everything that belongs to you shall become a part of %realm%. This is your one chance to submit peacefully.
+ _answer:         respuesta
  answer:
-#  _yes: ((missing translation - original: yes))
-#  _no: ((missing translation - original: no))
+  _yes:           sí
+  _no:            no
   yes:
-#   friend: ((missing translation - original: I will gladly accept your offer.))
-#   neutral: ((missing translation - original: Your request sounds good and I accept.))
-#   hostile: ((missing translation - original: You leave me no other choice but to submit to your demand.))
+   friend:        Con mucho gusto voy a aceptar su oferta.
+   neutral:       Su solicitud suena bien y lo acepto.
+   hostile:       No me deja otra opción que sucumbir a su solicitud.
   no:
-#   friend: ((missing translation - original: I am quite sorry, but I cannot accept your offer at this time.))
-#   neutral: ((missing translation - original: I have to refuse your request.))
-#   hostile: ((missing translation - original: You can have what is rightfully mine if you take it from my cold, dead hands.))
+   friend:        Lo siento, pero no puedo aceptar su oferta en este momento.
+   neutral:       Tengo que rechazar su solicitud.
+   hostile:       Usted puede tener lo que es mío por derecho si lo toma de mis manos frías y muertas.

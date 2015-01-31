@@ -1208,6 +1208,7 @@ unavailable:
  free2:         With a free account, you can only take 3 estates per character.
  npc:           Not available to bandit characters.
  already:       You are already conducting this action.
+ similar:       You are already conducting a very similar action that needs to be finished first.
  supporting:    You are already supporting someone else in this action.
  atsea:         You are travelling at sea.
  nosettlement:  You are not near any settlement.

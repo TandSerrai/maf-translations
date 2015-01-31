@@ -1,45 +1,59 @@
+# Might & Fealty
+# validation text strings
+# Author: Tom Vogt <tom@mightandfealty.com>
 password:
-# old: ((missing translation - original: incorrect current password))
-# minlength: ((missing translation - original: [0,Inf]your password must be at least 6 characters long))
-# match: ((missing translation - original: new password and confirm password fields do not match))
+ old:			contraseña incorrecta
+ minlength:	'[0,Inf]la contraseña debe tener como mínimo 6 caracteres'
+ match:		nuevos campos de contraseña y confirmación de contraseña no coinciden
+
 realm:
  new:
   toosimilar:
-#   name: ((missing translation - original: Your realm name is too similar to another realm, %other%.))
-#   formalname: ((missing translation - original: Your formal realm name is too similar to another realm, %other%.))
+   name:				El nombre de su dominio es demasiado similar a otro dominio, %other%.
+   formalname:		Su nombre de dominio formal es demasiado similar a otro dominio, %other%.
+
 character:
-# burst: ((missing translation - original: You already created a character within the last minute. We're slowing you down to make sure you are not a bot.))
-# spawnlimit: ((missing translation - original: You already have 2 unspawned characters. Start playing those before you create more characters.))
-# homosexual: ((missing translation - original: Sorry, but we are simulating a medieval fantasy world that is pre-enlightenment. No homosexual marriages, yet.))
-# foreignparent: ((missing translation - original: At least one parent must be one of your own characters.))
-# nosex: ((missing translation - original: Your characters' parents need to have a sexual relationship.))
+ burst:				Usted ya ha creado un personaje en el último minuto. Le estamos desacelerando para asegurarse de que no eres un robot.
+ spawnlimit:		Ya tiene 2 personajes que no han sido engendrados. Empieza a jugar esos personajes antes de crear más personajes.
+ homosexual:		Lo sentimos, pero estamos simulando un mundo de fantasía medieval que es anterior a la pre - iluminación. Todavía, no hay matrimonios homosexuales.
+ foreignparent:	Por lo menos un padre debe ser uno de sus propios personajes.
+ nosex:				Los padres de tus personaje necesitan tener una relación sexual.
+
 trade:
-# toomuch: ((missing translation - original: You do not have that much available.))
-# allremote: ((missing translation - original: Either source or destination of a trade must be your current location.))
-# same: ((missing translation - original: Repackaging the same product and selling it as somehow better in the same place has not yet been invented. Please wait for the invention of Wall St. and rating agencies first. Thank you.))
+ toomuch:    Usted no tiene esa cantidad disponible.
+ allremote:  El origen o el destino de un comercio debe ser su ubicación actual.
+ same:		 Re-empaquetando  el mismo producto y venderlo como algo mejor en el mismo lugar todavía no se ha inventado. Espere a la invención de las agencias y Wall Street premiero. Gracias.
+
 economy:
-# toomany: ((missing translation - original: You can obviously not assign more peasants to work projects than there are.))
+ toomany:    Es obvio que no se puede asignar más campesinos a trabajar proyectos, si la cantidad excede a los campesinos que hay.
+
 feature:
-# location: ((missing translation - original: Please select a location for the new feature by clicking on the map.))
-# outside: ((missing translation - original: The location you have chosen is not part of the area this settlement controls.))
-# noriver: ((missing translation - original: There is no river adjacent to this area.))
-# nocoast: ((missing translation - original: This is not a coastal area.))
-# needworkers: ((missing translation - original: Please assign some workers to this project.))
+ location:     Por favor seleccione una ubicación para la nueva pieza haciendo clic en el mapa.
+ outside:      La ubicación elegida no es parte de la zona que este asentamiento controla.
+ noriver:		No hay ningún río adyacente a esta área.
+ nocoast:		Esto no es una zona costera.
+ needworkers:  Por favor asigne algunos trabajadores a este proyecto.
+
 recruit:
  entourage:
-#  toomany: ((missing translation - original: You can obviously not recruit more specialists than your settlement has population.))
-#  toomany2: ((missing translation - original: This settlement can only train %max% peasants per day.))
+  toomany:      Es obvio que no se puede contratar a una cantidad de especialistas que sobrepase la población del asentamiento.
+  toomany2:		 Este asentamiento sólo puede entrenar a %max% campesinos por día.
  troops:
-#  toomany: ((missing translation - original: You can obviously not recruit more soldiers than your settlement has population.))
-#  toomany2: ((missing translation - original: This settlement can only begin the training of %max% peasants per day.))
-#  noweapon: ((missing translation - original: You cannot recruit troops without weapons, they would not be soldiers, would they?))
+  toomany:      Es obvio que no se puede contratar a una cantidad de soldados que sobrepase la población del asentamiento.
+  toomany2:		 Este asentamiento sólo puede comenzar el entrenamiento de %max% campesinos por día.
+  noweapon:		 No se puede reclutar soldados sin armas, no serían soldados, verdad?
  offer:
-#  empty: ((missing translation - original: knight offers must include something, else you would offer nothing in exchange for something (fealty).))
+  empty:        ofertas para caballeros debe incluir algo, o estaría ofreciendo nada a cambio de algo (lealtad).
+
+
 road:
-# same: ((missing translation - original: That is an interesting idea, but seriously, start and destination of a road should be different.))
-# exists: ((missing translation - original: That road already exists.))
-# invalid: ((missing translation - original: The workers are very sorry and await your judgement, but they were unable to find a connection between those two points that would not cross through water or other impassable terrain.))
+ same:		Esa es una idea interesante, pero en serio, inicio y destino de una calzada debe ser diferente.
+ exists:		Ya existe esa calzada.
+ invalid:   Los trabajadores están muy arrepentidos y esperan su juicio, pero no fueron capaces de encontrar una conexión entre esos dos puntos que no cruzarían a través del agua o de otro terreno impasable.
+
+
 attack:
-# nobody: ((missing translation - original: You need to select at least one target to attack.))
+ nobody:		Debe seleccionar al menos un objetivo para atacar.
+
 loot:
-# target: ((missing translation - original: If you take resources or thralls, you must name a target settlement to send your plunder to.))
+ target:		Si usted toma los recursos o esclavos, debe nombrar un asentamiento de destino para enviar su botín.

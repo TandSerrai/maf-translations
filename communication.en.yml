@@ -6,6 +6,9 @@ rss:
  feed:        get event updates via RSS
 
 event:
+ feature:
+  damaged:      %character% has damaged the %featuretype% %name%.
+  destroyed:    %character% has destroyed the %featuretype% %name%.
  settlement:
   ownership:
    gained:			Has taken control of %settlement%.
