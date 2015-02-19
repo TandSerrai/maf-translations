@@ -50,7 +50,7 @@ event:
   burned:       The %buildingtype% has been damaged by enemy forces.
   burned2:      The %buildingtype% has been burned down by enemy forces.
   attacked:     The settlement is being attacked by troops of %character%.
-  battle:       A %battle% was fought.
+  battle:       %battle% was fought.
   entered:      %character% has entered the settlement.
   entered2:     %character% has entered the settlement with %soldiers% soldiers.
   left:         %character% has been seen leaving.
@@ -256,7 +256,7 @@ resolution:
   try:          %character% has attempted to escape from your captivity, but your guards have thwarted the attempt.
 
 battle:
- participated:  Participated in a %battle%.
+ participated:  Participated in %battle%.
  failed:        The battle failed to happen.
 
 mail:

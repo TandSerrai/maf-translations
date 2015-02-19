@@ -586,6 +586,7 @@ settlement:
   10:		large city
   11:		metropolis
  population:  population
+ civilians:   civilians
  pop:
   change:     current development
   stable:     stable
@@ -921,6 +922,9 @@ soldier:
  mounted archer:   mounted archer|mounted archers
  cavalry:          cavalry|cavalry
  noble:            noble|nobles
+
+mercenary:
+ group:            merc. %group%
 
 item:
  none:             (none)

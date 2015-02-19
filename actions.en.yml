@@ -752,3 +752,16 @@ personal:
  dungeoncards:
   name:         Dungeon Actions
   description:  Review your available dungeon actions.
+
+
+mercenaries:
+ title:     Available Mercenary Groups
+ none:      Apparently, there are no mercenary groups in the area at this time. Wait for some days or try your luck elsewhere.
+ intro: >
+   You find members of the following mercenary groups who are somewhere in the area and will come when you hire them.<br />
+   These mercenaries send members to many inns in the vicinity, so if come back later, they might be gone because someone
+   even in another settlement hired them.<br />
+   You can hire parts or all of the group, as shown below.
+ name:      name of the group
+ men:       available men
+ price:     gold per man
