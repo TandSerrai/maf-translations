@@ -29,6 +29,7 @@ status:
 
 relations:
  name:        Relations
+ all:         all relations actions
  intro: >
    Manage your personal and feudal relations to other characters here.
 politics:
