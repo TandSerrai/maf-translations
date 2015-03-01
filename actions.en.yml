@@ -498,6 +498,7 @@ economy:
   progress:     construction progress
   workers:      workers assigned
   employees:    people employed
+  production:   weekly production
   completion:   estimated remaining
   never:        never
   effort:       construction effort

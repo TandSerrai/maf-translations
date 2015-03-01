@@ -844,6 +844,7 @@ error:
   offer:        please select a knight offer.
  noaccess:
   character:    character does not belong to you
+  vassal:       this character is not a vassal of yours.
   busy:         this bandit has already been chosen by someone else.
   notnpc:       this is not a bandit character.
   log:          you do not have access to this log

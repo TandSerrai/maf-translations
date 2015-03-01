@@ -139,6 +139,19 @@ vassals:
   name:         Vassals
   description:  Review and manage your vassals
   longdesc:     View details on your vassals and manage them, including disowning them.
+ disown:
+  link:         disown
+  title:        Disown Vassal
+  desc: >
+    If %name% has been disloyal to you, broken the oaths of fealty or otherwise justified this serious action,
+    you can dissolve the fealty relationship below.<br />
+    This is a serious action and will be marked in your vassals history. You should also use the opportunity 
+    to visit the character page - %name% and leave a reputation comment.
+  submit:       disown
+  success: >
+    %name% is no longer your vassal.<br />
+    You should also visit the character page and leave a reputation comment to indicate what caused you to
+    take this drastic action.
 
 rogue:
  name:        Go Rogue
