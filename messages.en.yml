@@ -123,7 +123,7 @@ map:
  search:       search for settlement
  searching:    searching...
  settlements:  settlements
- realms:       major realms
+ realms:       sovereign realms
  rivers:       rivers
  cultures:     cultures
  towers:       towers
@@ -239,8 +239,8 @@ account:
   link:     Get More Credits
   shop:     Buying Credits
   intro: >
-    Choose your preferred payment method below. Both PayPal and Google Wallet also handle <b>credit card payments</b>, so if you want to pay by
-    credit card, simply pick whichever service you like more.<br />
+    Unfortunately, we can only offer PayPal payment at this time (Google Wallet has been discontinued).<br />
+    PayPal also handles <b>credit card payments</b>.<br />
     Payments are handled through my company, <b>Calitarus GmbH</b>, so that is what you'll see on your order and receipt.
   history:  Payment History
   type:     transaction type
@@ -523,7 +523,7 @@ character:
     special to start.
  details:
   realm:      realm(s)
-  ultimate:   major realm(s)
+  ultimate:   sovereign realm(s)
   entourage:  entourage
   soldiers:   soldiers
 
@@ -613,7 +613,7 @@ settlement:
  ownedby:     This settlement is ruled by %owner%.
  realm:       This settlement is part of %realm%.
  realm2:      realm
- ultimate:    major realm
+ ultimate:    sovereign realm
  norealm:     This settlement does not belong to any realm.
  economy:     economy
  build:       currently building
