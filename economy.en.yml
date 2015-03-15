@@ -10,7 +10,7 @@ trainingfor:   training for %item%
 bonus:      production bonus
 defbonus:   defensive bonus
 minpop:     %pop% minimum population to construct
-optpop:     full efficieny requires %pop%+ population
+optpop:     full efficiency requires %pop%+ population
 
 feature:
  name:         Name

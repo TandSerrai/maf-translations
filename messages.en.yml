@@ -590,6 +590,7 @@ settlement:
   11:		metropolis
  population:  population
  civilians:   civilians
+ thralls:     thralls
  pop:
   change:     current development
   stable:     stable
@@ -753,6 +754,7 @@ newevents:    %number% event|%number% events
 newmessages:  %number% message|%number% messages
 inside:       inside %place%
 near:         near %place%
+around:       vicinity of %place%
 prisonerof:   prisoner of %captor%
 atsea:        at sea
 tradename:    name (optional)

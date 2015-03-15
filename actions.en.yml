@@ -215,6 +215,10 @@ control:
     Your character is new in the game and could easily <i>be killed</i> in retaliation.<br />
     Unless you are certain and know what you are doing, talking to the settlement owner via the <a href="%url%">messages tab</a>
     is very likely a much better idea.
+  long: >
+    You noticed that it will take a very long time to take control here? If you know what you are doing, go ahead, 
+    we won't stop you, but probably you should bring more troops, reduce the militia by attacking first or gain the support
+    of allies who will aid you.
   owned:        This settlement is currently controlled by %owner%.
   others:
    title:       Other Control attempts

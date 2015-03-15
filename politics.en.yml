@@ -21,7 +21,7 @@ status:
   liege:        Liege of:
  realm:
   independent:  %name% is an independent realm.
-  ultimate:     %name% is a sovereign realm (top of its hierarchy).
+  ultimate:     %name% is a sovereign realm.
   second:       %name% is a part of %ultimate%.
   inferior:     %name% is a part of %superior% and both are parts of %ultimate%.
   partof:       , part of %superior%
