@@ -161,6 +161,10 @@ location:
    allrealms:   all realms of the world
    2ndrealms:   second-level realms
    majorrealms: sovereign realms of the world
+  top:
+   name:        World Rumours
+   realms:      The scholars have gathered rumours and travel reports and are listing the largest realms of the known world as follows:
+   settlements: From travellers, scholars and other sources, they have also compiled a list of the largest settlements:
   description:  Visit the scholars and cartographers at the local library.
  temple:
   name:         Visit Temple
@@ -309,6 +313,7 @@ control:
   general:      general permissions
   specific:     specific permissions
   spawn:        allow new characters to spawn here?
+  thralls:      allow slavery (thralls) ?
   submit:       set new permissions
   success:      Your new permissions have been saved.
 

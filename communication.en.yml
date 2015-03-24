@@ -132,6 +132,7 @@ event:
    received:    %character-1% has given you %character-2% as a prisoner.
    received2:   The slaying of %character-1% has given you %character-2% as a prisoner.
   dungeon:
+   progress:    Your <a href="%url%">dungeon expedition</a> has made progress.
    newcard1:    You improved the action %card% in the dungeon and can now do it more often.
    newcard2:    You learned a new action while in the dungeon: %card%
    gold:        Your plunder from the dungeon came to a total of %gold% gold.

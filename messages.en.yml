@@ -591,6 +591,9 @@ settlement:
  population:  population
  civilians:   civilians
  thralls:     thralls
+ allowthralls:
+  yes:        slavery (thralls) is allowed
+  no:         slavery (thralls) is forbidden
  pop:
   change:     current development
   stable:     stable
