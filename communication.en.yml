@@ -49,6 +49,7 @@ event:
   disrepair:    The %buildingtype% has broken down beyond repair and must be considered lost.
   burned:       The %buildingtype% has been damaged by enemy forces.
   burned2:      The %buildingtype% has been burned down by enemy forces.
+  thrallstaken: %amount% peasants have been abducted and sold into slavery.
   attacked:     The settlement is being attacked by troops of %character%.
   battle:       %battle% was fought.
   entered:      %character% has entered the settlement.
