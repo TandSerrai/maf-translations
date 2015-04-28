@@ -477,6 +477,12 @@ character:
  name:    Name
  gender:  Gender
  gold:    Gold: %gold% gold
+ health:
+  perfect:    You are in perfect health.
+  lightly:    You are lightly injured.
+  moderately: You are moderately wounded.
+  seriously:  You are seriously wounded.
+  mortally:   You are mortally wounded.
  father:  Father
  mother:  Mother
  married: married to
