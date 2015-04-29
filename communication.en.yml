@@ -248,6 +248,8 @@ resolution:
  disengage:
   success:      You have successfully evaded a battle.
   failed:       Your attempt to evade a battle has failed.
+ regroup:
+  success:      Your troops have regrouped and are ready for more battles.
  research:
   complete:     The journal of %log% has been completely researched.
  enter:

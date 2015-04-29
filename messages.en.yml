@@ -1230,6 +1230,7 @@ unavailable:
  already:       You are already conducting this action.
  similar:       You are already conducting a very similar action that needs to be finished first.
  supporting:    You are already supporting someone else in this action.
+ regrouping:    Your troops are regrouping, you cannot attack until they are ready again.
  atsea:         You are travelling at sea.
  nosettlement:  You are not near any settlement.
  notinside:     You are not inside the settlement.
