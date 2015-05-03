@@ -445,6 +445,9 @@ summary:
    1:       some of your soldiers are hungry.
    2:       many of your soldiers are hungry.
    3:       most of your soldiers are hungry.
+  dead:
+   1:       your troops carry around many dead bodies, slowing down travel.
+   2:       your army has become a funeral march, and the vast number of dead slows you down a lot.
   wounded:
    1:       some of your soldiers are wounded.
    2:       many of your soldiers are wounded.
