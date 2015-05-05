@@ -94,6 +94,7 @@ queue:
   grant:        grant settlement
  military:
   battle:       fight battle
+  regroup:      regroup
   disengage:    disengage from battle
   evade:        evade all battles
   damage:       damage feature
