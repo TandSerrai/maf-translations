@@ -1,6 +1,6 @@
 # Might & Fealty
 # generic text strings
-# Author: Tom Vogt <tom@mightandfealty.com>
+# Author: FARevolution
 dateformat:   A-m-d
 gametime:
  current:     Es el año %year%, semana %week%, día %day% en el mundo de Might & Fealty
@@ -536,7 +536,7 @@ achievements:
   battles:    batallas libradas
   captures:   nobles capturados
   kills:
-   soldiers:  soldados mortales matados
+   soldiers:  soldados matados
    nobles:    nobles matados en combate
 
 politics:
@@ -574,17 +574,17 @@ settlement:
  fortified: fortificado
  size:
   name: tamaño
-  1:		aldea
-  2:		pueblo pequeño
-  3:		pueblo medio
-  4:		pueblo grande
-  5:		villa pequeña
-  6:		villa media
-  7:		villa grande
-  8:		ciudad pequeña
-  9:		ciudad media
-  10:		ciudad grande
-  11:		metrópolis
+  1:    aldea
+  2:    pueblo pequeño
+  3:    pueblo medio
+  4:    pueblo grande
+  5:    villa pequeña
+  6:    villa media
+  7:    villa grande
+  8:    ciudad pequeña
+  9:    ciudad media
+  10:   ciudad grande
+  11:   metrópolis
  population:  población
  pop:
   change:     desarrollo actual

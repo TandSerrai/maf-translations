@@ -1,6 +1,6 @@
 # Might & Fealty
 # text strings for events
-# Author: Tom Vogt <tom@mightandfealty.com>
+# Author: FARevolution
 rss:
  desc:        Might & Fealty Registro de Eventos
  feed:        obtener actualizaciones de eventos a través de RSS
@@ -8,20 +8,20 @@ rss:
 event:
  settlement:
   ownership:
-   gained:			Ha tomado el control de %settlement%.
-   lost:				Ha perdido el control de %settlement%, ya que ha sido tomado por %character%.
+   gained:      Ha tomado el control de %settlement%.
+   lost:        Ha perdido el control de %settlement%, ya que ha sido tomado por %character%.
   inherited:    Fue heredado por %character%.
   inherifail:   Cayó a la independencia en la muerte de %character%, que dejó ningún heredero.
   take:
    started:     %character% ha iniciado acciones para tomar el control.
    stopped:     %character% ha abandonado los intentos de tomar el control.
-  taken:				Control establecido por %character%.
+  taken:        Control establecido por %character%.
   taken2:       Control establecido por %character% de %realm%.
   loot:         El asentamiento está siendo saqueada por %character%.
   lootgain:
    resource:    Recursos robados de %settlement%, saqueados por %character%, han llegado.
    thralls:     %amount% esclavos tomados de %settlement% por %character%, han llegado.
-  renamed:			Nombre antiguo "%oldname%" cambiado a "%newname%".
+  renamed:      Nombre antiguo "%oldname%" cambiado a "%newname%".
   granted:      Concedido a %character%.
   changed:      Lealtad cambiada a %realm%.
   realm:        Se convirtió en una villa fundadora de %realm%.
@@ -166,11 +166,11 @@ event:
 
 report:
  building:
-  complete:			Construcción de %buildingtype% se ha completado.
+  complete:     Construcción de %buildingtype% se ha completado.
  feature:
   complete:     %featuretype% se ha completado.
  road:
-  complete:			Construcción de calzada ha terminado.
+  complete:     Construcción de calzada ha terminado.
 
 soldier:
  recruited:     Reclutado por %character% en %settlement% con %item-1%/%item-2%/%item-3%.
@@ -210,7 +210,7 @@ politics:
  successor:
   set:        Ha establecido a %character% como sucesor.
   changed:    Ha cambiado el sucesor, en lugar de %character-1%, ahora será %character-2%.
-  new:				Usted ha sido declarado como el sucesor de %character%.
+  new:        Usted ha sido declarado como el sucesor de %character%.
   removed:    %character% le ha eliminado como sucesor.
 
 
@@ -354,17 +354,17 @@ trans:
   _settlement:    dame un asentamiento
   _realmjoin:     unete a mi dominio
   vassal:
-   friend:        I would like to offer you my protection in exchange for your fealty. Are you interested?
-   neutral:       There is always room for more vassals at my court, and I would like to welcome you as one.
-   hostile:       Bow before me and swear fealty, or I will consider you an enemy and crush you.
+   friend:        Me gustaría ofrecerle mi protección a cambio de su lealtad. Estás interesado?
+   neutral:       Siempre hay espacio para más vasallos en mi corte, y me gustaría darle la bienvenida como uno.
+   hostile:       Inclínate ante mí y jura lealtad, o te consideraré como un enemigo y te aplastaré.
   settlement:
-   friend:        I would like to take care of %settlement% for you, if you would grant it to me.
-   neutral:       Allow me to propose that you grant %settlement% to me.
-   hostile:       I demand that you grant %settlement% to me, or I shall take it by force.
+   friend:        Me gustaría cuidar de %settlement% por usted, si desea otorgarmelo a mí.
+   neutral:       Permítame proponer que usted conceda %settlement% a mí.
+   hostile:       Exijo que usted conceda %settlement% a mí, o yo lo tomaré por la fuerza.
   realmjoin:
-   friend:        I would be quite pleased if you were to join my realm of %realm%.
-   neutral:       A mutually beneficial cooperation could be in both our future, if you were to join my realm of %realm%.
-   hostile:       You and everything that belongs to you shall become a part of %realm%. This is your one chance to submit peacefully.
+   friend:        Yo estaría muy contento si usted fuera a unirse a mi dominio de %realm%.
+   neutral:       Una cooperación de beneficio mutuo estaría en nuestros futuros, si usted fuera a unirse a mi dominio de %realm%.
+   hostile:       Usted y todo lo que le pertenece se convertirá en parte de %realm%. Esta es su única oportunidad de someterse de forma pacífica.
  _answer:         respuesta
  answer:
   _yes:           sí
