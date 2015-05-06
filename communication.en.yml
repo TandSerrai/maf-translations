@@ -50,6 +50,8 @@ event:
   burned:       The %buildingtype% has been damaged by enemy forces.
   burned2:      The %buildingtype% has been burned down by enemy forces.
   thrallstaken: %amount% peasants have been abducted and sold into slavery.
+  thrallstaken2: %amount% peasants have been taken and sold as slaves. According to rumours, they have been sent to %settlement%.
+  resourcestaken2: Resources have been plundered from warehouses. According to rumours, they were sent to %settlement%.
   attacked:     The settlement is being attacked by troops of %character%.
   battle:       %battle% was fought.
   entered:      %character% has entered the settlement.
