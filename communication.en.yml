@@ -56,7 +56,10 @@ event:
   battle:       %battle% was fought.
   entered:      %character% has entered the settlement.
   entered2:     %character% has entered the settlement with %soldiers% soldiers.
+  forceentered: %character% has forced his way into the settlement.
+  forceentered2: %character% has forced his way into the settlement with %soldiers% soldiers.
   left:         %character% has been seen leaving.
+  forceleft:    %character% has been forced outside the walls during the battle.
   spot:         The watchtower "%tower%" spotted %character% in the vicinity.
   spot2:        The watchtower "%tower%" spotted a ship nearby.
   spot3:        The watchtower "%tower%" spotted %character% in the vicinity, with %count% soldiers.

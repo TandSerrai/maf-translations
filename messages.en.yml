@@ -492,6 +492,7 @@ character:
  partner: partner|partners
  none:    (no character)
  child:   child|children
+ resupply: Resupply from camp followers:
  status:  Status of %name%
  history: character history
  inactive:  this character has not been played in a while
