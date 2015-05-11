@@ -186,6 +186,7 @@ report:
 
 soldier:
  recruited:     Recruited by %character% in %settlement% with %item-1%/%item-2%/%item-3%.
+ hired:         Hired by %character%.
  traincancel:   Training cancelled, reverted to old equipment.
  traincomplete: Training completed.
  retrain:       Retrained in %settlement% to use %item-1%/%item-2%/%item-3%.

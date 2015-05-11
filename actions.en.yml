@@ -776,3 +776,17 @@ mercenaries:
  name:      name of the group
  men:       available men
  price:     gold per man
+ hire:      hire this group
+ label:            mercenary
+ intro2: >
+    Mercenary groups can be hired for battle like normal soldiers, but with some restrictions.
+    They want payment and will leave you if you do not pay. Additionally, they cannot be assigned to
+    others or set as militia, and you can only disband them as a group (all or none of them).
+ summary:          This mercenary group is currently in your employ, and consists of %men% men. You will pay %price% gold at the beginning of every week and every battle.
+ hired:            A mercenary group currently employed by someone else.
+ equipment:        Their equipment:
+ available:        The group has between %min_men% and %max_men% men available for hire, at a price from %min_price% to %max_price% gold (per week and additionally per battle).
+ hiring:
+  amount:   Number of men
+  submit:   hire them
+  price:    This will cost <span id="hire_price">0</span> gold.
