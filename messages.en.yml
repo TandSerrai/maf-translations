@@ -1045,6 +1045,12 @@ battle:
   killed:       %i% enemy was killed or wounded while fleeing.|%i% enemies were killed or wounded while fleeing.
   entkilled:    %i% enemy entourage member was killed during the rout.|%i% enemy entourage members were killed during the rout.
   dropped:      %i% soldier dropped his equipment to run away faster.|%i% soldiers dropped their equipment to run faster.
+ extras:
+  noble:
+   kill:        %who% was killed by %by%.
+   capture:     %who was captured by %by%.
+  mortal:
+   kill:        %who% was killed by a mortal.
  finish:        survivors
  fate:
   title:        fate of nobles
