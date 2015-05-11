@@ -1048,9 +1048,12 @@ battle:
  extras:
   noble:
    kill:        %who% was killed by %by%.
-   capture:     %who was captured by %by%.
+   capture:     %who% was captured by %by%.
   mortal:
    kill:        %who% was killed by a mortal.
+  ranged:
+   kill:        %who% was killed.
+   capture:     %who% surrendered to %by%.
  finish:        survivors
  fate:
   title:        fate of nobles
