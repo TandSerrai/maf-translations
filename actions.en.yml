@@ -772,7 +772,7 @@ mercenaries:
    You find members of the following mercenary groups who are somewhere in the area and will come when you hire them.<br />
    These mercenaries send members to many inns in the vicinity, so if come back later, they might be gone because someone
    even in another settlement hired them.<br />
-   You can hire parts or all of the group, as shown below.
+   You can hire parts or all of the group, as shown below. You currently have <b>%gold% gold</b> in your purse.
  name:      name of the group
  men:       available men
  price:     gold per man
