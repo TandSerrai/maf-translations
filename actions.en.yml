@@ -147,9 +147,8 @@ location:
     you are looking for sell-swords, soldiers of fortune, men-at-arms - in a word: Mercenaries, the inn is where you will
     most likely find them.<br />
     They are usually easy to spot as they are looking for employers the same way you are looking for them. Their services, 
-    however, are less easy. They will follow you as long as you pay them well. But you will have to pay extra for every death
-    or all of the survivors will leave you. You can also not retrain, assign or set them as militia. And you can only disband
-    them all at once.
+    however, are less easy. They will follow you as long as you pay them well. You can also not retrain, assign or set them
+    as militia. And you can only disband them all at once.
   description:  Get a drink and check for rumours and mercenaries.
  library:
   name:         Library
