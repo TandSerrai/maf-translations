@@ -117,6 +117,9 @@ event:
    marriage:    You secrectly married %character%.
    engagement:  You became secretly engaged to %character%.
    liason:      You have begun a liason with %character%.
+  mercs:
+   paid:        You paid %cost% gold to your mercenary unit "%mercenaries%".
+   cantpay:     You could not pay the mercenary unit "%mercenaries%" the %cost% gold they asked for, so they left you.
   capture:      Surrendered in battle to %character% and was taken prisoner.
   prison:
    free:        Set free from imprisonment.

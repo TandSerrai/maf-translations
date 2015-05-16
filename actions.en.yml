@@ -790,3 +790,4 @@ mercenaries:
   amount:   Number of men
   submit:   hire them
   price:    This will cost <span id="hire_price">0</span> gold.
+ success:   You have successfully hired mercenaries. They are now listed in your normal soldiers list and will march and fight with you, as long as you pay them at the beginning of every week and every battle.
