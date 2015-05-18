@@ -13,6 +13,10 @@ realtime:
  minute:      %m% minute (real time)|%m% minutes (real time)
 
 menu:
+ yourstatus:  Your Status
+ your:      Your...
+ economy:   Economy
+ recruitment: Recruitment
  playing:   playing %name%
  profile:   profile
  characters:  characters
@@ -605,7 +609,7 @@ settlement:
   yes:        slavery (thralls) is allowed
   no:         slavery (thralls) is forbidden
  pop:
-  change:     current development
+  change:     current trend
   stable:     stable
   grow:
    1:         slightly growing
