@@ -772,6 +772,12 @@ newevents:    %number% event|%number% events
 newmessages:  %number% message|%number% messages
 inside:       inside %place%
 near:         near %place%
+familiarity:
+ 0:           You are new to this region and not familiar with the environment.
+ 1:           You are not very familiar with this region.
+ 2:           You have become somewhat familiar with this region.
+ 3:           You know this region fairly good.
+ 4:           You know this region very good
 prisonerof:   prisoner of %captor%
 atsea:        at sea
 tradename:    name (optional)
