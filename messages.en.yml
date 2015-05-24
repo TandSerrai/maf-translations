@@ -254,6 +254,15 @@ account:
   code:     transaction code
   success:  The transaction has been completed successfully. It will take a few seconds to process.
   fail:     The transaction could not be completed. Sorry. Check your payment provider statement for errors. If the payment went through on your side, please contact tom@mightandfealty.com so I can fix this problem manually.
+  mail:
+   expired:   "[Might & Fealty] Subscription Expired"
+   expired2: >
+     <p>Your subscription for <a href="http://mightandfealty.com">Might &amp; Fealty</a> was to be renewed, 
+     but there were not enough credits left in your account.</p>
+     <p>We have changed your subscription back to trial level.<br />
+     You can continue playing at this level as long as you wish, or renew your subscription by 
+     adding additional credits and choosing a subscription level.<br />
+     To do so, simply log in and go to your profile page.</p>
  code:
   title:    redeem code
   intro:    If you have a code from a friend or the crowdfunding campaign, you can redeem it here.
