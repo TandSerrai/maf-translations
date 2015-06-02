@@ -469,6 +469,7 @@ summary:
    1:       some of your soldiers have lost equipment.
    2:       many of your soldiers have lost equipment.
    3:       most of your soldiers have lost equipment.
+ manageprisoners: manage (free, execute, exchange) prisoners
 
 first:
  title:     Welcome to Might & Fealty
