@@ -944,8 +944,9 @@ soldier:
  reclaim:          reclaim chance
  buryall:          bury all dead
  resupplyall:      resupply all
- allin:            all soldiers in group 
+ allin:            all soldiers in group
  allin2:           set to
+ allin3:           selection
  groupby:
   intro:           re-group all soldiers
   type:            by type
@@ -1207,6 +1208,7 @@ manual:
  permissions:   permission system
  prison:        captivity
  bandits:       bandits
+ looting:       looting
  supply:        army supply
  reference:     reference
  units:         units of measurement
