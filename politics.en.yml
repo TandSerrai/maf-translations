@@ -614,3 +614,4 @@ claim:
  added:       Your claim has been added.
  cancelled:   You have withdrawn your claim.
  donthave:    You cannot withdraw a claim you do not hold.
+ enforceable: Holds an enforceable claim, which makes taking control very easy.
