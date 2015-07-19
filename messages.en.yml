@@ -977,7 +977,7 @@ item:
  javelin:          javelin
  leather armour:   leather armor
  longbow:          longbow
- pike:             pike
+ pike:             halberd
  plate armour:     plate armor
  scale armour:     scale armor
  shield:           shield
@@ -1310,6 +1310,7 @@ unavailable:
   library:      This settlement does not have a library.
   temple:       This settlement does not have a temple.
   barracks:     This settlement does not have barracks.
+  inn:          This settlement does not have an inn.
   yours:        You already control this settlement.
   fortified:    You cannot take control of a fortified settlement from the outside.
   nodefenders:  There are no troops defending this settlement, you can simply take it.

@@ -30,6 +30,7 @@ design:
 warning:
  needname:	 Please give your design a name.
  needshield: You must pick a shield design.
+ needshieldcolour: You must pick a shield colour.
  nopatterncolour: If you have a pattern, you also need to select a pattern colour.
  nochargecolour: If you have a charge, you also need to select a charge colour.
  simple:		Your design is too simple. Choose at least either a pattern or a charge, or both.
