@@ -240,7 +240,7 @@ resolution:
   success:      You have successfully renamed the settlement to "%new%".
  grant:
   failed:       Your attempt to grant %settlement% to %character% has failed.
-  success:      You have successfully granted %settlement% to %character%.
+  success:      Granted %settlement% to %character%.
  unavailable:
   nosettlement: You can only complete actions on settlements while you are there.
   notyours:     You do not control this settlement anymore.
