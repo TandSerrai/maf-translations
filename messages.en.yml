@@ -961,6 +961,8 @@ soldier:
  archer:           archer|archers
  mounted archer:   mounted archer|mounted archers
  cavalry:          cavalry|cavalry
+ light cavalry:    light cavalry|light cavalry
+ heavy cavalry:    heavy cavalry|heavy cavalry
  noble:            noble|nobles
 
 item:

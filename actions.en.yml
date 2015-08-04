@@ -98,6 +98,7 @@ queue:
   disengage:    disengage from battle
   evade:        evade all battles
   damage:       damage feature
+  aid:          military aid
  task:
   research:     research journal
  dungeon:
@@ -408,23 +409,6 @@ military:
      You are now engaging the enemy and battle prepartions are being made on both sides, estimated time until the battle will commence is %time%,
      but could change as you and/or the enemy get more support.<br />
      Your enemy has been notified of the impending attack.
-  aid:
-   name:          military aid
-   description:   support other nobles in future battles.
-   intro: >
-     You can choose to always support other nobles in their battles. This will make you automatically join any battles
-     they are involved in, if they are in your interaction range.<br />
-     The most common use for this is when you see an ally involved in a battle nearby to set travel there and also this
-     action, so you immediately join after arriving at the battle, even if you are not online at that time. You can also
-     use this action to defend a nearby noble, much like the <b>defend settlement</b> action.<br />
-     To protect you from unintended consequences, this action always has a time limit. You can choose one of three
-     durations below. It will also always end once you have entered a battle. If your target is involved in multiple
-     simultaneous battles, you will aid them in all.<br />
-     <br />
-     Note that you <b>can</b> have multiple military aid actions running for multiple target characters. They will be
-     resolved in the order in your action queue, and you will only join the first character on your list that is in a battle.
-   success: >
-      You are now lending your aid to %character%, and will become involved in their battles.
   join:
    name:          join battle
    description:   join a nearby battle and choose your side.
@@ -438,6 +422,23 @@ military:
      You can keep an eye on the progress of battle progress and other details on the battle details page: %battle%, also available through your actions list.
    join:          join
    submit:        engage
+ aid:
+  name:          military aid
+  description:   support other nobles in future battles.
+  intro: >
+    You can choose to always support other nobles in their battles. This will make you automatically join any battles
+    they are involved in, if they are in your interaction range.<br />
+    The most common use for this is when you see an ally involved in a battle nearby to set travel there and also this
+    action, so you immediately join after arriving at the battle, even if you are not online at that time. You can also
+    use this action to defend a nearby noble, much like the <b>defend settlement</b> action.<br />
+    To protect you from unintended consequences, this action always has a time limit. You can choose one of three
+    durations below. It will also always end once you have entered a battle. If your target is involved in multiple
+    simultaneous battles, you will aid them in all.<br />
+    <br />
+    Note that you <b>can</b> have multiple military aid actions running for multiple target characters. They will be
+    resolved in the order in your action queue, and you will only join the first character on your list that is in a battle.
+  success: >
+    You are now lending your aid to %character%, and will become involved in their battles.
  block:
   name:           block area
   description:    Prevent others from passing through.
