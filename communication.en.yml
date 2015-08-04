@@ -156,6 +156,7 @@ event:
   assigned:     You were assigned %count% soldiers by %character%. They have been added as group %group%.
   assigned2:    You were assigned %count% entourage by %character%.
   reclaimed:    %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.
+  battlejoin:   %character% has joined the battle with %count% soldiers.
 
  realm:
   founded:      Founded by %character%.
@@ -269,6 +270,9 @@ resolution:
   failed:       Your attempt to escape captivity has failed. Your captor has been informed.
   by:           %character% has escaped from your captivity, breaking the ancient oath sworn.
   try:          %character% has attempted to escape from your captivity, but your guards have thwarted the attempt.
+ aid:
+  removed:      Military aid for %character% has ended, and you will no longer automatically join battles on their side. Refresh the support if you wish to continue it.
+  success:      You have entered battle in aid of %character%.
 
 battle:
  participated:  Participated in %battle%.
