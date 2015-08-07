@@ -146,8 +146,8 @@ location:
   description:  Give some of your gold to someone else.
   intro: >
     You can give some (or all) of your gold to someone else. Simply choose the amount and the recipient, and a servant will run
-    with a sack of gold.
-  amount:       Amount of gold to give
+    with a sack of gold.<br />
+    You currently have %gold% gold.
   success:      You have given %amount% gold to %target%.
  inn:
   name:         Visit Inn

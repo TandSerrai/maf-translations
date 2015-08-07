@@ -1033,6 +1033,11 @@ interaction:
  giveship:
   name:     give ship to:
   submit:   give it
+ givegold:
+  name:     Noble to receive your gold:
+  amount:   Amount of gold to give:
+  submit:   give it
+
 
 battle:
  title:         Battle Report
