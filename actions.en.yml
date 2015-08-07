@@ -141,6 +141,14 @@ location:
     away, you can not use it yourself anymore.<br />
     Giving a ship away does not extend the time the captain will wait, it is still 30 days after you landed.
   success:      You have given control of your ship to %newowner% now.
+ givegold:
+  name:         Give gold
+  description:  Give some of your gold to someone else.
+  intro: >
+    You can give some (or all) of your gold to someone else. Simply choose the amount and the recipient, and a servant will run
+    with a sack of gold.
+  amount:       Amount of gold to give
+  success:      You have given %amount% gold to %target%.
  inn:
   name:         Visit Inn
   intro: >
