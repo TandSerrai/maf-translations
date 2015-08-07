@@ -156,7 +156,7 @@ event:
   assigned:     You were assigned %count% soldiers by %character%. They have been added as group %group%.
   assigned2:    You were assigned %count% entourage by %character%.
   reclaimed:    %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.
-  battlejoin:   %character% has joined the battle with %count% soldiers.
+  battlejoin:   %character% has joined the battle with %soldiers% soldiers.
 
  realm:
   founded:      Founded by %character%.
