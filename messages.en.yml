@@ -1238,6 +1238,113 @@ editor:
    <p>The one quirk you should be aware of is that single newlines are ignored, if you want to force a linebreak, add two or more spaces to the end of the line before hitting enter.</p>
 
 
+trait:
+ name:
+  a: A Legend Among Mortals
+  b: Beauty
+  c: Charismatic
+  d:
+  e:
+  f:
+  g:
+  h:
+  i:
+  j:
+  k:
+  l:
+  m:
+  n:
+  o:
+  p:
+  q:
+  r:
+  s:
+  t:
+  u:
+  v:
+  w:
+  x:
+  y:
+  z:
+#    Duelist (combat bonus in small battles)
+#    Explorer (dungeon bonus)
+#    Fantastic Dancer (RP Trait)
+#    Governeur (less corruption)
+#    Healthy (faster healing, more dungeon wounds)
+#    Inquisitive (learn settlement events in the recent past)
+#    J
+#    K
+#    Logistics Master (higher carry limit for entourage)
+#    Mercenary Favorite (reduced mercenary cost)
+#    Navigator (faster sea travel)
+#    Organizer (improved building speed)
+#    Pillager (improved looting)
+#    Quick-Witted (RP Trait)
+#    Recruiter (faster training speeds)
+#    Strategist (faster combat preparation)
+#    Tricky (higher evasion chance)
+#    Unbreakable (combat bonus behind fortifications)
+#    Vigilant (higher spotting range)
+#    Warrior (higher personal combat values)
+#    Xerarch (movement and combat bonus in desert and scrubland)
+#    Y
+#    Zealous (in the sense of "whatever you do, you do with full attention" - various small bonuses)
+ description:
+  male:
+   a: He is legendary among humans, and even if he moves to a new area, soon there are whispers and rumours. (This is a pure roleplaying trait)
+   b: A natural beauty. Perfect body, perfect face, wonderful hair - whatever it is, everyone recognizes him as a really beautiful man. (This is a pure roleplaying trait)
+   c: He is a charismatic leader inspiring loyalty in those he commands. (Bonus to soldiers combat morale)
+   d:
+   e:
+   f:
+   g:
+   h:
+   i:
+   j:
+   k:
+   l:
+   m:
+   n:
+   o:
+   p:
+   q:
+   r:
+   s:
+   t:
+   u:
+   v:
+   w:
+   x:
+   y:
+   z:
+  female:
+   a: She is legendary among humans, and even if she moves to a new area, soon there are whispers and rumours. (This is a pure roleplaying trait)
+   b: A natural beauty. Perfect body, perfect face, wonderful hair - whatever it is, she walks like a goddess of beauty among people. (This is a pure roleplaying trait)
+   c: She is a charismatic leader and inspires loyalty in those she commands. (Bonus to soldiers combat morale)
+   d:
+   e:
+   f:
+   g:
+   h:
+   i:
+   j:
+   k:
+   l:
+   m:
+   n:
+   o:
+   p:
+   q:
+   r:
+   s:
+   t:
+   u:
+   v:
+   w:
+   x:
+   y:
+   z:
+
 rating:
  title:     reputation
  intro:     Every noble has a reputation that follows him or her. Reputation is built by other nobles, through gossip.
