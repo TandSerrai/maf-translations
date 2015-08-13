@@ -1243,107 +1243,87 @@ trait:
   a: A Legend Among Mortals
   b: Beauty
   c: Charismatic
-  d:
-  e:
-  f:
-  g:
-  h:
-  i:
+  d: Duelist
+  e: Explorer
+  f: Fantastic Dancer
+  g: Governeur
+  h: Healthy
+  i: Inquisitive
   j:
   k:
-  l:
-  m:
-  n:
-  o:
-  p:
-  q:
-  r:
-  s:
-  t:
-  u:
-  v:
-  w:
-  x:
+  l: Logistics Master
+  m: Mercenary Favorite
+  n: Navigator
+  o: Organizer
+  p: Pillager
+  q: Quick-Witted
+  r: Recruiter
+  s: Strategist
+  t: Tricky
+  u: Unbreakable
+  v: Vigilant
+  w: Warrior
+  x: Xerarch
   y:
-  z:
-#    Duelist (combat bonus in small battles)
-#    Explorer (dungeon bonus)
-#    Fantastic Dancer (RP Trait)
-#    Governeur (less corruption)
-#    Healthy (faster healing, more dungeon wounds)
-#    Inquisitive (learn settlement events in the recent past)
+  z: Zealous
 #    J
 #    K
-#    Logistics Master (higher carry limit for entourage)
-#    Mercenary Favorite (reduced mercenary cost)
-#    Navigator (faster sea travel)
-#    Organizer (improved building speed)
-#    Pillager (improved looting)
-#    Quick-Witted (RP Trait)
-#    Recruiter (faster training speeds)
-#    Strategist (faster combat preparation)
-#    Tricky (higher evasion chance)
-#    Unbreakable (combat bonus behind fortifications)
-#    Vigilant (higher spotting range)
-#    Warrior (higher personal combat values)
-#    Xerarch (movement and combat bonus in desert and scrubland)
 #    Y
-#    Zealous (in the sense of "whatever you do, you do with full attention" - various small bonuses)
  description:
   male:
    a: He is legendary among humans, and even if he moves to a new area, soon there are whispers and rumours. (This is a pure roleplaying trait)
    b: A natural beauty. Perfect body, perfect face, wonderful hair - whatever it is, everyone recognizes him as a really beautiful man. (This is a pure roleplaying trait)
    c: He is a charismatic leader inspiring loyalty in those he commands. (Bonus to soldiers combat morale)
-   d:
-   e:
-   f:
-   g:
-   h:
-   i:
+   d: Talented with the sword and in personal fights. If he wants and puts some effort, a great swordsman. (Combat bonus in small battles)
+   e: With a talent for exploration and working with a small team, he is a natural in exploring dungeons. (Dungeon bonus)
+   f: Naturally gifted in strong, coordinated movement and a talent for leading a woman on the dancefloor. (This is a pure roleplaying trait)
+   g: Somehow, he has a brilliant understanding of local management and can avoid many of the usual pitfalls. (Reduced corruption)
+   h: Blessed with a healthy body. (Faster healing and more dungeon wounds)
+   i: Curious and with a charm and talent to talk to people. (Reveals recent events in settlements)
    j:
    k:
-   l:
-   m:
-   n:
-   o:
-   p:
-   q:
-   r:
-   s:
-   t:
-   u:
-   v:
-   w:
-   x:
+   l: An instinct for good logistics and natural organisational talent. (Higher camp follower carry limit)
+   m: Has a knack for dealing with sellswords and mercenaries. (Reduced mercenary costs)
+   n: Has a talent for winds, directions and for navigation. (Faster sea travel)
+   o: A natural gift to spot and manage small details. (Improved building speed in his estates)
+   p: Even brutality can be done efficiently. (Improved looting)
+   q: He has a quick wit and rapid thinking. (This is a pure roleplaying trait)
+   r: A combination of charm and a good eye for spotting talent. (Faster training speed in his estates)
+   s: He has a gift for fast strategic decisions. (Faster combat preparation)
+   t: A combination of wits and empathy and a mind to apply them to outwit others. (Higher evasion chance)
+   u: He has an instinctive understanding of defenses and where to hold. (Combat bonus when defending fortifications)
+   v: Natural awareness of the surroundings. (Higher spotting range)
+   w: Has a gift for swordplay and combat movement. (Higher personal combat values)
+   x: At home in dry and deserted areas. (Movement and combat bonus in desert and scrubland)
    y:
-   z:
+   z: If he does something, he does it with full attention. (Various small bonuses)
   female:
    a: She is legendary among humans, and even if she moves to a new area, soon there are whispers and rumours. (This is a pure roleplaying trait)
    b: A natural beauty. Perfect body, perfect face, wonderful hair - whatever it is, she walks like a goddess of beauty among people. (This is a pure roleplaying trait)
    c: She is a charismatic leader and inspires loyalty in those she commands. (Bonus to soldiers combat morale)
-   d:
-   e:
-   f:
-   g:
-   h:
-   i:
+   d: Talented with the sword and in personal fights. If she wants and puts some effort, a great swordsmaiden. (Combat bonus in small battles)
+   e: With a talent for exploration and working with a small team, she is a natural in exploring dungeons. (Dungeon bonus)
+   f: Naturally gifted with gracefull, smooth movements on the dancefloor. (This is a pure roleplaying trait)
+   g: Somehow, she has a brilliant understanding of local management and can avoid many of the usual pitfalls. (Reduced corruption)
+   h: Blessed with a healthy body. (Faster healing and more dungeon wounds)
+   i: Curious and sweet, with a talent to talk to people. (Reveals recent events in settlements)
    j:
    k:
-   l:
-   m:
-   n:
-   o:
-   p:
-   q:
-   r:
-   s:
-   t:
-   u:
-   v:
-   w:
-   x:
+   l: An instinct for good logistics and natural organisational talent. (Higher camp follower carry limit)
+   m: Has a knack for dealing with sellswords and mercenaries. (Reduced mercenary costs)
+   n: Has a talent for winds, directions and for navigation. (Faster sea travel)
+   o: A natural gift to spot and manage small details. (Improved building speed in her estates)
+   p: Even brutality can be done efficiently. (Improved looting)
+   q: She has a quick wit and thinks fast. (This is a pure roleplaying trait)
+   r: A combination of charm and a good eye for spotting talent. (Faster training speed in her estates)
+   s: She has a gift for fast strategic decisions. (Faster combat preparation)
+   t: A combination of wits and empathy and a mind to apply them to outwit others. (Higher evasion chance)
+   u: She has an instinctive understanding of defenses and where to hold. (Combat bonus when defending fortifications)
+   v: Natural awareness of the surroundings. (Higher spotting range)
+   w: Has a gift for swordplay and combat movement. (Higher personal combat values)
+   x: At home in dry and deserted areas. (Movement and combat bonus in desert and scrubland)
    y:
-   z:
+   z: If she does something, she does it with full attention. (Various small bonuses)
 
 rating:
  title:     reputation
