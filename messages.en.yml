@@ -942,6 +942,7 @@ soldier:
  assigned_to:      assigned to
  assigned_since:   assigned since
  reclaim:          reclaim chance
+ toggleall:        toggle selection
  buryall:          bury all dead
  resupplyall:      resupply all
  allin:            all soldiers in group
@@ -1240,7 +1241,7 @@ editor:
 
 trait:
  name:
-  a: A Legend Among Mortals
+  a: Ancient Blood
   b: Beauty
   c: Charismatic
   d: Duelist
@@ -1249,8 +1250,8 @@ trait:
   g: Governeur
   h: Healthy
   i: Inquisitive
-  j:
-  k:
+  j: Judge
+  k: Keeper of Knowledge
   l: Logistics Master
   m: Mercenary Favorite
   n: Navigator
@@ -1264,14 +1265,11 @@ trait:
   v: Vigilant
   w: Warrior
   x: Xerarch
-  y:
+  y: Yare
   z: Zealous
-#    J
-#    K
-#    Y
  description:
   male:
-   a: He is legendary among humans, and even if he moves to a new area, soon there are whispers and rumours. (This is a pure roleplaying trait)
+   a: He has the signs and appearance of ancient nobility. Subtle difference to todays First Ones, to to the trained eye, clear as day. (This is a pure roleplaying trait)
    b: A natural beauty. Perfect body, perfect face, wonderful hair - whatever it is, everyone recognizes him as a really beautiful man. (This is a pure roleplaying trait)
    c: He is a charismatic leader inspiring loyalty in those he commands. (Bonus to soldiers combat morale)
    d: Talented with the sword and in personal fights. If he wants and puts some effort, a great swordsman. (Combat bonus in small battles)
@@ -1280,8 +1278,8 @@ trait:
    g: Somehow, he has a brilliant understanding of local management and can avoid many of the usual pitfalls. (Reduced corruption)
    h: Blessed with a healthy body. (Faster healing and more dungeon wounds)
    i: Curious and with a charm and talent to talk to people. (Reveals recent events in settlements)
-   j:
-   k:
+   j: He is a paragon of justice by instinct. Or maybe just judgemental. (This is a pure roleplaying trait)
+   k: Has an uncanny ability to remember and conclude details, especially in numbers. (Statistics records go back longer)
    l: An instinct for good logistics and natural organisational talent. (Higher camp follower carry limit)
    m: Has a knack for dealing with sellswords and mercenaries. (Reduced mercenary costs)
    n: Has a talent for winds, directions and for navigation. (Faster sea travel)
@@ -1295,10 +1293,10 @@ trait:
    v: Natural awareness of the surroundings. (Higher spotting range)
    w: Has a gift for swordplay and combat movement. (Higher personal combat values)
    x: At home in dry and deserted areas. (Movement and combat bonus in desert and scrubland)
-   y:
+   y: He is an agile rider and inspires others to keep up. (Movement bonus in mountains and forests)
    z: If he does something, he does it with full attention. (Various small bonuses)
   female:
-   a: She is legendary among humans, and even if she moves to a new area, soon there are whispers and rumours. (This is a pure roleplaying trait)
+   a: She has the signs and appearance of ancient nobility. Subtle difference to todays First Ones, to to the trained eye, clear as day. (This is a pure roleplaying trait)
    b: A natural beauty. Perfect body, perfect face, wonderful hair - whatever it is, she walks like a goddess of beauty among people. (This is a pure roleplaying trait)
    c: She is a charismatic leader and inspires loyalty in those she commands. (Bonus to soldiers combat morale)
    d: Talented with the sword and in personal fights. If she wants and puts some effort, a great swordsmaiden. (Combat bonus in small battles)
@@ -1307,8 +1305,8 @@ trait:
    g: Somehow, she has a brilliant understanding of local management and can avoid many of the usual pitfalls. (Reduced corruption)
    h: Blessed with a healthy body. (Faster healing and more dungeon wounds)
    i: Curious and sweet, with a talent to talk to people. (Reveals recent events in settlements)
-   j:
-   k:
+   j: She is a paragon of justice by instinct. Or maybe just judgemental. (This is a pure roleplaying trait)
+   k: Has an uncanny ability to remember and conclude details, especially in numbers. (Statistics records go back longer)
    l: An instinct for good logistics and natural organisational talent. (Higher camp follower carry limit)
    m: Has a knack for dealing with sellswords and mercenaries. (Reduced mercenary costs)
    n: Has a talent for winds, directions and for navigation. (Faster sea travel)
@@ -1322,7 +1320,7 @@ trait:
    v: Natural awareness of the surroundings. (Higher spotting range)
    w: Has a gift for swordplay and combat movement. (Higher personal combat values)
    x: At home in dry and deserted areas. (Movement and combat bonus in desert and scrubland)
-   y:
+   y: She is an agile rider and inspires others to keep up. (Movement bonus in mountains and forests)
    z: If she does something, she does it with full attention. (Various small bonuses)
 
 rating:
