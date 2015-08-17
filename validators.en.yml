@@ -12,6 +12,10 @@ realm:
    name:				Your realm name is too similar to another realm, %other%.
    formalname:		Your formal realm name is too similar to another realm, %other%.
 
+settlement:
+ grant:
+  free2:        Free accounts can only have 3 estates per character, and this character belongs to a free account.
+
 character:
  burst:				You already created a character within the last minute. We're slowing you down to make sure you are not a bot.
  spawnlimit:		You already have 2 unspawned characters. Start playing those before you create more characters.

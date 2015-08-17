@@ -1025,6 +1025,9 @@ interaction:
  grant:
   name:         grant control
   submit:       grant
+ grant2:
+  name:         grant control
+  submit:       grant
  publication:
   name:     new member(s)
   submit:   add member(s)
@@ -1288,7 +1291,7 @@ trait:
    q: He has a quick wit and rapid thinking. (This is a pure roleplaying trait)
    r: A combination of charm and a good eye for spotting talent. (Faster training speed in his estates)
    s: He has a gift for fast strategic decisions. (Faster combat preparation)
-   t: A combination of wits and empathy and a mind to apply them to outwit others. (Higher evasion chance)
+   t: A combination of wits and empathy and a mind to apply them to outwit others on the battlefield. (Higher evasion chance)
    u: He has an instinctive understanding of defenses and where to hold. (Combat bonus when defending fortifications)
    v: Natural awareness of the surroundings. (Higher spotting range)
    w: Has a gift for swordplay and combat movement. (Higher personal combat values)
@@ -1315,7 +1318,7 @@ trait:
    q: She has a quick wit and thinks fast. (This is a pure roleplaying trait)
    r: A combination of charm and a good eye for spotting talent. (Faster training speed in her estates)
    s: She has a gift for fast strategic decisions. (Faster combat preparation)
-   t: A combination of wits and empathy and a mind to apply them to outwit others. (Higher evasion chance)
+   t: A combination of wits and empathy and a mind to apply them to outwit others on the battlefield. (Higher evasion chance)
    u: She has an instinctive understanding of defenses and where to hold. (Combat bonus when defending fortifications)
    v: Natural awareness of the surroundings. (Higher spotting range)
    w: Has a gift for swordplay and combat movement. (Higher personal combat values)

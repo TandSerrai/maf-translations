@@ -183,6 +183,7 @@ event:
 
 report:
  building:
+  abandon:      The %buildingtype% cannot be sustained anymore due to low population, and has been abandoned.
   complete:			Construction of %buildingtype% has been completed.
  feature:
   complete:     A %featuretype% has been completed.
