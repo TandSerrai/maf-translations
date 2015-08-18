@@ -428,7 +428,7 @@ diplomacy:
 
  relations:
   name:         Relations
-  title:        Diplomatic Relations
+  title:        Diplomatic Relations of %realm%
   description: >
     The diplomatic relations of your realm define how you view and treat other realms and gives both your people and
     theirs information about the diplomatic status between the realms.
@@ -440,6 +440,7 @@ diplomacy:
    intro:     To create a diplomatic relation with a realm, follow this link:
    link:      create new relation
   edit:       edit relation
+  delete:     remove our relation
   target:     target realm
   public:     public statement
   internal:   internal statement
