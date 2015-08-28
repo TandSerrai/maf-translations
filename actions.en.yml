@@ -116,6 +116,16 @@ location:
   result:
    entered:     You have passed the gates and are now inside %settlement%.
    denied:      Guards at the gates of %settlement% deny you entry. You can force your way in by attacking the settlement, of course.
+ quests:
+  name:         Local Quests
+  description:  Check out current and past quests from this region.
+  longdesc:     Quests are tasks and requests of a lord that anyone passing by can complete for a reward.
+  intro: >
+    Quests are tasks given by the local lord to anyone who feels like completing it. They also have a reward attached that is offered to sometimes
+    the first and sometimes everyone who completes it. All the details are specific to the quest, so read them carefully.
+  noquests:     There are no current nor past quests in this region.
+  current:      Current Quests
+  past:         Past Quests
  embark:
   name:         Embarking
   description:  Embark ships at nearby docks.

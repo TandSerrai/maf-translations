@@ -968,6 +968,7 @@ soldier:
 
 item:
  none:             (none)
+ food:             unit of food
  choose:           -- choose --
  current:          (current)
  axe:              axe
