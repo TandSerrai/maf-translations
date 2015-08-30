@@ -335,6 +335,22 @@ control:
   thralls:      allow slavery (thralls) ?
   submit:       set new permissions
   success:      Your new permissions have been saved.
+ quests:
+  name:         manage quests
+  description:  Create and edit quests for this settlement
+  intro: >
+    As lord of %settlement%, you can set quests for other characters passing by to complete.<br />
+    A quest can be absolutely any task that you can describe in words and where you can determine if it was completed or not. It will
+    be written on message boards everywhere inside the region, so it is available to anyone who enters the region, even if they
+    do not or are not allowed to enter the settlement itself.<br />
+    Quests should also contain a reward. This as well can be anything. Quests can be completed once or many times, as you wish. In
+    essence, quests are entirely free-form and you determine everything, including if you will give out the promised reward or betray
+    the knight you finished your quest.<br />
+    Quests are public knowledge, so other people can see all past and current quests, who has taken them up, if they think the quest
+    was completed, if you agree and if they consider the reward to be received or not.
+  active:       Current Quests
+  past:         Past Quests
+  new:          Create New Quest
 
 military:
  name:          military actions
@@ -827,3 +843,9 @@ mercenaries:
   submit:   hire them
   price:    This will cost <span id="hire_price">0</span> gold.
  success:   You have successfully hired mercenaries. They are now listed in your normal soldiers list and will march and fight with you, as long as you pay them at the beginning of every week and every battle.
+
+quests:
+ summary:   Quest summary
+ created:   created date
+ questers:  currently active on this quest
+ questers2: completed by
