@@ -351,6 +351,10 @@ control:
   active:       Current Quests
   past:         Past Quests
   new:          Create New Quest
+  create: >
+    To create a quest, describe the task to do and the reward given.<br />
+    You can give a short summary, a long description and a description of the reward. You should include all important information,
+    including whether the quest reward will be given to the first to complete, to multiple people, and on which conditions.
 
 military:
  name:          military actions
@@ -845,7 +849,10 @@ mercenaries:
  success:   You have successfully hired mercenaries. They are now listed in your normal soldiers list and will march and fight with you, as long as you pay them at the beginning of every week and every battle.
 
 quests:
- summary:   Quest summary
+ summary:   quest summary
  created:   created date
  questers:  currently active on this quest
  questers2: completed by
+ desc:      full description
+ reward:    reward promised
+ submit:    announce quest
