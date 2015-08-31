@@ -131,6 +131,8 @@ map:
  rivers:       rivers
  cultures:     cultures
  towers:       towers
+ features:     structures
+ placer:       placer
  roads:        roads
  chars:        characters
  route:        route plot
@@ -500,6 +502,7 @@ character:
   moderately: You are moderately wounded.
   seriously:  You are seriously wounded.
   mortally:   You are mortally wounded.
+ family:  Family
  father:  Father
  mother:  Mother
  married: married to
