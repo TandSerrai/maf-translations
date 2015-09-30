@@ -7,8 +7,13 @@ rss:
 
 event:
  feature:
-  damaged:      %character% has damaged the %featuretype% %name%.
-  destroyed:    %character% has destroyed the %featuretype% %name%.
+  damaged:      %character% has damaged the %featuretype% %name%. It will deteriorate further if no workers are assigned for repair.
+  disabled:     %character% has damaged the %featuretype% %name% so badly, it has become inoperative. It will deteriorate further if no workers are assigned for repair.
+  destroyed:    %character% has destroyed the %featuretype% %name% to rubble.
+ feature2:
+  damaged:      The %featuretype% %name% is deteriorating. Workers should be assigned for repair.
+  disabled:     The %featuretype% %name% has become inoperative due to deterioration. Workers should be assigned for repair.
+  destroyed:    The %featuretype% %name% has broken down completely and must be considered lost.
  settlement:
   ownership:
    gained:			Has taken control of %settlement%.

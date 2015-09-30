@@ -354,7 +354,8 @@ control:
   create: >
     To create a quest, describe the task to do and the reward given.<br />
     You can give a short summary, a long description and a description of the reward. You should include all important information,
-    including whether the quest reward will be given to the first to complete, to multiple people, and on which conditions.
+    including whether the quest reward will be given only to the first to complete it, or to multiple people, and on which conditions,
+    such as evidence of conclusion, or time limits.
 
 military:
  name:          military actions
