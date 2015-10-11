@@ -124,8 +124,6 @@ location:
     Quests are tasks given by the local lord to anyone who feels like completing it. They also have a reward attached that is offered to sometimes
     the first and sometimes everyone who completes it. All the details are specific to the quest, so read them carefully.
   noquests:     There are no current nor past quests in this region.
-  current:      Current Quests
-  past:         Past Quests
  embark:
   name:         Embarking
   description:  Embark ships at nearby docks.
@@ -348,8 +346,6 @@ control:
     the knight you finished your quest.<br />
     Quests are public knowledge, so other people can see all past and current quests, who has taken them up, if they think the quest
     was completed, if you agree and if they consider the reward to be received or not.
-  active:       Current Quests
-  past:         Past Quests
   new:          Create New Quest
   create: >
     To create a quest, describe the task to do and the reward given.<br />
@@ -851,9 +847,11 @@ mercenaries:
 
 quests:
  summary:   quest summary
- created:   created date
  questers:  currently active on this quest
  questers2: completed by
  desc:      full description
  reward:    reward promised
  submit:    announce quest
+ details:   details
+ current:   Current Quests
+ past:      Past Quests
