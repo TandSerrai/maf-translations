@@ -37,14 +37,17 @@ building:
  City Hall: City Hall
  Dirt Streets: Dirt Streets
  Fairground: Fairground
+ Fishery: Fishery
  Fortress: Fortress
  Garrison: Garrison
  Great Temple: Great Temple
  Guardhouse: Guardhouse
  Heavy Armourer: Heavy Armorer
  Inn: Inn
+ Irrigation Ditches: Irrigation Ditches
  Leather Tanner: Leather Tanner
  Library: Library
+ Lumber Yard: Lumber Yard
  Market: Market
  Mason: Mason
  Master Mason: Master Mason
@@ -136,6 +139,10 @@ description:
  Fairground: >
    A larger and more permanent place of trade, the fairground allows for extensive trade and barter as well as special
    events which bring in traders from far away places and through trade increase the local wealth.
+ Fishery: >
+   A small port, boat yard and processing facilities for sea fishing, adding more fish to the menu of the local inhabitants
+   as fishermen can go further out with better boats and better nets than they can build by themselves.<br />
+   Not the same as the dock feature, which is for military transport ships.
  Fortress: >
    Very few lords can afford the construction of one of these massive fortifications. A fortress is a reinforced stone
    castle with additional defensive and offensive constructions. It can be held against all but the most overwhelming
@@ -156,11 +163,18 @@ description:
    The village inn or for towns and cities a collection of roadhouses, inns, brothels and similar places for travellers to 
    rest and spend the night, this is where you can also find the odd talent to hire or meet shady figures at corner tables
    who can provide you with mercenaries.
+ Irrigation Ditches: >
+   A series of small canals and ditches bringing water from a river deeper into the nearby farmland, which will improve
+   fertility, but at the cost of constant management tying up manpower that could work the fields otherwise. Not very
+   useful in already fertile regions, but very useful in less fertile ones.
  Leather Tanner: >
    A basic craftsman who turns animal hides into leather and simple leather products.
  Library: >
    Storage place for books and manuscripts of both holy and secular importance. <br />
    This building is also required to create your own publications.
+ Lumber Yard: >
+   Central storage and processing area for woodcutting and forestry work. This improves the efficiency of woodcutting
+   in the area, resulting in higher wood production.
  Market: >
    A place for merchants and local farmers to buy and sell their products. A market improves trade and local economy,
    giving a slight boost to wealth.
@@ -237,3 +251,14 @@ description:
  Wood Wall: >
    A more fortified and refined palisade, the wood wall encloses the settlement and provides it with basic defenses,
    against wild animals, bandit and unorganized attackers.
+
+condition:
+ Mine:         Can only be built in mountains and hills with metal ore in the ground.
+ Stables:      Can only be built in grass- or scrublands.
+ Royal Mews:   Can only be built in grasslands.
+ Fortress:     Cannot be built in marshland.
+ Citadel:      Cannot be built in marshland.
+ Fishery:      Can only be built at the coast (both ocean and lakes).
+ Lumber Yard:  Can only be built in forests.
+ Irrigation Ditches: Can only be built near rivers, can't be built in mountains or marshes.
+ Archery Range:   Cannot be built in mountains and dense forests.

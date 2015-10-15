@@ -573,6 +573,7 @@ economy:
   error:
    population:  The settlement needs a population of at least %content%.
    prerequisite: %content% required before this building can be constructed.
+   conditions:  Special conditions not met, see building description page.
    already:     This building has already been constructed or is currently under construction.
    over100percent: You have assigned more workers than your settlement has to road and building construction work. This allocation will not be accepted.
   warning:
