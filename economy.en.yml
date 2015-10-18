@@ -31,6 +31,7 @@ building:
  Bank: Bank
  Barracks: Barracks
  Blacksmith: Blacksmith
+ Bladesmith: Bladesmith
  Bowyer: Bowyer
  Carpenter: Carpenter
  Citadel: Citadel
@@ -122,6 +123,9 @@ description:
    Housing and living rooms for soldiers, allowing full-time professional soldiers.
  Blacksmith: >
    Forge, anvil and loud noises - the blacksmith turns metal into tools for sale and simple weapons to equip soldiers.
+ Bladesmith: >
+   Specialised on swords, this craftsman knows the ancient secrets of how to make a blade both light and strong,
+   and forge metal into swords.
  Bowyer: >
    A specialist craftsman who builds bows, crossbows and other personal ranged weapons.
  Carpenter: >

@@ -984,6 +984,7 @@ item:
  javelin:          javelin
  leather armour:   leather armor
  longbow:          longbow
+ mace:             mace
  pike:             halberd
  plate armour:     plate armor
  scale armour:     scale armor
@@ -1148,12 +1149,13 @@ description:
  javelin:         A short spear, balanced for throwing. One-use weapon that gives melee troops a small amount of ranged power.
  leather armour:  Hardened leather in multiple layers, slightly hindering movement but providing considerable protection.
  longbow:         The ultimate one-man ranged weapon, requiring long training and strong arms to use. Can pierce even solid metal armor at great distances.
+ mace:            A stick with a spiky metal head. Feared on the battlefield because of its combination of powerful impact and small point, punching through even strong armour.
  pike:            A long pole-arm weapon with a blade and point, easy to learn and often the first serious weapon for conscripts to pick up.
  plate armour:    The ultimate in armor protection, consisting of solid metal plates covering every part of the body, interlocked and reinforced.
  scale armour:    A mixture of metal and leather, the scale armor has a solid leather body with numerous metal plates overlayed, affording more freedom of movement than more solid metal armors.
  shield:          A primitive and yet highly efficient defensive choice, a shield protects against both melee and ranged attacks.
  shortbow:        A very common type of bow, used mainly for hunting but quite effective against lightly armored enemies, too.
- spear:           Another simple and common weapon, popular due to its considerable reach.
+ spear:           Another simple and common weapon, popular due to its considerable reach and easy training.
  sword:           Rare among the lower ranks, common amongst the nobility and those who can afford proper weaponsmiths.
  short sword:     A smaller sidearm to be used mostly as a fallback melee option for ranged troops, or as reserve weapon.
  war horse:       A large and heavy horse, specifically trained for battle and equipped with horse armor.
