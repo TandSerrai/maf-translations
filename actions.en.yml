@@ -109,6 +109,9 @@ queue:
 location:
  title:         Local Interactions
  all:           all local interactions
+ marker:
+  name:         Map Markers
+  description:  set and remove map markers.
  enter:
   name:         Enter settlement
   description:  Peacefully enter the settlement so you have access to its facilities.

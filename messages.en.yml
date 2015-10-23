@@ -128,10 +128,10 @@ map:
  searching:    searching...
  settlements:  settlements
  realms:       sovereign realms
- rivers:       rivers
  cultures:     cultures
  towers:       towers
  features:     structures
+ markers:      markers
  placer:       placer
  roads:        roads
  chars:        characters
@@ -1418,4 +1418,27 @@ unavailable:
  trade:
   noestate:     You do not have any estates with which to trade.
   nooptions:    There are no possible trade/tribute deals you could make at this location.
+
+marker:
+ name:      marker name
+ type:      marker type
+ owner:     owner
+ realm:     visible for
+ limit:     Maximum marker amount placed. Remove old markers before you set new ones.
+ submit:    set and share marker
+ waypoint:  waypoint
+ enemy:     enemy spotted
+ set:
+  name:     Create Map Marker
+  intro: >
+    You can create map markers and share them with members of the realm(s) that you belong to.<br />
+    These markers will be visible to everyone in the realm, they will be able to see the marker on the map
+    no matter where they are (no distance limit) and they can see the name you give it as well as the type
+    that you select for it. At the moment, there are two types. One to designate enemies you have spotted and
+    one to designate waypoints for coordinated army movement.<br />
+    To make best use of markers, they should be accompanied with realm messages to explain in more detail
+    what the marker means.<br />
+    You can have at most 10 markers per character (to prevent abuse/spam).
+  remove:    Remove Marker
+  removelink: remove
 
