@@ -290,6 +290,9 @@ control:
     is useful to giving settlements away to other realms.
   to:           grant control to
   withrealm:    with realm?
+  withrealm2:   If you grant an estate "with realm", the estate will stay in its current realm and the new lord will join that realm if he is not already a member.
+  keepclaim:    keep claim?
+  keepclaim2:   If you keep a claim to the estate, you grant it "in fief", but you continue to consider it your property. The claim will allow you to take it back easily.
   success:      You have now given control over this settlement to %newowner%.
   queued:       You will soon be meeting with %newowner% and arrange the details of the transfer, as well as informing the settlement leaders.
  rename:

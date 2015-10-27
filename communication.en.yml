@@ -32,6 +32,7 @@ event:
    thralls:     %amount% thralls taken from %settlement% by %character%, have arrived.
   renamed:			Old name "%oldname%" changed to "%newname%".
   granted:      Granted to %character%.
+  granted2:     Granted in fief to %character%.
   changed:      Allegiance changed to %realm%.
   realm:        Became a founding estate of %realm%.
   subrealm:     Split of to be a part of %realm%.
@@ -91,7 +92,8 @@ event:
   inheritvia:
    estate:      Inherited the settlement %settlement% from %character-1% (via %character-2%).
    realm:       Inherited the realm %realm% from %character-1% (via %character-2%).
-  wasgranted:   Was granted control of %settlement% by %character%.
+  wasgranted:   Was granted ownership of %settlement% by %character%.
+  wasgranted2:  Was granted the fief of %settlement% by %character%.
   realmfounded: Founded the realm %realm%.
   realmgranted: Granted rulership of %realm% by %character%.
   abdicated:    Has abdicated rulership of %realm% and given it to %character%.
@@ -249,6 +251,7 @@ resolution:
  grant:
   failed:       Your attempt to grant %settlement% to %character% has failed.
   success:      Granted %settlement% to %character%.
+  success2:     Granted %settlement% in fief to %character%.
  unavailable:
   nosettlement: You can only complete actions on settlements while you are there.
   notyours:     You do not control this settlement anymore.
