@@ -74,6 +74,7 @@ queue:
  target:
   character:    character
   battle:       battle
+  list:         list
  support:       supporting
  oppose:        opposing
  supported:     supported by
@@ -99,6 +100,7 @@ queue:
   evade:        evade all battles
   damage:       damage feature
   aid:          military aid
+  block:        block area
  task:
   research:     research journal
  dungeon:
@@ -486,6 +488,23 @@ military:
   name:           block area
   description:    Prevent others from passing through.
   longdesc:       Deploy your forces to block others from passing through your action range. Most effective at choke points like bridges.
+  intro: >
+    By blocking an area, you will (try to) prevent others from passing through it, by engaging them in battle if they get near.
+    Obviously, this is most useful either at chokepoints such as bridges, passes, etc. or when working with others so you can cover a large area.<br />
+    You cannot move while blocking. Your army will camp in the area and send patrols around. This allows you to automatically
+    engage your targets at twice your normal interaction range.<br />
+    Target selection uses the <a href="%listsurl%">lists system</a> in order to allow you to create sophisticated orders.<br />
+    Note that this action will make you engage <i>any target on the list, irrespective of army size</i>. You could well find yourself 
+    in battle with a vastly superior enemy if you are not careful.<br />
+    Blocking area can be cancelled at any time from your actions queue.
+  mode:
+   label:         modus operandi
+   allow:         allow these, attack all others
+   attack:        attack these, allow all others
+  target:         target
+  submit:         issue block orders
+  success: >
+    Your men will now set up camp and patrol the area.
  damage:
   name:           damage feature
   description:    Try to destroy a bridge or other feature.
