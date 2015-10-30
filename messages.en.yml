@@ -30,7 +30,6 @@ menu:
  manual:    manual
  vips:      VIPs
  fiction:   fiction
- challenges: challenges
  community: community
  translator:  translations
  register:  register
@@ -66,18 +65,6 @@ contact:
 
 terms:
  title:     Terms of Service
-
-challenges:
- title:     challenges
- intro: >
-   Challenges are fun out-of-character tasks where you can engage in a bit of friendly competition with other players to race towards
-   the same goal. They are entirely voluntary and the rewards are simply victory tokens with no in-game value. It's all for fun and
-   a bit of community building. There is a <a href="http://forum.mightandfealty.com/index.php/board,17.0.html">board on the forum</a>
-   to talk about challenges.
- running:   currently running
- finished:  completed challenges
- started:   started on %start%
- won:       won by %winner% at %end%
 
 registration:
  title:   Registration

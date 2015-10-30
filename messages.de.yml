@@ -24,7 +24,6 @@ menu:
  manual: Handbuch
  vips: VIPs
  fiction: Geschichten
- challenges: Herausforderungen
  community: Community
  translator: Übersetzungen
  register: Mitspielen
@@ -48,13 +47,6 @@ contact:
 # tom: ((missing translation - original: If you need to contact Tom directly, send an e-mail to <a href="mailto:tom@mightandfealty.com">tom@mightandfealty.com</a>.))
 terms:
 # title: ((missing translation - original: Terms of Service))
-challenges:
-# title: ((missing translation - original: challenges))
-# intro: ((missing translation - original: Challenges are fun out-of-character tasks where you can engage in a bit of friendly competition with other players to race towards the same goal. They are entirely voluntary and the rewards are simply victory tokens with no in-game value. It's all for fun and a bit of community building. There is a <a href="http://forum.mightandfealty.com/index.php/board,17.0.html">board on the forum</a> to talk about challenges.))
-# running: ((missing translation - original: currently running))
-# finished: ((missing translation - original: completed challenges))
-# started: ((missing translation - original: started on %start%))
-# won: ((missing translation - original: won by %winner% at %end%))
 registration:
  title: Anmeldung
 # intro: ((missing translation - original: Welcome to Might & Fealty - we are looking forward to your story and experience.<br /> <div class="success">Join now and get <b>30 days of free game time</b> to explore the world of Might & Fealty  while you decide if this is the game for you.</div>))

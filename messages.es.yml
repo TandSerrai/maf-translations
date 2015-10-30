@@ -26,7 +26,6 @@ menu:
  manual:    manual
  vips:      PMI
  fiction:   ficción
- challenges: retos
  community: comunidad
  translator:  traducciones
  register:  registrar
@@ -62,18 +61,6 @@ contact:
 
 terms:
  title:     Términos de Servicio
-
-challenges:
- title:     retos
- intro: >
-   Los desafíos son tareas fuera de personaje en las que puede participar en un poco de competencia amistosa con otros con otros jugadores
-   hacia el mismo objetivo. Son totalmente voluntarios y las recompensas son simplemente símbolos de victoria sin valor en el juego.
-   Es todo para la diversión y un poco de construcción de la comunidad. Hay una <a href="http://forum.mightandfealty.com/index.php/board,17.0.html">tablero en el foro</a>
-   para hablar de los desafíos.
- running:   ejecutando actualmente
- finished:  desafíos completados
- started:   iniciado en %start%
- won:       ganado por %winner% en %end%
 
 registration:
  title:   Inscripción
