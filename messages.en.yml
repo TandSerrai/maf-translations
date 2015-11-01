@@ -1373,6 +1373,7 @@ unavailable:
  nobattle2:     You are not being forced into any battle, but have committed yourself.
  intercepted:   You already tried to disengage from this battle, and failed.
  noprisoners:   You don't have any prisoners.
+ noclaims:      You don't have any claims.
  notprisoner:   You are not a prisoner.
  prisoner:      You are a prisoner and have only very limited actions available.
  notmember:     You are not a member of this realm.

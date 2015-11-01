@@ -471,6 +471,11 @@ diplomacy:
    free:        %prisoner% has been set free.
    execute:     %prisoner% has been executed.
    assign:      %prisoner% has been assigned to %target%.
+ claims:
+  name:         Claims
+  description:  Show all your claims.
+  intro:        These are all your claims to settlements. Visit the individual settlement pages to remove them, if you wish.
+  enforce:      enforceable?
 
 lists:
  name:          Manage lists
