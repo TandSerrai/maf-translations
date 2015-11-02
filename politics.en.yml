@@ -441,6 +441,7 @@ diplomacy:
    link:      create new relation
   edit:       edit relation
   delete:     remove our relation
+  usedby:     used by
   target:     target realm
   public:     public statement
   internal:   internal statement
