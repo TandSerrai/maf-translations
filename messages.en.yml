@@ -74,8 +74,6 @@ registration:
    Please supply the required information below.<br />
    You will then receive an e-mail with an activation link. We apologize for that additional step, 
    but it keeps spammers and bots out.
- openid: >
-   Alternatively, if you have an account at any of the below, you can use it to register:
  toslink: By registering, you agree to our <a href="%url%" target="_blank">Terms of Service</a>.
  complete:
   name: Complete Registration
@@ -94,8 +92,6 @@ registration:
   repeat:     Repeat the password to make sure you did not make any typos.
 login:
  intro: Provide the username or e-mail you used to register below to log in:
- openid: >
-   or log in with any of your existing accounts at one of these:
 
 pager:
  showing:       showing %from% to %to%, %total% total

@@ -108,9 +108,6 @@ msgstr "Welcome to Might & Fealty - we are looking forward to your story and exp
 msgid "registration.direct"
 msgstr "Please supply the required information below.<br /> You will then receive an e-mail with an activation link. We apologize for that additional step,  but it keeps spammers and bots out.
 "
-msgid "registration.openid"
-msgstr "Alternatively, if you have an account at any of the below, you can use it to register:
-"
 msgid "registration.toslink"
 msgstr "By registering, you agree to our <a href=\"%url%\" target=\"_blank\">Terms of Service</a>."
 msgid "registration.complete.name"
@@ -131,9 +128,6 @@ msgid "registration.help.repeat"
 msgstr "Repeat the password to make sure you did not make any typos."
 msgid "login.intro"
 msgstr "Provide the username or e-mail you used to register below to log in:"
-msgid "login.openid"
-msgstr "or log in with any of your existing accounts at one of these:
-"
 msgid "pager.showing"
 msgstr "showing %from% to %to%, %total% total"
 msgid "pager.prev"
