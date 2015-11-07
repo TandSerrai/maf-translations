@@ -162,8 +162,23 @@ location:
     with a sack of gold.<br />
     You currently have %gold% gold.
   success:      You have given %amount% gold to %target%.
+ dungeons:
+  name:         Enter Dungeon
+  description:  Explore the nearby dungeon.
+
+building:
+ title:         Local Buildings
+ all:           all building actions
+ tavern:
+  name:         Visit Tavern
+  description:  Peasants' rumours from the area.
+  intro: >
+    Peasants from here an nearby settlements gather in the tavern. You can send someone to the tavern to gather rumours from
+    the immediate area, learning this and that about nearby settlements.
+  slumber:      The lord of %settlement% has not been seen for a long time, and is apparently slumbering.
  inn:
   name:         Visit Inn
+  description:  Get a drink and check for rumours and mercenaries.
   intro: >
     In the inn, you can hear rumours from abroad, especially about what other lords offer for prospective knights. And if
     you are looking for sell-swords, soldiers of fortune, men-at-arms - in a word: Mercenaries, the inn is where you will
@@ -171,9 +186,9 @@ location:
     They are usually easy to spot as they are looking for employers the same way you are looking for them. Their services, 
     however, are less easy. They will follow you as long as you pay them well. You can also not retrain, assign or set them
     as militia. And you can only disband them all at once.
-  description:  Get a drink and check for rumours and mercenaries.
  library:
   name:         Library
+  description:  Visit the scholars and cartographers at the local library.
   intro: >
     At the library of %settlement%, scrolls and maps are available for your perusal. The local scholars and cartographers have collected
     data not readily available unless curated.<br />
@@ -187,28 +202,25 @@ location:
    name:        World Rumours
    realms:      The scholars have gathered rumours and travel reports and are listing the largest realms of the known world as follows:
    settlements: From travellers, scholars and other sources, they have also compiled a list of the largest settlements:
-  description:  Visit the scholars and cartographers at the local library.
  temple:
   name:         Visit Temple
+  description:  Visit the local temple and its priests.
   intro: >
     The local temple of %settlement% keeps a record of births and deaths, allowing you to trace back
     the settlements development into time.<br />
     The priests have prepared a nice graph for you. As they explain, the height of the line shows the population, and the
     far right is yesterday, while the line further to the left goes into the past, with the number at the bottom showing how
     many days into the past.
-  description:  Visit the local temple and its priests.
  barracks:
   name:         Inspect Barracks
+  description:  Inspect the local barracks and soldier records.
   intro: >
     Thanks to local barracks of %settlement% providing housing for its soldiers, it can also keep a record of militia
     within the settlement.<br />
     A clerk has prepared a nice graph for you. As he explains, the height of the line shows the number of militia in the
     settlement on any given day, with higher meaning more. The far right shows yesterday, while the line further to the
     left goes into the past, with the number at the bottom showing how many days into the past.
-  description:  Inspect the local barracks and soldier records.
- dungeons:
-  name:         Enter Dungeon
-  description:  Explore the nearby dungeon.
+
 nearby:
  spy:
   name:         Spy on an estate

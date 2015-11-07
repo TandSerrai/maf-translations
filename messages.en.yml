@@ -1395,11 +1395,12 @@ unavailable:
  enter:
   inside:       You are already inside.
   notyours:     As a prisoner, you can only follow your captor or bring him into your own settlements.
- location:
+ building:
   library:      This settlement does not have a library.
   temple:       This settlement does not have a temple.
   barracks:     This settlement does not have barracks.
   inn:          This settlement does not have an inn.
+ location:
   yours:        You already control this settlement.
   fortified:    You cannot take control of a fortified settlement from the outside.
   nodefenders:  There are no troops defending this settlement, you can simply take it.
