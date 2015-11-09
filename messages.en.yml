@@ -1187,6 +1187,7 @@ manual:
  lord:        playing a lord
  ruler:       playing a ruler
  others:      other roles
+ location:    exploration
  characters:  characters
  economy:     economy
  battles:     battles
