@@ -176,6 +176,8 @@ building:
     Peasants from here an nearby settlements gather in the tavern. You can send someone to the tavern to gather rumours from
     the immediate area, learning this and that about nearby settlements.
   slumber:      The lord of %settlement% has not been seen for a long time, and is apparently slumbering.
+  nobles:       High-ranking nobles that the peasants are speaking about:
+  in:           was seen in %settlement%.
  inn:
   name:         Visit Inn
   description:  Get a drink and check for rumours and mercenaries.

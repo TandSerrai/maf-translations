@@ -15,6 +15,7 @@ realm:
 settlement:
  grant:
   free2:        Free accounts can only have 3 estates per character, and this character belongs to a free account.
+  npc:          You cannot grant settlements to bandit characters.
 
 character:
  burst:				You already created a character within the last minute. We're slowing you down to make sure you are not a bot.
