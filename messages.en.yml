@@ -1239,7 +1239,7 @@ trait:
   c: Charismatic
   d: Duelist
   e: Explorer
-  f: Fantastic Dancer
+  f: Fierce
   g: Governeur
   h: Healthy
   i: Inquisitive
@@ -1267,7 +1267,7 @@ trait:
    c: He is a charismatic leader inspiring loyalty in those he commands. (Bonus to soldiers combat morale)
    d: Talented with the sword and in personal fights. If he wants and puts some effort, a great swordsman. (Combat bonus in small battles)
    e: With a talent for exploration and working with a small team, he is a natural in exploring dungeons. (Dungeon bonus)
-   f: Naturally gifted in strong, coordinated movement and a talent for leading a woman on the dancefloor. (This is a pure roleplaying trait)
+   f: Mentally or physically, he is strong and powerful, though it may not be obvious at a glance. (This is a pure roleplaying trait)
    g: Somehow, he has a brilliant understanding of local management and can avoid many of the usual pitfalls. (Reduced corruption)
    h: Blessed with a healthy body. (Faster healing and more dungeon wounds)
    i: Curious and with a charm and talent to talk to people. (Reveals recent events in settlements)
@@ -1294,7 +1294,7 @@ trait:
    c: She is a charismatic leader and inspires loyalty in those she commands. (Bonus to soldiers combat morale)
    d: Talented with the sword and in personal fights. If she wants and puts some effort, a great swordsmaiden. (Combat bonus in small battles)
    e: With a talent for exploration and working with a small team, she is a natural in exploring dungeons. (Dungeon bonus)
-   f: Naturally gifted with gracefull, smooth movements on the dancefloor. (This is a pure roleplaying trait)
+   f: Mentally or physically, she is quite strong and powerful, though it may not be obvious at a glance. (This is a pure roleplaying trait)
    g: Somehow, she has a brilliant understanding of local management and can avoid many of the usual pitfalls. (Reduced corruption)
    h: Blessed with a healthy body. (Faster healing and more dungeon wounds)
    i: Curious and sweet, with a talent to talk to people. (Reveals recent events in settlements)
