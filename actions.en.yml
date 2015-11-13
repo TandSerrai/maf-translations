@@ -778,6 +778,7 @@ meta:
     The character background gives %name% depth and meaning. These are simply text-fields here that you can fill
     with as much or as little as you want, though we strongly recommend at least one sentence for each.
   skip:         You can <a href="%url%">skip this part</a> if you prefer and return to it later via the "background" link on the status page.
+  traits:       Your character was born with two traits, inherited from parents and/or the family lineage. Here is what the genetic lottery gave you:
   appearance:
    name:      Appearance
    desc: >
