@@ -167,6 +167,9 @@ event:
   reclaimed:    %character% has reclaimed %count% soldiers assigned to you. %stay% of them decided to remain under your command.
   battlejoin:   %character% has joined the battle with %soldiers% soldiers.
 
+ quest:
+  created:      Quest created.
+
  realm:
   founded:      Founded by %character%.
   inherited:    Rulership passed to %character-2% upon the death of %character-1%.
