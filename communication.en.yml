@@ -169,6 +169,11 @@ event:
 
  quest:
   created:      Quest created.
+  started:      %character% has begun the quest.
+  abandoned:    %character% has abandoned the quest.
+  completed:    %character% claims to have completed the quest.
+  confirmed:    %character% has been confirmed to have completed the quest.
+  rejected:     The claim of %character% to have completed the quest has been rejected.
 
  realm:
   founded:      Founded by %character%.
