@@ -75,7 +75,9 @@ event:
   charstart:    A new First One named %character% has appeared here.
   newyear:      New Year celebrations, festive atmosphere and alcoholic drinks resulted in a predictable additional %babies% babies being born.
  travel:
+  disembark:    Your ships have arrived at their destination and you have disembarked.
   cantland:     The ships captain cannot find a suitable landing spot, please try a short distance further up or down the coast.
+  wreck:        You have been shipwrecked at sea! With last efforts, you and your men landed near %settlement%. Your ships, however, have been lost.
  character:
   created:      First mention in family chronicle.
   start:        Has appeared at %settlement%.
