@@ -6,6 +6,8 @@ rss:
  feed:        get event updates via RSS
 
 event:
+ item:
+  created:      created
  feature:
   damaged:      %character% has damaged the %featuretype% %name%. It will deteriorate further if no workers are assigned for repair.
   disabled:     %character% has damaged the %featuretype% %name% so badly, it has become inoperative. It will deteriorate further if no workers are assigned for repair.

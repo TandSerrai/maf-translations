@@ -548,6 +548,7 @@ achievements:
  title:       achievements
  type:
   battles:    battles fought
+  battlesize: battle glory
   captures:   nobles captured
   kills:
    soldiers:  mortal soldiers slain
