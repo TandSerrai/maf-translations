@@ -8,6 +8,8 @@ rss:
 event:
  item:
   created:      created
+  assigned:     Assigned to %character%.
+  spawned:      Spawned in the area of %area%.
  feature:
   damaged:      %character% has damaged the %featuretype% %name%. It will deteriorate further if no workers are assigned for repair.
   disabled:     %character% has damaged the %featuretype% %name% so badly, it has become inoperative. It will deteriorate further if no workers are assigned for repair.
@@ -299,7 +301,7 @@ resolution:
 
 battle:
  participated:  Participated in %battle%.
- failed:        The battle failed to happen.
+ failed:        The battle failed to happen, most likely because all enemies evaded successfully.
 
 mail:
  sender:        Notification Service
