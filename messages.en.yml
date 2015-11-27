@@ -1011,6 +1011,7 @@ interaction:
   submit:   send letter
  attack:
   name:     target(s)
+  message:  message to target(s)
   submit:   initiate attack
  grant:
   name:         grant control
