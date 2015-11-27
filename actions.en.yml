@@ -162,6 +162,9 @@ location:
     with a sack of gold.<br />
     You currently have %gold% gold.
   success:      You have given %amount% gold to %target%.
+ giveartifact:
+  name:         Give Artifact
+  description:  Give an artifact to someone else.
  dungeons:
   name:         Enter Dungeon
   description:  Explore the nearby dungeon.

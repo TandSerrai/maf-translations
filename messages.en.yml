@@ -1373,6 +1373,7 @@ unavailable:
  intercepted:   You already tried to disengage from this battle, and failed.
  noprisoners:   You don't have any prisoners.
  noclaims:      You don't have any claims.
+ noartifacts:   You don't have any artifacts.
  notprisoner:   You are not a prisoner.
  prisoner:      You are a prisoner and have only very limited actions available.
  notmember:     You are not a member of this realm.
@@ -1430,3 +1431,30 @@ marker:
   remove:    Remove Marker
   removelink: remove
 
+artifact:
+ create:
+  title:    Create Artifact
+  intro: >
+    Here you can forge or create artifacts, unique items with a personal history.<br />
+    Artifacts can be used for many purposes, from legendary weapons to hereditary crown jewels to items of
+    religious or cultural significance. The important thing about artifacts is that they are unique items 
+    that can be given, stolen lost and found. They carry their own history.<br />
+    As the creator of an artifact, you will always see if it is currently owned by someone and if so, by whom.
+    When it is not in the posession of anyone, you can also reforge it, adding to it. But even you can never
+    destroy it or change its past.<br />
+    With artifacts, you directly contribute something permanent to the game world. To do so, give it a
+    catchy name and a description that should detail what the item is (a sword, a crown, a ring, an old scroll, etc. - 
+    in any case it should be something that can easily be carried) and how it looks and what is special about it.<br />
+    If you want it to start with a history (an old, legendary item), we recommend you hint at legends told
+    and history lost, as the artifact will start its "official" history with creation.
+  name:         Name:
+  description:  Description:
+  submit:       create artifact
+ owned:
+  title:    Artifacts you created
+
+ give:
+  intro: >
+    You can give artifacts to other nearby First Ones, simply by handing them over. Note that these transfers
+    are permanent and there is absolutely no way to reverse it once it is done.
+  success:  You have given the %artifact% to %character%.

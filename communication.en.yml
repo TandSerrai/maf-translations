@@ -6,7 +6,7 @@ rss:
  feed:        get event updates via RSS
 
 event:
- item:
+ artifact:
   created:      created
   assigned:     Assigned to %character%.
   spawned:      Spawned in the area of %area%.
