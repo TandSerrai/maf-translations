@@ -308,6 +308,8 @@ account:
     Bold yellow regions are estates of one of your characters. Orange regions are claimed by one of your characters.
  heraldry:
   link:     Heraldry
+ artifacts:
+  link:     Artifacts
  culture:
   link:     Culture
   title:    Culture
@@ -1032,7 +1034,10 @@ interaction:
   name:     Noble to receive your gold:
   amount:   Amount of gold to give:
   submit:   give it
-
+ giveartifact:
+  name:     Noble to receive the artifact:
+  which:    Which artifact to give:
+  submit:   give artifact away
 
 battle:
  title:         Battle Report
@@ -1435,6 +1440,7 @@ marker:
 artifact:
  create:
   title:    Create Artifact
+  limit:    You can create a total of %amount% artifacts on this account.
   intro: >
     Here you can forge or create artifacts, unique items with a personal history.<br />
     Artifacts can be used for many purposes, from legendary weapons to hereditary crown jewels to items of
@@ -1447,7 +1453,9 @@ artifact:
     catchy name and a description that should detail what the item is (a sword, a crown, a ring, an old scroll, etc. - 
     in any case it should be something that can easily be carried) and how it looks and what is special about it.<br />
     If you want it to start with a history (an old, legendary item), we recommend you hint at legends told
-    and history lost, as the artifact will start its "official" history with creation.
+    and history lost, as the artifact will start its "official" history with creation.<br />
+    <br />
+    <em>Double-check everything you enter here, as you can not change it once the artifact is created.</em>
   name:         Name:
   description:  Description:
   submit:       create artifact
