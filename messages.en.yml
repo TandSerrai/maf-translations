@@ -1438,6 +1438,7 @@ marker:
   removelink: remove
 
 artifact:
+ title:     Artifacts
  create:
   title:    Create Artifact
   limit:    You can create a total of %amount% artifacts on this account.
