@@ -11,6 +11,8 @@ event:
   assigned:     Assigned to %character%.
   spawned:      Spawned in the area of %area%.
   given:        %character-1% gave it to %character-2%.
+  killer:       Taken by %character-1% through the killing of %character-2%.
+  lost:         Lost upon the death of %character%.
  feature:
   damaged:      %character% has damaged the %featuretype% %name%. It will deteriorate further if no workers are assigned for repair.
   disabled:     %character% has damaged the %featuretype% %name% so badly, it has become inoperative. It will deteriorate further if no workers are assigned for repair.
@@ -93,6 +95,7 @@ event:
   desertions:   %complaining% soldiers are complaining about being too far away from home. %gone% of them deserted.
   deathreclaim: %amount% soldiers returned to you upon the death of %character%, whom you had them assigned to.
   killgold:     You took %gold% gold from the body of %character%.
+  killartifact: You took the %artifact% from the body of %character%.
   child:        Had a child, %character%.
   inherit:
    estate:      Inherited the settlement %settlement% from %character%.
