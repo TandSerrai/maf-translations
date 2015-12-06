@@ -766,8 +766,8 @@ none:         none
 yes:          yes
 no:           no
 techtree:     Technology Tree
-inbattle:     in battle
-travelling:   travelling
+inbattle:     battle
+travelling:   travel
 newevents:    %number% event|%number% events
 newmessages:  %number% message|%number% messages
 inside:       inside %place%
