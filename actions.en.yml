@@ -430,6 +430,7 @@ military:
      and anyone choosing to defend. If you are victorious, you have forced your way into the settlement, and actions such as taking control of the
      settlement for yourself or attacking nobles inside will appear.<br />
      <i>Once initiated, battles cannot be cancelled. Once you are committed, you are committed. Decide wisely.</i>
+   war:         war that this attack supports:
    submit:      attack!
    success:     Your soldiers are preparing for the attack and will commence battle shortly.
    reminder:    Remember that in order to not just attack, but also take control of the settlement, you need to issue a <a href="%url%">%take%</a> action as well.

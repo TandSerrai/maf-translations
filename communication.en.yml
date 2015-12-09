@@ -188,6 +188,7 @@ event:
 
  war:
   started:      The war has been declared.
+  settlement:   Attack on %settlement% started.
 
  realm:
   founded:      Founded by %character%.
