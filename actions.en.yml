@@ -383,6 +383,13 @@ military:
  name:          military actions
  all:           all military actions
  other:         other military actions
+ war:
+  name:         Declare War
+  description:  A formal declaration of war allows you to target enemy settlements for conquest and have a formal conflict that can gain your realm glory and respect.
+  summary:      Short title or summary:
+  desc:         Full description (you can use markup):
+  targets:      Select settlements to conquer:
+  declare:      declare war!
  disengage:
   name:         Disengage
   description:  try to avoid the upcoming battle.

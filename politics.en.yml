@@ -347,6 +347,11 @@ position:
   done:       Your changes have been completed and announced.
   nodemoruler:  Rulers cannot be demoted, this change has been ignored.
 
+war:
+ name:          Declare War
+ description:   Create an official declaration of war.
+ longdesc:      More than a noble gesture, a declaration of war is how a realm formally attacks another, with a given purpose. Also, the only way to gain respect and glory in warfare.
+
 diplomacy:
  name:         Diplomacy
  other:        diplomatic relations to other realms
