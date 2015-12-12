@@ -259,6 +259,7 @@ control:
     Your character is new in the game and could easily <i>be killed</i> in retaliation.<br />
     Unless you are certain and know what you are doing, talking to the settlement owner via the <a href="%url%">messages tab</a>
     is very likely a much better idea.
+  limit:      With a free account, you can control at most three estates. Keep that in mind and select carefully, or support the game with a subscription.
   long: >
     You noticed that it will take a very long time to take control here? If you know what you are doing, go ahead, 
     we won't stop you, but probably you should bring more troops, reduce the militia by attacking first or gain the support
@@ -752,17 +753,26 @@ recruit:
     Knights are lower nobles who fight in your name, using your soldiers. To attract new knights to your banner, you can set aside
     soldiers on your estate(s) that are available immediately to any knight on the condition of his loyalty.<br />
     Be aware of robber-knights, though. You should not make the majority of your troops available this way, or your new knights
-    just might decide that looting or taking your estate is more rewarding.
+    just might decide that looting or taking your estate is more rewarding.<br />
+    <br />
+    You can also automatically give the settlement to the new knight, turning him into a landed lord on arrival. In this
+    case, no soldiers will be given (even if you select some). As the new lord, he will have command of the whole militia
+    anyways. This is a risky option that you only want if getting rid of the estate is important to you. Giving an estate
+    in this way always retains you an enforceable claim on the settlement.
+  givesettlement: Give settlement?
   soldiers:     Soldiers to assign
   offertext:    A short text to accompany the offer
   submit:       publish offer
   new:          create a new offer
   old:          manage existing offers
+  lordship:     lordship
   details:      Offer Details
   location:     offer location
   realm:        part of realm
   text:         accompanying text
   contains:     soldiers included in this offer
+  contains2:    this offer grants
+  withsettlement: lordship over the settlement (you will become a lord)
   delete:       retract offer
  assigned:
   name:         assigned soldiers

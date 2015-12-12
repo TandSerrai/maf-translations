@@ -464,6 +464,9 @@ first:
  liege: >
    You have accepted the knight offer of %liege% and are now his vassal. This settlement belongs to %liege%, so you are in
    friendly territory at this time.<br />
+   If your knight offer included soldiers, they are being assigned to you already. If your knight offer included lordship 
+   of the settlement itself, the local steward is already drawing up the documents. Both of these will take a short time
+   until they are ready and you can make full use of your new holdings.<br />
    Talk to your liege first to find out what the current political situation is and where you are needed. A welcome message
    should be below. Also make yourself familiar with your troops and the surrounding area.
  free: >
@@ -524,6 +527,7 @@ character:
     addition, %he% will have an initial oath of fealty to the lord that made the offer.
   offerchoice: Offer
   offersummary: %name%, %count% soldiers
+  offersummary2: %name%, lordship
   family:     Place with Family
   existing: >
     Your new character can begin the game in the estate of any of your existing characters, and get helped to start his career by relatives.

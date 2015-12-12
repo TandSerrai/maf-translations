@@ -49,6 +49,7 @@ recruit:
   noweapon:		 You cannot recruit troops without weapons, they would not be soldiers, would they?
  offer:
   empty:        knight offers must include something, else you would offer nothing in exchange for something (fealty).
+  givealready:  You already have a knight offer including lordship of this settlement. You cannot have two.
  mercs:
   fail:			You do not have enough gold to pay for these men. Try fewer men or a different mercenary group.
 
