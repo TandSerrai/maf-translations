@@ -460,6 +460,7 @@ military:
     thralls:    take thralls
     resources:  take resources
     supply:     steal supply
+    food:       steal food
     wealth:     steal wealth
     burn:       burn down buildings
    submit:      begin looting
