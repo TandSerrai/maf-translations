@@ -133,6 +133,7 @@ map:
  legend:    legend
  yourchars: your other characters
  others:    foreign characters
+ past:      outdated spottings
  ownedplace: owned settlements
  indyplace: independent settlements
  spot:      your spotting distance
