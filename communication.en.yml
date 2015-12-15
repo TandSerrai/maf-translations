@@ -17,6 +17,11 @@ event:
   damaged:      %character% has damaged the %featuretype% %name%. It will deteriorate further if no workers are assigned for repair.
   disabled:     %character% has damaged the %featuretype% %name% so badly, it has become inoperative. It will deteriorate further if no workers are assigned for repair.
   destroyed:    %character% has destroyed the %featuretype% %name% to rubble.
+ spot:
+  scouts:
+   new:         Your scouts have spotted %character% %distance% towards the %direction%.
+   moved:       Your scouts report that %character% has moved and is now %distance% towards the %direction%.
+
  feature2:
   damaged:      The %featuretype% %name% is deteriorating. Workers should be assigned for repair.
   disabled:     The %featuretype% %name% has become inoperative due to deterioration. Workers should be assigned for repair.
