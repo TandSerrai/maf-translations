@@ -21,6 +21,12 @@ event:
   scouts:
    new:         Your scouts have spotted %character% %distance% towards the %direction%.
    moved:       Your scouts report that %character% has moved and is now %distance% towards the %direction%.
+  tower:
+   new:         Your scouts spotted %character% from the watchtower %tower% at %distance% towards the %direction%.
+   moved:       Your scouts saw from the watchtower %tower% that %character% has moved and is now %distance% towards the %direction%.
+  estate:
+   new:         The watchtower %tower% near %settlement% has spotted %character% %distance% towards the %direction%.
+   moved:       Watchtower %tower% near %settlement% reports that %character% has moved and is now %distance% towards the %direction%.
 
  feature2:
   damaged:      The %featuretype% %name% is deteriorating. Workers should be assigned for repair.
