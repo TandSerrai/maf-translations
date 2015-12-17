@@ -1223,6 +1223,9 @@ manual:
  prison:        captivity
  bandits:       bandits
  looting:       looting
+ spotting:      spotting
+ quests:        quests
+ artifacts:     artifacts
  supply:        army supply
  reference:     reference
  units:         units of measurement
