@@ -728,6 +728,7 @@ recruit:
   intro: >
     Here you can manage your soldiers, depending on their current status. You can only resupply troops if their equipment is available in this
     settlement. You can only assign troops to other characters who are in the same location (and not on the other side of city walls) and not locked into battle.
+  limited:      Due to your current ongoing actions (such as battle or looting), your management options are limited.
   choose:       -- action --
   nothing:      (no action)
   apply:        apply to group
