@@ -1406,6 +1406,7 @@ unavailable:
  attacking:     you are busy attacking the nearby settlement.
  defending:     you are busy defending the nearby settlement.
  both:          You cannot both attack and defend at the same time.
+ evading:       You cannot conduct this action while evading or disengaging.
  enter:
   inside:       You are already inside.
   notyours:     As a prisoner, you can only follow your captor or bring him into your own settlements.
