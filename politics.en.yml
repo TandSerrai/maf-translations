@@ -446,7 +446,6 @@ diplomacy:
    link:      create new relation
   edit:       edit relation
   delete:     remove our relation
-  usedby:     used by
   target:     target realm
   public:     public statement
   internal:   internal statement
@@ -520,6 +519,7 @@ lists:
   used:         it is used in settlement permissions.
   descendants:  other lists inherit from it.
   done:         The list "%name%" has been deleted.
+ usedby:     used by
 
 perm:
  name:      permission
