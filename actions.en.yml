@@ -877,6 +877,16 @@ escape:
  submit:    attempt escape
  queued:    You are now working on your escape plan. It will take %hours% hours to implement.
 
+surrender:
+ name:          surrender
+ description:   become a prisoner, voluntarily.
+ intro: >
+   If there is no hope left, you can throw yourself at the mercy of your enemy and go into captivity.
+   You will become a prisoner, just as if you had been captured in battle. Typically, you might want to choose
+   this action when there is no way out, to ensure the most merciful opponent captures you and not the one
+   who will take your head.
+ success:       You have surrendered yourself and are now a prisoner of %character%.
+
 personal:
  party:
   name:         Dungeon Party

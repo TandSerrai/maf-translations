@@ -1043,6 +1043,9 @@ interaction:
   name:     Noble to receive the artifact:
   which:    Which artifact to give:
   submit:   give artifact away
+ surrender:
+  name:     Noble to surrender to
+  submit:   surrender yourself
 
 battle:
  title:         Battle Report
