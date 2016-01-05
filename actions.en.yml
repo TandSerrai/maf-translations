@@ -737,6 +737,7 @@ recruit:
   assignto:     assign selected soldiers to:
   assignto2:    assign selected entourage to:
   bury:         bury
+  bury2:        leave corpse
   makesoldier:  mobilize
   makemilitia:  set as militia
   resupply:     resupply

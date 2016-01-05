@@ -179,7 +179,7 @@ account:
    or reduced the number of living characters, actions and travel on all your characters will be severely limited. You can write
    messages and check your characters in order to decide which to retire and do so in a proper way, but you will not be able to
    really play them.
- flag:          click to toggle this character between primary/secondary characters list
+ list:          click to move this character to a different list
  created:       created: %date%
  lastlogin:     last login: %date%
  identities:    Authentication
@@ -512,8 +512,25 @@ character:
  captorinactive: Your captor has not been seen in quite a while. You should <a href="%url%">try to escape</a>.
  full:    view full details
  list:
-  1:  primary
-  2:  secondary
+  select:   move character to:
+  submit:   set new list
+  updated:  just updated, change will be visible on next page load
+  1:  Main Characters
+  2:  Secondary Characters
+  3:  Roleplaying Characters
+  4:  Less Important Characters
+  21:  Main Family
+  22:  Secondary Family
+  23:  Other Families
+  29:  Without Family
+  41:  Leaders
+  42:  Generals
+  43:  Knights
+  44:  Diplomats
+  45:  Spies & Scouts
+  46:  Explorers
+  47:  Troublemakers
+  71:  Assorted Characters
   99: recently deceased
   100: historic
   150: ancestors
@@ -1387,6 +1404,8 @@ unavailable:
  inbattle:      You are already involved in a battle.
  nobattle:      You are not involved in any battle.
  nobattle2:     You are not being forced into any battle, but have committed yourself.
+ resolving:     You already decided to resolve this battle, and are committed now.
+ disengaging:   You already decided to disengage from this battle.
  intercepted:   You already tried to disengage from this battle, and failed.
  noprisoners:   You don't have any prisoners.
  noclaims:      You don't have any claims.
