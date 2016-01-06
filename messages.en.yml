@@ -972,6 +972,7 @@ soldier:
  medium infantry:  medium infantry|medium infantry
  heavy infantry:   heavy infantry|heavy infantry
  archer:           archer|archers
+ armoured archer:  armored archer|armored archer
  mounted archer:   mounted archer|mounted archers
  cavalry:          cavalry|cavalry
  light cavalry:    light cavalry|light cavalry
@@ -1069,13 +1070,13 @@ battle:
  upcoming:      Upcoming Battle
  participants:  participants
  location:
-  nowhere:      Neverwhere battle
-  of:           The battle of %location%
-  siege:        The siege of %location%
-  assault:      The assault on %location%
-  near:         A battle near %location%
-  around:       vicinity of %place%
- defenses:      An assault against a defended position with
+  nowhere:      neverwhere battle
+  of:           the battle of %location%
+  siege:        the siege of %location%
+  assault:      the assault on %location%
+  near:         a battle near %location%
+  around:       a battle in the vicinity of %location%
+ defenses:      an assault against a defended position with
  initial:       initial troops
  combat:        combat
  ranged:        
