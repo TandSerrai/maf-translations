@@ -93,6 +93,7 @@ queue:
   attack:       attack settlement
   defend:       defend settlement
   grant:        grant settlement
+  receive:      receive settlement
  military:
   battle:       fight battle
   regroup:      regroup
