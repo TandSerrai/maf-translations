@@ -784,7 +784,10 @@ recruit:
     Soldiers you recently assigned to knights or settlements can be reclaimed as their loyalty still lies with you.<br />
     This option will only last for a limited time as the soldiers will form a bond with their new commander after a while,
     but it means you can be trusting with new knights, for example, because you can take your men back if they turn out
-    to be cowards or traitors.
+    to be cowards or traitors.<br />
+    You cannot reclaim soldiers if they are still available to you in any way, being stationed at your own estates or
+    you own characters. You can also not reclaim soldiers when the character they are assigned to is currently in battle
+    preparations. Such reclaims will fail silently, but you can try again later.
   submit:       reclaim soldiers
   success:      After issuing your orders, %return% of your soldiers return (they have been assigned to group %group%). %lost% soldiers decided not to come back.
   fail:         You issue your orders, but none of your former soldiers return to you, all %lost% of them decided otherwise.

@@ -127,7 +127,7 @@ event:
   gotship:      You were given a ship by %character%. The ship made landfall nearby %remain% days ago.
   gotgold:      A messenger brought you a bag with %amount% gold from %character%.
   gotartifact:  You have received the %artifact% from %character%.
-  surrender:    %character% has thrown down the sword, bent the knew, and surrendered to your mery.
+  surrender:    %character% has thrown down the sword, bent the knee, and surrendered to your mercy.
   surrenderto:  Has surrendered to %character% and become a prisoner.
   proposed:
    marriage:    You have received a marriage proposal from %character%. Accept or decline it on the relations page.
