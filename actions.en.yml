@@ -103,6 +103,7 @@ queue:
   aid:          military aid
   block:        block area
   hire:         hire mercenaries
+  reclaim:      reclaim soldiers
  task:
   research:     research journal
  dungeon:
@@ -524,7 +525,8 @@ military:
     Obviously, this is most useful either at chokepoints such as bridges, passes, etc. or when working with others so you can cover a large area.<br />
     You cannot move while blocking. Your army will camp in the area and send patrols around. This allows you to automatically
     engage your targets at twice your normal interaction range.<br />
-    Target selection uses the <a href="%listsurl%">lists system</a> in order to allow you to create sophisticated orders.<br />
+    Target selection uses the <a href="%listsurl%">lists system</a> in order to allow you to create sophisticated orders.
+    Slumbering nobles, however, will never be engaged. You can attack them normally, but for block area they will be ignored.<br />
     Note that this action will make you engage <i>any target on the list, irrespective of army size</i>. You could well find yourself 
     in battle with a vastly superior enemy if you are not careful.<br />
     Blocking area can be cancelled at any time from your actions queue.
@@ -788,7 +790,9 @@ recruit:
     to be cowards or traitors.<br />
     You cannot reclaim soldiers if they are still available to you in any way, being stationed at your own estates or
     you own characters. You can also not reclaim soldiers when the character they are assigned to is currently in battle
-    preparations. Such reclaims will fail silently, but you can try again later.
+    preparations. Such reclaims will fail silently, but you can try again later.<br />
+    Note that reclaiming soldiers means <b>you remain stationary with travel blocked for 2-4 in-game days</b> because
+    the reclaimed soldiers need to march and join up with your army.
   submit:       reclaim soldiers
   success:      After issuing your orders, %return% of your soldiers return (they have been assigned to group %group%). %lost% soldiers decided not to come back.
   fail:         You issue your orders, but none of your former soldiers return to you, all %lost% of them decided otherwise.
