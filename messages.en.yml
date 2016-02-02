@@ -458,6 +458,11 @@ summary:
    1:       some of your soldiers have lost equipment.
    2:       many of your soldiers have lost equipment.
    3:       most of your soldiers have lost equipment.
+  distance:
+   0:       the soldiers are motivated to defend their homes.
+   1:       there is a little bit of unrest among the soldiers about being away from home.
+   2:       there is unrest among the soldiers about being far away from home.
+   3:       the soldiers are very unhappy about being so very far away from home.
  manageprisoners: manage (free, execute, exchange) prisoners
 
 first:
