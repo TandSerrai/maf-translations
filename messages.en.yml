@@ -1079,6 +1079,7 @@ battle:
   of:           the battle of %location%
   siege:        the siege of %location%
   assault:      the assault on %location%
+  sorite:       the sortie from %location%
   near:         a battle near %location%
   around:       a battle in the vicinity of %location%
  defenses:      an assault against a defended position with
@@ -1393,6 +1394,7 @@ unavailable:
  atsea:         You are travelling at sea.
  nosettlement:  You are not near any settlement.
  notinside:     You are not inside the settlement.
+ inside:        You are inside the settlement.
  noregion:      You are not in an inhabited area.
  nodock:        There are no docks nearby.
  noship:        You do not have a ship nearby.
@@ -1436,7 +1438,6 @@ unavailable:
  both:          You cannot both attack and defend at the same time.
  evading:       You cannot conduct this action while evading or disengaging.
  enter:
-  inside:       You are already inside.
   notyours:     As a prisoner, you can only follow your captor or bring him into your own settlements.
  building:
   library:      This settlement does not have a library.
